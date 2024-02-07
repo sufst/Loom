@@ -5888,7 +5888,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4b4821b8-4b5a-4c3f-8b9e-854c137b3384)
   )
-  (hierarchical_label "Conn31" (shape bidirectional) (at 24.13 55.245 270) (fields_autoplaced)
+  (hierarchical_label "Conn30" (shape bidirectional) (at 24.13 55.245 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 602aec0b-ed6c-435f-8a45-8c3fb323e5d4)
   )
@@ -6090,7 +6090,7 @@
   (symbol (lib_name "Deutsch_DTM_4S_Pin_1") (lib_id "Connectors_SUFST:Deutsch_DTM_4S_Pin") (at 16.51 46.355 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b10f483-f914-49b8-aba5-efb05908f57f)
-    (property "Reference" "Conn31" (at 13.335 45.72 0)
+    (property "Reference" "Conn30" (at 13.335 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Deutsch_DTM_2S_Pin" (at 13.97 46.355 0)
@@ -6112,7 +6112,7 @@
     (instances
       (project "StagX"
         (path "/f802a14a-9970-4775-97a5-629bebb8e9f9/3a38bfcc-e569-4c84-9214-6d2d76c97569/2d81c716-adf0-4457-8a2e-6fa902b82ae1"
-          (reference "Conn31") (unit 1)
+          (reference "Conn30") (unit 1)
         )
       )
     )
@@ -6677,7 +6677,7 @@
   (symbol (lib_id "Connector:Conn_01x10_Socket") (at 245.11 36.83 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4759c75-8ff2-4a3c-a288-d2ca8eed7835)
-    (property "Reference" "Conn30" (at 269.24 37.465 90)
+    (property "Reference" "Conn27" (at 269.24 37.465 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "External Connector (Charger)" (at 270.51 40.64 90)
@@ -6702,7 +6702,7 @@
     (instances
       (project "StagX"
         (path "/f802a14a-9970-4775-97a5-629bebb8e9f9/3a38bfcc-e569-4c84-9214-6d2d76c97569/2d81c716-adf0-4457-8a2e-6fa902b82ae1"
-          (reference "Conn30") (unit 1)
+          (reference "Conn27") (unit 1)
         )
       )
     )

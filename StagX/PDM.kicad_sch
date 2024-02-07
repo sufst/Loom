@@ -7,4 +7,13 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "Conn32" (shape bidirectional) (at 71.755 49.53 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4465d14f-501c-46f3-ab71-3295e74cb799)
+  )
+  (hierarchical_label "Conn31" (shape bidirectional) (at 73.025 42.545 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 71c7df9f-4ad8-4289-b3cc-1a50f50f7d9e)
+  )
 )

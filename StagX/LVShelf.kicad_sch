@@ -7,4 +7,17 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "Conn47" (shape input) (at 116.84 95.885 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8c5f3f56-a51c-4d79-9869-5923a0aa3043)
+  )
+  (hierarchical_label "Conn45" (shape input) (at 116.205 72.39 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a569cb5e-034f-4b1c-ba8e-a1510fa8d602)
+  )
+  (hierarchical_label "Conn46" (shape input) (at 114.935 84.455 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ea2636e6-97b3-42d9-afb1-b8e142fa7a71)
+  )
 )

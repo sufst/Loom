@@ -1,0 +1,19 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9850fbf4-9d9e-464f-b3a0-05e88bab92b9)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Conn33" (shape bidirectional) (at 123.19 64.135 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a22be79c-cdc6-448f-948c-51c5a90fcff9)
+  )
+  (hierarchical_label "Conn39" (shape bidirectional) (at 124.46 70.485 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid da612618-60d8-4df1-ab66-c4f0c0995788)
+  )
+)

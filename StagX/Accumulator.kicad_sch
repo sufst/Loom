@@ -6581,7 +6581,7 @@
   (symbol (lib_name "Deutsch_DTM_4P_Pin_1") (lib_id "Connectors_SUFST:Deutsch_DTM_4P_Pin") (at 140.335 47.625 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf441ee7-4a2a-4c79-82f8-bf1f3c4f9bbc)
-    (property "Reference" "Conn31" (at 145.415 53.34 90)
+    (property "Reference" "Conn30" (at 145.415 53.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Deutsch_DTM_4P_Pin" (at 140.335 47.625 0)
@@ -6603,7 +6603,7 @@
     (instances
       (project "StagX"
         (path "/f802a14a-9970-4775-97a5-629bebb8e9f9/3a38bfcc-e569-4c84-9214-6d2d76c97569"
-          (reference "Conn31") (unit 1)
+          (reference "Conn30") (unit 1)
         )
       )
     )
@@ -6839,7 +6839,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 48136a09-f1e8-4c44-8cef-309a604c58ef)
     )
-    (pin "Conn31" bidirectional (at 182.88 106.68 90)
+    (pin "Conn30" bidirectional (at 182.88 106.68 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid e5712e9e-4ec8-4f7f-b604-fd2638a3d7af)
     )
