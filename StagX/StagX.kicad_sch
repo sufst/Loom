@@ -252,6 +252,10 @@
     (stroke (width 0) (type default))
     (uuid 3774236b-aff8-44c0-911f-d4727d8e388b)
   )
+  (bus (pts (xy 34.29 73.66) (xy 41.275 73.66))
+    (stroke (width 0) (type default))
+    (uuid 3a144bfb-4c8f-4ced-a646-b872795a1a8f)
+  )
   (bus (pts (xy 34.29 59.055) (xy 41.275 59.055))
     (stroke (width 0) (type default))
     (uuid 4893bc9d-fb77-497f-8a7a-35ac44b4dcb5)
@@ -495,6 +499,10 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 14f13657-3583-4ca4-8b21-af861fba5334)
     )
+    (pin "Conn68" bidirectional (at 34.29 73.66 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid bd61c164-a785-4aca-b117-b8cc76f196f0)
+    )
     (instances
       (project "StagX"
         (path "/f802a14a-9970-4775-97a5-629bebb8e9f9" (page "4"))
@@ -646,6 +654,10 @@
     (pin "Conn67" input (at 75.565 70.485 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid d6422290-2232-48f6-ab94-bb923a4b1e1d)
+    )
+    (pin "Conn68" input (at 41.275 73.66 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ff4508cf-e15f-48c8-8792-82c23f5b1a9c)
     )
     (instances
       (project "StagX"
