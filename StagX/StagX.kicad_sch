@@ -370,7 +370,7 @@
     (uuid 237180c3-774b-4275-830b-630a2b0f8f03)
   )
 
-  (text "To add:\n- brake light\n- diffuser fan\n- pumps\n- dampner pots\n- DRS?\n"
+  (text "To add:\n- brake light\n- diffuser fan\n- pumps\n- dampner pots\n- DRS?\n- Current sensor"
     (at -19.05 72.39 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4a44f876-22eb-4d66-8008-e6124dde761d)
@@ -391,7 +391,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 255 0 0 1)) (justify left bottom))
     (uuid c3183ed9-70ad-474d-ad0f-2381407992e2)
   )
-  (text "tsal unit needs \na series resistor\nfor each LED" (at -15.875 88.265 0)
+  (text "tsal unit needs \na series resistor\nfor each LED" (at -20.955 87.63 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e69a06b9-05e0-48d7-ae3c-d84717ce8373)
   )
