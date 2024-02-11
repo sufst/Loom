@@ -8,6 +8,12 @@
   )
 
 
+  (text "things to add:\n- VCU\n- dashboard leds\n- umbilical chord\n- e-stop\n- dashboard buttons"
+    (at 43.18 37.465 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0863f5ed-6fb1-4fce-9ac4-6f228fa215ed)
+  )
+
   (hierarchical_label "Conn80" (shape input) (at 122.555 47.625 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8fc43dd0-17d2-4a68-94d1-a1908ee2e6ab)
