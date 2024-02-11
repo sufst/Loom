@@ -1,0 +1,80 @@
+################################################################################
+# kicad
+################################################################################
+
+# temp files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+\#auto_saved_files\#
+
+# netlist files
+*.net
+
+# autorouter files
+*.dsn
+*.ses
+
+# exported BOMs
+*.xml
+*.csv
+
+################################################################################
+# macOS
+################################################################################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon^M
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+################################################################################
+# Windows
+################################################################################
+
+# thumbnail cache
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# folder config
+[Dd]esktop.ini
+
+# shortcuts
+*.lnk
+
+# installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# other
+*.stackdump
+$RECYCLE.BIN/
