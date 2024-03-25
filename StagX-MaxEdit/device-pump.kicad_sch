@@ -1,0 +1,24 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5d092c20-d2ae-4576-bd3e-108e1ab95603)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (label "PUMP.GND" (at 162.56 85.09 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0221502f-84ba-4470-823f-5134197c36c1)
+  )
+  (label "PUMP.EXC" (at 162.56 82.55 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 702d0a19-0179-46a8-bb9e-462a24b38581)
+  )
+
+  (hierarchical_label "PUMP" (shape bidirectional) (at 175.26 76.2 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 9c922d2a-f979-4274-80d9-40b0f110cead)
+  )
+)
