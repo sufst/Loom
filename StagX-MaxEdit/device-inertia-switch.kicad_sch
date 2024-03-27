@@ -171,7 +171,7 @@
   (symbol (lib_id "Switch:SW_Push_Open") (at 88.9 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d31f2bb-c096-42f6-bb29-f52bbc9328e0)
-    (property "Reference" "SW?" (at 88.9 104.14 0)
+    (property "Reference" "SW2" (at 88.9 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Inertia Switch" (at 88.9 106.68 0)
@@ -190,15 +190,6 @@
     (pin "2" (uuid 68a8f1b8-d8a5-46fd-bacf-702e20e65e28))
     (instances
       (project "StagX"
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/3cdef822-b27b-4a71-b67b-74c9f7188311"
-          (reference "SW?") (unit 1)
-        )
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/8cb55a6b-0d65-49e2-b083-4cc99e15786c"
-          (reference "SW?") (unit 1)
-        )
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/a345ed85-d8da-42e0-9850-81cfb8a2389f"
-          (reference "SW?") (unit 1)
-        )
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/f29d1e22-db5a-4e21-943f-a4075fd10598"
           (reference "SW2") (unit 1)
         )
@@ -209,7 +200,7 @@
   (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_2P_Pin") (at 123.825 116.205 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1bd2a00-326f-4ab4-8fef-477f58b352f0)
-    (property "Reference" "Conn?" (at 124.7775 114.3 0)
+    (property "Reference" "Conn21" (at 124.7775 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Deutsch_DTM_2P_Pin" (at 123.825 116.205 0)
@@ -231,15 +222,6 @@
     (pin "2" (uuid 1f069d84-bda1-4fe9-a70d-db76d4137b23))
     (instances
       (project "StagX"
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/3cdef822-b27b-4a71-b67b-74c9f7188311"
-          (reference "Conn?") (unit 1)
-        )
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/8cb55a6b-0d65-49e2-b083-4cc99e15786c"
-          (reference "Conn?") (unit 1)
-        )
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/a345ed85-d8da-42e0-9850-81cfb8a2389f"
-          (reference "Conn?") (unit 1)
-        )
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/f29d1e22-db5a-4e21-943f-a4075fd10598"
           (reference "Conn21") (unit 1)
         )

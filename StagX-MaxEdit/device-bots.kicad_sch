@@ -171,7 +171,7 @@
   (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_2P_Pin") (at 154.94 97.155 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 796d87f4-5891-48f5-9b33-0a91579774ae)
-    (property "Reference" "Conn?" (at 160.02 89.535 0)
+    (property "Reference" "Conn8" (at 160.02 89.535 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Deutsch_DTM_2P_Pin" (at 154.94 97.155 0)
@@ -193,15 +193,6 @@
     (pin "2" (uuid bdf01523-9f70-4c8f-a265-ae751a6614c1))
     (instances
       (project "StagX"
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/3cdef822-b27b-4a71-b67b-74c9f7188311"
-          (reference "Conn?") (unit 1)
-        )
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/8cb55a6b-0d65-49e2-b083-4cc99e15786c"
-          (reference "Conn?") (unit 1)
-        )
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/a345ed85-d8da-42e0-9850-81cfb8a2389f"
-          (reference "Conn?") (unit 1)
-        )
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/070b8217-88a3-4264-8b23-f32d97ad3850"
           (reference "Conn8") (unit 1)
         )
@@ -212,7 +203,7 @@
   (symbol (lib_id "Switch:SW_Push_Open") (at 120.015 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a66fbc4-a149-4b62-b76d-7c072c452b9e)
-    (property "Reference" "SW?" (at 120.015 85.09 0)
+    (property "Reference" "SW1" (at 120.015 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BOTS" (at 120.015 87.63 0)
@@ -231,15 +222,6 @@
     (pin "2" (uuid 8945892e-dfd0-4dda-9074-f3534b25335e))
     (instances
       (project "StagX"
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/3cdef822-b27b-4a71-b67b-74c9f7188311"
-          (reference "SW?") (unit 1)
-        )
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/8cb55a6b-0d65-49e2-b083-4cc99e15786c"
-          (reference "SW?") (unit 1)
-        )
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/a345ed85-d8da-42e0-9850-81cfb8a2389f"
-          (reference "SW?") (unit 1)
-        )
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/070b8217-88a3-4264-8b23-f32d97ad3850"
           (reference "SW1") (unit 1)
         )
