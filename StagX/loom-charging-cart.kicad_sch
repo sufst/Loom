@@ -1,0 +1,20 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e263ed08-3e97-4ffa-9e52-34c71f4bd371)
+
+  (paper "A4")
+
+  (title_block
+    (title "LOOM - CHARGING CART")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Charger\nUmbilical\nSeparate \"shore\" power?\nCharging e-stop loop\nswitches and LED indicators"
+    (at 134.62 78.74 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0592d6a6-62f0-4367-9314-35a44404b5cd)
+  )
+)
