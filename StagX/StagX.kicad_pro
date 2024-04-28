@@ -232,10 +232,10 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -244,9 +244,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "Connectors_SUFST"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "StagX.kicad_pro",
@@ -270,91 +268,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 1,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "CAN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 255, 255)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "EXC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "HV",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 153, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "SHUT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(132, 132, 132)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -362,28 +275,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "CAN",
-        "pattern": "*CAN*"
-      },
-      {
-        "netclass": "EXC",
-        "pattern": "*EXC*"
-      },
-      {
-        "netclass": "GND",
-        "pattern": "*GND*"
-      },
-      {
-        "netclass": "SHUT",
-        "pattern": "*SHUT*"
-      },
-      {
-        "netclass": "HV",
-        "pattern": "*HV*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -403,7 +295,13 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "Conn Name",
+          "url": false,
+          "visible": true
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -419,9 +317,9 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "KiCad",
-    "page_layout_descr_file": "/Users/marek/Desktop/Projects/Loom/Common/sheet-layout.kicad_wks",
-    "plot_directory": "",
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -432,64 +330,136 @@
   },
   "sheets": [
     [
-      "f802a14a-9970-4775-97a5-629bebb8e9f9",
+      "03011643-0690-4b85-ab78-d6a62dae52b1",
       ""
     ],
     [
-      "3a38bfcc-e569-4c84-9214-6d2d76c97569",
-      "Accumulator"
+      "ed7ee4b1-7e5a-4c67-a9e7-ddc4848275b5",
+      "LOOM - FRONT"
     ],
     [
-      "341bb372-9933-4f18-8a03-cdb512190a10",
-      "LV Shelf"
+      "4eb1cfc3-f934-459f-8af2-f057ec5d36cb",
+      "LOOM - REAR"
     ],
     [
-      "20844bb7-a532-48f5-8720-9364c9d6735f",
-      "Inverter & Motor"
+      "d0591f78-2a6a-49ef-980c-e27ab4140297",
+      "LOOM - ACCUMULATOR"
     ],
     [
-      "94c17c07-f253-4009-bca9-ba1dfecac49b",
-      "PDM"
+      "f0d8d47c-6163-4e35-b09e-ddfb7232ae0a",
+      "LOOM - PEDAL BOX"
     ],
     [
-      "fa37da76-3cf6-40ea-b86b-61912c4d9bbc",
-      "Dash Box"
+      "887a9cd9-535f-4f03-a5de-97966e59beff",
+      "LOOM - DASH BOX"
     ],
     [
-      "ceb89553-5704-4302-b3a4-e89cf74d7d81",
-      "Pedal Box"
+      "ebf220e2-f8c9-49fb-b915-d11050f86699",
+      "LOOM - ROLL HOOP"
     ],
     [
-      "2d81c716-adf0-4457-8a2e-6fa902b82ae1",
-      "Accum Loom"
+      "d6c4d0b2-7597-4dc2-a4f2-169edab364d0",
+      "LOOM - REAR BOX"
     ],
     [
-      "f8a81eba-c53e-4eb5-ad5e-df7e2e846f84",
-      "Firewall Conns"
+      "abd63648-061b-4836-be2a-4e6f9e8b66f3",
+      "LOOM - SIDE PANEL"
     ],
     [
-      "8cd03b79-9b82-4468-9f8b-8ea849e7dcc8",
-      "Ground Box"
+      "5ebd4266-1aa3-4074-a4aa-e04f022b7120",
+      "DEVICE - APPS"
     ],
     [
-      "4fa7c363-743c-47f5-825b-e2c91a870baa",
-      "Side Pannel"
+      "070b8217-88a3-4264-8b23-f32d97ad3850",
+      "DEVICE - BOTS"
     ],
     [
-      "51441137-4b66-4701-83d1-e30adfb52eaa",
-      "Rear Loom"
+      "941f2f92-1561-4d27-9a68-8becbeccb7ed",
+      "DEVICE - BPS - FRONT"
     ],
     [
-      "f403d187-8887-4fbd-aa70-7ccb5cfe72a2",
-      "TSAL Unit"
+      "dc6d80d9-f422-484b-86ff-2d32d226b895",
+      "DEVICE - BPS - REAR"
     ],
     [
-      "424f8139-1716-4099-b2d9-983f0b969542",
-      "Front Loom"
+      "fbcd0b6d-423f-4780-bac5-0cf90db94f41",
+      "DEVICE - BRAKE LIGHT"
     ],
     [
-      "3254b4ff-a606-4634-8103-f724cf921c5d",
-      "Dashboard"
+      "ac5342b2-3f31-4ced-840e-357d9fbb572e",
+      "DEVICE - BSPD"
+    ],
+    [
+      "cff6a985-4f89-4344-9a67-5e8c85645e2f",
+      "DEVICE - CURRENT SENSOR"
+    ],
+    [
+      "4971eb7c-9930-4c1d-a13e-d958c53f3e3d",
+      "DEVICE - DASHBOARD"
+    ],
+    [
+      "8cb55a6b-0d65-49e2-b083-4cc99e15786c",
+      "DEVICE - E-STOP - LHS"
+    ],
+    [
+      "3cdef822-b27b-4a71-b67b-74c9f7188311",
+      "DEVICE - E-STOP - COCKPIT"
+    ],
+    [
+      "a345ed85-d8da-42e0-9850-81cfb8a2389f",
+      "DEVICE - E-STOP - RHS"
+    ],
+    [
+      "b02648f7-a452-477f-b99b-aaa3ed22e7a7",
+      "DEVICE - GROUND BOX"
+    ],
+    [
+      "f29d1e22-db5a-4e21-943f-a4075fd10598",
+      "DEVICE - INERTIA SWITCH"
+    ],
+    [
+      "4213cda8-8461-4416-95a8-cacbe36d2108",
+      "DEVICE - INVERTER"
+    ],
+    [
+      "b0453e95-da99-41eb-96b0-5966f0081854",
+      "DEVICE - MOTOR"
+    ],
+    [
+      "18322813-b796-4953-bd78-ca75886dea9f",
+      "DEVICE - PDM"
+    ],
+    [
+      "51825ed1-c28d-47fe-be22-df39d19065ff",
+      "DEVICE - PUMP1"
+    ],
+    [
+      "2cf8afa7-2cb2-4c65-9a6a-3a43fa257b78",
+      "DEVICE - PUMP2"
+    ],
+    [
+      "808d560b-b52c-4c85-927c-da1ea855555d",
+      "DEVICE - RADIATOR FAN"
+    ],
+    [
+      "c83e0eda-d315-4937-8993-0c53aef1fcca",
+      "DEVICE - SAGL"
+    ],
+    [
+      "48616204-6721-438e-b659-db9d23586403",
+      "DEVICE - TSAL"
+    ],
+    [
+      "c24e4324-79c1-4828-a7be-e83d495a6b6b",
+      "LOOM - CHARGING CART"
+    ],
+    [
+      "d071d412-53b1-477c-a42d-6144a34d2391",
+      "PINOUTS"
+    ],
+    [
+      "1c4d452a-c783-4626-bc64-0a85545a4ca3",
+      "ACRONYMS"
     ]
   ],
   "text_variables": {}
