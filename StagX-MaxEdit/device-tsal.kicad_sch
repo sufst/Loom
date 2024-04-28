@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "DEVICE - TSAL")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint_Small" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 3.81 0)
@@ -436,6 +440,17 @@
     (uuid fecefba0-d3a3-4e36-ad99-95a3b7ef6f16)
   )
 
+  (rectangle (start 95.25 49.53) (end 110.49 58.42)
+    (stroke (width 0) (type default) (color 255 0 0 1))
+    (fill (type color) (color 255 0 0 0.2))
+    (uuid 34730862-1e8a-43d6-be06-451c829cba21)
+  )
+
+  (text "Buckboost for TSAL?" (at 93.98 48.26 0)
+    (effects (font (size 1.27 1.27) bold) (justify left bottom))
+    (uuid 4c6f0669-6319-44fb-85b3-53baccd883de)
+  )
+
   (label "TSAL.LED.EXC" (at 73.66 57.15 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0007cca7-3036-48c0-af3d-a8525df732e0)
@@ -715,7 +730,7 @@
   (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_6P_Pin") (at 71.755 74.295 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7eca84f-0e7b-4522-a265-4e42871f96a1)
-    (property "Reference" "Conn7" (at 70.8025 72.39 0)
+    (property "Reference" "Conn?" (at 70.8025 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Deutsch_DTM_6P_Pin" (at 71.755 74.295 0)
@@ -739,7 +754,7 @@
     (instances
       (project "StagX"
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/48616204-6721-438e-b659-db9d23586403"
-          (reference "Conn7") (unit 1)
+          (reference "Conn?") (unit 1)
         )
       )
     )

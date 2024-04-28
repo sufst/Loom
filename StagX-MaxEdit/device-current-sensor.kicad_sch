@@ -1,0 +1,59 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f8a3e18a-9552-4cff-9273-e23631957814)
+
+  (paper "A4")
+
+  (title_block
+    (title "DEVICE - CURRENT SENSOR")
+  )
+
+  (lib_symbols
+  )
+
+
+  (rectangle (start 127 81.28) (end 138.43 96.52)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 0002e077-96cf-42a0-b3cc-8eb9a2954e14)
+  )
+
+  (text "C" (at 135.89 91.44 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 617008e7-87e3-443a-978a-e51045d6840a)
+  )
+  (text "A" (at 135.89 86.36 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6f8698e4-6c8e-4e96-a5b8-495c452b3518)
+  )
+  (text "B" (at 135.89 88.9 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 78c60ea3-66ab-4473-92ed-7f2bae650535)
+  )
+  (text "D" (at 135.89 93.98 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fd8f9e4b-fc8e-4f12-95db-014f58d17f65)
+  )
+
+  (label "BSPD.CUR_SEN.LOW" (at 148.59 93.98 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4955d481-afff-4acc-9e80-8155d1ef3e28)
+  )
+  (label "BSPD.CUR_SEN.GND" (at 148.59 91.44 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 556e922d-e712-471b-8dca-3df1abc2f08c)
+  )
+  (label "BSPD.CUR_SEN.HIGH" (at 148.59 88.9 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 73e96752-0c3a-4fb2-84e3-40b3504e9b1d)
+  )
+  (label "BSPD.CUR_SEN.EXC" (at 148.59 86.36 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d1128229-ef98-4720-9e76-b55fc8c855b2)
+  )
+
+  (hierarchical_label "CUR_SEN" (shape bidirectional) (at 172.72 80.01 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1ad88b33-9706-4e9c-875b-0f7d725cc298)
+  )
+)

@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "LOOM - ROLL HOOP")
+  )
+
   (lib_symbols
     (symbol "Connectors_SUFST:Deutsch_DTM_2P_Pin" (in_bom yes) (on_board yes)
       (property "Reference" "Conn" (at 0 -1.905 0)
@@ -373,7 +377,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6bd477f8-7a66-4004-8e0a-774016adf1a1)
   )
-  (hierarchical_label "TSAL" (shape bidirectional) (at 38.1 59.69 180) (fields_autoplaced)
+  (hierarchical_label "TSAL" (shape bidirectional) (at 49.53 66.04 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a366da80-e199-4c2e-9ff7-f14cde6efd6f)
   )
@@ -381,7 +385,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ca049873-6306-4622-bc72-6b3e445781fb)
   )
-  (hierarchical_label "SHUTDOWN" (shape bidirectional) (at 36.83 87.63 180) (fields_autoplaced)
+  (hierarchical_label "SHUTDOWN" (shape bidirectional) (at 49.53 88.9 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e21d19e9-f19b-4a2e-b351-04050cf3d54e)
   )
@@ -393,7 +397,7 @@
   (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_2P_Pin") (at 55.245 97.155 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28d392d9-d694-473e-a95a-15669024bc40)
-    (property "Reference" "Conn6" (at 50.8 90.805 0)
+    (property "Reference" "Conn?" (at 50.8 90.805 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Deutsch_DTM_2P_Pin" (at 55.245 97.155 0)
@@ -413,7 +417,7 @@
     (instances
       (project "StagX"
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/ebf220e2-f8c9-49fb-b915-d11050f86699"
-          (reference "Conn6") (unit 1)
+          (reference "Conn?") (unit 1)
         )
       )
     )
@@ -422,7 +426,7 @@
   (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_2S_Pin") (at 202.565 94.615 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82815143-51cb-4a59-b8d4-d169a84fb015)
-    (property "Reference" "Conn4" (at 205.74 90.8046 0)
+    (property "Reference" "Conn?" (at 205.74 90.8046 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Deutsch_DTM_2S_Pin" (at 202.565 97.155 0)
@@ -442,7 +446,7 @@
     (instances
       (project "StagX"
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/ebf220e2-f8c9-49fb-b915-d11050f86699"
-          (reference "Conn4") (unit 1)
+          (reference "Conn?") (unit 1)
         )
       )
     )
@@ -451,7 +455,7 @@
   (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_6S_Pin") (at 201.295 76.835 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6460242-5dd4-4007-bd3b-058d418b7be7)
-    (property "Reference" "Conn3" (at 204.47 67.9446 0)
+    (property "Reference" "Conn?" (at 204.47 67.9446 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Deutsch_DTM_6S_Pin" (at 201.295 79.375 0)
@@ -475,7 +479,7 @@
     (instances
       (project "StagX"
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/ebf220e2-f8c9-49fb-b915-d11050f86699"
-          (reference "Conn3") (unit 1)
+          (reference "Conn?") (unit 1)
         )
       )
     )
@@ -484,7 +488,7 @@
   (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_2S_Pin") (at 202.565 112.395 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7c60f99-0c9c-426b-b7f1-c5a0cc44a0be)
-    (property "Reference" "Conn5" (at 205.74 108.5846 0)
+    (property "Reference" "Conn?" (at 205.74 108.5846 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Deutsch_DTM_2S_Pin" (at 202.565 114.935 0)
@@ -504,7 +508,7 @@
     (instances
       (project "StagX"
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/ebf220e2-f8c9-49fb-b915-d11050f86699"
-          (reference "Conn5") (unit 1)
+          (reference "Conn?") (unit 1)
         )
       )
     )
@@ -513,7 +517,7 @@
   (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_6P_Pin") (at 55.245 79.375 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f05fbae6-fbb0-4168-b690-1be1ac70bbe6)
-    (property "Reference" "Conn2" (at 50.8 67.945 0)
+    (property "Reference" "Conn?" (at 50.8 67.945 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Deutsch_DTM_6P_Pin" (at 55.245 79.375 0)
@@ -537,7 +541,7 @@
     (instances
       (project "StagX"
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/ebf220e2-f8c9-49fb-b915-d11050f86699"
-          (reference "Conn2") (unit 1)
+          (reference "Conn?") (unit 1)
         )
       )
     )

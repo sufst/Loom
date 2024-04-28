@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "DEVICE - BOTS")
+  )
+
   (lib_symbols
     (symbol "Connectors_SUFST:Deutsch_DTM_2P_Pin" (in_bom yes) (on_board yes)
       (property "Reference" "Conn" (at 0 -1.905 0)
@@ -108,35 +112,7 @@
     )
   )
 
-  (junction (at 153.035 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid 98109634-9cd5-418d-aa0d-d7a93e48f6cd)
-  )
-  (junction (at 153.035 92.71) (diameter 0) (color 0 0 0 0)
-    (uuid c465e442-7b87-4843-82fd-ec01690e7cee)
-  )
 
-  (bus_entry (at 159.385 92.71) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 177db8c6-da63-41cd-918e-e4b27e3ded9b)
-  )
-  (bus_entry (at 159.385 90.17) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 2c72fe84-e3e2-4520-a5ae-0c6721d658d4)
-  )
-
-  (bus (pts (xy 161.925 90.17) (xy 161.925 87.63))
-    (stroke (width 0) (type default))
-    (uuid 0f5e6f97-4867-4832-80af-45c4c5c8d785)
-  )
-  (bus (pts (xy 161.925 87.63) (xy 161.925 85.09))
-    (stroke (width 0) (type default))
-    (uuid 5d27da2e-6e94-40f5-8ffd-991d1b8e97c4)
-  )
-
-  (wire (pts (xy 153.035 90.17) (xy 159.385 90.17))
-    (stroke (width 0) (type default))
-    (uuid 62d7bd06-6691-4c1a-ac31-118dbbd3ac7f)
-  )
   (wire (pts (xy 114.935 90.17) (xy 112.395 90.17))
     (stroke (width 0) (type default))
     (uuid 92bdb36f-f440-4157-b95d-7fe60eb5490b)
@@ -145,11 +121,6 @@
     (stroke (width 0) (type default))
     (uuid 963f3ae8-608f-4dfc-8e9f-f41d1e06e1af)
   )
-  (bus (pts (xy 161.925 85.09) (xy 163.195 85.09))
-    (stroke (width 0) (type default))
-    (uuid a112edd8-c17b-4688-993b-a8302781d329)
-  )
-
   (wire (pts (xy 125.095 90.17) (xy 153.035 90.17))
     (stroke (width 0) (type default))
     (uuid d248130f-a0b8-4d6c-9d1c-b50af010376f)
@@ -158,12 +129,8 @@
     (stroke (width 0) (type default))
     (uuid e3fc576e-168a-493f-89c7-a988fb744f3d)
   )
-  (wire (pts (xy 153.035 92.71) (xy 159.385 92.71))
-    (stroke (width 0) (type default))
-    (uuid f47d1942-d7a5-4e75-846b-1018be7ecc76)
-  )
 
-  (hierarchical_label "BOTS" (shape bidirectional) (at 163.195 85.09 0) (fields_autoplaced)
+  (hierarchical_label "BOTS" (shape bidirectional) (at 160.02 87.63 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8f86c491-5b34-45bc-a714-b4bd987d1f57)
   )
@@ -171,7 +138,7 @@
   (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_2P_Pin") (at 154.94 97.155 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 796d87f4-5891-48f5-9b33-0a91579774ae)
-    (property "Reference" "Conn8" (at 160.02 89.535 0)
+    (property "Reference" "Conn?" (at 160.02 89.535 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Deutsch_DTM_2P_Pin" (at 154.94 97.155 0)
@@ -194,7 +161,7 @@
     (instances
       (project "StagX"
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/070b8217-88a3-4264-8b23-f32d97ad3850"
-          (reference "Conn8") (unit 1)
+          (reference "Conn?") (unit 1)
         )
       )
     )
@@ -203,7 +170,7 @@
   (symbol (lib_id "Switch:SW_Push_Open") (at 120.015 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a66fbc4-a149-4b62-b76d-7c072c452b9e)
-    (property "Reference" "SW1" (at 120.015 85.09 0)
+    (property "Reference" "SW?" (at 120.015 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BOTS" (at 120.015 87.63 0)
@@ -223,7 +190,7 @@
     (instances
       (project "StagX"
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/070b8217-88a3-4264-8b23-f32d97ad3850"
-          (reference "SW1") (unit 1)
+          (reference "SW?") (unit 1)
         )
       )
     )

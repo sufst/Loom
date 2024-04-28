@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "DEVICE - PDM")
+  )
+
   (lib_symbols
     (symbol "Connectors_SUFST:Conn A PDM" (in_bom yes) (on_board yes)
       (property "Reference" "Conn" (at 0 -1.905 0)
