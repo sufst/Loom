@@ -216,7 +216,7 @@
   (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_2P_Pin") (at 179.07 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7ce0197-c230-410b-9b1f-84f30bddba52)
-    (property "Reference" "Conn8" (at 178.1175 97.79 0)
+    (property "Reference" "Conn?" (at 178.1175 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Deutsch_DTM_2P_Pin" (at 179.07 99.06 0)
@@ -236,7 +236,7 @@
     (instances
       (project "StagX"
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/808d560b-b52c-4c85-927c-da1ea855555d"
-          (reference "Conn8") (unit 1)
+          (reference "Conn?") (unit 1)
         )
       )
     )

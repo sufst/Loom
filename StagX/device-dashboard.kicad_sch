@@ -90,7 +90,7 @@
   (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_4P_Pin") (at 167.64 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3fd378b-da51-48aa-9b54-614c55bec038)
-    (property "Reference" "Conn5" (at 166.6875 158.75 0)
+    (property "Reference" "Conn?" (at 166.6875 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Deutsch_DTM_4P_Pin" (at 167.64 160.02 0)
@@ -112,7 +112,7 @@
     (instances
       (project "StagX"
         (path "/03011643-0690-4b85-ab78-d6a62dae52b1/4971eb7c-9930-4c1d-a13e-d958c53f3e3d"
-          (reference "Conn5") (unit 1)
+          (reference "Conn?") (unit 1)
         )
       )
     )
