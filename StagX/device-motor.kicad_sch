@@ -1,483 +1,1284 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 514a2b26-ff21-42c3-b45e-2e340674313d)
-
-  (paper "A4")
-
-  (title_block
-    (title "DEVICE - MOTOR")
-  )
-
-  (lib_symbols
-    (symbol "Connectors_SUFST:Deutsch_DTM_3P_Pin" (in_bom yes) (on_board yes)
-      (property "Reference" "Conn" (at 0 -1.905 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Deutsch_DTM_3P_Pin" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "" (at 0 -1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 -1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "P/N" "DTM043P-E003" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "Deutsch_DTM_3P_Pin_0_1"
-        (polyline
-          (pts
-            (xy -0.635 -4.445)
-            (xy 1.905 -4.445)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Deutsch_DTM_3P_Pin_1_1"
-        (rectangle (start -3.81 -8.89) (end -0.635 -10.16)
-          (stroke (width 0) (type default))
-          (fill (type color) (color 255 229 191 1))
-        )
-        (rectangle (start -3.81 -6.35) (end -0.635 -7.62)
-          (stroke (width 0) (type default))
-          (fill (type color) (color 255 229 191 1))
-        )
-        (rectangle (start -3.81 -3.81) (end -0.635 -5.08)
-          (stroke (width 0) (type default))
-          (fill (type color) (color 255 229 191 1))
-        )
-        (pin input line (at 1.905 -9.525 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 1.905 -6.985 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 1.905 -4.445 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connectors_SUFST:Deutsch_DTM_6P_Pin" (in_bom yes) (on_board yes)
-      (property "Reference" "Conn" (at 0 -1.905 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Deutsch_DTM_6P_Pin" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "P/N" "DTM046P-E003" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "Deutsch_DTM_6P_Pin_0_1"
-        (polyline
-          (pts
-            (xy -0.635 -14.605)
-            (xy 1.905 -14.605)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.635 -9.525)
-            (xy 1.905 -9.525)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.635 -4.445)
-            (xy 1.905 -4.445)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Deutsch_DTM_6P_Pin_1_1"
-        (rectangle (start -3.81 -16.51) (end -0.635 -17.78)
-          (stroke (width 0) (type default))
-          (fill (type color) (color 255 229 191 1))
-        )
-        (rectangle (start -3.81 -13.97) (end -0.635 -15.24)
-          (stroke (width 0) (type default))
-          (fill (type color) (color 255 229 191 1))
-        )
-        (rectangle (start -3.81 -11.43) (end -0.635 -12.7)
-          (stroke (width 0) (type default))
-          (fill (type color) (color 255 229 191 1))
-        )
-        (rectangle (start -3.81 -8.89) (end -0.635 -10.16)
-          (stroke (width 0) (type default))
-          (fill (type color) (color 255 229 191 1))
-        )
-        (rectangle (start -3.81 -6.35) (end -0.635 -7.62)
-          (stroke (width 0) (type default))
-          (fill (type color) (color 255 229 191 1))
-        )
-        (rectangle (start -3.81 -3.81) (end -0.635 -5.08)
-          (stroke (width 0) (type default))
-          (fill (type color) (color 255 229 191 1))
-        )
-        (pin input line (at 1.905 -17.145 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 1.905 -14.605 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 1.905 -12.065 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 1.905 -9.525 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 1.905 -6.985 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 1.905 -4.445 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (bus_entry (at 134.62 92.71) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 1f34909f-91f4-438c-8d12-ad9d22cc440a)
-  )
-  (bus_entry (at 134.62 87.63) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 3ce4d3bd-2740-4981-b1bf-dd120c946d09)
-  )
-  (bus_entry (at 134.62 85.09) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 59e9aa78-f5bb-427a-8299-1e7ac25a1880)
-  )
-  (bus_entry (at 134.62 90.17) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 7a25c784-1151-4c3e-8115-b66ef676d9fb)
-  )
-  (bus_entry (at 134.62 116.84) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 8c997d63-efea-4d12-a162-b1364b628cb1)
-  )
-  (bus_entry (at 134.62 97.79) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 9b9c9dd4-22d6-49c4-8280-27462aa2d82e)
-  )
-  (bus_entry (at 134.62 119.38) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid a054823b-3ec0-4b46-bd03-d7de79cc5771)
-  )
-  (bus_entry (at 134.62 114.3) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid e913f780-4b6f-4c60-ad72-bb1ea716d1f0)
-  )
-  (bus_entry (at 134.62 95.25) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid f9bf515c-4cfa-4381-8f5d-87d391de8ce9)
-  )
-
-  (bus (pts (xy 139.7 80.01) (xy 137.16 80.01))
-    (stroke (width 0) (type default))
-    (uuid 01614728-4d74-4dd4-9c55-b8384b77fe6e)
-  )
-  (bus (pts (xy 137.16 82.55) (xy 137.16 85.09))
-    (stroke (width 0) (type default))
-    (uuid 01e34a51-c8cf-44a0-bbc8-765e2999f61d)
-  )
-  (bus (pts (xy 137.16 87.63) (xy 137.16 90.17))
-    (stroke (width 0) (type default))
-    (uuid 09be51ca-3e1a-4769-94ea-cfeaa31b2b56)
-  )
-
-  (wire (pts (xy 111.76 87.63) (xy 134.62 87.63))
-    (stroke (width 0) (type default))
-    (uuid 11a8915d-60f7-4ce1-b239-865154b0cce4)
-  )
-  (wire (pts (xy 111.76 97.79) (xy 134.62 97.79))
-    (stroke (width 0) (type default))
-    (uuid 11b2b0a8-9e06-4c3c-b9e8-4fb43f38312b)
-  )
-  (bus (pts (xy 137.16 92.71) (xy 137.16 95.25))
-    (stroke (width 0) (type default))
-    (uuid 28ce6244-a422-49c2-924f-7873d3de76ac)
-  )
-
-  (wire (pts (xy 111.76 116.84) (xy 134.62 116.84))
-    (stroke (width 0) (type default))
-    (uuid 458935c1-ca09-4297-a323-b8b5997e185d)
-  )
-  (bus (pts (xy 137.16 85.09) (xy 137.16 87.63))
-    (stroke (width 0) (type default))
-    (uuid 47d5f6a8-ad69-4ba2-a649-11657404095a)
-  )
-
-  (wire (pts (xy 111.76 95.25) (xy 134.62 95.25))
-    (stroke (width 0) (type default))
-    (uuid 53d1170a-6c67-4108-bd98-b5dd645e2ce2)
-  )
-  (bus (pts (xy 139.7 109.22) (xy 137.16 109.22))
-    (stroke (width 0) (type default))
-    (uuid 54a9b7a1-fdfb-49d2-a679-0840211a4667)
-  )
-  (bus (pts (xy 137.16 90.17) (xy 137.16 92.71))
-    (stroke (width 0) (type default))
-    (uuid 5541cbf1-a3b8-4f02-9d04-ca3aef4aad53)
-  )
-  (bus (pts (xy 137.16 109.22) (xy 137.16 111.76))
-    (stroke (width 0) (type default))
-    (uuid 56d677f2-2feb-4793-bd06-a2d2c456e959)
-  )
-
-  (wire (pts (xy 111.76 114.3) (xy 134.62 114.3))
-    (stroke (width 0) (type default))
-    (uuid 63590af8-2dcd-4ab1-ab79-abcaf7a55d8c)
-  )
-  (bus (pts (xy 137.16 80.01) (xy 137.16 82.55))
-    (stroke (width 0) (type default))
-    (uuid 88cca4d9-435c-498b-b81a-f0d12f7f2e80)
-  )
-  (bus (pts (xy 137.16 111.76) (xy 137.16 114.3))
-    (stroke (width 0) (type default))
-    (uuid 89af5990-2ef8-42fe-8870-b94d6e9286d1)
-  )
-  (bus (pts (xy 137.16 114.3) (xy 137.16 116.84))
-    (stroke (width 0) (type default))
-    (uuid a658d9e0-9c78-4313-91eb-139da14aea57)
-  )
-
-  (wire (pts (xy 111.76 92.71) (xy 134.62 92.71))
-    (stroke (width 0) (type default))
-    (uuid a8dcf350-45f2-4adb-b664-819b59a5da56)
-  )
-  (wire (pts (xy 111.76 119.38) (xy 134.62 119.38))
-    (stroke (width 0) (type default))
-    (uuid bb93a33d-6ec3-40dc-9b5b-475ae1be6daa)
-  )
-  (wire (pts (xy 111.76 90.17) (xy 134.62 90.17))
-    (stroke (width 0) (type default))
-    (uuid ce538d9a-b8db-491f-9d4d-168a13d2c6db)
-  )
-  (wire (pts (xy 111.76 85.09) (xy 134.62 85.09))
-    (stroke (width 0) (type default))
-    (uuid e2f3f9eb-fa55-4fc9-b689-245f67107d7c)
-  )
-
-  (rectangle (start 105.41 55.88) (end 135.89 71.12)
-    (stroke (width 0) (type default) (color 204 102 0 1))
-    (fill (type color) (color 204 102 0 0.2))
-    (uuid 3f7a58d9-5e85-4f99-8976-6c8a7a34027a)
-  )
-  (circle (center 213.36 83.82) (radius 1.7961)
-    (stroke (width 0) (type default) (color 0 0 132 1))
-    (fill (type color) (color 0 0 132 0.5))
-    (uuid 87d7bcfb-4128-4d8f-a2e3-e7f6e18f302a)
-  )
-  (circle (center 215.9 76.2) (radius 1.7961)
-    (stroke (width 0) (type default) (color 0 0 132 1))
-    (fill (type color) (color 0 0 132 0.5))
-    (uuid c38f40dd-9001-46f5-bb7e-233d29f3f97a)
-  )
-  (circle (center 203.2 76.2) (radius 18.0501)
-    (stroke (width 0) (type default) (color 0 0 132 1))
-    (fill (type color) (color 0 0 132 0.2))
-    (uuid c3dd57e5-4e9a-4553-8efc-e1cafe3879a6)
-  )
-  (circle (center 213.36 68.58) (radius 1.7961)
-    (stroke (width 0) (type default) (color 0 0 132 1))
-    (fill (type color) (color 0 0 132 0.5))
-    (uuid dd27031e-cfee-4c83-b1ed-7d19441b6deb)
-  )
-
-  (text_box "MOTOR CASING TO GROUND DIRECTLY TO INVERTER CASING THROUGH FLYING RING TERMINAL FROM BACK OF THIS CONNECTOR\n\nRESOLVER SHIELD GROUNDED VIA MOTOR CASING"
-    (at 152.4 109.22 0) (size 43.18 15.24)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid 27358433-9158-4845-93b5-e03b262ce7ba)
-  )
-
-  (text "White/Red" (at 95.25 85.09 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 238f6d3f-8c0a-4401-9f98-e21a9f71d2f6)
-  )
-  (text "View from 3 Phase Connection Side" (at 185.42 99.06 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3769f1be-aa9a-41fa-91e6-44991b4ebac5)
-  )
-  (text "PHASE CONNECTIONS" (at 105.41 54.61 0)
-    (effects (font (size 2 2) (thickness 0.4) bold (color 255 153 0 1)) (justify left bottom))
-    (uuid 3b2430b7-5792-4b78-bee2-9a05c15bf352)
-  )
-  (text "Red" (at 101.6 90.17 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4d40950f-4688-461c-ab6c-a0d8228d9f75)
-  )
-  (text "Blue" (at 100.965 97.79 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 503b0f0f-5d0c-424b-810c-6c3ce5237229)
-  )
-  (text "Black" (at 99.695 92.71 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 650413cc-f5c2-4592-ae16-2d44271830ee)
-  )
-  (text "White/Yellow" (at 92.71 87.63 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6c7b5894-72d3-47e7-9ecb-be3bdd3bec8f)
-  )
-  (text "Yellow" (at 99.06 95.25 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8b5bf656-5e51-48e4-a48a-fba89166f516)
-  )
-  (text "U (BLACK)" (at 220.98 69.85 0)
-    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
-    (uuid a0632cf2-bc65-4373-b490-5c3285ac28c6)
-  )
-  (text "V (RED)" (at 222.25 77.47 0)
-    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
-    (uuid ad6dda47-ba49-4833-8e93-e56179c1de9b)
-  )
-  (text "W (BLUE)" (at 220.98 85.09 0)
-    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
-    (uuid adf1efc7-628a-46df-926f-5fbf7ad2961c)
-  )
-
-  (label "MOTOR.CASING.GND" (at 113.03 114.3 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 00440ad6-f0cf-4054-a030-40289c0823bd)
-  )
-  (label "RESOLVER.SIN-" (at 113.03 97.79 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1470e974-4a26-4431-bb16-148aea89db32)
-  )
-  (label "RESOLVER.SIN+" (at 113.03 95.25 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 19107f09-c1a3-4a83-9fc4-96ba7b9e2d1c)
-  )
-  (label "MOTOR.TEMP.SIG" (at 113.03 116.84 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 274bf043-1b74-44f0-8569-e513c60a53ce)
-  )
-  (label "RESOLVER.GND" (at 113.03 87.63 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 722a2ddc-fca7-4617-86c7-e235e5fcbb0d)
-  )
-  (label "MOTOR.TEMP.GND" (at 113.03 119.38 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e07e68e8-a5cb-4140-be3e-9631fe4c2b1a)
-  )
-  (label "RESOLVER.COS-" (at 113.03 92.71 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ec37a351-294a-4b1a-a022-f9330168ef07)
-  )
-  (label "RESOLVER.COS+" (at 113.03 90.17 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f3fc2c2c-303a-4f3b-be53-098cb664a738)
-  )
-  (label "RESOLVER.EXC" (at 113.03 85.09 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f6923d91-5ceb-49d8-8c33-948367961afc)
-  )
-
-  (hierarchical_label "PHASE.V" (shape bidirectional) (at 105.41 63.5 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 33e1b187-86c2-467a-93d7-b4a428d37f6e)
-  )
-  (hierarchical_label "PHASE.U" (shape bidirectional) (at 105.41 59.69 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 784491ba-9e62-4ed9-8cae-9591842a7f06)
-  )
-  (hierarchical_label "RESOLVER" (shape bidirectional) (at 139.7 80.01 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 84d6de19-3414-4895-a8ad-3082251b7b87)
-  )
-  (hierarchical_label "TEMP" (shape bidirectional) (at 139.7 109.22 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ed9958e0-b9c5-474c-977e-02ab77d57e44)
-  )
-  (hierarchical_label "PHASE.W" (shape bidirectional) (at 105.41 67.31 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ef6c580d-09a3-4773-9f71-f3de95b1913d)
-  )
-
-  (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_3P_Pin") (at 109.855 123.825 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 155f47ef-f819-46df-9e2c-f3992eb784cc)
-    (property "Reference" "Conn?" (at 105.41 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "Deutsch_DTM_2P_Pin" (at 109.855 123.825 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 109.855 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.855 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "P/N" "DTM043P-E003" (at 105.41 118.11 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (pin "1" (uuid d84dc24c-58de-4d3c-b0c1-1c650f88ea02))
-    (pin "2" (uuid e2174fc6-5896-49f7-96bd-8e6d87d53909))
-    (pin "3" (uuid 441766b1-676a-4b6e-b887-5f797d78af7e))
-    (instances
-      (project "StagX"
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/b0453e95-da99-41eb-96b0-5966f0081854"
-          (reference "Conn?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connectors_SUFST:Deutsch_DTM_6P_Pin") (at 109.855 102.235 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2c589bc1-0af0-4823-a648-eab5c4735baa)
-    (property "Reference" "Conn?" (at 109.22 103.505 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Deutsch_DTM_6P_Pin" (at 109.855 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 109.855 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.855 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "P/N" "DTM046P-E003" (at 109.22 100.965 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid 3e0489be-aa97-4c00-9e56-281ec4361618))
-    (pin "2" (uuid db8e7d80-397c-402c-bf6d-f903c15b0b6b))
-    (pin "3" (uuid 5ea16f13-338f-43de-b18e-8822c99defda))
-    (pin "4" (uuid 34cd24f4-c2ba-4bb8-a1c9-681349a2cd2c))
-    (pin "5" (uuid 5131e005-4c8f-47e8-91b6-7703da17f75f))
-    (pin "6" (uuid 3997286e-cc79-403a-9cfc-6837bdcbcee6))
-    (instances
-      (project "StagX"
-        (path "/03011643-0690-4b85-ab78-d6a62dae52b1/b0453e95-da99-41eb-96b0-5966f0081854"
-          (reference "Conn?") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "514a2b26-ff21-42c3-b45e-2e340674313d")
+	(paper "A4")
+	(title_block
+		(title "DEVICE - MOTOR")
+	)
+	(lib_symbols
+		(symbol "Connectors_SUFST:Deutsch_DTM_3P_Pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Conn"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Deutsch_DTM_3P_Pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "DTM043P-E003"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Deutsch_DTM_3P_Pin_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -4.445) (xy 1.905 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Deutsch_DTM_3P_Pin_1_1"
+				(rectangle
+					(start -3.81 -8.89)
+					(end -0.635 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -6.35)
+					(end -0.635 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -3.81)
+					(end -0.635 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(pin input line
+					(at 1.905 -9.525 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -6.985 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -4.445 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connectors_SUFST:Deutsch_DTM_6P_Pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Conn"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Deutsch_DTM_6P_Pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "DTM046P-E003"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Deutsch_DTM_6P_Pin_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -14.605) (xy 1.905 -14.605)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -9.525) (xy 1.905 -9.525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -4.445) (xy 1.905 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Deutsch_DTM_6P_Pin_1_1"
+				(rectangle
+					(start -3.81 -16.51)
+					(end -0.635 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -13.97)
+					(end -0.635 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -11.43)
+					(end -0.635 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -8.89)
+					(end -0.635 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -6.35)
+					(end -0.635 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -3.81)
+					(end -0.635 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(pin input line
+					(at 1.905 -17.145 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -14.605 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -12.065 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -9.525 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -6.985 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -4.445 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(bus_entry
+		(at 134.62 92.71)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f34909f-91f4-438c-8d12-ad9d22cc440a")
+	)
+	(bus_entry
+		(at 134.62 87.63)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce4d3bd-2740-4981-b1bf-dd120c946d09")
+	)
+	(bus_entry
+		(at 134.62 85.09)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e9aa78-f5bb-427a-8299-1e7ac25a1880")
+	)
+	(bus_entry
+		(at 134.62 90.17)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a25c784-1151-4c3e-8115-b66ef676d9fb")
+	)
+	(bus_entry
+		(at 134.62 116.84)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c997d63-efea-4d12-a162-b1364b628cb1")
+	)
+	(bus_entry
+		(at 134.62 97.79)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9c9dd4-22d6-49c4-8280-27462aa2d82e")
+	)
+	(bus_entry
+		(at 134.62 119.38)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a054823b-3ec0-4b46-bd03-d7de79cc5771")
+	)
+	(bus_entry
+		(at 134.62 114.3)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e913f780-4b6f-4c60-ad72-bb1ea716d1f0")
+	)
+	(bus_entry
+		(at 134.62 95.25)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bf515c-4cfa-4381-8f5d-87d391de8ce9")
+	)
+	(bus
+		(pts
+			(xy 139.7 80.01) (xy 137.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01614728-4d74-4dd4-9c55-b8384b77fe6e")
+	)
+	(bus
+		(pts
+			(xy 137.16 82.55) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e34a51-c8cf-44a0-bbc8-765e2999f61d")
+	)
+	(bus
+		(pts
+			(xy 137.16 87.63) (xy 137.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09be51ca-3e1a-4769-94ea-cfeaa31b2b56")
+	)
+	(wire
+		(pts
+			(xy 111.76 87.63) (xy 134.62 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a8915d-60f7-4ce1-b239-865154b0cce4")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 134.62 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b2b0a8-9e06-4c3c-b9e8-4fb43f38312b")
+	)
+	(bus
+		(pts
+			(xy 137.16 92.71) (xy 137.16 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ce6244-a422-49c2-924f-7873d3de76ac")
+	)
+	(wire
+		(pts
+			(xy 111.76 116.84) (xy 134.62 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458935c1-ca09-4297-a323-b8b5997e185d")
+	)
+	(bus
+		(pts
+			(xy 137.16 85.09) (xy 137.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d5f6a8-ad69-4ba2-a649-11657404095a")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d1170a-6c67-4108-bd98-b5dd645e2ce2")
+	)
+	(bus
+		(pts
+			(xy 139.7 109.22) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a9b7a1-fdfb-49d2-a679-0840211a4667")
+	)
+	(bus
+		(pts
+			(xy 137.16 90.17) (xy 137.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5541cbf1-a3b8-4f02-9d04-ca3aef4aad53")
+	)
+	(bus
+		(pts
+			(xy 137.16 109.22) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d677f2-2feb-4793-bd06-a2d2c456e959")
+	)
+	(wire
+		(pts
+			(xy 111.76 114.3) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63590af8-2dcd-4ab1-ab79-abcaf7a55d8c")
+	)
+	(bus
+		(pts
+			(xy 137.16 80.01) (xy 137.16 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cca4d9-435c-498b-b81a-f0d12f7f2e80")
+	)
+	(bus
+		(pts
+			(xy 137.16 111.76) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89af5990-2ef8-42fe-8870-b94d6e9286d1")
+	)
+	(bus
+		(pts
+			(xy 137.16 114.3) (xy 137.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a658d9e0-9c78-4313-91eb-139da14aea57")
+	)
+	(wire
+		(pts
+			(xy 111.76 92.71) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8dcf350-45f2-4adb-b664-819b59a5da56")
+	)
+	(wire
+		(pts
+			(xy 111.76 119.38) (xy 134.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb93a33d-6ec3-40dc-9b5b-475ae1be6daa")
+	)
+	(wire
+		(pts
+			(xy 111.76 90.17) (xy 134.62 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce538d9a-b8db-491f-9d4d-168a13d2c6db")
+	)
+	(wire
+		(pts
+			(xy 111.76 85.09) (xy 134.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f3f9eb-fa55-4fc9-b689-245f67107d7c")
+	)
+	(rectangle
+		(start 105.41 55.88)
+		(end 135.89 71.12)
+		(stroke
+			(width 0)
+			(type default)
+			(color 204 102 0 1)
+		)
+		(fill
+			(type color)
+			(color 204 102 0 0.2)
+		)
+		(uuid 3f7a58d9-5e85-4f99-8976-6c8a7a34027a)
+	)
+	(circle
+		(center 213.36 83.82)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 132 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 0.5)
+		)
+		(uuid 87d7bcfb-4128-4d8f-a2e3-e7f6e18f302a)
+	)
+	(circle
+		(center 215.9 76.2)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 132 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 0.5)
+		)
+		(uuid c38f40dd-9001-46f5-bb7e-233d29f3f97a)
+	)
+	(circle
+		(center 203.2 76.2)
+		(radius 18.0501)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 132 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 0.2)
+		)
+		(uuid c3dd57e5-4e9a-4553-8efc-e1cafe3879a6)
+	)
+	(circle
+		(center 213.36 68.58)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 132 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 0.5)
+		)
+		(uuid dd27031e-cfee-4c83-b1ed-7d19441b6deb)
+	)
+	(text_box "MOTOR CASING TO GROUND DIRECTLY TO INVERTER CASING THROUGH FLYING RING TERMINAL FROM BACK OF THIS CONNECTOR\n\nRESOLVER SHIELD GROUNDED VIA MOTOR CASING"
+		(exclude_from_sim no)
+		(at 152.4 109.22 0)
+		(size 43.18 15.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "27358433-9158-4845-93b5-e03b262ce7ba")
+	)
+	(text "White/Red"
+		(exclude_from_sim no)
+		(at 95.25 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "238f6d3f-8c0a-4401-9f98-e21a9f71d2f6")
+	)
+	(text "View from 3 Phase Connection Side"
+		(exclude_from_sim no)
+		(at 185.42 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3769f1be-aa9a-41fa-91e6-44991b4ebac5")
+	)
+	(text "PHASE CONNECTIONS"
+		(exclude_from_sim no)
+		(at 105.41 54.61 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b2430b7-5792-4b78-bee2-9a05c15bf352")
+	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 101.6 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d40950f-4688-461c-ab6c-a0d8228d9f75")
+	)
+	(text "Blue"
+		(exclude_from_sim no)
+		(at 100.965 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "503b0f0f-5d0c-424b-810c-6c3ce5237229")
+	)
+	(text "Black"
+		(exclude_from_sim no)
+		(at 99.695 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "650413cc-f5c2-4592-ae16-2d44271830ee")
+	)
+	(text "White/Yellow"
+		(exclude_from_sim no)
+		(at 92.71 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c7b5894-72d3-47e7-9ecb-be3bdd3bec8f")
+	)
+	(text "Yellow"
+		(exclude_from_sim no)
+		(at 99.06 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b5bf656-5e51-48e4-a48a-fba89166f516")
+	)
+	(text "U (BLACK)"
+		(exclude_from_sim no)
+		(at 220.98 69.85 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0632cf2-bc65-4373-b490-5c3285ac28c6")
+	)
+	(text "V (RED)"
+		(exclude_from_sim no)
+		(at 222.25 77.47 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad6dda47-ba49-4833-8e93-e56179c1de9b")
+	)
+	(text "W (BLUE)"
+		(exclude_from_sim no)
+		(at 220.98 85.09 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "adf1efc7-628a-46df-926f-5fbf7ad2961c")
+	)
+	(label "MOTOR.CASING.GND"
+		(at 113.03 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00440ad6-f0cf-4054-a030-40289c0823bd")
+	)
+	(label "RESOLVER.SIN-"
+		(at 113.03 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1470e974-4a26-4431-bb16-148aea89db32")
+	)
+	(label "RESOLVER.SIN+"
+		(at 113.03 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19107f09-c1a3-4a83-9fc4-96ba7b9e2d1c")
+	)
+	(label "MOTOR.TEMP.SIG"
+		(at 113.03 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "274bf043-1b74-44f0-8569-e513c60a53ce")
+	)
+	(label "RESOLVER.GND"
+		(at 113.03 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "722a2ddc-fca7-4617-86c7-e235e5fcbb0d")
+	)
+	(label "MOTOR.TEMP.GND"
+		(at 113.03 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e07e68e8-a5cb-4140-be3e-9631fe4c2b1a")
+	)
+	(label "RESOLVER.COS-"
+		(at 113.03 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec37a351-294a-4b1a-a022-f9330168ef07")
+	)
+	(label "RESOLVER.COS+"
+		(at 113.03 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3fc2c2c-303a-4f3b-be53-098cb664a738")
+	)
+	(label "RESOLVER.EXC"
+		(at 113.03 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6923d91-5ceb-49d8-8c33-948367961afc")
+	)
+	(hierarchical_label "PHASE.V"
+		(shape bidirectional)
+		(at 105.41 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33e1b187-86c2-467a-93d7-b4a428d37f6e")
+	)
+	(hierarchical_label "PHASE.U"
+		(shape bidirectional)
+		(at 105.41 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "784491ba-9e62-4ed9-8cae-9591842a7f06")
+	)
+	(hierarchical_label "RESOLVER"
+		(shape bidirectional)
+		(at 139.7 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84d6de19-3414-4895-a8ad-3082251b7b87")
+	)
+	(hierarchical_label "TEMP"
+		(shape bidirectional)
+		(at 139.7 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed9958e0-b9c5-474c-977e-02ab77d57e44")
+	)
+	(hierarchical_label "PHASE.W"
+		(shape bidirectional)
+		(at 105.41 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef6c580d-09a3-4773-9f71-f3de95b1913d")
+	)
+	(symbol
+		(lib_id "Connectors_SUFST:Deutsch_DTM_3P_Pin")
+		(at 109.855 123.825 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "155f47ef-f819-46df-9e2c-f3992eb784cc")
+		(property "Reference" "Conn?"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Deutsch_DTM_2P_Pin"
+			(at 109.855 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.855 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.855 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.855 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "DTM043P-E003"
+			(at 105.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "d84dc24c-58de-4d3c-b0c1-1c650f88ea02")
+		)
+		(pin "2"
+			(uuid "e2174fc6-5896-49f7-96bd-8e6d87d53909")
+		)
+		(pin "3"
+			(uuid "441766b1-676a-4b6e-b887-5f797d78af7e")
+		)
+		(instances
+			(project "StagX"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/b0453e95-da99-41eb-96b0-5966f0081854"
+					(reference "Conn?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors_SUFST:Deutsch_DTM_6P_Pin")
+		(at 109.855 102.235 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c589bc1-0af0-4823-a648-eab5c4735baa")
+		(property "Reference" "Conn?"
+			(at 109.22 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Deutsch_DTM_6P_Pin"
+			(at 109.855 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.855 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.855 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.855 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "DTM046P-E003"
+			(at 109.22 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e0489be-aa97-4c00-9e56-281ec4361618")
+		)
+		(pin "2"
+			(uuid "db8e7d80-397c-402c-bf6d-f903c15b0b6b")
+		)
+		(pin "3"
+			(uuid "5ea16f13-338f-43de-b18e-8822c99defda")
+		)
+		(pin "4"
+			(uuid "34cd24f4-c2ba-4bb8-a1c9-681349a2cd2c")
+		)
+		(pin "5"
+			(uuid "5131e005-4c8f-47e8-91b6-7703da17f75f")
+		)
+		(pin "6"
+			(uuid "3997286e-cc79-403a-9cfc-6837bdcbcee6")
+		)
+		(instances
+			(project "StagX"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/b0453e95-da99-41eb-96b0-5966f0081854"
+					(reference "Conn?")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

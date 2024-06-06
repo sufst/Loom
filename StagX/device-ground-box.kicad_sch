@@ -1,105 +1,258 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 96754cf4-3e81-41c2-91e4-e4e189bc85e1)
-
-  (paper "A4")
-
-  (title_block
-    (title "DEVICE - GROUND BOX")
-  )
-
-  (lib_symbols
-  )
-
-
-  (text "ADD GRAPHIC FOR BUSBAR" (at 148.59 87.63 0)
-    (effects (font (size 2 2) (thickness 0.4) bold (color 255 0 0 1)) (justify left bottom))
-    (uuid 710b79a0-6948-424e-a02a-b81241598f2e)
-  )
-
-  (label "PEDALBOX.GND" (at 133.35 85.09 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 04452844-673a-42b6-9620-49dd67055ad5)
-  )
-  (label "SHUT.GND" (at 133.35 82.55 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 0beab037-573c-4bb5-8628-3fd1d98b3d61)
-  )
-  (label "PUMP2.GND" (at 133.35 125.73 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 1d438e72-b1a0-435c-92d3-d977cd69c866)
-  )
-  (label "BRAKE.LIGHT.GND" (at 133.35 120.65 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 26ea1287-aa58-40ca-b503-839275356375)
-  )
-  (label "PUMP1.GND" (at 133.35 123.19 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 3a9e15a8-12ed-4894-8f51-b5be42a1c220)
-  )
-  (label "SPARE.GND" (at 133.35 97.79 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 618c273d-c212-4c38-8c35-a2426134651b)
-  )
-  (label "SIDE-PANEL.GND" (at 133.35 115.57 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 80e6d1f7-4b55-43ba-ab75-6e84299dbd87)
-  )
-  (label "LV.LED.GND" (at 133.35 95.25 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 8a1cf2d4-62d8-4ef0-ae99-c97e48f9da67)
-  )
-  (label "ACCUMULATOR.GND" (at 133.35 105.41 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 95ebfbce-d76c-4541-a189-20f8734d4212)
-  )
-  (label "ACCUMULATOR.GND" (at 133.35 107.95 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid ab5344a9-8b13-49a1-a01d-dc9d34ec0698)
-  )
-  (label "INV.GND" (at 133.35 100.33 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid abfde172-02b5-4900-88d1-8b686b7ea726)
-  )
-  (label "INVERTER.GND" (at 133.35 128.27 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid ac13995d-6bd8-4c7e-86e1-6e73785fa475)
-  )
-  (label "FAN.GND" (at 133.35 118.11 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid ac545a6f-c8be-4c99-9327-eb3240032d33)
-  )
-  (label "PDM.GND" (at 133.35 90.17 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid acd3651c-bcd5-454c-b413-ae41dfd5b19f)
-  )
-  (label "LATCHING.GND" (at 133.35 113.03 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid cce23b5b-4d90-40c9-baf8-8fbd046bcb58)
-  )
-  (label "PDM.GND" (at 133.35 92.71 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid d958270c-3944-4ec3-9e29-403114d90576)
-  )
-  (label "INV.GND" (at 133.35 102.87 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid df67cc6d-c702-4dee-85c0-0e5880e96833)
-  )
-  (label "TSAL.GND" (at 133.35 110.49 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid e489d488-d092-4285-8c5e-30d5d3dcb1b7)
-  )
-  (label "DASHBOX.GND" (at 133.35 87.63 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid fca1ea77-0f54-4a1c-b267-59ce66cabc31)
-  )
-
-  (hierarchical_label "BATT GND" (shape bidirectional) (at 156.21 80.01 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 4716ff08-1926-4c6c-9cc5-86bb11b678a7)
-  )
-  (hierarchical_label "GND BOX" (shape bidirectional) (at 154.94 82.55 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5bf06144-01f8-4181-aa61-3976de10ffb1)
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "96754cf4-3e81-41c2-91e4-e4e189bc85e1")
+	(paper "A4")
+	(title_block
+		(title "DEVICE - GROUND BOX")
+	)
+	(lib_symbols)
+	(text "ADD GRAPHIC FOR BUSBAR"
+		(exclude_from_sim no)
+		(at 148.59 87.63 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "710b79a0-6948-424e-a02a-b81241598f2e")
+	)
+	(label "PEDALBOX.GND"
+		(at 133.35 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04452844-673a-42b6-9620-49dd67055ad5")
+	)
+	(label "SHUT.GND"
+		(at 133.35 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0beab037-573c-4bb5-8628-3fd1d98b3d61")
+	)
+	(label "PUMP2.GND"
+		(at 133.35 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d438e72-b1a0-435c-92d3-d977cd69c866")
+	)
+	(label "BRAKE.LIGHT.GND"
+		(at 133.35 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26ea1287-aa58-40ca-b503-839275356375")
+	)
+	(label "PUMP1.GND"
+		(at 133.35 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a9e15a8-12ed-4894-8f51-b5be42a1c220")
+	)
+	(label "SPARE.GND"
+		(at 133.35 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "618c273d-c212-4c38-8c35-a2426134651b")
+	)
+	(label "SIDE-PANEL.GND"
+		(at 133.35 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80e6d1f7-4b55-43ba-ab75-6e84299dbd87")
+	)
+	(label "LV.LED.GND"
+		(at 133.35 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a1cf2d4-62d8-4ef0-ae99-c97e48f9da67")
+	)
+	(label "ACCUMULATOR.GND"
+		(at 133.35 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95ebfbce-d76c-4541-a189-20f8734d4212")
+	)
+	(label "ACCUMULATOR.GND"
+		(at 133.35 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab5344a9-8b13-49a1-a01d-dc9d34ec0698")
+	)
+	(label "INV.GND"
+		(at 133.35 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "abfde172-02b5-4900-88d1-8b686b7ea726")
+	)
+	(label "INVERTER.GND"
+		(at 133.35 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac13995d-6bd8-4c7e-86e1-6e73785fa475")
+	)
+	(label "FAN.GND"
+		(at 133.35 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac545a6f-c8be-4c99-9327-eb3240032d33")
+	)
+	(label "PDM.GND"
+		(at 133.35 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "acd3651c-bcd5-454c-b413-ae41dfd5b19f")
+	)
+	(label "LATCHING.GND"
+		(at 133.35 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cce23b5b-4d90-40c9-baf8-8fbd046bcb58")
+	)
+	(label "PDM.GND"
+		(at 133.35 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d958270c-3944-4ec3-9e29-403114d90576")
+	)
+	(label "INV.GND"
+		(at 133.35 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df67cc6d-c702-4dee-85c0-0e5880e96833")
+	)
+	(label "TSAL.GND"
+		(at 133.35 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e489d488-d092-4285-8c5e-30d5d3dcb1b7")
+	)
+	(label "DASHBOX.GND"
+		(at 133.35 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fca1ea77-0f54-4a1c-b267-59ce66cabc31")
+	)
+	(hierarchical_label "BATT GND"
+		(shape bidirectional)
+		(at 156.21 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4716ff08-1926-4c6c-9cc5-86bb11b678a7")
+	)
+	(hierarchical_label "GND BOX"
+		(shape bidirectional)
+		(at 154.94 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bf06144-01f8-4181-aa61-3976de10ffb1")
+	)
 )

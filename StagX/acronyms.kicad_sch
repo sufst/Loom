@@ -1,24 +1,33 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid ccf9ed0e-1e38-4906-ac35-0d414bc80484)
-
-  (paper "A3")
-
-  (title_block
-    (title "MISC - ACRONYMS")
-  )
-
-  (lib_symbols
-  )
-
-
-  (text "Accelerator Pedal Position Sensor\n\nBrake Pressure Sensor"
-    (at 137.16 62.23 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 432d2df4-caf8-49a8-9c32-a18e7431e413)
-  )
-  (text "APPS\n\nBPS" (at 135.89 62.23 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 5da1bf48-a8c4-440a-8a41-f955f81f0ec7)
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ccf9ed0e-1e38-4906-ac35-0d414bc80484")
+	(paper "A3")
+	(title_block
+		(title "MISC - ACRONYMS")
+	)
+	(lib_symbols)
+	(text "Accelerator Pedal Position Sensor\n\nBrake Pressure Sensor"
+		(exclude_from_sim no)
+		(at 137.16 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "432d2df4-caf8-49a8-9c32-a18e7431e413")
+	)
+	(text "APPS\n\nBPS"
+		(exclude_from_sim no)
+		(at 135.89 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5da1bf48-a8c4-440a-8a41-f955f81f0ec7")
+	)
 )
