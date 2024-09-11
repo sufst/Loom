@@ -2857,6 +2857,45 @@
 		)
 	)
 	(sheet
+		(at 153.67 247.65)
+		(size 34.29 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c48bcb29-7a82-4799-833b-00dbf9e408cb")
+		(property "Sheetname" "LOOM - DUMMY ACCUMULATOR"
+			(at 153.67 246.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loom-dummy-accumulator.kicad_sch"
+			(at 153.67 266.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "StagX"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 342.9 153.67)
 		(size 26.67 7.62)
 		(fields_autoplaced yes)
