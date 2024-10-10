@@ -1,0 +1,612 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9cb6a772-1166-48b7-8367-47ebfd1be1f0")
+	(paper "A4")
+	(title_block
+		(title "DEVICE - RADIATOR FAN")
+	)
+	(lib_symbols
+		(symbol "Connectors_SUFST:Deutsch_DTM_2P_Pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Conn"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Deutsch_DTM_2P_Pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "DTM042P-E003"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Deutsch_DTM_2P_Pin_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -4.445) (xy 1.905 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Deutsch_DTM_2P_Pin_1_1"
+				(rectangle
+					(start -3.81 -6.35)
+					(end -0.635 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -3.81)
+					(end -0.635 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(pin input line
+					(at 1.905 -6.985 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -4.445 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Motor:Fan"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fan"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fan"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Fan Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fan_0_1"
+				(arc
+					(start -2.54 -0.508)
+					(mid 0.0028 0.9121)
+					(end 0 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.2352) (xy 0 -2.6416)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.2672) (xy 0 4.6228)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.572) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.016)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.81)
+					(mid 0.053 0.921)
+					(end 2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -0.508)
+					(mid 0 1.0618)
+					(end -2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fan_1_1"
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 134.62 82.55) (xy 147.32 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8a73ce-383a-430d-a43e-bb62a4bf99d4")
+	)
+	(wire
+		(pts
+			(xy 134.62 100.33) (xy 134.62 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a00a9b6-4805-4518-b0c9-8db4d55f4f86")
+	)
+	(wire
+		(pts
+			(xy 134.62 85.09) (xy 134.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d391da-2fbb-4c2e-a15d-196a60d23fde")
+	)
+	(wire
+		(pts
+			(xy 147.32 100.33) (xy 134.62 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c643c02-0ca0-4b60-8291-42f95aa62df7")
+	)
+	(wire
+		(pts
+			(xy 147.32 90.17) (xy 165.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95680cd-020a-4002-9ff3-5f79e98e237e")
+	)
+	(wire
+		(pts
+			(xy 147.32 82.55) (xy 147.32 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5508c8d-57ce-4347-b633-693fa2cc9da2")
+	)
+	(wire
+		(pts
+			(xy 165.1 92.71) (xy 147.32 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c59a1b-6857-4a92-94ae-63b23cd4df6e")
+	)
+	(wire
+		(pts
+			(xy 147.32 92.71) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feafa372-d655-47f2-975c-e120a4ff9b34")
+	)
+	(label "FAN.GND"
+		(at 165.1 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91593f05-7c08-49eb-9bc5-328b6027a9da")
+	)
+	(label "FAN.EXC"
+		(at 165.1 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "951b338f-92ba-4186-a2c7-72394328f5f6")
+	)
+	(hierarchical_label "FAN"
+		(shape bidirectional)
+		(at 167.64 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab674865-2927-4136-8069-07d8678f2084")
+	)
+	(symbol
+		(lib_id "Motor:Fan")
+		(at 134.62 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "783dc9e2-60a0-49de-860c-357cc0ab27a5")
+		(property "Reference" "FAN?"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "REAR RADIATOR FAN"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "488fe95d-567e-4b75-a1f1-e44a08e66c9d")
+		)
+		(pin "2"
+			(uuid "5fcf6f77-c487-483d-8eea-dff4482b06a7")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/808d560b-b52c-4c85-927c-da1ea855555d"
+					(reference "FAN?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors_SUFST:Deutsch_DTM_2P_Pin")
+		(at 179.07 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7ce0197-c230-410b-9b1f-84f30bddba52")
+		(property "Reference" "Conn?"
+			(at 178.1175 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Deutsch_DTM_2P_Pin"
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "DTM042P-E003"
+			(at 178.1175 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a8a786a6-89ca-4019-91da-c605510fc4bc")
+		)
+		(pin "1"
+			(uuid "a1529df7-0d99-458e-b6ce-561a44e91ac1")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/808d560b-b52c-4c85-927c-da1ea855555d"
+					(reference "Conn?")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

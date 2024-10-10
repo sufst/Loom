@@ -1,0 +1,3101 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "03011643-0690-4b85-ab78-d6a62dae52b1")
+	(paper "A3")
+	(title_block
+		(title "STAG X - TOP LEVEL")
+	)
+	(lib_symbols
+		(symbol "Device:Battery"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multiple-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "batt voltage-source cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -2.032 -1.397)
+					(end 2.032 -1.651)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 1.778)
+					(end 2.032 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.3208 -1.9812)
+					(end 1.27 -2.4892)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.3208 1.1938)
+					(end 1.27 0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.524) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.667) (xy 1.27 2.667)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(bus
+		(pts
+			(xy 339.09 144.78) (xy 342.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0103e3d2-217c-4237-97e3-526f35e580a1")
+	)
+	(bus
+		(pts
+			(xy 339.09 170.18) (xy 342.9 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a6f813-5de7-47d6-b7eb-a239a1d6c130")
+	)
+	(bus
+		(pts
+			(xy 293.37 193.04) (xy 355.6 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141960a1-f3a9-4a17-b9cd-e45e23ca658b")
+	)
+	(wire
+		(pts
+			(xy 52.07 116.84) (xy 60.96 116.84)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "15b2c651-c1c9-4082-a81e-7ad4ec103c03")
+	)
+	(bus
+		(pts
+			(xy 293.37 71.12) (xy 309.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20050e78-9bbe-4c39-8d53-6d9a81096252")
+	)
+	(wire
+		(pts
+			(xy 57.15 111.76) (xy 57.15 127)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "2139e8bb-c6f1-4216-a550-5efa7b3ff580")
+	)
+	(bus
+		(pts
+			(xy 87.63 107.95) (xy 102.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21559e5c-d1b9-4860-89f9-1ef21c96060f")
+	)
+	(wire
+		(pts
+			(xy 57.15 111.76) (xy 60.96 111.76)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "28966050-395d-4c11-9530-955a7c47641a")
+	)
+	(bus
+		(pts
+			(xy 339.09 106.68) (xy 342.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd88a29-61b1-43f2-b99a-3a5e7f1893ce")
+	)
+	(wire
+		(pts
+			(xy 57.15 127) (xy 60.96 127)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "3095441e-28a1-4678-8206-b5f73565ca7d")
+	)
+	(bus
+		(pts
+			(xy 233.68 215.9) (xy 227.33 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354c915e-74f0-435d-b349-39a0cdddacd8")
+	)
+	(bus
+		(pts
+			(xy 146.05 118.11) (xy 162.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47855e50-13ad-47d8-8baa-17d54bb45634")
+	)
+	(bus
+		(pts
+			(xy 339.09 66.04) (xy 342.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f03f7f-9321-414b-9410-f5720a492381")
+	)
+	(bus
+		(pts
+			(xy 339.09 119.38) (xy 342.9 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dd2b22-ec30-4223-b157-5bf0b7d0e8fc")
+	)
+	(bus
+		(pts
+			(xy 339.09 91.44) (xy 342.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7e56c6-7eee-4447-81c2-99d7705f5022")
+	)
+	(bus
+		(pts
+			(xy 227.33 203.2) (xy 233.68 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f17d02-515b-4075-87d8-0b63b316b92a")
+	)
+	(wire
+		(pts
+			(xy 52.07 116.84) (xy 52.07 132.08)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "64a5ada3-f833-4ad2-a697-ca908311ba56")
+	)
+	(wire
+		(pts
+			(xy 132.08 219.71) (xy 132.08 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 28 255 1)
+		)
+		(uuid "64b77022-13b0-4714-9ede-9bf93fd1b67e")
+	)
+	(bus
+		(pts
+			(xy 223.52 198.12) (xy 233.68 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d91bd0d-62db-44d1-8359-aacc47fc0c2e")
+	)
+	(bus
+		(pts
+			(xy 44.45 147.32) (xy 102.87 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6decaef4-2c36-47a3-8598-5fa1b35d66ea")
+	)
+	(bus
+		(pts
+			(xy 233.68 66.04) (xy 146.05 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7448eea9-d0cf-425f-9678-d44baa78371e")
+	)
+	(bus
+		(pts
+			(xy 44.45 160.02) (xy 102.87 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abcc609-df74-4d52-9c86-d6ace9bac61e")
+	)
+	(bus
+		(pts
+			(xy 87.63 129.54) (xy 102.87 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c60ca2a-159c-455d-8b70-c6bcf47a1201")
+	)
+	(wire
+		(pts
+			(xy 52.07 132.08) (xy 60.96 132.08)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "7c78ae6e-0cb1-4fdf-9b87-d1de407e9e1e")
+	)
+	(bus
+		(pts
+			(xy 87.63 105.41) (xy 102.87 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c7cd75-adb0-4cb9-99f4-c43d210db70d")
+	)
+	(bus
+		(pts
+			(xy 233.68 228.6) (xy 223.52 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818abe8e-8bae-48a1-98bd-a2ec65c84692")
+	)
+	(bus
+		(pts
+			(xy 212.09 248.92) (xy 307.34 248.92)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8371d170-3819-46a8-ab3d-0b6a8c32a0b1")
+	)
+	(bus
+		(pts
+			(xy 227.33 215.9) (xy 227.33 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855f6486-fde0-462c-9d8b-618c81cdcb98")
+	)
+	(wire
+		(pts
+			(xy 38.1 104.14) (xy 60.96 104.14)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "8cb8b877-fdbf-48c7-81ce-bd103c70e5ac")
+	)
+	(bus
+		(pts
+			(xy 316.23 227.33) (xy 336.55 227.33)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8dc0e626-743f-4836-944f-e696bd7b318c")
+	)
+	(bus
+		(pts
+			(xy 339.09 132.08) (xy 342.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9374f009-e2ca-4882-984e-7d6e6c80b75f")
+	)
+	(wire
+		(pts
+			(xy 54.61 114.3) (xy 60.96 114.3)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "9a38db5a-42ea-4040-b527-8af32401553f")
+	)
+	(bus
+		(pts
+			(xy 339.09 157.48) (xy 342.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efea69c-50b8-498c-ac56-58b18e3cf6a9")
+	)
+	(polyline
+		(pts
+			(xy 203.2 27.94) (xy 203.2 270.51)
+		)
+		(stroke
+			(width 1)
+			(type dash)
+			(color 194 0 0 1)
+		)
+		(uuid "a2c9eabb-4b13-4027-9dfe-940fd9eb6650")
+	)
+	(bus
+		(pts
+			(xy 87.63 102.87) (xy 102.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a495969c-92c8-41e3-8cc0-4e53ea887042")
+	)
+	(bus
+		(pts
+			(xy 212.09 118.11) (xy 212.09 248.92)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a92c8f91-c34d-4859-a3ad-8369cebe9773")
+	)
+	(bus
+		(pts
+			(xy 87.63 127) (xy 102.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9a06c3-2bb2-40ec-b3d5-06f3913979bb")
+	)
+	(bus
+		(pts
+			(xy 293.37 106.68) (xy 309.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb550dd-344e-45bc-80a9-d450342edd0c")
+	)
+	(bus
+		(pts
+			(xy 293.37 203.2) (xy 316.23 203.2)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b4be5df9-19c7-4992-9395-951d93f2ca12")
+	)
+	(bus
+		(pts
+			(xy 316.23 203.2) (xy 316.23 227.33)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b9fa11d0-3785-4c49-9918-a548ab0eed60")
+	)
+	(bus
+		(pts
+			(xy 223.52 228.6) (xy 223.52 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae67195-b21a-4e64-a885-febde988d9ca")
+	)
+	(wire
+		(pts
+			(xy 54.61 114.3) (xy 54.61 129.54)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "ce0d11e3-67bb-4ae9-8279-08643d40cc0d")
+	)
+	(bus
+		(pts
+			(xy 189.23 118.11) (xy 212.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "cfde3a7a-4082-44ff-aff0-0e3e5c51a494")
+	)
+	(wire
+		(pts
+			(xy 54.61 129.54) (xy 60.96 129.54)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "d04525db-ca93-4d84-9b85-24baad2fa179")
+	)
+	(wire
+		(pts
+			(xy 58.42 106.68) (xy 60.96 106.68)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "e4369437-18e6-4e5f-81b8-0c702e46db52")
+	)
+	(bus
+		(pts
+			(xy 293.37 66.04) (xy 309.88 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcffc43-6759-4f80-92e6-370a6a0b8cc9")
+	)
+	(bus
+		(pts
+			(xy 339.09 78.74) (xy 342.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde379ff-83e5-4704-9aaa-e4886ce21068")
+	)
+	(rectangle
+		(start -201.93 55.88)
+		(end -52.07 226.06)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type color)
+			(color 132 132 132 0.15)
+		)
+		(uuid 88b234cb-ec9c-4973-9bdc-8446ab18b581)
+	)
+	(text "NOTES:\n\n1. GRID SIZE = 1.27MM\n\n2. THICK ORANGE CABLES INDICATE 35MM2 CABLING ON CAR"
+		(exclude_from_sim no)
+		(at 13.97 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4364227b-8d52-42f2-b32d-e2a53dd97ba3")
+	)
+	(text "                 REVISION HISTORY:\n\nv1.                INITIAL RELEASE\n\nv2.       MOVED SAGL CONNECTOR\n                      TO FONT LOOM\n\n             COMPLETED ACCUMULATOR\n          AIR SHUTDOWN CONNECTIONS\n\nv3.             ADDED PRECHARGE\n                           TO ACCU\n\n           ADDED SECOND CAN BUS TO\n                   BMS FOR CHARGER\n\n           FINALISED AIL FAN POWER"
+		(exclude_from_sim no)
+		(at 406.4 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right top)
+		)
+		(uuid "654accaa-ea29-4f01-b032-aa4ceb163889")
+	)
+	(text "FIREWALL"
+		(exclude_from_sim no)
+		(at 194.31 25.4 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7db89c5-75c8-49bf-b330-f635a7a0263d")
+	)
+	(text "REAR MONOCOQUE"
+		(exclude_from_sim no)
+		(at -199.39 53.34 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+				(color 72 72 72 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "eeed6c8e-6609-4131-ae9d-ac67d41944c7")
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 59.69 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31489302-4bcf-4845-92df-47cada473c09")
+		(property "Reference" "F?"
+			(at 59.69 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A"
+			(at 59.69 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Conn Name" ""
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30b19999-9b54-4c67-b23f-d492331ebd79")
+		)
+		(pin "2"
+			(uuid "f081b282-97b2-4b4b-9e6a-656e37df5ec7")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(reference "F?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 73.66 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a85ceb37-1c0c-46d4-8815-77771461d5ac")
+		(property "Reference" "BATT?"
+			(at 73.66 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 73.279 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.136 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.136 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Conn Name" "LV BATTERY"
+			(at 73.66 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2c0de14-7a6f-4d32-93c1-222827b92050")
+		)
+		(pin "2"
+			(uuid "8be5c580-14b0-4062-a947-ae5149245a6a")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(reference "BATT?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 342.9 140.97)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "070b8217-88a3-4264-8b23-f32d97ad3850")
+		(property "Sheetname" "DEVICE - BOTS"
+			(at 342.9 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-bots.kicad_sch"
+			(at 342.9 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "BOTS" bidirectional
+			(at 342.9 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a1e74c75-fde7-47e6-bcc5-0fce68c60572")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 66.04)
+		(size 26.67 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "18322813-b796-4953-bd78-ca75886dea9f")
+		(property "Sheetname" "DEVICE - PDM"
+			(at 60.96 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-pdm.kicad_sch"
+			(at 60.96 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "C" bidirectional
+			(at 60.96 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2344e11a-3f00-427a-8c78-f143d85395f4")
+		)
+		(pin "B" bidirectional
+			(at 60.96 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3588cc74-9783-4e40-a1ac-5def797a97da")
+		)
+		(pin "A" bidirectional
+			(at 60.96 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39742b21-cb58-4835-aeee-964e8c04da19")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 237.49 267.97)
+		(size 19.05 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 132 0 132 0.2000)
+		)
+		(uuid "1c4d452a-c783-4626-bc64-0a85545a4ca3")
+		(property "Sheetname" "ACRONYMS"
+			(at 237.49 267.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "acronyms.kicad_sch"
+			(at 237.49 277.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "99")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 181.61)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "2cf8afa7-2cb2-4c65-9a6a-3a43fa257b78")
+		(property "Sheetname" "DEVICE - PUMP2"
+			(at 17.78 180.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-pump.kicad_sch"
+			(at 17.78 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PUMP" bidirectional
+			(at 44.45 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "907ac7f0-0c0a-43ad-bb6e-3ea589bcd01d")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 212.09)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "3cdef822-b27b-4a71-b67b-74c9f7188311")
+		(property "Sheetname" "DEVICE - E-STOP - COCKPIT"
+			(at 233.68 211.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-e-stop.kicad_sch"
+			(at 233.68 220.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "E-STOP" bidirectional
+			(at 233.68 215.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3c688d2f-1984-4401-8933-7d1f3b03491a")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 100.33)
+		(size 26.67 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "4213cda8-8461-4416-95a8-cacbe36d2108")
+		(property "Sheetname" "DEVICE - INVERTER"
+			(at 60.96 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-inverter.kicad_sch"
+			(at 60.96 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PHASE.A" bidirectional
+			(at 60.96 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "163fd293-19a8-48c3-afdd-3f29f401418e")
+		)
+		(pin "PHASE.B" bidirectional
+			(at 60.96 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c1a521a2-8c95-4194-a179-b8d76c42f478")
+		)
+		(pin "PHASE.C" bidirectional
+			(at 60.96 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37ae61ce-c6a0-4cc6-bb01-222988a977ec")
+		)
+		(pin "J1" bidirectional
+			(at 87.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "07b64828-65cd-43be-b686-54b87a2a1ef9")
+		)
+		(pin "J2" bidirectional
+			(at 87.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6725911a-ed34-4de4-a7ef-3137400a0caf")
+		)
+		(pin "CASING" bidirectional
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b999ff83-d3c1-4088-9f11-8ad6098b910d")
+		)
+		(pin "DC+" bidirectional
+			(at 60.96 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca13ce5a-995a-4db6-be56-9f247d913dad")
+		)
+		(pin "DC-" bidirectional
+			(at 60.96 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a9f414d3-14fa-422a-a2f9-ad248b96dbcd")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 342.9 87.63)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "48616204-6721-438e-b659-db9d23586403")
+		(property "Sheetname" "DEVICE - TSAL"
+			(at 342.9 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-tsal.kicad_sch"
+			(at 342.9 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "TSAL I{slash}O" bidirectional
+			(at 342.9 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c8027e6e-b61f-4ea7-a669-7d868808e17e")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 62.23)
+		(size 43.18 157.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4eb1cfc3-f934-459f-8af2-f057ec5d36cb")
+		(property "Sheetname" "LOOM - REAR"
+			(at 102.87 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loom-rear.kicad_sch"
+			(at 102.87 220.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "FIREWALL" bidirectional
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ac7c427b-e84e-4ee4-951e-18c5c913a4ab")
+		)
+		(pin "REAR BOX" input
+			(at 102.87 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e4e7aaf-ae61-47fb-b83b-c675c7d4fce9")
+		)
+		(pin "ACCUMULATOR" bidirectional
+			(at 146.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "50efb976-789a-4ff8-859d-7ae2bef1b840")
+		)
+		(pin "MOTOR RESOLVER" bidirectional
+			(at 102.87 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d56f0d2f-8d7c-42a8-8726-efe6db1ea6ff")
+		)
+		(pin "MOTOR TEMP" bidirectional
+			(at 102.87 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f110c38-5653-4229-aa05-f0281ed5cbee")
+		)
+		(pin "FAN" bidirectional
+			(at 102.87 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "64e1ca5e-e70e-4dfc-94c9-b0befdade1a1")
+		)
+		(pin "PUMP 2" bidirectional
+			(at 146.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ce6c874b-91ce-4894-9250-1c51f3386a3d")
+		)
+		(pin "BRAKE LIGHT" bidirectional
+			(at 102.87 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19f05f39-3ffc-4748-bbae-c644874335ec")
+		)
+		(pin "PUMP 1" bidirectional
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd70b76b-885f-4580-8912-08abff82ac9f")
+		)
+		(pin "INVERTER J1" bidirectional
+			(at 102.87 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8ab6ac9e-0e16-4d03-88b6-6d3157645c48")
+		)
+		(pin "INVERTER J2" bidirectional
+			(at 102.87 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d946a693-615d-4925-b5d9-a27a68225610")
+		)
+		(pin "GND BOX" bidirectional
+			(at 146.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "31b0b053-43a3-4da7-a5f0-e631bcb427d6")
+		)
+		(pin "PDM A" bidirectional
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0ea9d98c-8ed6-4dc6-b828-d4bf4645a4ea")
+		)
+		(pin "RIGHT SIDEPANEL" input
+			(at 132.08 219.71 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "028d5ea1-3ee9-4da9-9cfd-cc1a71f5876f")
+		)
+		(pin "PDM B" bidirectional
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aa599a19-892e-4341-8a05-63334fe92890")
+		)
+		(pin "INVERTER CASING" bidirectional
+			(at 102.87 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fbf8b4e6-09b0-4180-a5c4-b897d340e39b")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 170.18)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "51825ed1-c28d-47fe-be22-df39d19065ff")
+		(property "Sheetname" "DEVICE - PUMP1"
+			(at 17.78 169.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-pump.kicad_sch"
+			(at 17.78 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PUMP" bidirectional
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92a92850-d424-4d44-964a-85f763860c48")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 342.9 102.87)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "5ebd4266-1aa3-4074-a4aa-e04f022b7120")
+		(property "Sheetname" "DEVICE - APPS"
+			(at 342.9 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-apps.kicad_sch"
+			(at 342.9 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "APPS" output
+			(at 342.9 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f83f5da-cec4-4343-9b4b-bb87921964d7")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 143.51)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "808d560b-b52c-4c85-927c-da1ea855555d")
+		(property "Sheetname" "DEVICE - RADIATOR FAN"
+			(at 17.78 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-radiator-fan.kicad_sch"
+			(at 17.78 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "FAN" bidirectional
+			(at 44.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd39ceed-dbc4-4b18-9e03-6b9c40d17f42")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 342.9 62.23)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "8cb55a6b-0d65-49e2-b083-4cc99e15786c")
+		(property "Sheetname" "DEVICE - E-STOP - LHS"
+			(at 342.9 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-e-stop.kicad_sch"
+			(at 342.9 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "E-STOP" bidirectional
+			(at 342.9 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ed8a100-282a-460b-b7d5-5f49efc8d57c")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 342.9 115.57)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "941f2f92-1561-4d27-9a68-8becbeccb7ed")
+		(property "Sheetname" "DEVICE - BPS - FRONT"
+			(at 342.9 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-bps.kicad_sch"
+			(at 342.9 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "BPS" output
+			(at 342.9 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "392a129c-9bab-4bb4-a4e2-25a87a1c1369")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 342.9 74.93)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "a345ed85-d8da-42e0-9850-81cfb8a2389f")
+		(property "Sheetname" "DEVICE - E-STOP - RHS"
+			(at 342.9 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-e-stop.kicad_sch"
+			(at 342.9 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "E-STOP" bidirectional
+			(at 342.9 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ab6c30e-8b53-4eea-92df-1a9f23fc1de3")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 240.03)
+		(size 43.18 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abd63648-061b-4836-be2a-4e6f9e8b66f3")
+		(property "Sheetname" "LOOM - RIGHT SIDE PANEL"
+			(at 102.87 239.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loom-side-panel.kicad_sch"
+			(at 102.87 263.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LVS.MAIN.EXC" input
+			(at 102.87 260.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "12acc7a2-edbb-4258-8173-2bcda834c659")
+		)
+		(pin "TSMP HV-" input
+			(at 146.05 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a79088f-43ef-46e2-bf21-980c00d26fb8")
+		)
+		(pin "TSMP HV+" input
+			(at 146.05 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf51252b-1e9d-4f5d-ade3-57dd1f9d0819")
+		)
+		(pin "SIDE PANEL" input
+			(at 132.08 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "35e5c82f-0db9-4844-8fca-ebff24419d4a")
+		)
+		(pin "LVS.MAIN.SWITCHED.EXC" output
+			(at 102.87 256.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce4508ec-baea-47ba-9861-6b570378b855")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 342.9 166.37)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "ac5342b2-3f31-4ced-840e-357d9fbb572e")
+		(property "Sheetname" "DEVICE - BSPD"
+			(at 342.9 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-bspd.kicad_sch"
+			(at 342.9 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "BSPD" bidirectional
+			(at 342.9 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d44e2c5c-efba-433d-91f4-cfc8fa771429")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 50.8)
+		(size 26.67 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "b02648f7-a452-477f-b99b-aaa3ed22e7a7")
+		(property "Sheetname" "DEVICE - GROUND BOX"
+			(at 60.96 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-ground-box.kicad_sch"
+			(at 60.96 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GND BOX" bidirectional
+			(at 60.96 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6b0c319-b07f-4801-bcb1-eb11a1d3610c")
+		)
+		(pin "BATT GND" bidirectional
+			(at 60.96 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1dd13357-cb1a-4281-851a-fea169084ca9")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 124.46)
+		(size 26.67 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "b0453e95-da99-41eb-96b0-5966f0081854")
+		(property "Sheetname" "DEVICE - MOTOR"
+			(at 60.96 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-motor.kicad_sch"
+			(at 60.96 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PHASE.V" bidirectional
+			(at 60.96 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "06152a11-2652-4f8e-bc5e-5e04ad759eb8")
+		)
+		(pin "PHASE.U" bidirectional
+			(at 60.96 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "236c75db-1682-43be-9c35-d908e6119b5c")
+		)
+		(pin "PHASE.W" bidirectional
+			(at 60.96 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fed719fb-4325-4c1a-98c2-c6cd1382ae4e")
+		)
+		(pin "RESOLVER" bidirectional
+			(at 87.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7999c19d-7e4d-4ffd-8a01-6a5397858a4b")
+		)
+		(pin "TEMP" bidirectional
+			(at 87.63 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a451f455-de92-48b6-9e14-e405a99dbd69")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 345.44 222.25)
+		(size 50.8 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 204 102 0 1)
+		)
+		(fill
+			(color 204 102 0 0.2000)
+		)
+		(uuid "c24e4324-79c1-4828-a7be-e83d495a6b6b")
+		(property "Sheetname" "LOOM - CHARGING CART"
+			(at 345.44 221.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loom-charging-cart.kicad_sch"
+			(at 345.44 245.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "50")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 342.9 153.67)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "c83e0eda-d315-4937-8993-0c53aef1fcca")
+		(property "Sheetname" "DEVICE - SAGL"
+			(at 342.9 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-sagl.kicad_sch"
+			(at 342.9 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SAGL" bidirectional
+			(at 342.9 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4aa4237f-c154-4ea2-a6fa-76e9738e25fc")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 114.3)
+		(size 26.67 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0591f78-2a6a-49ef-980c-e27ab4140297")
+		(property "Sheetname" "LOOM - ACCUMULATOR"
+			(at 162.56 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loom-accumulator.kicad_sch"
+			(at 162.56 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "CHARGER I{slash}O" bidirectional
+			(at 189.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6610d285-0dd3-4aa6-b770-cdfb4d395bd4")
+		)
+		(pin "CAR I{slash}O" bidirectional
+			(at 162.56 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "92d0dea7-5fea-4c5a-b342-53556aa3e2c5")
+		)
+		(pin "DC.-" bidirectional
+			(at 189.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "66338f39-6a34-4be6-b14f-5ffc47017126")
+		)
+		(pin "DC.+" bidirectional
+			(at 189.23 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f551275c-844e-4f9e-ab70-ee08884a3aa3")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 269.24 266.7)
+		(size 20.32 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 132 0 132 0.2000)
+		)
+		(uuid "d071d412-53b1-477c-a42d-6144a34d2391")
+		(property "Sheetname" "PINOUTS"
+			(at 269.24 265.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pinouts.kicad_sch"
+			(at 269.24 278.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "98")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 173.99)
+		(size 26.67 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6c4d0b2-7597-4dc2-a4f2-169edab364d0")
+		(property "Sheetname" "LOOM - REAR BOX"
+			(at 160.02 173.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loom-rear-box.kicad_sch"
+			(at 160.02 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "HV3" bidirectional
+			(at 186.69 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6635820-cb69-4bb9-a08f-705348030fa9")
+		)
+		(pin "HV4" bidirectional
+			(at 186.69 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef99c220-cd24-41cb-9b30-199e357ecc9e")
+		)
+		(pin "HV1" bidirectional
+			(at 186.69 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87c7ae18-a162-4e2a-a032-424f2242814c")
+		)
+		(pin "HV2" bidirectional
+			(at 186.69 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e316199-67ef-432d-a932-78a99ee9a1cd")
+		)
+		(pin "TSMP.HV+" bidirectional
+			(at 160.02 187.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8124c043-8fa5-4bf8-b239-45d2edb89a10")
+		)
+		(pin "TSMP.HV-" bidirectional
+			(at 160.02 190.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0806523f-d9bd-47c0-9136-ea220da7d333")
+		)
+		(pin "REAR BOX I{slash}O" bidirectional
+			(at 186.69 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "56ac3ad0-ceef-4027-9c2d-0945c598d992")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 342.9 128.27)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "dc6d80d9-f422-484b-86ff-2d32d226b895")
+		(property "Sheetname" "DEVICE - BPS - REAR"
+			(at 342.9 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-bps.kicad_sch"
+			(at 342.9 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "BPS" output
+			(at 342.9 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f343a5b-3cf5-4db9-ba29-eff2c2511004")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 309.88 62.23)
+		(size 29.21 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ebf220e2-f8c9-49fb-b915-d11050f86699")
+		(property "Sheetname" "LOOM - ROLL HOOP"
+			(at 309.88 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loom-roll-hoop.kicad_sch"
+			(at 309.88 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "E-STOP LHS" bidirectional
+			(at 339.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8fa395e-584d-4b01-bfd5-6ec6f44c3a89")
+		)
+		(pin "E-STOP RHS" bidirectional
+			(at 339.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f7392850-5683-4803-8d4a-b478493724e7")
+		)
+		(pin "TSAL UNIT" bidirectional
+			(at 339.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6293621-b18c-48df-8e85-07fc97836491")
+		)
+		(pin "TSAL" bidirectional
+			(at 309.88 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c21c99e-6eab-4e11-8355-f1642f1a5a26")
+		)
+		(pin "SHUTDOWN" bidirectional
+			(at 309.88 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f766059b-0217-4dcd-834b-e80115197d31")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 62.23)
+		(size 59.69 143.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed7ee4b1-7e5a-4c67-a9e7-ddc4848275b5")
+		(property "Sheetname" "LOOM - FRONT"
+			(at 233.68 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loom-front.kicad_sch"
+			(at 233.68 206.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PEDAL BOX I{slash}O" bidirectional
+			(at 293.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f7978450-c6e3-4eab-bef3-7cd342f93358")
+		)
+		(pin "DASH BOX I{slash}O" bidirectional
+			(at 293.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a13a95d-b16f-4705-b55d-bdbbbaa31c36")
+		)
+		(pin "FIREWALL" bidirectional
+			(at 233.68 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f2a73060-393b-4ecc-b6b3-ca7f1e855d7d")
+		)
+		(pin "INERTIA SW" bidirectional
+			(at 233.68 198.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b37825d-c55f-49bd-bbc3-f84879b56944")
+		)
+		(pin "COCKPIT E-STOP" bidirectional
+			(at 233.68 203.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8ba4023d-7449-44f2-b722-8a21a4c5cc74")
+		)
+		(pin "UMBILICAL" bidirectional
+			(at 293.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b827e7b6-c8a8-4224-9b9d-ffbea6e5fac8")
+		)
+		(pin "ROLL HOOP SHUTDOWN" bidirectional
+			(at 293.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3c5d63bd-82db-45ef-a8ae-c853d4d3c6eb")
+		)
+		(pin "ROLL HOOP TSAL" bidirectional
+			(at 293.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "71d426cc-191f-4d75-910a-43d9900d6f2c")
+		)
+		(pin "DASH LEDS" input
+			(at 293.37 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29b77bcd-ea8e-4491-b46e-a9977a456726")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 309.88 102.87)
+		(size 29.21 71.12)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0d8d47c-6163-4e35-b09e-ddfb7232ae0a")
+		(property "Sheetname" "LOOM - PEDAL BOX"
+			(at 309.88 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loom-pedal-box.kicad_sch"
+			(at 309.88 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "APPS" input
+			(at 339.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d1571d4d-a544-4bd2-b703-3d870a69b0b3")
+		)
+		(pin "BPS - FRONT" input
+			(at 339.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "07e6396a-d02c-49d4-86d6-24f8616ae3f8")
+		)
+		(pin "BPS - REAR" input
+			(at 339.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6e8d27ef-6df4-4b05-9925-4fa911d155c8")
+		)
+		(pin "BOTS" bidirectional
+			(at 339.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "323196dc-637b-473b-86b0-228e26ce9fd0")
+		)
+		(pin "SAGL" bidirectional
+			(at 339.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e3ed70c-775f-4e45-9b49-95b1df41a821")
+		)
+		(pin "PEDAL BOX I{slash}O" bidirectional
+			(at 309.88 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "470e3517-259e-432a-a512-69792a33617a")
+		)
+		(pin "BSPD" bidirectional
+			(at 339.09 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "07d055aa-7b79-4c9a-98a0-187123827db3")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 224.79)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "f29d1e22-db5a-4e21-943f-a4075fd10598")
+		(property "Sheetname" "DEVICE - INERTIA SWITCH"
+			(at 233.68 224.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-inertia-switch.kicad_sch"
+			(at 233.68 232.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "INERTIA SWITCH" bidirectional
+			(at 233.68 228.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2a1efe5b-89a4-4a86-939f-29ba57952c19")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 156.21)
+		(size 26.67 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "fbcd0b6d-423f-4780-bac5-0cf90db94f41")
+		(property "Sheetname" "DEVICE - BRAKE LIGHT"
+			(at 17.78 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-brake-light.kicad_sch"
+			(at 17.78 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "BRAKE LIGHT" bidirectional
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bdb3bb8e-89fe-4206-bc64-b73f713771cb")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
