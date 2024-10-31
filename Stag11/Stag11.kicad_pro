@@ -300,6 +300,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -424,10 +425,6 @@
       "LOOM - PEDAL BOX"
     ],
     [
-      "887a9cd9-535f-4f03-a5de-97966e59beff",
-      "LOOM - DASH BOX"
-    ],
-    [
       "ebf220e2-f8c9-49fb-b915-d11050f86699",
       "LOOM - ROLL HOOP"
     ],
@@ -437,7 +434,7 @@
     ],
     [
       "abd63648-061b-4836-be2a-4e6f9e8b66f3",
-      "LOOM - SIDE PANEL"
+      "LOOM - RIGHT SIDE PANEL"
     ],
     [
       "5ebd4266-1aa3-4074-a4aa-e04f022b7120",
@@ -462,14 +459,6 @@
     [
       "ac5342b2-3f31-4ced-840e-357d9fbb572e",
       "DEVICE - BSPD"
-    ],
-    [
-      "cff6a985-4f89-4344-9a67-5e8c85645e2f",
-      "DEVICE - CURRENT SENSOR"
-    ],
-    [
-      "4971eb7c-9930-4c1d-a13e-d958c53f3e3d",
-      "DEVICE - DASHBOARD"
     ],
     [
       "8cb55a6b-0d65-49e2-b083-4cc99e15786c",
@@ -522,6 +511,14 @@
     [
       "48616204-6721-438e-b659-db9d23586403",
       "DEVICE - TSAL"
+    ],
+    [
+      "34445109-87e7-4ae7-9ba1-1b3d5ce210b6",
+      "LOOM - FRONT - NEW"
+    ],
+    [
+      "bafd9cf7-e770-4582-bce0-db34b2753411",
+      "LOOM - REAR - NEW"
     ],
     [
       "c24e4324-79c1-4828-a7be-e83d495a6b6b",
