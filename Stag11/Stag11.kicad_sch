@@ -1848,6 +1848,95 @@
 		)
 	)
 	(sheet
+		(at 102.87 27.94)
+		(size 43.18 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e9384ba-916e-4f11-9c24-cf48d3c4adfe")
+		(property "Sheetname" "LOOM - LEFT SIDE PANEL"
+			(at 102.87 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loom-side-panel.kicad_sch"
+			(at 102.87 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LVS.MAIN.EXC" input
+			(at 102.87 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "150b9c22-d959-44f1-b2c1-9282acbf319c")
+		)
+		(pin "TSMP HV-" input
+			(at 146.05 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4a638006-1b51-4277-ac9c-de4bb2f6fe87")
+		)
+		(pin "TSMP HV+" input
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd36f9b0-b862-4774-8f2f-f20b61fd9dd6")
+		)
+		(pin "SIDE PANEL" input
+			(at 132.08 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d87746c4-57fe-40e1-823a-e1e90ba3dd74")
+		)
+		(pin "LVS.MAIN.SWITCHED.EXC" output
+			(at 102.87 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4ba8c1e6-cbe8-4bac-943f-22035bb61124")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 143.51)
 		(size 26.67 7.62)
 		(fields_autoplaced yes)
@@ -1893,6 +1982,82 @@
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 231.14)
+		(size 20.32 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8b0beb0f-c453-4b15-89f4-ecc97c450520")
+		(property "Sheetname" "LOOM - LV BOX"
+			(at 36.83 230.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LOOM - LV BOX.kicad_sch"
+			(at 36.83 241.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "35")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 213.36)
+		(size 20.32 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c8ba23c-c17e-4aa5-bc73-bc09925b49ea")
+		(property "Sheetname" "LOOM - HV BOX"
+			(at 36.83 212.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LOOM - HV BOX.kicad_sch"
+			(at 36.83 225.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "34")
 				)
 			)
 		)
@@ -2337,7 +2502,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 35.56)
+		(at 58.42 27.94)
 		(size 36.83 16.51)
 		(fields_autoplaced yes)
 		(stroke
@@ -2349,7 +2514,7 @@
 		)
 		(uuid "bafd9cf7-e770-4582-bce0-db34b2753411")
 		(property "Sheetname" "LOOM - REAR - NEW"
-			(at 109.22 34.8484 0)
+			(at 58.42 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +2523,7 @@
 			)
 		)
 		(property "Sheetfile" "loom-rear-new.kicad_sch"
-			(at 109.22 52.6546 0)
+			(at 58.42 45.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
