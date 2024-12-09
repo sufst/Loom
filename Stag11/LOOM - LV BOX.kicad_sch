@@ -4277,16 +4277,6 @@
 	)
 	(wire
 		(pts
-			(xy 457.2 78.74) (xy 457.2 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23fb151a-c6be-4c53-bec7-c23a43c14d5c")
-	)
-	(wire
-		(pts
 			(xy 307.34 116.84) (xy 307.34 363.22)
 		)
 		(stroke
@@ -4314,6 +4304,16 @@
 			(type default)
 		)
 		(uuid "279c3d11-9951-41fb-83cd-af26ccf5f11f")
+	)
+	(wire
+		(pts
+			(xy 55.88 129.54) (xy 354.33 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2968990b-38c6-4219-bf55-bcb3d5992635")
 	)
 	(wire
 		(pts
@@ -4424,16 +4424,6 @@
 			(type default)
 		)
 		(uuid "3af3447a-140a-4862-8cbe-8828cc36e88f")
-	)
-	(wire
-		(pts
-			(xy 346.71 43.18) (xy 55.88 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cca4195-7095-49c6-82ca-991b2f49528e")
 	)
 	(wire
 		(pts
@@ -4587,6 +4577,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 43.18) (xy 349.25 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd4aba5-fcbf-4aba-a008-f58af0f9d60d")
+	)
+	(wire
+		(pts
 			(xy 351.79 132.08) (xy 351.79 160.02)
 		)
 		(stroke
@@ -4664,6 +4664,16 @@
 			(type default)
 		)
 		(uuid "68019406-e711-43d4-acf6-97b8f1516743")
+	)
+	(wire
+		(pts
+			(xy 55.88 127) (xy 356.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694e08ac-45ed-4246-bd80-b8efb50a2003")
 	)
 	(wire
 		(pts
@@ -4977,17 +4987,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 43.18) (xy 346.71 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1bd72ea-5bd8-4a59-8ca1-25ad9623e4e7")
-	)
-	(wire
-		(pts
-			(xy 55.88 45.72) (xy 349.25 45.72)
+			(xy 55.88 45.72) (xy 346.71 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5177,16 +5177,6 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 78.74) (xy 457.2 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc1bbada-64cc-430c-b395-ccc778a5af1b")
-	)
-	(wire
-		(pts
 			(xy 412.75 58.42) (xy 55.88 58.42)
 		)
 		(stroke
@@ -5297,16 +5287,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 129.54) (xy 55.88 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca446793-31f6-4efe-8dd6-a872791ca977")
-	)
-	(wire
-		(pts
 			(xy 55.88 48.26) (xy 433.07 48.26)
 		)
 		(stroke
@@ -5334,6 +5314,16 @@
 			(type default)
 		)
 		(uuid "cb2ca06b-08b8-41c4-bcb5-62025214ffab")
+	)
+	(wire
+		(pts
+			(xy 346.71 45.72) (xy 346.71 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3a60ee-2f03-479f-92ed-2f88cb91e8e8")
 	)
 	(wire
 		(pts
@@ -5404,26 +5394,6 @@
 			(type default)
 		)
 		(uuid "d8e5d190-4af7-40b4-8f4c-fdae3719e84b")
-	)
-	(wire
-		(pts
-			(xy 55.88 127) (xy 356.87 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9af5e15-34ae-460b-b07f-dd3cc0076d18")
-	)
-	(wire
-		(pts
-			(xy 349.25 45.72) (xy 349.25 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcb871d5-469f-49e8-9176-e318fea39eb8")
 	)
 	(wire
 		(pts
@@ -5514,16 +5484,6 @@
 			(type default)
 		)
 		(uuid "e43a3533-b752-4ad4-8b93-e925b414c58a")
-	)
-	(wire
-		(pts
-			(xy 457.2 323.85) (xy 530.86 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b2f073-10fd-405e-8eec-d7c895a81d32")
 	)
 	(wire
 		(pts
@@ -5645,6 +5605,16 @@
 		)
 		(uuid "fc1bf7e2-d0b1-4331-8519-1f103ffb36e8")
 	)
+	(wire
+		(pts
+			(xy 55.88 43.18) (xy 349.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe93804b-52b3-4637-8538-b7a803a851ac")
+	)
 	(rectangle
 		(start 29.845 278.13)
 		(end 57.785 370.205)
@@ -5760,6 +5730,19 @@
 			)
 		)
 		(uuid "0f416b0f-871d-4a82-b59c-e49f67264797")
+	)
+	(text "TODO:\nDash excitations, needed or no?\nDash soft reset\nMaybe combine some EXC signals, not sure\n"
+		(exclude_from_sim no)
+		(at 134.62 368.046 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "100b59f7-753e-4816-ab6f-9c16e04b80d3")
 	)
 	(text "SHUT.LATCHING\n"
 		(exclude_from_sim no)
@@ -5968,16 +5951,6 @@
 		)
 		(uuid "bc28d95a-4587-487c-b690-55acc7413f5a")
 	)
-	(text "VCU.FAULT"
-		(exclude_from_sim no)
-		(at 510.54 77.978 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bd7e3ba7-268c-47cd-92d6-7ec71a40d007")
-	)
 	(text "TSAL"
 		(exclude_from_sim no)
 		(at 506.73 199.39 0)
@@ -6104,7 +6077,7 @@
 		(uuid "01b1b43a-f54e-4973-bd66-eff45ece23b4")
 	)
 	(label "R2D.LED.GND"
-		(at 57.15 129.54 0)
+		(at 57.15 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6378,8 +6351,8 @@
 		)
 		(uuid "2dbafda3-d622-4e85-9be8-39d5c951f9f3")
 	)
-	(label "TS.ON.LED.GND"
-		(at 57.15 127 0)
+	(label "BMS.LED.GND"
+		(at 57.15 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7358,7 +7331,7 @@
 		(uuid "d3533e0b-e8e9-488e-9fed-6a48ea59de2e")
 	)
 	(label "BATT+"
-		(at 57.15 43.18 0)
+		(at 59.69 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10721,6 +10694,11 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
