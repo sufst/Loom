@@ -3852,6 +3852,12 @@
 		(uuid "9b8385f3-95e3-4b2c-9a7e-f389bc5dd8a2")
 	)
 	(junction
+		(at 113.03 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "accfabb2-9018-4c5e-9b73-f12b36ce28d2")
+	)
+	(junction
 		(at 110.49 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4217,6 +4223,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 176.53) (xy 181.61 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ed0bf9-5b87-42ce-a6e3-963eb9035f4d")
+	)
+	(wire
+		(pts
 			(xy 313.69 109.22) (xy 55.88 109.22)
 		)
 		(stroke
@@ -4344,6 +4360,16 @@
 			(type default)
 		)
 		(uuid "2d9bcbf7-2349-49a9-9981-88ef097fa88b")
+	)
+	(wire
+		(pts
+			(xy 113.03 176.53) (xy 113.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef477f7-0011-49eb-afd6-d3e813326c8a")
 	)
 	(wire
 		(pts
@@ -4847,7 +4873,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 176.53) (xy 181.61 176.53)
+			(xy 102.87 176.53) (xy 113.03 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5397,6 +5423,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 73.66) (xy 113.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1e71db-bee1-4edd-957f-0e559ea90523")
+	)
+	(wire
+		(pts
 			(xy 454.66 326.39) (xy 454.66 58.42)
 		)
 		(stroke
@@ -5721,16 +5757,6 @@
 		)
 		(uuid "01bdf2e2-bd05-4fe5-8096-a11b90b3241f")
 	)
-	(text "TS.READY ?????\n"
-		(exclude_from_sim no)
-		(at 80.518 331.724 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0f416b0f-871d-4a82-b59c-e49f67264797")
-	)
 	(text "TODO:\nDash excitations, needed or no?\nDash soft reset\nMaybe combine some EXC signals, not sure\n"
 		(exclude_from_sim no)
 		(at 134.62 368.046 0)
@@ -5743,16 +5769,6 @@
 			(justify left bottom)
 		)
 		(uuid "100b59f7-753e-4816-ab6f-9c16e04b80d3")
-	)
-	(text "SHUT.LATCHING\n"
-		(exclude_from_sim no)
-		(at 79.248 293.878 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "21430cc3-abdc-424f-b1cd-bcf2bf91bc6c")
 	)
 	(text "Voltage 9"
 		(exclude_from_sim no)
@@ -5797,16 +5813,6 @@
 		)
 		(uuid "3588b918-9d6c-45ff-8304-5ebf001d58b6")
 	)
-	(text "TS.DETECTED.HVBOX"
-		(exclude_from_sim no)
-		(at 81.534 312.928 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3730808e-6c82-463e-a078-28a1f0f8a438")
-	)
 	(text "Voltage 6"
 		(exclude_from_sim no)
 		(at 46.99 326.39 0)
@@ -5827,16 +5833,6 @@
 		)
 		(uuid "5b856a2c-60b6-4dfb-a8c2-eebe5c9bd713")
 	)
-	(text "TS.ON\n"
-		(exclude_from_sim no)
-		(at 75.438 325.628 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "729a9676-7d0e-4260-8291-fa8421b67d55")
-	)
 	(text "Voltage 5"
 		(exclude_from_sim no)
 		(at 46.99 320.04 0)
@@ -5856,16 +5852,6 @@
 			)
 		)
 		(uuid "8b385c7b-9b83-4d51-8a86-f7a4d0e1f7aa")
-	)
-	(text "SHUT.TSMS"
-		(exclude_from_sim no)
-		(at 77.47 300.228 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9740af2f-d49e-481b-9c3e-ecce3d777a3d")
 	)
 	(text "Voltage 3"
 		(exclude_from_sim no)
@@ -5897,16 +5883,6 @@
 		)
 		(uuid "a3f86b0f-094d-4e69-9dff-de0c8dee241c")
 	)
-	(text "CURRENT.SENSE.SIG\n"
-		(exclude_from_sim no)
-		(at 81.788 306.578 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b066a057-7b73-4435-8692-1a705a733ccd")
-	)
 	(text "Voltage 8"
 		(exclude_from_sim no)
 		(at 46.99 339.09 0)
@@ -5930,16 +5906,6 @@
 			(justify left bottom)
 		)
 		(uuid "b7bc5b16-48ac-4252-ab2e-3b431fd47c0f")
-	)
-	(text "~{GREEN.LED.ON}\n"
-		(exclude_from_sim no)
-		(at 78.994 319.278 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b9c6dd91-88d3-45b2-9568-fc4cf3cc17fe")
 	)
 	(text "Voltage 1"
 		(exclude_from_sim no)
@@ -6054,7 +6020,7 @@
 		)
 		(uuid "fdff84aa-c36e-4039-ba0a-c389ba765981")
 	)
-	(label "TSAL.GREEN.LED.GND"
+	(label "TSAL.GREEN.LED.K"
 		(at 530.86 271.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6076,7 +6042,7 @@
 		)
 		(uuid "01b1b43a-f54e-4973-bd66-eff45ece23b4")
 	)
-	(label "R2D.LED.GND"
+	(label "R2D.LED.K"
 		(at 57.15 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6318,7 +6284,7 @@
 		)
 		(uuid "20e46a37-1471-4934-bd09-2be774c5bf9a")
 	)
-	(label "TSAL.GREEN.LED.GND"
+	(label "TSAL.GREEN.LED.K"
 		(at 57.15 63.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6351,7 +6317,7 @@
 		)
 		(uuid "2dbafda3-d622-4e85-9be8-39d5c951f9f3")
 	)
-	(label "BMS.LED.GND"
+	(label "BMS.LED.K"
 		(at 57.15 129.54 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6362,7 +6328,7 @@
 		)
 		(uuid "32a32fba-c0a1-425a-9fc2-fc9fdf1eddfd")
 	)
-	(label "VOLTAGE.SIG"
+	(label "VOLTAGE.SHUT.LATCHING.SIG"
 		(at 58.42 294.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6461,7 +6427,7 @@
 		)
 		(uuid "46446c25-9f3b-4949-b181-dd30314c46a3")
 	)
-	(label "TS.ON.LED.GND"
+	(label "TS.ON.LED.K"
 		(at 57.15 124.46 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6582,7 +6548,7 @@
 		)
 		(uuid "5c15d37e-a38e-4a5f-aa67-3e3ed06b9549")
 	)
-	(label "VOLTAGE.SIG"
+	(label "VOLTAGE.TS.DETECTED.SIG"
 		(at 58.42 313.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6593,7 +6559,7 @@
 		)
 		(uuid "61f0657d-5b26-4a52-878f-00eb46e51948")
 	)
-	(label "TSAL.RED.DASH.LED.GND"
+	(label "TSAL.RED.DASH.LED.K"
 		(at 530.86 279.4 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6659,7 +6625,7 @@
 		)
 		(uuid "6a113c34-6ff7-4117-bc7c-a07f74488cda")
 	)
-	(label "R2D.LED.GND"
+	(label "R2D.LED.K"
 		(at 527.05 154.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6725,7 +6691,7 @@
 		)
 		(uuid "786bd356-b645-4882-a245-579252a4809b")
 	)
-	(label "TSAL.RED.LED.GND"
+	(label "TSAL.RED.LED.K"
 		(at 530.86 274.32 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6791,7 +6757,7 @@
 		)
 		(uuid "82b734fc-e377-41cc-a0de-7ecb759b0187")
 	)
-	(label "VOLTAGE.SIG"
+	(label "VOLTAGE.TS.READY.SIG"
 		(at 58.42 332.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6835,7 +6801,7 @@
 		)
 		(uuid "892d2c91-5603-410b-9449-aa26d5c74f82")
 	)
-	(label "BMS.LED.GND"
+	(label "BMS.LED.K"
 		(at 527.05 157.48 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6945,7 +6911,7 @@
 		)
 		(uuid "9681e01a-dad8-4de9-9840-0b2de0a4607c")
 	)
-	(label "TSAL.GREEN.DASH.LED.GND"
+	(label "TSAL.GREEN.DASH.LED.K"
 		(at 57.15 55.88 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6967,7 +6933,7 @@
 		)
 		(uuid "9cbb73cd-6c08-408e-88f2-5c2a43f46eea")
 	)
-	(label "IMD.LED.GND"
+	(label "IMD.LED.K"
 		(at 57.15 132.08 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7022,7 +6988,7 @@
 		)
 		(uuid "a4d8870c-b265-4087-a009-a5fe22e63dd4")
 	)
-	(label "TSAL.GREEN.DASH.LED.GND"
+	(label "TSAL.GREEN.DASH.LED.K"
 		(at 530.86 276.86 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7110,6 +7076,17 @@
 		)
 		(uuid "ae24803a-65d0-4cb2-b8e0-dbdb8fdf3d30")
 	)
+	(label "TS.DETECTED.DASH.SPLICE"
+		(at 57.15 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aea545d5-3042-4783-b056-9a65c55374c3")
+	)
 	(label "LATCHING.EXC"
 		(at 530.86 355.6 180)
 		(fields_autoplaced yes)
@@ -7176,7 +7153,7 @@
 		)
 		(uuid "bb51c306-71df-44b4-8209-82977eae7ec5")
 	)
-	(label "VOLTAGE.SIG"
+	(label "VOLTAGE.TS.ON.SIG"
 		(at 58.42 326.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7198,7 +7175,7 @@
 		)
 		(uuid "bcc8043f-a79f-4a0b-b436-9894abbd36c1")
 	)
-	(label "VOLTAGE.SIG"
+	(label "VOLTAGE.SHUT.TSMS.SIG"
 		(at 58.42 300.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7308,7 +7285,7 @@
 		)
 		(uuid "d11ac0f4-6d4b-429d-b197-a2334712d1ef")
 	)
-	(label "TS.ON.LED.GND"
+	(label "TS.ON.LED.K"
 		(at 527.05 152.4 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7331,7 +7308,7 @@
 		(uuid "d3533e0b-e8e9-488e-9fed-6a48ea59de2e")
 	)
 	(label "BATT+"
-		(at 59.69 43.18 0)
+		(at 57.15 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7385,7 +7362,7 @@
 		)
 		(uuid "dfdae709-797d-48f0-b29b-ddbada666e6d")
 	)
-	(label "VOLTAGE.SIG"
+	(label "VOLTAGE.CURRENT.SENSE.SIG"
 		(at 58.42 307.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7407,7 +7384,7 @@
 		)
 		(uuid "e59c306e-c932-40fa-b24b-30be011541ba")
 	)
-	(label "VOLTAGE.SIG"
+	(label "VOLTAGE.~{GREEN.LED.ON}.SIG"
 		(at 58.42 320.04 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7418,7 +7395,7 @@
 		)
 		(uuid "e76ba7f1-b31c-44b0-9356-af6c28a9aa0b")
 	)
-	(label "TSAL.RED.LED.GND"
+	(label "TSAL.RED.LED.K"
 		(at 57.15 60.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7429,7 +7406,7 @@
 		)
 		(uuid "e77ffaf0-2521-4e2a-8887-c2ff9ead3d15")
 	)
-	(label "IMD.LED.GND"
+	(label "IMD.LED.K"
 		(at 527.05 160.02 180)
 		(fields_autoplaced yes)
 		(effects

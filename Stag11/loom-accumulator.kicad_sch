@@ -7849,12 +7849,6 @@
 		(uuid "6125be82-4a2c-4597-ab76-b98cbb98e954")
 	)
 	(junction
-		(at 154.94 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6556a6f4-b856-4385-8d1d-c79425d414b1")
-	)
-	(junction
 		(at 138.43 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9224,16 +9218,6 @@
 			(type default)
 		)
 		(uuid "713e7775-c7ce-407b-905a-00c645926027")
-	)
-	(wire
-		(pts
-			(xy 154.94 203.2) (xy 154.94 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72d243cc-adcf-484a-8757-3fa68cb415f2")
 	)
 	(wire
 		(pts
@@ -12912,7 +12896,7 @@
 		(uuid "f83c3fae-c526-4257-8d35-2c57a011b36c")
 	)
 	(label "INV.CLOSE.+AIR"
-		(at 154.94 203.2 270)
+		(at 154.94 205.74 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
