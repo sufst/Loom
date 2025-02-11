@@ -2911,325 +2911,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:2N7002"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N7002"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel Switching MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N7002_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "2N7002_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
-	(junction
-		(at 340.36 288.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10682abe-ce4c-4165-9d3b-aa3bc948fa3f")
-	)
-	(junction
-		(at 364.49 285.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8713675a-61c3-480a-8681-b38211acd202")
-	)
-	(junction
-		(at 340.36 271.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4ec5808-0f46-4d4b-855d-36f364f9e662")
-	)
-	(junction
-		(at 353.06 304.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b09b7113-7dd1-4b43-ad35-95380a5d2808")
 	)
 	(no_connect
 		(at 71.12 158.75)
@@ -3321,36 +3002,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 288.29) (xy 340.36 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01d065b2-6d03-47aa-b4aa-c2ecbee10d88")
-	)
-	(wire
-		(pts
-			(xy 372.11 297.18) (xy 386.08 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0221b796-2273-480b-b1f0-f1f14d1eb870")
-	)
-	(wire
-		(pts
-			(xy 386.08 285.75) (xy 386.08 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "049814c7-829f-4a6c-8ac6-28f7c17af16d")
-	)
-	(wire
-		(pts
 			(xy 71.12 107.95) (xy 212.09 107.95)
 		)
 		(stroke
@@ -3361,26 +3012,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 269.24) (xy 312.42 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "060371d7-7b98-402e-8b66-79e6b82ba02c")
-	)
-	(wire
-		(pts
-			(xy 392.43 287.02) (xy 392.43 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09828442-84bb-4a8d-a9bf-685db8331b64")
-	)
-	(wire
-		(pts
 			(xy 71.12 125.73) (xy 358.14 125.73)
 		)
 		(stroke
@@ -3388,26 +3019,6 @@
 			(type default)
 		)
 		(uuid "0a0577ea-c8cd-4f11-926e-404c4216a507")
-	)
-	(wire
-		(pts
-			(xy 392.43 307.34) (xy 392.43 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a670578-a594-4b25-931c-c8456b484836")
-	)
-	(wire
-		(pts
-			(xy 340.36 284.48) (xy 340.36 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0db07976-f081-49ad-9662-8f2fb78d107d")
 	)
 	(wire
 		(pts
@@ -3428,16 +3039,6 @@
 			(type default)
 		)
 		(uuid "0e67586a-ebc4-4d0d-97ad-1008ef8d7368")
-	)
-	(wire
-		(pts
-			(xy 364.49 269.24) (xy 364.49 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ef07e33-a9c2-46aa-885d-e5bfd7e671fd")
 	)
 	(wire
 		(pts
@@ -3513,16 +3114,6 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 275.59) (xy 392.43 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e15c632-a96e-4c52-9645-7e89cc3260ea")
-	)
-	(wire
-		(pts
 			(xy 175.26 146.05) (xy 378.46 146.05)
 		)
 		(stroke
@@ -3584,16 +3175,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 275.59) (xy 386.08 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31f33664-176d-469a-b26f-f3d289139e94")
-	)
-	(wire
-		(pts
 			(xy 156.21 166.37) (xy 378.46 166.37)
 		)
 		(stroke
@@ -3652,16 +3233,6 @@
 			(type default)
 		)
 		(uuid "3de7e9cf-63fa-4fce-92fe-dafdc5c8b6b0")
-	)
-	(wire
-		(pts
-			(xy 340.36 302.26) (xy 340.36 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4091a9de-445a-4f0c-8cfe-a314fb776240")
 	)
 	(wire
 		(pts
@@ -3758,16 +3329,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 271.78) (xy 340.36 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5973a22b-24df-466d-be21-c9f7f36be5ff")
-	)
-	(wire
-		(pts
 			(xy 189.23 67.31) (xy 189.23 88.9)
 		)
 		(stroke
@@ -3785,16 +3346,6 @@
 			(type default)
 		)
 		(uuid "5bd634de-000f-4974-b331-7b1ec57da16f")
-	)
-	(wire
-		(pts
-			(xy 312.42 285.75) (xy 312.42 287.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c3f64c5-ab0a-4584-aa1c-b7be58bc25ab")
 	)
 	(wire
 		(pts
@@ -3838,16 +3389,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 297.18) (xy 318.77 298.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "658750a2-b44f-49b7-94fd-16ff17959880")
-	)
-	(wire
-		(pts
 			(xy 71.12 110.49) (xy 219.71 110.49)
 		)
 		(stroke
@@ -3865,26 +3406,6 @@
 			(type default)
 		)
 		(uuid "67b35859-7e22-420b-bb43-cae591f4cb41")
-	)
-	(wire
-		(pts
-			(xy 318.77 279.4) (xy 318.77 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae3221d-d660-4c8e-bd0f-997f263958a7")
-	)
-	(wire
-		(pts
-			(xy 364.49 285.75) (xy 386.08 285.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ddefdd5-a312-4b2f-b653-e50a340d99e8")
 	)
 	(wire
 		(pts
@@ -3926,16 +3447,6 @@
 			(type default)
 		)
 		(uuid "74df833c-7741-43b7-ac21-657096403a9d")
-	)
-	(wire
-		(pts
-			(xy 386.08 295.91) (xy 386.08 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76d24b65-6b9b-401d-8603-09ec5ed6713e")
 	)
 	(wire
 		(pts
@@ -3992,26 +3503,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 304.8) (xy 364.49 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8061a3d7-779a-411d-98e4-e571ec4436cb")
-	)
-	(wire
-		(pts
-			(xy 364.49 285.75) (xy 364.49 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82322716-138e-4c7f-81aa-4adf7cdc29cc")
-	)
-	(wire
-		(pts
 			(xy 290.83 77.47) (xy 290.83 123.19)
 		)
 		(stroke
@@ -4022,16 +3513,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 281.94) (xy 312.42 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82e582ae-df6d-4b1e-8639-58d9079e20b5")
-	)
-	(wire
-		(pts
 			(xy 184.15 93.98) (xy 358.14 93.98)
 		)
 		(stroke
@@ -4039,16 +3520,6 @@
 			(type default)
 		)
 		(uuid "836eb1fd-0eb1-46b4-b30b-4a3ca7a5abd2")
-	)
-	(wire
-		(pts
-			(xy 312.42 297.18) (xy 312.42 298.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "849c2a34-c125-4bf3-b14e-180ff2b994b7")
 	)
 	(wire
 		(pts
@@ -4072,26 +3543,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 269.24) (xy 312.42 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "887bb57d-908d-4f56-a26d-b28a3ab3ff76")
-	)
-	(wire
-		(pts
-			(xy 312.42 280.67) (xy 312.42 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88a8a7dc-7289-471b-921c-ad059368b08e")
-	)
-	(wire
-		(pts
 			(xy 140.97 77.47) (xy 71.12 77.47)
 		)
 		(stroke
@@ -4099,26 +3550,6 @@
 			(type default)
 		)
 		(uuid "897b3a61-f70e-4d76-b817-cddc447c9db8")
-	)
-	(wire
-		(pts
-			(xy 386.08 307.34) (xy 386.08 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91294b9f-3fd9-430a-9178-9641e4de6e0b")
-	)
-	(wire
-		(pts
-			(xy 364.49 284.48) (xy 364.49 285.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9359ccbb-18d4-41d9-9211-91fa46133151")
 	)
 	(wire
 		(pts
@@ -4132,16 +3563,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 271.78) (xy 318.77 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99f2685c-328f-4fa1-ad47-7847f86e2d49")
-	)
-	(wire
-		(pts
 			(xy 200.66 72.39) (xy 358.14 72.39)
 		)
 		(stroke
@@ -4149,16 +3570,6 @@
 			(type default)
 		)
 		(uuid "9c2faaaf-743b-4c68-a48d-46fc5dacc529")
-	)
-	(wire
-		(pts
-			(xy 318.77 288.29) (xy 318.77 285.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e9f4501-e1a3-4221-ba78-97511006dadd")
 	)
 	(wire
 		(pts
@@ -4202,16 +3613,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 275.59) (xy 392.43 275.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6681ccf-cfc8-4ac6-876d-6d1c0b742cbc")
-	)
-	(wire
-		(pts
 			(xy 133.35 85.09) (xy 71.12 85.09)
 		)
 		(stroke
@@ -4229,16 +3630,6 @@
 			(type default)
 		)
 		(uuid "ac708f6f-c1c5-48d0-8941-80212084e017")
-	)
-	(wire
-		(pts
-			(xy 318.77 285.75) (xy 312.42 285.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf7f36a-f582-4921-b066-c3973681020b")
 	)
 	(wire
 		(pts
@@ -4292,16 +3683,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 295.91) (xy 392.43 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b441b6a5-d84a-40d3-b4fb-8f1f4bb81157")
-	)
-	(wire
-		(pts
 			(xy 325.12 110.49) (xy 358.14 110.49)
 		)
 		(stroke
@@ -4310,26 +3691,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "b68d4d97-afa8-43db-b113-234cfb03bcff")
-	)
-	(wire
-		(pts
-			(xy 332.74 297.18) (xy 318.77 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6cb0bf1-fd9d-44ca-9026-0248a396291b")
-	)
-	(wire
-		(pts
-			(xy 318.77 298.45) (xy 312.42 298.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdfc5c60-e602-4fac-a099-bf1549c63dc1")
 	)
 	(wire
 		(pts
@@ -4387,16 +3748,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 304.8) (xy 353.06 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c824ae8c-c206-4cc5-8b1f-c802ed3b20bf")
-	)
-	(wire
-		(pts
 			(xy 130.81 90.17) (xy 130.81 163.83)
 		)
 		(stroke
@@ -4417,16 +3768,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 271.78) (xy 340.36 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cce5d0e2-e21e-4049-9269-b04aeeaa45d3")
-	)
-	(wire
-		(pts
 			(xy 177.8 143.51) (xy 378.46 143.51)
 		)
 		(stroke
@@ -4434,36 +3775,6 @@
 			(type default)
 		)
 		(uuid "cfe39186-6b5d-4066-9a36-a83f289d58d3")
-	)
-	(wire
-		(pts
-			(xy 353.06 307.34) (xy 386.08 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cffa3f9a-f560-4fb5-891f-c4ac39b771c5")
-	)
-	(wire
-		(pts
-			(xy 340.36 269.24) (xy 340.36 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d05458c7-6f77-4734-9134-93f15f1e0bb7")
-	)
-	(wire
-		(pts
-			(xy 386.08 308.61) (xy 392.43 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d143fe00-c66e-4d0a-be3a-88104a5bfac0")
 	)
 	(wire
 		(pts
@@ -4651,16 +3962,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 288.29) (xy 392.43 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f51e94a0-c391-4432-9af4-89d7bd283bdf")
-	)
-	(wire
-		(pts
 			(xy 214.63 59.69) (xy 358.14 59.69)
 		)
 		(stroke
@@ -4671,16 +3972,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 279.4) (xy 386.08 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7f7690c-d0b2-4bfb-8595-e1001babd791")
-	)
-	(wire
-		(pts
 			(xy 358.14 57.15) (xy 212.09 57.15)
 		)
 		(stroke
@@ -4688,26 +3979,6 @@
 			(type default)
 		)
 		(uuid "fa9a38f4-4738-42e8-9a23-3e5b353d83ad")
-	)
-	(wire
-		(pts
-			(xy 364.49 302.26) (xy 364.49 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faf7d8ed-15fe-421a-b0c7-ee68cba16806")
-	)
-	(wire
-		(pts
-			(xy 392.43 295.91) (xy 392.43 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb44871d-c5cc-4c5a-8492-47501be27930")
 	)
 	(wire
 		(pts
@@ -4722,16 +3993,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 304.8) (xy 353.06 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc1075ce-ace2-4c0b-9a4d-c5527672a8b7")
-	)
-	(wire
-		(pts
 			(xy 138.43 176.53) (xy 378.46 176.53)
 		)
 		(stroke
@@ -4739,38 +4000,6 @@
 			(type default)
 		)
 		(uuid "fcbe71d1-894f-4d94-8529-402773007744")
-	)
-	(wire
-		(pts
-			(xy 318.77 288.29) (xy 340.36 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe3337f6-0857-452d-b09e-4778b2561b73")
-	)
-	(wire
-		(pts
-			(xy 318.77 279.4) (xy 332.74 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff4fb6b5-b6c0-4981-b020-6f5897a04d3d")
-	)
-	(rectangle
-		(start 325.12 261.62)
-		(end 378.46 311.15)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 81c375cc-04ee-43b8-814f-eb82e97ee13b)
 	)
 	(text "Terminate CAN at dash?\n"
 		(exclude_from_sim no)
@@ -4791,16 +4020,6 @@
 			)
 		)
 		(uuid "238353c0-f117-40f0-bf5b-76925a58d784")
-	)
-	(text "Off Board"
-		(exclude_from_sim no)
-		(at 387.096 264.414 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8bc7bd0c-bfb8-4ff7-bd5b-245e8a868f41")
 	)
 	(text "1, 4, 5, 6, 34"
 		(exclude_from_sim no)
@@ -4823,16 +4042,6 @@
 			)
 		)
 		(uuid "adc184b4-cfeb-4ee3-80e9-c9b8d9e0ef02")
-	)
-	(text "Off Board"
-		(exclude_from_sim no)
-		(at 312.166 264.668 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ba1405b7-8a69-472e-8325-b2c0cdc91733")
 	)
 	(label "SAGL.EXC"
 		(at 97.79 115.57 0)
@@ -4900,7 +4109,7 @@
 		)
 		(uuid "2562afa0-0fc7-4b18-aa3a-87b528664509")
 	)
-	(label "TSAL.GREEN.LED.GND"
+	(label "TSAL.GREEN.LED.K"
 		(at 72.39 69.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5263,18 +4472,7 @@
 		)
 		(uuid "8b8c9ec9-e1dc-42d5-b735-4c29eddf0d9d")
 	)
-	(label "SHUT_OUT"
-		(at 364.49 269.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ea170b9-5a6e-4f9e-a54a-0ebeaa5401ab")
-	)
-	(label "TSAL.GREEN.LED.GND"
+	(label "TSAL.GREEN.LED.K"
 		(at 358.14 91.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5362,7 +4560,7 @@
 		)
 		(uuid "a047221e-c4d8-4bea-86d3-8a3dd973d8a2")
 	)
-	(label "TSAL.RED.LED.GND"
+	(label "TSAL.RED.LED.K"
 		(at 358.14 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5416,17 +4614,6 @@
 			(justify right bottom)
 		)
 		(uuid "bdbb6f7f-2420-4807-89a3-eacedba881d7")
-	)
-	(label "SHUT_IN"
-		(at 340.36 269.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bdfad48e-f42c-4a23-8e11-bcb52d5a68c2")
 	)
 	(label "SHUT.BOTS"
 		(at 358.14 64.77 180)
@@ -5527,7 +4714,7 @@
 		)
 		(uuid "dc0b3131-794d-4b74-a74e-4894b9a8ba7a")
 	)
-	(label "TSAL.RED.LED.GND"
+	(label "TSAL.RED.LED.K"
 		(at 72.39 72.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5893,388 +5080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 367.03 279.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24ed358a-af49-4437-b7bd-6f87384ab86e")
-		(property "Reference" "Q4"
-			(at 360.68 278.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 360.68 280.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 361.95 277.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 361.95 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 367.03 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "85be5b81-5f91-49d2-b4a9-eba4c3ab4fd0")
-		)
-		(pin "1"
-			(uuid "94d10433-5eba-4599-b071-a2f17e92195b")
-		)
-		(pin "2"
-			(uuid "2c8de0ce-7f44-4850-b307-d2c38ad23891")
-		)
-		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/34445109-87e7-4ae7-9ba1-1b3d5ce210b6"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 394.97 302.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "251d40cd-925e-4e06-80d6-b77b208246b5")
-		(property "Reference" "Q8"
-			(at 388.62 300.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 388.62 303.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 389.89 304.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 389.89 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 394.97 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35f766ec-f4b6-4ac4-95d4-686318ecc799")
-		)
-		(pin "1"
-			(uuid "be2b8606-8b9d-4313-8a26-02abc7eb94bd")
-		)
-		(pin "3"
-			(uuid "01f288f0-8dc5-4318-8ecd-305fd43ba855")
-		)
-		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/34445109-87e7-4ae7-9ba1-1b3d5ce210b6"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 394.97 281.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a541def-ba0b-4f11-9f5e-69d527086123")
-		(property "Reference" "Q7"
-			(at 388.62 280.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 388.62 283.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 389.89 283.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 389.89 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 394.97 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "575dd727-ccc8-438d-97df-573255ed53d1")
-		)
-		(pin "1"
-			(uuid "92454e3f-2428-4306-bb3d-8a3d4142c93d")
-		)
-		(pin "3"
-			(uuid "219e67e8-828f-42e9-b4e4-81d65865e268")
-		)
-		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/34445109-87e7-4ae7-9ba1-1b3d5ce210b6"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 367.03 297.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "547e508c-8581-4c77-8771-086f76790fee")
-		(property "Reference" "Q3"
-			(at 360.68 295.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 360.68 298.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 361.95 295.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 361.95 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 367.03 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "af49f721-d78a-46a3-95ee-a51784617d20")
-		)
-		(pin "1"
-			(uuid "1bdbb149-a111-46c6-bf0c-1e3881f10298")
-		)
-		(pin "2"
-			(uuid "0905e8d0-5a44-447c-92d1-9bff7ee4c331")
-		)
-		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/34445109-87e7-4ae7-9ba1-1b3d5ce210b6"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 309.88 275.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "624ddf09-aa1d-4f60-b79a-f49f85a17a3a")
-		(property "Reference" "Q5"
-			(at 316.23 274.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 316.23 276.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 314.96 277.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 314.96 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 309.88 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77e41c25-1d4f-43dc-bc1a-ca6ec98923fe")
-		)
-		(pin "1"
-			(uuid "41e12fe2-75c6-4c4e-bc83-1bc750ae1e70")
-		)
-		(pin "3"
-			(uuid "bbcf41d4-6151-44da-ba95-e0a752ff876d")
-		)
-		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/34445109-87e7-4ae7-9ba1-1b3d5ce210b6"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connectors_SUFST:AMPHENOL-47P-Recepticle")
 		(at 70.485 50.165 0)
 		(unit 1)
@@ -6498,82 +5303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 337.82 279.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1829d6c-e7e2-4ab6-8562-077b6fbdcf14")
-		(property "Reference" "Q1"
-			(at 344.17 278.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 344.17 280.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 342.9 281.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 342.9 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 337.82 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6cf0cd1-03c7-4b0a-8499-e7d518e41db8")
-		)
-		(pin "1"
-			(uuid "bdad83cd-b2fd-4caf-94b1-d9b41e7c8690")
-		)
-		(pin "3"
-			(uuid "51bd2bac-0f47-4629-8d08-4d3aad46dfbf")
-		)
-		(instances
-			(project ""
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/34445109-87e7-4ae7-9ba1-1b3d5ce210b6"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connectors_SUFST:Deutsch_DTM_2S_Pin")
 		(at 358.775 114.935 180)
 		(unit 1)
@@ -6647,158 +5376,6 @@
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/34445109-87e7-4ae7-9ba1-1b3d5ce210b6"
 					(reference "Conn11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 337.82 297.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "baf931ea-5ed4-454d-9e65-4a08961dace7")
-		(property "Reference" "Q2"
-			(at 344.17 295.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 344.17 298.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 342.9 299.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 342.9 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 337.82 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3cb6c93c-70dd-4295-9119-7e7c91ccd417")
-		)
-		(pin "1"
-			(uuid "592be9f4-bb99-4f8d-a11b-81f0becee604")
-		)
-		(pin "2"
-			(uuid "31fdc984-9716-4d03-8abb-aa50897f3b23")
-		)
-		(instances
-			(project ""
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/34445109-87e7-4ae7-9ba1-1b3d5ce210b6"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 309.88 292.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c105f1b4-928a-4d05-bcef-2abf212df35e")
-		(property "Reference" "Q6"
-			(at 316.23 290.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 316.23 293.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 314.96 294.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 314.96 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 309.88 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "777bcbb6-f994-4a58-aba9-8581d6a33766")
-		)
-		(pin "1"
-			(uuid "8c3ddeec-2da0-4015-ba0c-a25b63352faf")
-		)
-		(pin "3"
-			(uuid "0ef9b0cb-cd37-43f7-b0f7-248aae916fc4")
-		)
-		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/34445109-87e7-4ae7-9ba1-1b3d5ce210b6"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
