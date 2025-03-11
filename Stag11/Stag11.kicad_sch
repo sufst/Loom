@@ -1377,7 +1377,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "34445109-87e7-4ae7-9ba1-1b3d5ce210b6")
-		(property "Sheetname" "LOOM - FRONT - NEW"
+		(property "Sheetname" "LOOM - FRONT"
 			(at 267.97 31.0384 0)
 			(effects
 				(font
@@ -1398,7 +1398,7 @@
 		(instances
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
-					(page "32")
+					(page "2")
 				)
 			)
 		)
@@ -1619,205 +1619,6 @@
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "30")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 102.87 62.23)
-		(size 43.18 157.48)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4eb1cfc3-f934-459f-8af2-f057ec5d36cb")
-		(property "Sheetname" "LOOM - REAR"
-			(at 102.87 61.5184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "loom-rear.kicad_sch"
-			(at 102.87 220.2946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "FIREWALL" bidirectional
-			(at 146.05 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ac7c427b-e84e-4ee4-951e-18c5c913a4ab")
-		)
-		(pin "REAR BOX" input
-			(at 102.87 142.24 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4e4e7aaf-ae61-47fb-b83b-c675c7d4fce9")
-		)
-		(pin "ACCUMULATOR" bidirectional
-			(at 146.05 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "50efb976-789a-4ff8-859d-7ae2bef1b840")
-		)
-		(pin "MOTOR RESOLVER" bidirectional
-			(at 102.87 127 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d56f0d2f-8d7c-42a8-8726-efe6db1ea6ff")
-		)
-		(pin "MOTOR TEMP" bidirectional
-			(at 102.87 129.54 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2f110c38-5653-4229-aa05-f0281ed5cbee")
-		)
-		(pin "FAN" bidirectional
-			(at 102.87 147.32 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "64e1ca5e-e70e-4dfc-94c9-b0befdade1a1")
-		)
-		(pin "PUMP 2" bidirectional
-			(at 146.05 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ce6c874b-91ce-4894-9250-1c51f3386a3d")
-		)
-		(pin "BRAKE LIGHT" bidirectional
-			(at 102.87 160.02 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "19f05f39-3ffc-4748-bbae-c644874335ec")
-		)
-		(pin "PUMP 1" bidirectional
-			(at 146.05 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "dd70b76b-885f-4580-8912-08abff82ac9f")
-		)
-		(pin "INVERTER J1" bidirectional
-			(at 102.87 102.87 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8ab6ac9e-0e16-4d03-88b6-6d3157645c48")
-		)
-		(pin "INVERTER J2" bidirectional
-			(at 102.87 105.41 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d946a693-615d-4925-b5d9-a27a68225610")
-		)
-		(pin "GND BOX" bidirectional
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "31b0b053-43a3-4da7-a5f0-e631bcb427d6")
-		)
-		(pin "PDM A" bidirectional
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0ea9d98c-8ed6-4dc6-b828-d4bf4645a4ea")
-		)
-		(pin "RIGHT SIDEPANEL" input
-			(at 132.08 219.71 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "028d5ea1-3ee9-4da9-9cfd-cc1a71f5876f")
-		)
-		(pin "PDM B" bidirectional
-			(at 146.05 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "aa599a19-892e-4341-8a05-63334fe92890")
-		)
-		(pin "INVERTER CASING" bidirectional
-			(at 102.87 107.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fbf8b4e6-09b0-4180-a5c4-b897d340e39b")
-		)
-		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
-					(page "3")
 				)
 			)
 		)
@@ -2577,8 +2378,8 @@
 		)
 	)
 	(sheet
-		(at 58.42 27.94)
-		(size 36.83 16.51)
+		(at 102.87 57.15)
+		(size 43.18 162.56)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2588,8 +2389,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bafd9cf7-e770-4582-bce0-db34b2753411")
-		(property "Sheetname" "LOOM - REAR - NEW"
-			(at 58.42 27.2284 0)
+		(property "Sheetname" "LOOM - REAR"
+			(at 102.87 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2399,7 @@
 			)
 		)
 		(property "Sheetfile" "loom-rear-new.kicad_sch"
-			(at 58.42 45.0346 0)
+			(at 102.87 220.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2410,7 @@
 		(instances
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
-					(page "33")
+					(page "3")
 				)
 			)
 		)
@@ -3067,135 +2868,6 @@
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 233.68 62.23)
-		(size 59.69 143.51)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ed7ee4b1-7e5a-4c67-a9e7-ddc4848275b5")
-		(property "Sheetname" "LOOM - FRONT"
-			(at 233.68 61.5184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "loom-front.kicad_sch"
-			(at 233.68 206.3246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "PEDAL BOX I{slash}O" bidirectional
-			(at 293.37 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f7978450-c6e3-4eab-bef3-7cd342f93358")
-		)
-		(pin "DASH BOX I{slash}O" bidirectional
-			(at 293.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3a13a95d-b16f-4705-b55d-bdbbbaa31c36")
-		)
-		(pin "FIREWALL" bidirectional
-			(at 233.68 66.04 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f2a73060-393b-4ecc-b6b3-ca7f1e855d7d")
-		)
-		(pin "INERTIA SW" bidirectional
-			(at 233.68 198.12 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8b37825d-c55f-49bd-bbc3-f84879b56944")
-		)
-		(pin "COCKPIT E-STOP" bidirectional
-			(at 233.68 203.2 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8ba4023d-7449-44f2-b722-8a21a4c5cc74")
-		)
-		(pin "UMBILICAL" bidirectional
-			(at 293.37 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b827e7b6-c8a8-4224-9b9d-ffbea6e5fac8")
-		)
-		(pin "ROLL HOOP SHUTDOWN" bidirectional
-			(at 293.37 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3c5d63bd-82db-45ef-a8ae-c853d4d3c6eb")
-		)
-		(pin "ROLL HOOP TSAL" bidirectional
-			(at 293.37 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "71d426cc-191f-4d75-910a-43d9900d6f2c")
-		)
-		(pin "DASH LEDS" input
-			(at 293.37 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "29b77bcd-ea8e-4491-b46e-a9977a456726")
-		)
-		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
-					(page "2")
 				)
 			)
 		)

@@ -10177,224 +10177,6 @@
 				)
 			)
 		)
-		(symbol "Device:Battery"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Multiple-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "batt voltage-source cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_0_1"
-				(rectangle
-					(start -2.286 -1.27)
-					(end 2.286 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 -2.032)
-					(end 1.524 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -10609,10 +10391,6 @@
 		(uuid "9b315820-5ac3-4969-b07d-5b39dc8c7a04")
 	)
 	(no_connect
-		(at 782.955 268.605)
-		(uuid "02fb274c-6f3d-4683-a1de-a6dfb0fa423c")
-	)
-	(no_connect
 		(at 43.18 130.81)
 		(uuid "04f18f08-15e3-4f8a-b17e-5c2aa073976c")
 	)
@@ -10711,10 +10489,6 @@
 	(no_connect
 		(at 762 148.59)
 		(uuid "773799b8-6989-4eef-a45e-2fb21c6093bd")
-	)
-	(no_connect
-		(at 772.795 268.605)
-		(uuid "78ff92e7-5e52-4544-91ed-881cfbaf0076")
 	)
 	(no_connect
 		(at 762 138.43)
@@ -10983,16 +10757,6 @@
 			(type default)
 		)
 		(uuid "092ffa5a-94de-4782-a919-92a4c9061b5b")
-	)
-	(wire
-		(pts
-			(xy 657.86 224.79) (xy 699.77 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f1e5e7-adf1-4698-941f-34f9b34d2622")
 	)
 	(wire
 		(pts
@@ -12303,16 +12067,6 @@
 	)
 	(wire
 		(pts
-			(xy 772.795 217.805) (xy 829.945 217.805)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "518be661-6ba3-4d70-b713-3e7c59dc4ae7")
-	)
-	(wire
-		(pts
 			(xy 643.89 44.45) (xy 643.89 181.61)
 		)
 		(stroke
@@ -12675,6 +12429,16 @@
 			(type default)
 		)
 		(uuid "65cd3522-505f-4da7-8f84-60b5b0a45c5c")
+	)
+	(wire
+		(pts
+			(xy 661.67 224.79) (xy 699.77 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66598321-a576-494d-9a49-99696e2bf82e")
 	)
 	(wire
 		(pts
@@ -13245,16 +13009,6 @@
 	)
 	(wire
 		(pts
-			(xy 772.795 184.785) (xy 790.575 184.785)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842b1f12-ffca-438b-aee9-3aea851d32d1")
-	)
-	(wire
-		(pts
 			(xy 654.05 401.32) (xy 594.36 401.32)
 		)
 		(stroke
@@ -13589,16 +13343,6 @@
 			(type default)
 		)
 		(uuid "93c9c210-189d-4988-88bc-cd85ed1dbed2")
-	)
-	(wire
-		(pts
-			(xy 646.43 232.41) (xy 646.43 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9462d001-7ea3-4ad4-a086-292b93a8e7e1")
 	)
 	(wire
 		(pts
@@ -14001,16 +13745,6 @@
 	)
 	(wire
 		(pts
-			(xy 772.795 187.325) (xy 790.575 187.325)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa5c5eb0-b9d5-4218-a77f-7ce1d02eff39")
-	)
-	(wire
-		(pts
 			(xy 173.99 67.31) (xy 173.99 130.81)
 		)
 		(stroke
@@ -14402,26 +14136,6 @@
 	)
 	(wire
 		(pts
-			(xy 646.43 233.68) (xy 657.86 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9dac760-6fd7-4c2d-9b7e-cdbe50bfd90c")
-	)
-	(wire
-		(pts
-			(xy 646.43 222.25) (xy 699.77 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba3a7bc8-1321-42a2-8ea7-bcabfaf73b57")
-	)
-	(wire
-		(pts
 			(xy 401.32 300.99) (xy 654.05 300.99)
 		)
 		(stroke
@@ -14450,16 +14164,6 @@
 			(color 0 0 155 1)
 		)
 		(uuid "bc554e6a-d0cb-45f9-a7a2-692920f8838d")
-	)
-	(wire
-		(pts
-			(xy 657.86 233.68) (xy 657.86 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce183ca-bce9-4658-8264-ca49ef91f09a")
 	)
 	(wire
 		(pts
@@ -15296,6 +15000,16 @@
 	)
 	(wire
 		(pts
+			(xy 661.67 222.25) (xy 699.77 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9dcb1f-f307-409c-ba21-f32e8db6fa96")
+	)
+	(wire
+		(pts
 			(xy 730.25 95.25) (xy 732.79 95.25)
 		)
 		(stroke
@@ -16052,16 +15766,6 @@
 	)
 	(text "<--\n"
 		(exclude_from_sim no)
-		(at 787.019 239.649 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "92cdaccc-17a3-4942-b35f-110b19df1b7c")
-	)
-	(text "<--\n"
-		(exclude_from_sim no)
 		(at 58.166 78.74 0)
 		(effects
 			(font
@@ -16069,16 +15773,6 @@
 			)
 		)
 		(uuid "94070778-411f-45f8-82aa-4aa6569f6527")
-	)
-	(text "-->\n"
-		(exclude_from_sim no)
-		(at 787.019 244.729 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "95f95696-9546-4a7a-94ab-3bcbfb5d0222")
 	)
 	(text "|-\n| \nAUX output| \n|_\n"
 		(exclude_from_sim no)
@@ -16334,17 +16028,6 @@
 		)
 		(uuid "03454c5f-68a2-43b4-ba40-f308ec581d84")
 	)
-	(label "SHUT.TSMS"
-		(at 774.065 260.985 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0376b14b-491e-4715-a0a5-b2df28d39388")
-	)
 	(label "~{BMS.FAULT}"
 		(at 762 67.31 180)
 		(fields_autoplaced yes)
@@ -16433,17 +16116,6 @@
 		)
 		(uuid "0b42396b-5cf2-493d-8086-420dd1bc672b")
 	)
-	(label "TS.ON.LED.K"
-		(at 782.955 268.605 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b5adab1-3cfc-44a9-861d-f75e54a4d0e5")
-	)
 	(label "PDM.GND"
 		(at 458.47 543.56 180)
 		(fields_autoplaced yes)
@@ -16477,17 +16149,6 @@
 		)
 		(uuid "0d31b5cf-4f2a-49aa-8eb6-d2c668af3a3b")
 	)
-	(label "R2D.BUTTON.GND"
-		(at 774.065 263.525 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d8b766f-4225-43ff-b4f9-3395a14e2d5f")
-	)
 	(label "LV_BOX.EXC"
 		(at 452.12 426.72 180)
 		(fields_autoplaced yes)
@@ -16509,17 +16170,6 @@
 			(justify right bottom)
 		)
 		(uuid "1248951d-a408-4d0b-9f59-a4ca7cacca4b")
-	)
-	(label "RTDS.GND"
-		(at 774.065 230.505 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "127de7f4-adda-4452-a43e-7f72365dbe6b")
 	)
 	(label "SPARE.EXC"
 		(at 44.45 97.79 0)
@@ -16553,17 +16203,6 @@
 			(justify right bottom)
 		)
 		(uuid "12e65fea-b917-4cbd-971e-664f3c6fd189")
-	)
-	(label "TS.READY"
-		(at 774.065 197.485 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15d4ee6e-c8fa-4172-9a8c-0892a91eac36")
 	)
 	(label "L120.ANALOGUE.VOLT.6"
 		(at 654.05 411.48 180)
@@ -16620,17 +16259,6 @@
 		)
 		(uuid "17c8b5e2-adae-4cb2-858f-20bc5fd57107")
 	)
-	(label "CAN.S.HIGH"
-		(at 774.065 238.125 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "183e063d-c1ad-4273-a150-e1a1f2393e55")
-	)
 	(label "TS.READY"
 		(at 698.5 128.27 180)
 		(fields_autoplaced yes)
@@ -16641,17 +16269,6 @@
 			(justify right bottom)
 		)
 		(uuid "19041f22-15bb-45e2-8b61-767b48d59b8e")
-	)
-	(label "TS.ON"
-		(at 774.065 215.265 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1926ba83-6268-4752-9d2e-31cc541cd791")
 	)
 	(label "TS.ON"
 		(at 762 59.69 180)
@@ -16729,17 +16346,6 @@
 			(justify right bottom)
 		)
 		(uuid "21f5f385-9e01-4185-9fd7-941261508d21")
-	)
-	(label "APPS2.SIG"
-		(at 774.065 179.705 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23a38582-453a-423e-ad52-18189c2f7090")
 	)
 	(label "ACCUMULATOR.GND"
 		(at 458.47 561.34 180)
@@ -16829,17 +16435,6 @@
 		)
 		(uuid "2c027aed-4336-4e3e-a7b2-2c8dfb640ded")
 	)
-	(label "IMD.OK"
-		(at 774.065 288.925 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c1df6c8-c55e-4444-bdd1-251bcfec44b7")
-	)
 	(label "SHUT.LATCHING"
 		(at 698.5 107.95 180)
 		(fields_autoplaced yes)
@@ -16850,17 +16445,6 @@
 			(justify right bottom)
 		)
 		(uuid "2cbcd24e-53b2-40a1-b0bd-c2d4ba6f8b13")
-	)
-	(label "TS.ON.BUTTON.GND"
-		(at 774.065 266.065 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d5ad619-decb-4b20-b540-2f51da4e6655")
 	)
 	(label "BPS.SIG"
 		(at 698.5 123.19 180)
@@ -16916,17 +16500,6 @@
 			(justify left bottom)
 		)
 		(uuid "31ee17d3-8652-4f24-a0c8-ef1efc0b30b7")
-	)
-	(label "TSAL.LED.EXC"
-		(at 774.065 202.565 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31f8bbcf-917a-4d95-9229-c1f94cdf3088")
 	)
 	(label "MOTOR.TEMP.GND"
 		(at 68.58 137.16 0)
@@ -17115,17 +16688,6 @@
 		)
 		(uuid "3f3ae3e9-3d94-4751-9585-02e7a90dfaec")
 	)
-	(label "LATCHING.RESET-"
-		(at 774.065 281.305 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fef1c1a-186c-49e2-87a0-64ad6f8da6e2")
-	)
 	(label "SPARE.GND"
 		(at 44.45 100.33 0)
 		(fields_autoplaced yes)
@@ -17136,17 +16698,6 @@
 			(justify left bottom)
 		)
 		(uuid "40f4ff10-c453-45cf-92c7-3fa9e08f3997")
-	)
-	(label "CAN.S.HIGH"
-		(at 774.065 243.205 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "434d2442-7abb-406a-8b4c-c3635425141b")
 	)
 	(label "L120.SPEED.1"
 		(at 654.05 434.34 180)
@@ -17555,17 +17106,6 @@
 		)
 		(uuid "6028b61d-9bb3-46e7-8c7b-3cc29c19042b")
 	)
-	(label "TSAL.GREEN.LED.K"
-		(at 774.065 207.645 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60c18209-fa9b-4cac-b073-4e46926b44f5")
-	)
 	(label "L120.SPEED.2"
 		(at 654.05 351.79 180)
 		(fields_autoplaced yes)
@@ -17587,17 +17127,6 @@
 			(justify left bottom)
 		)
 		(uuid "62ad9c91-b3c6-4149-b00b-73cf353f5be3")
-	)
-	(label "BMS.LED.K"
-		(at 774.065 273.685 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "636d2cfa-8ce0-4e5d-870a-143d4ab3a166")
 	)
 	(label "TS.READY"
 		(at 762 62.23 180)
@@ -17675,17 +17204,6 @@
 			(justify right bottom)
 		)
 		(uuid "6a73e479-a604-4150-9069-9cd966b2e182")
-	)
-	(label "R2D.LED.K"
-		(at 774.065 271.145 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ce3466f-f639-47d1-9fb6-d7692dff1a7b")
 	)
 	(label "LATCHING.RESET-"
 		(at 698.5 212.09 180)
@@ -17775,17 +17293,6 @@
 		)
 		(uuid "743f1367-1cfa-4228-a7b4-7be66fa2c1e0")
 	)
-	(label "TSAC.HVS.GND"
-		(at 774.065 250.825 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74537a04-c713-4734-ab4f-12783cde0600")
-	)
 	(label "TSAL.GREEN.LIGHT"
 		(at 762 69.85 180)
 		(fields_autoplaced yes)
@@ -17807,17 +17314,6 @@
 			(justify right bottom)
 		)
 		(uuid "75020b79-c190-4414-b513-0759558724e1")
-	)
-	(label "SAGL.SIG"
-		(at 774.065 194.945 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78bc3a04-7cdd-4e69-b7b1-03d25a3033a6")
 	)
 	(label "RTDS.GND"
 		(at 44.45 85.09 0)
@@ -17907,17 +17403,6 @@
 		)
 		(uuid "80e69f51-c269-483f-9f93-bf4aca2ffb84")
 	)
-	(label "DRS.BUTTON.GND"
-		(at 774.065 258.445 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81616418-05dc-4942-823c-b9e24d86403a")
-	)
 	(label "RS-232.GND"
 		(at 450.85 332.74 180)
 		(fields_autoplaced yes)
@@ -17994,17 +17479,6 @@
 			(justify right bottom)
 		)
 		(uuid "8657b521-0c21-4b0e-8151-94d420411875")
-	)
-	(label "CAN.C.HIGH"
-		(at 774.065 222.885 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "872d9275-6ab5-42d9-bc2d-1a5f1d476e84")
 	)
 	(label "FAN.GND"
 		(at 68.58 370.84 0)
@@ -18127,17 +17601,6 @@
 		)
 		(uuid "8ea23421-def1-4734-b18d-a91b78806b94")
 	)
-	(label "SHUT.LATCHING"
-		(at 774.065 177.165 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8eb78654-1366-4bc2-9f66-53511c5a32ff")
-	)
 	(label "TSAL.RESET-"
 		(at 698.5 184.15 180)
 		(fields_autoplaced yes)
@@ -18237,28 +17700,6 @@
 		)
 		(uuid "94e5a46f-8b95-4352-8cda-1e2867e9d998")
 	)
-	(label "CAN.S.LOW"
-		(at 774.065 240.665 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9551b516-51d7-4773-9a46-020abf5b11af")
-	)
-	(label "CAN.C.LOW"
-		(at 774.065 225.425 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95f0dd98-a86d-483b-bb85-2ed9652bdac8")
-	)
 	(label "PUMP2.GND"
 		(at 458.47 574.04 180)
 		(fields_autoplaced yes)
@@ -18335,17 +17776,6 @@
 			(justify right bottom)
 		)
 		(uuid "99098cb6-c8b0-407b-b6c0-d0ed36152861")
-	)
-	(label "BPS.SIG"
-		(at 774.065 192.405 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a819e91-6471-46f2-aa8c-397013048360")
 	)
 	(label "PDM.GND"
 		(at 458.47 546.1 180)
@@ -18545,17 +17975,6 @@
 		)
 		(uuid "a9ce1e18-8ca4-449f-b842-ff04063c0d88")
 	)
-	(label "APPS1.SIG"
-		(at 774.065 182.245 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aaa440a3-1038-483d-b410-b94453161307")
-	)
 	(label "SHUT.RIGHT.E-STOP"
 		(at 44.45 46.99 0)
 		(fields_autoplaced yes)
@@ -18677,17 +18096,6 @@
 		)
 		(uuid "b735fa50-cc29-4815-a71c-3bd0f52fde4a")
 	)
-	(label "TSAL.RED.LED.K"
-		(at 774.065 205.105 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b77f0456-8256-46b6-bbbc-c0ebd154790d")
-	)
 	(label "~{BMS.DISCHARGE.ENABLE}"
 		(at 698.5 214.63 180)
 		(fields_autoplaced yes)
@@ -18754,17 +18162,6 @@
 		)
 		(uuid "bb7efec9-3cd5-4a2b-bd66-38d04c81d05b")
 	)
-	(label "IMD.LED.K"
-		(at 774.065 276.225 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbfeae37-4497-46c3-b4d7-cd96e56f76a2")
-	)
 	(label "ACCU.GND"
 		(at 762 49.53 180)
 		(fields_autoplaced yes)
@@ -18786,17 +18183,6 @@
 			(justify right bottom)
 		)
 		(uuid "be1cf528-2d89-49a1-80fa-a367952c17c3")
-	)
-	(label "BATT-"
-		(at 774.065 294.005 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be5f515c-d697-4636-9490-daf174d2b63b")
 	)
 	(label "CAN.S.LOW"
 		(at 698.5 176.53 180)
@@ -18952,17 +18338,6 @@
 		)
 		(uuid "c89a13ad-239d-45ee-ae6e-be7d748d886e")
 	)
-	(label "TSAL.GREEN.LIGHT"
-		(at 774.065 212.725 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca1dd5a3-9e2b-4bdf-b433-03fd0c847796")
-	)
 	(label "CAN.S.LOW"
 		(at 450.85 320.04 180)
 		(fields_autoplaced yes)
@@ -18995,17 +18370,6 @@
 			(justify right bottom)
 		)
 		(uuid "cd55e04e-4a17-42c1-bc52-1bc9c563a66f")
-	)
-	(label "CAN.S.LOW"
-		(at 774.065 245.745 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf500697-21cf-44fe-93f6-653a50df759d")
 	)
 	(label "CANNODE.HVS.SIG"
 		(at 699.77 262.89 180)
@@ -19050,17 +18414,6 @@
 			(justify right bottom)
 		)
 		(uuid "d2e9d1ef-871f-47f7-b4a8-6d1692bed134")
-	)
-	(label "TSAC.HVS.EXC"
-		(at 774.065 248.285 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d39aab0e-2ae3-4479-aa4c-e9121efddd06")
 	)
 	(label "TSAL.RESET+"
 		(at 462.28 241.3 180)
@@ -19150,28 +18503,6 @@
 		)
 		(uuid "ddf255c1-88f6-4369-9f2d-9899af1fa5ec")
 	)
-	(label "~{BMS.DISCHARGE.ENABLE}"
-		(at 774.065 283.845 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de003984-5f93-416f-bd8d-2315fde0d47f")
-	)
-	(label "TS.DETECTED.DASH.SPLICE"
-		(at 774.065 217.805 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df286990-8631-4a66-937c-2bb621260cee")
-	)
 	(label "IMD.LED.K"
 		(at 698.5 207.01 180)
 		(fields_autoplaced yes)
@@ -19204,17 +18535,6 @@
 			(justify left bottom)
 		)
 		(uuid "e002cc6d-2bb0-46ac-9436-666b72ab58fe")
-	)
-	(label "TSAL.RESET+"
-		(at 774.065 255.905 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0ab1ad5-96b1-406a-b76c-389ec8074631")
 	)
 	(label "TSAL.RESET+"
 		(at 698.5 186.69 180)
@@ -19281,17 +18601,6 @@
 			(justify right bottom)
 		)
 		(uuid "e422b810-6f10-479d-9974-1925afcb3db8")
-	)
-	(label "BATT+"
-		(at 774.065 291.465 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e45c0f7c-1a78-4823-a924-98fe21b0948a")
 	)
 	(label "BPS.REAR.SIG"
 		(at 652.78 303.53 180)
@@ -19414,17 +18723,6 @@
 		)
 		(uuid "ea231651-bfc9-4738-9ee3-967fa3d2b7c6")
 	)
-	(label "RTDS.EXC"
-		(at 774.065 227.965 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb16b8e4-b768-4f51-ae1b-d221e7412e6b")
-	)
 	(label "SPARE.EXC"
 		(at 654.05 419.1 180)
 		(fields_autoplaced yes)
@@ -19435,17 +18733,6 @@
 			(justify right bottom)
 		)
 		(uuid "eb4b3d9c-f113-4c4a-b631-08d832dcb8e1")
-	)
-	(label "TSAL.GREEN.DASH.LED.K"
-		(at 774.065 200.025 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec309e31-52bf-4afa-9a0f-3a980dbbe99d")
 	)
 	(label "TS.ON.LED.K"
 		(at 698.5 199.39 180)
@@ -19490,17 +18777,6 @@
 			(justify right bottom)
 		)
 		(uuid "f48f4439-3291-4b1d-884e-4ca708df3ed7")
-	)
-	(label "TSAL.RESET-"
-		(at 774.065 253.365 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4b5ffc4-3f8c-4748-8964-02fd4e086458")
 	)
 	(label "CAN.CHARGER.LOW"
 		(at 762 125.73 180)
@@ -19568,17 +18844,6 @@
 		)
 		(uuid "f9c313af-06aa-46ad-98cf-0212a52d5915")
 	)
-	(label "LATCHING.RESET+"
-		(at 774.065 278.765 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb8fe55c-60d0-4907-a0ef-c9da06cff73b")
-	)
 	(label "ACCU.EXC"
 		(at 762 46.99 180)
 		(fields_autoplaced yes)
@@ -19600,17 +18865,6 @@
 			(justify right bottom)
 		)
 		(uuid "fd8ddb46-a72e-41ae-be5b-1e055ef26c6a")
-	)
-	(label "BMS.FAULT"
-		(at 774.065 286.385 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe637e72-83b5-41fb-b213-6e8e69907554")
 	)
 	(label "L120.ANALOGUE.TEMP.1"
 		(at 654.05 429.26 180)
@@ -19706,6 +18960,18 @@
 		)
 		(uuid "5954720b-5c26-4c62-ab95-497cec990484")
 	)
+	(hierarchical_label "BATT+"
+		(shape input)
+		(at 661.67 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61cfe4af-c292-4485-80ff-741537290278")
+	)
 	(hierarchical_label "BRAKE LIGHT"
 		(shape bidirectional)
 		(at 64.77 379.73 180)
@@ -19777,6 +19043,18 @@
 			(justify left)
 		)
 		(uuid "7bbbb54b-065a-40a5-b0aa-1ba0800378af")
+	)
+	(hierarchical_label "BATT-"
+		(shape input)
+		(at 661.67 224.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e801534-c916-4235-9e5a-ef65f41cbabd")
 	)
 	(hierarchical_label "PDM A"
 		(shape bidirectional)
@@ -20566,229 +19844,6 @@
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/bafd9cf7-e770-4582-bce0-db34b2753411"
 					(reference "CONN34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connectors_SUFST:AMPHENOL-47P-Recepticle")
-		(at 772.16 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e06dc45-e6ca-4ff0-9297-e42b2fbc7b90")
-		(property "Reference" "Conn72"
-			(at 768.985 234.3157 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AMPHENOL-47P-Recepticle"
-			(at 772.16 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 772.16 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 772.16 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 772.16 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "AHDP06-24-47SR-SRA"
-			(at 768.985 236.8557 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Name" ""
-			(at 772.16 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "18"
-			(uuid "f5a6a631-7b31-47da-a49b-041e8cb1bb93")
-		)
-		(pin "26"
-			(uuid "c949ae35-bff1-40f1-abbf-d7d2c0367708")
-		)
-		(pin "2"
-			(uuid "f400e195-8429-43da-9351-20c2afc07055")
-		)
-		(pin "41"
-			(uuid "6ffd5bc9-ab23-40db-96eb-de56087c1db0")
-		)
-		(pin "29"
-			(uuid "0bf68d41-e80b-46b7-a9f8-ec517bb5741b")
-		)
-		(pin "34"
-			(uuid "78d7f24a-0261-4410-be79-8f26fd800419")
-		)
-		(pin "5"
-			(uuid "77b07db2-e89d-42f1-9355-542bd385d7b8")
-		)
-		(pin "44"
-			(uuid "2ff304c7-988d-450a-9b99-365438683899")
-		)
-		(pin "33"
-			(uuid "9742a2cb-f06c-4d74-b8de-ff9ea6c0e563")
-		)
-		(pin "23"
-			(uuid "de9e375a-970b-41d5-b275-ebee82ac578b")
-		)
-		(pin "16"
-			(uuid "f42a9e74-d18e-4b60-8c56-a6f1d75a01a7")
-		)
-		(pin "47"
-			(uuid "2567beac-0c72-416f-be3a-6f14e8c2cc8b")
-		)
-		(pin "27"
-			(uuid "2c355f3c-97f0-4729-8e11-8a1aa3e78d66")
-		)
-		(pin "15"
-			(uuid "f8b158e2-6555-4821-8c8c-11a82ba6a196")
-		)
-		(pin "25"
-			(uuid "878eab03-f05a-4f4c-bb68-004d906befec")
-		)
-		(pin "13"
-			(uuid "022d86db-2c12-42af-aa67-c7f7ef19cc6e")
-		)
-		(pin "14"
-			(uuid "bdb44a07-8e4c-4b39-aefe-2c12000b3e5a")
-		)
-		(pin "38"
-			(uuid "3e2a7db2-91f0-4ec6-aa1a-5911e2eca205")
-		)
-		(pin "37"
-			(uuid "fff49c53-ae74-4281-8747-fc1d6d807b96")
-		)
-		(pin "30"
-			(uuid "09989711-12bf-4fe5-b07e-65552e813817")
-		)
-		(pin "40"
-			(uuid "0d7d722b-eb49-4861-a2f6-61fa03e25c88")
-		)
-		(pin "4"
-			(uuid "5e69ed63-f52a-4980-890d-7902eba05e93")
-		)
-		(pin "45"
-			(uuid "ed1e1f26-9073-49d7-94b5-e21c54fec49c")
-		)
-		(pin "24"
-			(uuid "c0ef284f-5fbf-4ace-910d-706ce9ec1c9b")
-		)
-		(pin "11"
-			(uuid "2c734017-0dd8-4134-89eb-443e607ff145")
-		)
-		(pin "17"
-			(uuid "d8f01036-56ec-42f2-905b-af60c3d88003")
-		)
-		(pin "36"
-			(uuid "3df05f03-14d6-4474-85d0-2ae06d66ae92")
-		)
-		(pin "42"
-			(uuid "7555fd52-23e5-4c00-99de-bb4838f6fc64")
-		)
-		(pin "46"
-			(uuid "15fa7c08-ca44-4397-9664-23dabd89352a")
-		)
-		(pin "35"
-			(uuid "910c3727-be72-418f-8aae-0fb6649c82a1")
-		)
-		(pin "32"
-			(uuid "6e0211c1-5e8c-4256-82a5-9bdcbb625033")
-		)
-		(pin "8"
-			(uuid "8bda9067-2ed5-4f7d-9fdd-227f3da54d04")
-		)
-		(pin "39"
-			(uuid "f899e0a4-7d6e-4251-97f3-058657d8f019")
-		)
-		(pin "28"
-			(uuid "56195b06-6bbf-4984-ab78-386d9687a994")
-		)
-		(pin "9"
-			(uuid "d5ca870a-8dee-4678-8732-c6adfcc4473c")
-		)
-		(pin "22"
-			(uuid "222d7964-44b3-4ec2-ad43-7d629654fafb")
-		)
-		(pin "21"
-			(uuid "aa059666-17b9-41a0-82bc-593a82d7c52f")
-		)
-		(pin "12"
-			(uuid "d7190a38-0df6-4d76-b3dc-8cd8f31245f6")
-		)
-		(pin "43"
-			(uuid "8057a16e-17a3-4555-87dd-02094f6a0750")
-		)
-		(pin "31"
-			(uuid "33b1116f-9ba7-4b39-aef9-0a9ac81fee7c")
-		)
-		(pin "19"
-			(uuid "4417e90d-e219-45e8-86b6-39731d8d81aa")
-		)
-		(pin "20"
-			(uuid "79e0f027-1917-4392-b539-611b91dd969c")
-		)
-		(pin "3"
-			(uuid "c9c5bf7d-bce4-43da-b246-acfcc0345e31")
-		)
-		(pin "1"
-			(uuid "58841164-b90b-4e78-993b-94c6d5c89ca3")
-		)
-		(pin "6"
-			(uuid "d3332209-c2b9-4874-9c8f-da91d0b88fb3")
-		)
-		(pin "7"
-			(uuid "26aac5c3-37ad-4f3c-9d85-f03d68c6c50d")
-		)
-		(pin "10"
-			(uuid "e7ffa53b-f103-4d0d-9299-bdec620a4406")
-		)
-		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/bafd9cf7-e770-4582-bce0-db34b2753411"
-					(reference "Conn72")
 					(unit 1)
 				)
 			)
@@ -23315,76 +22370,6 @@
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/bafd9cf7-e770-4582-bce0-db34b2753411"
 					(reference "Conn30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery")
-		(at 646.43 227.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f549dd90-6694-4abe-818f-2b4dbe6d79c8")
-		(property "Reference" "BT2"
-			(at 650.24 225.4884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery"
-			(at 650.24 228.0284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 646.43 225.806 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 646.43 225.806 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multiple-cell battery"
-			(at 646.43 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "92a19ef4-42e7-4e28-8e25-ad5fbc38a7cf")
-		)
-		(pin "1"
-			(uuid "a111906f-14ca-48a5-8828-e0d3119889e9")
-		)
-		(instances
-			(project ""
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/bafd9cf7-e770-4582-bce0-db34b2753411"
-					(reference "BT2")
 					(unit 1)
 				)
 			)
