@@ -7275,6 +7275,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -8054,12 +8175,6 @@
 		(uuid "9e9c6361-e708-4488-a2ef-185419f4e305")
 	)
 	(junction
-		(at 448.31 203.2)
-		(diameter 0)
-		(color 255 100 28 1)
-		(uuid "a80dc38c-be23-4515-8499-6ffa9bbf4127")
-	)
-	(junction
 		(at 138.43 373.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8082,6 +8197,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb5bc2f7-e476-41fe-be68-4902cb7837ba")
+	)
+	(junction
+		(at 448.31 203.2)
+		(diameter 0)
+		(color 255 100 28 1)
+		(uuid "bca442e6-6c65-4635-b74d-61969aa5cbbd")
 	)
 	(junction
 		(at 138.43 223.52)
@@ -8411,6 +8532,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "07381958-84f5-4e14-bc6d-1f2b0fe6b70c")
 	)
@@ -8626,6 +8748,17 @@
 			(type default)
 		)
 		(uuid "233e8e97-7bd9-464d-8882-04a5e77f4dea")
+	)
+	(wire
+		(pts
+			(xy 461.01 203.2) (xy 471.17 203.2)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "239c4624-bdf6-45da-be50-43c485ff1fa9")
 	)
 	(wire
 		(pts
@@ -8992,6 +9125,17 @@
 	)
 	(wire
 		(pts
+			(xy 448.31 203.2) (xy 453.39 203.2)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "506ad55f-58eb-488a-b4e0-cf458641721c")
+	)
+	(wire
+		(pts
 			(xy 397.51 332.74) (xy 511.81 332.74)
 		)
 		(stroke
@@ -9119,6 +9263,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "5c91e454-2e34-4848-86e9-1e5145e330d8")
 	)
@@ -9819,6 +9964,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "979e0de6-d9ba-47e7-a9cd-9c3e82e36bf6")
 	)
@@ -9993,6 +10139,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "a258c2ce-ff12-41c5-a0c6-d492bbc1469d")
 	)
@@ -10158,6 +10305,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "ad1da5d0-92c7-47a8-a02f-edc71d810ca6")
 	)
@@ -10485,17 +10633,6 @@
 			(type default)
 		)
 		(uuid "c7267abc-376c-4267-a8ba-8ed79e9e820f")
-	)
-	(wire
-		(pts
-			(xy 448.31 203.2) (xy 471.17 203.2)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "c7dce5e8-3258-406d-ac7c-a78dc2ccdf64")
 	)
 	(wire
 		(pts
@@ -10929,6 +11066,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "ecf5e037-8d6e-40c4-9ad1-6f75f90f64a1")
 	)
@@ -11482,6 +11620,16 @@
 		)
 		(uuid "258bfb80-cb14-4274-8dba-44023422f4b6")
 	)
+	(text "Precharge Resistor\n"
+		(exclude_from_sim no)
+		(at 457.2 197.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "391565a7-9b8a-4b67-839c-1e84bd61d30c")
+	)
 	(text "ISOLATOR BOARD\n"
 		(exclude_from_sim no)
 		(at 322.834 201.93 0)
@@ -11667,7 +11815,7 @@
 	)
 	(text "Splice to BMS (Stub)\n"
 		(exclude_from_sim no)
-		(at 101.854 82.55 0)
+		(at 115.062 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16012,6 +16160,80 @@
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/d0591f78-2a6a-49ef-980c-e27ab4140297"
 					(reference "Conn?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 457.2 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c629299f-5d83-4f57-b897-afbb8fc5627b")
+		(property "Reference" "R8"
+			(at 457.2 199.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "390"
+			(at 457.2 200.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HSA50390RJ"
+			(at 456.946 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 457.2 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 457.2 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Conn Name" ""
+			(at 457.2 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4f1bce6c-3fc9-4940-ad97-a4e46a02e965")
+		)
+		(pin "1"
+			(uuid "7b1dcd88-a897-4906-96e6-51d55379e5cf")
+		)
+		(instances
+			(project ""
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/d0591f78-2a6a-49ef-980c-e27ab4140297"
+					(reference "R8")
 					(unit 1)
 				)
 			)
