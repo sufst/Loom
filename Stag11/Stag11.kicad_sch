@@ -394,6 +394,26 @@
 		)
 		(uuid "0103e3d2-217c-4237-97e3-526f35e580a1")
 	)
+	(wire
+		(pts
+			(xy 146.05 189.23) (xy 156.21 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e9c738-7164-4277-9afe-6f92afc4cc57")
+	)
+	(wire
+		(pts
+			(xy 151.13 256.54) (xy 146.05 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11640300-4e41-4afc-88c8-cd7a188409a8")
+	)
 	(bus
 		(pts
 			(xy 339.09 170.18) (xy 342.9 170.18)
@@ -425,6 +445,16 @@
 		)
 		(uuid "15b2c651-c1c9-4082-a81e-7ad4ec103c03")
 	)
+	(wire
+		(pts
+			(xy 146.05 137.16) (xy 156.21 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c976d53-460e-4814-aa21-6228c84027c5")
+	)
 	(bus
 		(pts
 			(xy 293.37 71.12) (xy 309.88 71.12)
@@ -455,6 +485,16 @@
 			(type default)
 		)
 		(uuid "21559e5c-d1b9-4860-89f9-1ef21c96060f")
+	)
+	(wire
+		(pts
+			(xy 146.05 104.14) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2396fbff-487c-429d-abda-4b9c7a368e8e")
 	)
 	(wire
 		(pts
@@ -490,6 +530,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 143.51) (xy 153.67 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fda5534-0528-4cc2-afbe-74991df9fb56")
+	)
+	(wire
+		(pts
 			(xy 57.15 127) (xy 60.96 127)
 		)
 		(stroke
@@ -508,6 +558,26 @@
 			(type default)
 		)
 		(uuid "354c915e-74f0-435d-b349-39a0cdddacd8")
+	)
+	(wire
+		(pts
+			(xy 156.21 143.51) (xy 153.67 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36cb76a2-cd9a-4edb-a125-0de097ecc505")
+	)
+	(wire
+		(pts
+			(xy 146.05 82.55) (xy 163.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd0055b-49e7-4f77-8d0d-790509786aa3")
 	)
 	(bus
 		(pts
@@ -528,6 +598,16 @@
 			(type default)
 		)
 		(uuid "48f03f7f-9321-414b-9410-f5720a492381")
+	)
+	(wire
+		(pts
+			(xy 151.13 146.05) (xy 151.13 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50587e63-b8b3-4363-91ff-86b10e49228a")
 	)
 	(bus
 		(pts
@@ -672,6 +752,16 @@
 		)
 		(uuid "8371d170-3819-46a8-ab3d-0b6a8c32a0b1")
 	)
+	(wire
+		(pts
+			(xy 146.05 101.6) (xy 163.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837760f9-dd1b-4b0b-ab6e-0afa0f2db499")
+	)
 	(bus
 		(pts
 			(xy 227.33 215.9) (xy 227.33 203.2)
@@ -695,16 +785,6 @@
 	)
 	(bus
 		(pts
-			(xy 316.23 227.33) (xy 336.55 227.33)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "8dc0e626-743f-4836-944f-e696bd7b318c")
-	)
-	(bus
-		(pts
 			(xy 339.09 132.08) (xy 342.9 132.08)
 		)
 		(stroke
@@ -712,6 +792,16 @@
 			(type default)
 		)
 		(uuid "9374f009-e2ca-4882-984e-7d6e6c80b75f")
+	)
+	(wire
+		(pts
+			(xy 176.53 171.45) (xy 176.53 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955ed457-ef6f-4a79-8283-dd494f55e0f6")
 	)
 	(wire
 		(pts
@@ -820,26 +910,6 @@
 	)
 	(bus
 		(pts
-			(xy 293.37 203.2) (xy 316.23 203.2)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "b4be5df9-19c7-4992-9395-951d93f2ca12")
-	)
-	(bus
-		(pts
-			(xy 316.23 203.2) (xy 316.23 227.33)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "b9fa11d0-3785-4c49-9918-a548ab0eed60")
-	)
-	(bus
-		(pts
 			(xy 223.52 228.6) (xy 223.52 198.12)
 		)
 		(stroke
@@ -847,6 +917,16 @@
 			(type default)
 		)
 		(uuid "cae67195-b21a-4e64-a885-febde988d9ca")
+	)
+	(wire
+		(pts
+			(xy 146.05 260.35) (xy 153.67 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca1df2f-1049-4c7d-a322-29773b57b622")
 	)
 	(wire
 		(pts
@@ -879,6 +959,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "d04525db-ca93-4d84-9b85-24baad2fa179")
+	)
+	(wire
+		(pts
+			(xy 156.21 146.05) (xy 151.13 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9991a06-479f-4fa5-a272-790207fc6e5f")
 	)
 	(wire
 		(pts
@@ -934,6 +1024,16 @@
 			(color 132 132 132 0.15)
 		)
 		(uuid 88b234cb-ec9c-4973-9bdc-8446ab18b581)
+	)
+	(text "HVD\n"
+		(exclude_from_sim no)
+		(at 99.822 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0dfd4180-5dc1-4840-a50c-bb91a3305719")
 	)
 	(text "Colour Coding\n"
 		(exclude_from_sim no)
@@ -1366,8 +1466,8 @@
 		)
 	)
 	(sheet
-		(at 267.97 31.75)
-		(size 25.4 21.59)
+		(at 233.68 57.15)
+		(size 59.69 147.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1378,7 +1478,7 @@
 		)
 		(uuid "34445109-87e7-4ae7-9ba1-1b3d5ce210b6")
 		(property "Sheetname" "LOOM - FRONT"
-			(at 267.97 31.0384 0)
+			(at 233.68 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,13 +1487,93 @@
 			)
 		)
 		(property "Sheetfile" "loom-front-new.kicad_sch"
-			(at 267.97 53.9246 0)
+			(at 233.68 205.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "DASHBOARD" bidirectional
+			(at 233.68 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b3b6824-e25b-4d0e-83bf-a38982b34920")
+		)
+		(pin "FIREWALL" bidirectional
+			(at 233.68 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5992ac39-d8ca-46eb-8c3c-285a06721320")
+		)
+		(pin "PEDAL BOX I{slash}O" bidirectional
+			(at 293.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87fdc2b9-de30-44f8-8dbe-9408afe95903")
+		)
+		(pin "SAGL" input
+			(at 233.68 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0764bfd0-9b94-4ff1-bb37-c7c22df0b4a2")
+		)
+		(pin "ROLL HOOP SHUTDOWN" bidirectional
+			(at 293.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0212157-8ab7-44d4-90d5-98de2b444642")
+		)
+		(pin "ROLL HOOP TSAL" bidirectional
+			(at 293.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "19f78899-32f1-4bf8-9132-c2ca841fa69a")
+		)
+		(pin "COCKPIT E-STOP" bidirectional
+			(at 233.68 198.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "369996c0-3374-4c0c-ba6f-285496476302")
+		)
+		(pin "INERTIA SW" bidirectional
+			(at 233.68 203.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f4a3e650-ea9d-4005-a7b1-6e0616a8eeb1")
 		)
 		(instances
 			(project "Stag11"
@@ -1765,22 +1945,22 @@
 			(uuid "150b9c22-d959-44f1-b2c1-9282acbf319c")
 		)
 		(pin "TSMP HV-" input
-			(at 146.05 41.91 0)
+			(at 140.97 44.45 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "4a638006-1b51-4277-ac9c-de4bb2f6fe87")
 		)
 		(pin "TSMP HV+" input
-			(at 146.05 38.1 0)
+			(at 138.43 44.45 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "bd36f9b0-b862-4774-8f2f-f20b61fd9dd6")
 		)
@@ -1863,8 +2043,8 @@
 		)
 	)
 	(sheet
-		(at 161.29 152.4)
-		(size 20.32 10.16)
+		(at 156.21 176.53)
+		(size 26.67 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1875,7 +2055,7 @@
 		)
 		(uuid "8b0beb0f-c453-4b15-89f4-ecc97c450520")
 		(property "Sheetname" "LOOM - LV BOX"
-			(at 161.29 151.6884 0)
+			(at 156.21 175.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,13 +2064,33 @@
 			)
 		)
 		(property "Sheetfile" "LOOM - LV BOX.kicad_sch"
-			(at 161.29 163.1446 0)
+			(at 156.21 210.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "Main LV connector" input
+			(at 156.21 189.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "13021998-1891-40e5-b7cd-2b71967a8bb0")
+		)
+		(pin "LV - HV Connector" input
+			(at 176.53 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fdaf7926-f2a9-4f55-a9ef-e4fecbdf57f7")
 		)
 		(instances
 			(project "Stag11"
@@ -1901,8 +2101,8 @@
 		)
 	)
 	(sheet
-		(at 162.56 133.35)
-		(size 20.32 11.43)
+		(at 156.21 133.35)
+		(size 26.67 38.1)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1913,7 +2113,7 @@
 		)
 		(uuid "8c8ba23c-c17e-4aa5-bc73-bc09925b49ea")
 		(property "Sheetname" "LOOM - HV BOX"
-			(at 162.56 132.6384 0)
+			(at 156.21 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,13 +2122,103 @@
 			)
 		)
 		(property "Sheetfile" "LOOM - HV BOX.kicad_sch"
-			(at 162.56 145.3646 0)
+			(at 156.21 172.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "TSMP.HV-" bidirectional
+			(at 156.21 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "577b927d-1460-4261-8040-23014d79c825")
+		)
+		(pin "TSMP.HV+" bidirectional
+			(at 156.21 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0e1666e-45c8-4ba2-a644-7ffe46e4f6a2")
+		)
+		(pin "LV - HV Connector" input
+			(at 176.53 171.45 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc4876d8-2c9e-4b4a-86eb-68d456f080c3")
+		)
+		(pin "HV Connector" input
+			(at 156.21 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e73ceab-1be3-4923-ad50-70a89569436b")
+		)
+		(pin "HV4" bidirectional
+			(at 182.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2bd94ab4-ef14-4a1f-8c00-db3c73aa5d0c")
+		)
+		(pin "HV1" bidirectional
+			(at 156.21 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cc65a3a6-dc74-4532-8429-32a948212ce4")
+		)
+		(pin "HV2" bidirectional
+			(at 182.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f96168b5-d707-40ee-9674-4365460034a7")
+		)
+		(pin "HV3" bidirectional
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9fe59bf-1480-4f18-9f0b-a5596641210e")
+		)
+		(pin "BSPD CT" bidirectional
+			(at 156.21 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "95229f3b-b062-4d2a-94a9-81b2711ab351")
 		)
 		(instances
 			(project "Stag11"
@@ -2407,6 +2697,206 @@
 				(justify left top)
 			)
 		)
+		(pin "UMBILICAL" bidirectional
+			(at 133.35 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e2ab4f1-20cb-41cb-a45e-dc0bd1146371")
+		)
+		(pin "HV IN" input
+			(at 102.87 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39a63543-8775-4c98-901d-d632b10ad4c5")
+		)
+		(pin "HV OUT" input
+			(at 102.87 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39e470aa-4dc7-455e-92e8-4621881c7c89")
+		)
+		(pin "GND BOX" bidirectional
+			(at 146.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "95dd5ab1-0926-4a98-bf9f-b11aabfd3603")
+		)
+		(pin "SIDEPANEL - RHS" input
+			(at 132.08 219.71 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d238647-14d6-4a14-8068-7da5ef3005c6")
+		)
+		(pin "PDM A" bidirectional
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ebcad40a-f6ed-48c4-91fa-fa88cee2bf85")
+		)
+		(pin "PDM B" bidirectional
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99be7180-0fd3-4a87-92e4-77b81263bcec")
+		)
+		(pin "Main LV connector" input
+			(at 146.05 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b0f919b-47a6-446a-ad70-78d941316362")
+		)
+		(pin "HV Connector" input
+			(at 146.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4604655-0751-4304-b273-fa96dfcd1d75")
+		)
+		(pin "ACCUMULATOR" bidirectional
+			(at 146.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1ca744ea-57ae-4a9f-978c-5f47ad8efa85")
+		)
+		(pin "FIREWALL" bidirectional
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "81cfa46b-102e-4af4-9505-adce5109e6da")
+		)
+		(pin "INVERTER J2" bidirectional
+			(at 102.87 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4de18759-13e5-4d66-a859-a1bec4e82bfb")
+		)
+		(pin "INVERTER J1" bidirectional
+			(at 102.87 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4b4283f6-ea65-4e88-893e-c992ade9ac39")
+		)
+		(pin "MOTOR RESOLVER" bidirectional
+			(at 102.87 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3de87b57-5bdf-4c60-9c3c-a37e0d86905e")
+		)
+		(pin "INVERTER CASING" bidirectional
+			(at 102.87 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3fa0c349-16eb-4bab-99c0-8c42bda90e25")
+		)
+		(pin "MOTOR TEMP" bidirectional
+			(at 102.87 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a2fbf879-4a61-444f-8638-ed17a5504211")
+		)
+		(pin "FAN" bidirectional
+			(at 102.87 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b02027e7-b56c-45cd-958a-a371887396e7")
+		)
+		(pin "PUMP 1" bidirectional
+			(at 102.87 173.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4e399de-03af-4f11-a2a3-8e93f694e29c")
+		)
+		(pin "BRAKE LIGHT" bidirectional
+			(at 102.87 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4e655ff-a22b-405a-9813-b01936c19ea8")
+		)
+		(pin "PUMP 2" bidirectional
+			(at 102.87 185.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "84d1a612-ddd1-4b33-843d-6edd2a147635")
+		)
 		(instances
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
@@ -2416,7 +2906,7 @@
 		)
 	)
 	(sheet
-		(at 345.44 222.25)
+		(at 307.34 228.6)
 		(size 50.8 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -2429,7 +2919,7 @@
 		)
 		(uuid "c24e4324-79c1-4828-a7be-e83d495a6b6b")
 		(property "Sheetname" "LOOM - CHARGING CART"
-			(at 345.44 221.5384 0)
+			(at 307.34 227.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +2928,7 @@
 			)
 		)
 		(property "Sheetfile" "loom-charging-cart.kicad_sch"
-			(at 345.44 245.6946 0)
+			(at 307.34 252.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,115 +3110,6 @@
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "98")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 160.02 173.99)
-		(size 26.67 19.05)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d6c4d0b2-7597-4dc2-a4f2-169edab364d0")
-		(property "Sheetname" "LOOM - REAR BOX"
-			(at 160.02 173.2784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "loom-rear-box.kicad_sch"
-			(at 160.02 193.6246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "HV3" bidirectional
-			(at 186.69 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a6635820-cb69-4bb9-a08f-705348030fa9")
-		)
-		(pin "HV4" bidirectional
-			(at 186.69 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ef99c220-cd24-41cb-9b30-199e357ecc9e")
-		)
-		(pin "HV1" bidirectional
-			(at 186.69 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "87c7ae18-a162-4e2a-a032-424f2242814c")
-		)
-		(pin "HV2" bidirectional
-			(at 186.69 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9e316199-67ef-432d-a932-78a99ee9a1cd")
-		)
-		(pin "TSMP.HV+" bidirectional
-			(at 160.02 187.96 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8124c043-8fa5-4bf8-b239-45d2edb89a10")
-		)
-		(pin "TSMP.HV-" bidirectional
-			(at 160.02 190.5 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0806523f-d9bd-47c0-9136-ea220da7d333")
-		)
-		(pin "REAR BOX I{slash}O" bidirectional
-			(at 186.69 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "56ac3ad0-ceef-4027-9c2d-0945c598d992")
-		)
-		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
-					(page "8")
 				)
 			)
 		)

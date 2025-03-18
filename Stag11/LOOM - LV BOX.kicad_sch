@@ -1485,6 +1485,187 @@
 				)
 			)
 		)
+		(symbol "Connectors_SUFST:Current Sensor Connector"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Conn"
+				(at -0.635 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Current Sensor Connector"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "TYCO 1-1456426-5"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Current Sensor Connector_0_1"
+				(arc
+					(start -2.5368 -7.6207)
+					(mid -1.9833 -6.9863)
+					(end -2.5355 -6.3507)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.5368 -2.5407)
+					(mid -1.9833 -1.9063)
+					(end -2.5355 -1.2707)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4524 -10.1601)
+					(mid -1.8989 -9.5257)
+					(end -2.4511 -8.8901)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4524 -5.0801)
+					(mid -1.8989 -4.4457)
+					(end -2.4511 -3.8101)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Current Sensor Connector_1_1"
+				(pin input line
+					(at 0.635 -9.525 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -6.985 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -4.445 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -1.905 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connectors_SUFST:Deutsch_DTM_6S_Pin"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4301,6 +4482,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 96.52) (xy 487.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8c1476-0a9d-42a9-94fa-2de898fc267c")
+	)
+	(wire
+		(pts
 			(xy 88.9 96.52) (xy 55.88 96.52)
 		)
 		(stroke
@@ -4354,6 +4545,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 91.44) (xy 370.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262e1bec-fa2d-4488-9671-cc73c94b22be")
+	)
+	(wire
+		(pts
 			(xy 55.88 285.75) (xy 81.28 285.75)
 		)
 		(stroke
@@ -4361,6 +4562,26 @@
 			(type default)
 		)
 		(uuid "279c3d11-9951-41fb-83cd-af26ccf5f11f")
+	)
+	(wire
+		(pts
+			(xy 485.14 88.9) (xy 485.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27bd0c2a-cd25-4e51-9156-b193fcb4fdcd")
+	)
+	(wire
+		(pts
+			(xy 487.68 96.52) (xy 487.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29468d77-4ba0-4cde-aa78-96801f09137a")
 	)
 	(wire
 		(pts
@@ -4537,6 +4758,26 @@
 			(type default)
 		)
 		(uuid "3af3447a-140a-4862-8cbe-8828cc36e88f")
+	)
+	(wire
+		(pts
+			(xy 55.88 88.9) (xy 485.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b39102f-20ce-433a-8baa-d5adee6121a9")
+	)
+	(wire
+		(pts
+			(xy 370.84 91.44) (xy 370.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de43f59-ef8c-4232-a002-9a045073f4bd")
 	)
 	(wire
 		(pts
@@ -5414,6 +5655,16 @@
 	)
 	(wire
 		(pts
+			(xy 487.68 88.9) (xy 504.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45db5bc-27a6-4b60-9992-001ec8dbec05")
+	)
+	(wire
+		(pts
 			(xy 530.86 307.34) (xy 181.61 307.34)
 		)
 		(stroke
@@ -5676,6 +5927,16 @@
 			(type default)
 		)
 		(uuid "e43a3533-b752-4ad4-8b93-e925b414c58a")
+	)
+	(wire
+		(pts
+			(xy 485.14 86.36) (xy 504.19 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5177e42-3311-4f67-90c5-64687674fb62")
 	)
 	(wire
 		(pts
@@ -6396,17 +6657,6 @@
 		)
 		(uuid "1429c061-03a4-4062-834d-011308298a5d")
 	)
-	(label "SHUT.TSMS"
-		(at 57.15 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1442cae3-68a4-4f1f-b595-4972a0ad5f57")
-	)
 	(label "PWR_SPLICE.EXC"
 		(at 57.15 40.64 0)
 		(fields_autoplaced yes)
@@ -6461,6 +6711,17 @@
 			(justify left bottom)
 		)
 		(uuid "1b3cbcac-7ce7-4355-bb25-a7d7140ca1bd")
+	)
+	(label "VCU.UART.TX"
+		(at 504.19 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d28935a-9f28-4b04-b09c-cb9895d526e4")
 	)
 	(label "TS.ON"
 		(at 57.15 71.12 0)
@@ -6704,6 +6965,17 @@
 		)
 		(uuid "4a047615-170c-4507-905c-bfcfd4fedbf8")
 	)
+	(label "VCU.UART.RX"
+		(at 504.19 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b07dbdc-eaae-4746-b231-4d6e210d41ce")
+	)
 	(label "SPARE.GND"
 		(at 525.78 81.28 180)
 		(fields_autoplaced yes)
@@ -6714,6 +6986,17 @@
 			(justify right bottom)
 		)
 		(uuid "4c0dfcc1-2f27-4d6a-8c07-ef8229cc150c")
+	)
+	(label "VCU.UART.TX"
+		(at 57.15 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d54b5d7-2564-4831-805d-1011b7d7f985")
 	)
 	(label "LATCHING.GND"
 		(at 530.86 358.14 180)
@@ -6835,17 +7118,6 @@
 			(justify right bottom)
 		)
 		(uuid "6216fe71-d32e-422b-8502-ae5b9273b9b0")
-	)
-	(label "SHUT.TSMS"
-		(at 530.86 363.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "623ffe71-2b19-4655-8498-ec4fd03b8da3")
 	)
 	(label "SPARE.EXC"
 		(at 525.78 76.2 180)
@@ -7408,6 +7680,17 @@
 		)
 		(uuid "af423b42-6483-445a-91ae-35e96a8b6836")
 	)
+	(label "SHUT.HVD.INTERLOCK"
+		(at 57.15 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b186cfe5-f337-414b-b0e3-047f3e774daf")
+	)
 	(label "LATCHING.RESET-"
 		(at 57.15 137.16 0)
 		(fields_autoplaced yes)
@@ -7418,6 +7701,17 @@
 			(justify left bottom)
 		)
 		(uuid "b26fdd41-d572-47fd-9445-d42e665c36be")
+	)
+	(label "VCU.UART.RX"
+		(at 57.15 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2abc118-659d-46e4-8937-b96121a18191")
 	)
 	(label "BPS.SIG"
 		(at 57.15 48.26 0)
@@ -7474,7 +7768,7 @@
 		)
 		(uuid "bcc8043f-a79f-4a0b-b436-9894abbd36c1")
 	)
-	(label "VOLTAGE.SHUT.TSMS.SIG"
+	(label "VOLTAGE.SHUT.HVD.INTERLOCK.SIG"
 		(at 58.42 300.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7484,6 +7778,17 @@
 			(justify left bottom)
 		)
 		(uuid "bcee70b9-3841-4286-b85f-028347868b91")
+	)
+	(label "SHUT.HVD.INTERLOCK"
+		(at 530.86 363.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd5241e9-e4f4-43f5-b233-b6ce5dbb42c8")
 	)
 	(label "PWR_SPLICE.GND"
 		(at 501.65 358.14 180)
@@ -7924,18 +8229,6 @@
 			(justify right bottom)
 		)
 		(uuid "f94ce69b-43af-42e7-a951-07f1cf3fde97")
-	)
-	(hierarchical_label "Accumulator LV Connector"
-		(shape input)
-		(at 50.8 237.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "14cc22e7-84f3-456d-a8a7-2214a018aa04")
 	)
 	(hierarchical_label "LV - HV Connector"
 		(shape input)
@@ -9640,6 +9933,98 @@
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/8b0beb0f-c453-4b15-89f4-ecc97c450520"
 					(reference "Conn58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors_SUFST:Current Sensor Connector")
+		(at 55.88 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87f4dd98-e591-4a08-9267-0bd00a4a2c49")
+		(property "Reference" "Conn88"
+			(at 53.6621 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TODO: CHECK CONNECTOR"
+			(at 53.6621 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 213.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 213.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TYCO 1-1456426-5"
+			(at 52.07 217.8055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Conn Name" ""
+			(at 55.88 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8b65915-5097-4b70-99a7-05f2d419f309")
+		)
+		(pin "2"
+			(uuid "ca76bb3a-261f-4064-8b23-bdc2976a673c")
+		)
+		(pin "3"
+			(uuid "19a3a8c4-7bdc-42a7-b1a0-90b712c6122e")
+		)
+		(pin "4"
+			(uuid "ae3ec9a0-f9e3-4d71-921b-051bc0ff33be")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/8b0beb0f-c453-4b15-89f4-ecc97c450520"
+					(reference "Conn88")
 					(unit 1)
 				)
 			)

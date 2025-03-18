@@ -4352,6 +4352,39 @@
 		)
 		(uuid "13a84edf-9278-4fbf-9f01-c8e52ab65800")
 	)
+	(label "SHUT.LATCHING"
+		(at 72.39 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19635fb4-2613-40df-9664-228c2d298f8a")
+	)
+	(label "SHUT.INERTIA"
+		(at 363.22 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19ce1fe4-2338-42a0-a8d6-51b3fb2a74a3")
+	)
+	(label "SHUT.LATCHING"
+		(at 363.22 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d0cdcc7-c451-43b2-88c4-0387e3295df7")
+	)
 	(label "CAN.S.HIGH"
 		(at 377.19 151.13 180)
 		(fields_autoplaced yes)
@@ -4439,39 +4472,6 @@
 			(justify right bottom)
 		)
 		(uuid "2bae1806-4f04-48de-90c4-a77ebd879fd3")
-	)
-	(label "SHUT.COCKPIT.E-STOP"
-		(at 358.14 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2bb552ea-800d-4bc4-b245-33e5c01e35f7")
-	)
-	(label "SHUT.HVD.INTERLOCK"
-		(at 363.22 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2d786fb3-d97d-49f0-8154-0f118ece8800")
-	)
-	(label "SHUT.INERTIA"
-		(at 363.22 27.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "316652bc-4306-45dd-bffe-ff198fd6b49c")
 	)
 	(label "TS.DETECTED.DASH.A"
 		(at 377.19 166.37 180)
@@ -4571,6 +4571,17 @@
 			(justify left bottom)
 		)
 		(uuid "5afe4057-ce09-4516-8eed-c31d162724a5")
+	)
+	(label "SHUT.COCKPIT.E-STOP"
+		(at 363.22 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c5a38b6-dc6d-423b-a2fa-48bb4cab978e")
 	)
 	(label "TS.DETECTED.DASH.A"
 		(at 72.39 74.93 0)
@@ -4714,6 +4725,17 @@
 			(justify left bottom)
 		)
 		(uuid "7ed4d01e-d794-45a5-8a41-d2fd29a667ab")
+	)
+	(label "SHUT.COCKPIT.E-STOP"
+		(at 363.22 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8344cf81-76aa-454a-9a12-f2056403e90e")
 	)
 	(label "PEDALBOX.EXC"
 		(at 72.39 52.07 0)
@@ -4913,17 +4935,6 @@
 		)
 		(uuid "c2a2d564-9075-4058-ab18-0468f46b63d3")
 	)
-	(label "SHUT.HVD.INTERLOCK"
-		(at 72.39 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3fccd7d-a269-4d5d-836b-af4aa8b311fb")
-	)
 	(label "DRS.BUTTON.GND"
 		(at 377.19 158.75 180)
 		(fields_autoplaced yes)
@@ -4946,17 +4957,6 @@
 		)
 		(uuid "cefd4ae1-c738-4e24-b8fa-ba0bf97f9b30")
 	)
-	(label "SHUT.COCKPIT.E-STOP"
-		(at 363.22 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d46000be-dd98-463a-aeda-796767737ac1")
-	)
 	(label "R2D.LED.K"
 		(at 377.19 171.45 180)
 		(fields_autoplaced yes)
@@ -4967,17 +4967,6 @@
 			(justify right bottom)
 		)
 		(uuid "d64eac3b-2fc9-4147-a890-e0f320e99cc2")
-	)
-	(label "SHUT.INERTIA"
-		(at 363.22 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8fec47f-1398-4fc1-97ae-aecfb0ea0f15")
 	)
 	(label "SAGL.GND"
 		(at 97.79 118.11 0)
@@ -5044,6 +5033,17 @@
 			(justify left bottom)
 		)
 		(uuid "ec820571-e06e-4470-a316-e30653a13d3b")
+	)
+	(label "SHUT.INERTIA"
+		(at 358.14 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed11deeb-8705-442e-9f97-7b2cdebd9378")
 	)
 	(label "TS.ON.BUTTON.GND"
 		(at 72.39 82.55 0)
@@ -5127,7 +5127,7 @@
 	)
 	(hierarchical_label "COCKPIT E-STOP"
 		(shape bidirectional)
-		(at 367.03 38.1 0)
+		(at 367.03 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5163,7 +5163,7 @@
 	)
 	(hierarchical_label "INERTIA SW"
 		(shape bidirectional)
-		(at 367.03 24.13 0)
+		(at 367.03 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
