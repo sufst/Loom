@@ -3107,10 +3107,6 @@
 		(uuid "77a9953a-fab2-4d0a-b289-e7b3998662ae")
 	)
 	(no_connect
-		(at 71.12 128.27)
-		(uuid "7e0ace03-97e0-47cf-add2-f7a967226e18")
-	)
-	(no_connect
 		(at 71.12 166.37)
 		(uuid "8d6aa705-2a3d-4f5a-83ce-5f1fac0ea693")
 	)
@@ -3141,10 +3137,6 @@
 	(no_connect
 		(at 71.12 156.21)
 		(uuid "ec071cfb-620c-4281-8ea8-04fbcc8fc70e")
-	)
-	(no_connect
-		(at 358.14 101.6)
-		(uuid "f850937e-ec41-475c-90f8-3ba7d7615d08")
 	)
 	(wire
 		(pts
@@ -3379,6 +3371,16 @@
 			(type default)
 		)
 		(uuid "3de7e9cf-63fa-4fce-92fe-dafdc5c8b6b0")
+	)
+	(wire
+		(pts
+			(xy 232.41 101.6) (xy 232.41 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e5ed8c6-0fc5-419a-b5d2-5de2f094fe34")
 	)
 	(wire
 		(pts
@@ -3670,6 +3672,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 101.6) (xy 232.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d3f6fc-bf14-4c45-b74f-310fe7bca999")
+	)
+	(wire
+		(pts
 			(xy 184.15 93.98) (xy 358.14 93.98)
 		)
 		(stroke
@@ -3870,6 +3882,16 @@
 			(type default)
 		)
 		(uuid "b35e1a99-e13c-4c33-b8c0-945a1f6fea74")
+	)
+	(wire
+		(pts
+			(xy 232.41 128.27) (xy 71.12 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4154490-8526-4cbd-bb79-33234fb72a40")
 	)
 	(wire
 		(pts
@@ -4318,6 +4340,17 @@
 			)
 		)
 		(uuid "fc7dc7a5-6c35-45e3-a1ee-ba9981459b5c")
+	)
+	(label "TSAL.LED.GND"
+		(at 358.14 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08d2986c-79b7-49ed-a987-bb3ee2f725e7")
 	)
 	(label "SAGL.EXC"
 		(at 97.79 115.57 0)
@@ -4770,7 +4803,7 @@
 		)
 		(uuid "8b8c9ec9-e1dc-42d5-b735-4c29eddf0d9d")
 	)
-	(label "TSAL.GREEN.LED.K"
+	(label "TSAL.GREEN.LED.EN"
 		(at 358.14 91.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4858,7 +4891,7 @@
 		)
 		(uuid "a047221e-c4d8-4bea-86d3-8a3dd973d8a2")
 	)
-	(label "TSAL.RED.LED.K"
+	(label "TSAL.RED.LED.EN"
 		(at 358.14 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4967,6 +5000,17 @@
 			(justify right bottom)
 		)
 		(uuid "d64eac3b-2fc9-4147-a890-e0f320e99cc2")
+	)
+	(label "TSAL.LED.GND"
+		(at 72.39 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9e57a37-a7e0-45d1-86e3-48655327b7e1")
 	)
 	(label "SAGL.GND"
 		(at 97.79 118.11 0)

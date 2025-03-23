@@ -10709,10 +10709,6 @@
 		(uuid "552eee8f-2730-4e4c-9dc9-7542636a9dd1")
 	)
 	(no_connect
-		(at 43.18 110.49)
-		(uuid "55589f67-2d4d-44bd-a1ea-2761f9bbd9e9")
-	)
-	(no_connect
 		(at 43.18 120.65)
 		(uuid "5a204d4d-0572-44cc-a138-7f90c0cf0f98")
 	)
@@ -14409,6 +14405,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 140.97) (xy 699.77 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c1cf10-af19-480b-b65b-d9b7487283a6")
+	)
+	(wire
+		(pts
 			(xy 600.71 414.02) (xy 600.71 331.47)
 		)
 		(stroke
@@ -15043,6 +15049,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 110.49) (xy 148.59 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17ff422-c0f8-45f3-9c29-e988b63a6aac")
+	)
+	(wire
+		(pts
 			(xy 490.22 321.31) (xy 654.05 321.31)
 		)
 		(stroke
@@ -15060,6 +15076,16 @@
 			(type default)
 		)
 		(uuid "d35483fb-0f22-4665-ae4e-9f81debf87c1")
+	)
+	(wire
+		(pts
+			(xy 43.18 110.49) (xy 148.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3870654-0164-4810-a84f-37592cb1b316")
 	)
 	(wire
 		(pts
@@ -17883,7 +17909,7 @@
 		)
 		(uuid "72170ad9-a883-4e52-8a8f-2482ef12b6c3")
 	)
-	(label "BMS.FAULT"
+	(label "~{BMS.FAULT}"
 		(at 698.5 217.17 180)
 		(fields_autoplaced yes)
 		(effects
@@ -18334,6 +18360,17 @@
 		)
 		(uuid "942e3dbe-5b1e-428e-a46f-e3ff9e0509e4")
 	)
+	(label "TSAL.LED.GND"
+		(at 43.18 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94bea2e1-97b7-491e-9dfd-a3e53553694e")
+	)
 	(label "RESOLVER.SIN-"
 		(at 68.58 323.85 0)
 		(fields_autoplaced yes)
@@ -18432,6 +18469,17 @@
 			(justify right bottom)
 		)
 		(uuid "9a8e6077-bf5e-4c16-99a9-8df64a483f06")
+	)
+	(label "TSAL.LED.GND"
+		(at 698.5 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9aa81434-d961-4c54-b86d-a0059cf34de1")
 	)
 	(label "MOTOR.TEMP.EXC"
 		(at 68.58 167.64 0)
