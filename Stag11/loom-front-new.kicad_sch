@@ -3131,6 +3131,10 @@
 		(uuid "d8f1da14-2e08-4dc5-bda0-b756f6f485f8")
 	)
 	(no_connect
+		(at 378.46 148.59)
+		(uuid "e2ee1b1b-99af-4c7a-9e03-e9d759c33722")
+	)
+	(no_connect
 		(at 358.14 80.01)
 		(uuid "e3d11f4e-bb4d-47db-8a30-ab2afb39538e")
 	)
@@ -3617,6 +3621,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "77352337-7022-4eac-b1f8-d6c66b488a64")
+	)
+	(wire
+		(pts
+			(xy 377.19 156.21) (xy 378.46 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a549b0b-65ec-4cf0-be2d-2c7a78a9ff90")
 	)
 	(wire
 		(pts
@@ -4417,6 +4431,17 @@
 			(justify right bottom)
 		)
 		(uuid "1d0cdcc7-c451-43b2-88c4-0387e3295df7")
+	)
+	(label "DRS.BUTTON.EXC"
+		(at 377.19 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21faff1d-27d6-4372-ad34-75c62e258ef6")
 	)
 	(label "CAN.S.HIGH"
 		(at 377.19 151.13 180)
