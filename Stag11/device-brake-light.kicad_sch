@@ -448,7 +448,6 @@
 	)
 	(label "BRAKE.LIGHT.GND"
 		(at 166.37 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -459,7 +458,6 @@
 	)
 	(label "BRAKE.LIGHT.EXC"
 		(at 166.37 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -471,7 +469,6 @@
 	(hierarchical_label "BRAKE LIGHT"
 		(shape bidirectional)
 		(at 172.72 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

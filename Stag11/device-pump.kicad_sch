@@ -144,7 +144,6 @@
 	)
 	(label "PUMP.GND"
 		(at 162.56 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -155,7 +154,6 @@
 	)
 	(label "PUMP.EXC"
 		(at 162.56 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -167,7 +165,6 @@
 	(hierarchical_label "PUMP"
 		(shape bidirectional)
 		(at 175.26 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

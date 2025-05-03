@@ -430,7 +430,6 @@
 	)
 	(label "FAN.GND"
 		(at 165.1 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -441,7 +440,6 @@
 	)
 	(label "FAN.EXC"
 		(at 165.1 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -453,7 +451,6 @@
 	(hierarchical_label "FAN"
 		(shape bidirectional)
 		(at 167.64 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
