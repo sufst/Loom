@@ -7939,12 +7939,6 @@
 		(uuid "175080a2-dd1d-40ce-9996-102fc63c102f")
 	)
 	(junction
-		(at 143.51 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25f8b471-d58e-4afc-a3b8-60777f05d6ea")
-	)
-	(junction
 		(at 448.31 320.04)
 		(diameter 0)
 		(color 255 100 28 1)
@@ -8051,12 +8045,6 @@
 		(diameter 0)
 		(color 128 0 0 1)
 		(uuid "b88cb3c0-7180-445b-90cd-8bdd7b6b0758")
-	)
-	(junction
-		(at 146.05 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb0ea2b3-c13e-49f1-aae8-f40abef6fb23")
 	)
 	(junction
 		(at 66.04 388.62)
@@ -8554,7 +8542,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 106.68) (xy 143.51 186.69)
+			(xy 143.51 104.14) (xy 143.51 186.69)
 		)
 		(stroke
 			(width 0.3)
@@ -8667,16 +8655,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 134.62) (xy 146.05 186.69)
-		)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(uuid "1f29b4e5-dcc6-49f7-89c2-d46e07b56dd6")
-	)
-	(wire
-		(pts
 			(xy 140.97 60.96) (xy 68.58 60.96)
 		)
 		(stroke
@@ -8721,7 +8699,7 @@
 			(xy 143.51 104.14) (xy 335.28 104.14)
 		)
 		(stroke
-			(width 0)
+			(width 0.3)
 			(type default)
 		)
 		(uuid "25e413b6-11ad-4bc9-8f1e-02bc942df51d")
@@ -8775,6 +8753,16 @@
 			(type default)
 		)
 		(uuid "2dce7c24-e677-48ca-8976-39f647f5d6a2")
+	)
+	(wire
+		(pts
+			(xy 335.28 106.68) (xy 116.84 106.68)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(uuid "2e5fc310-166f-41eb-a5a0-9d1820bc4270")
 	)
 	(polyline
 		(pts
@@ -8979,16 +8967,6 @@
 			(type default)
 		)
 		(uuid "405e08df-dcf9-4a8c-a621-cc0c89b5afea")
-	)
-	(wire
-		(pts
-			(xy 68.58 134.62) (xy 146.05 134.62)
-		)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(uuid "4194ecf2-2a79-4a17-b48e-35dfb0d2e862")
 	)
 	(wire
 		(pts
@@ -9339,6 +9317,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 134.62) (xy 68.58 134.62)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(uuid "61d33729-babc-4f4c-864e-5223005f29fd")
+	)
+	(wire
+		(pts
 			(xy 448.31 340.36) (xy 557.53 340.36)
 		)
 		(stroke
@@ -9553,6 +9541,16 @@
 			(type default)
 		)
 		(uuid "71bb45b2-f73f-44c8-a937-6b3a635f92f8")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 116.84 134.62)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(uuid "7289901f-7e6b-4c58-93f3-33f389813cb9")
 	)
 	(wire
 		(pts
@@ -10509,16 +10507,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 104.14) (xy 143.51 106.68)
-		)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(uuid "ba9e335a-e065-4f2a-a935-08e3477706f7")
-	)
-	(wire
-		(pts
 			(xy 152.4 205.74) (xy 152.4 364.49)
 		)
 		(stroke
@@ -11212,7 +11200,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 50.8) (xy 146.05 134.62)
+			(xy 146.05 50.8) (xy 146.05 186.69)
 		)
 		(stroke
 			(width 0.3)
@@ -11291,16 +11279,6 @@
 			(color 255 100 28 1)
 		)
 		(uuid "f96e42a2-f464-4c35-b38b-dd5fc5b28ee1")
-	)
-	(wire
-		(pts
-			(xy 143.51 106.68) (xy 335.28 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb069402-aae9-4905-97a9-2e9c1358265a")
 	)
 	(wire
 		(pts
@@ -11987,6 +11965,7 @@
 	)
 	(label "TSAL.GND"
 		(at 135.89 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11997,6 +11976,7 @@
 	)
 	(label "BMS.EXC"
 		(at 335.28 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12007,6 +11987,7 @@
 	)
 	(label "NC_KEY"
 		(at 66.04 325.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12017,6 +11998,7 @@
 	)
 	(label "GND_SPLICE"
 		(at 283.21 302.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12027,6 +12009,7 @@
 	)
 	(label "SHUT.IN"
 		(at 118.11 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12037,6 +12020,7 @@
 	)
 	(label "CHASSIS.GND"
 		(at 68.58 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12047,6 +12031,7 @@
 	)
 	(label "~{TS.DETECTED}"
 		(at 66.04 353.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12057,6 +12042,7 @@
 	)
 	(label "GND_SPLICE"
 		(at 568.96 33.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12065,8 +12051,9 @@
 		)
 		(uuid "09979a4b-5d03-478c-aa5b-1985d8290ae9")
 	)
-	(label "SHUT.IN"
+	(label "ACCU.CHARGE.EXC"
 		(at 68.58 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12077,6 +12064,7 @@
 	)
 	(label "SHUT.IN"
 		(at 146.05 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12087,6 +12075,7 @@
 	)
 	(label "~{BMS.DISCHARGE.ENABLE}"
 		(at 68.58 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12097,6 +12086,7 @@
 	)
 	(label "-AIR.AUX.GND"
 		(at 66.04 269.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12107,6 +12097,7 @@
 	)
 	(label "INV.CLOSE.PCHG"
 		(at 152.4 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12117,6 +12108,7 @@
 	)
 	(label "TSAL.EXC"
 		(at 68.58 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12127,6 +12119,7 @@
 	)
 	(label "CLOSE_HIGH_AIR_OUT"
 		(at 275.59 372.11 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12137,6 +12130,7 @@
 	)
 	(label "BMS.CUR_SEN.EXC"
 		(at 300.99 226.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12147,6 +12141,7 @@
 	)
 	(label "TSAL.EXC"
 		(at 125.73 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12157,6 +12152,7 @@
 	)
 	(label "TSAL.GND"
 		(at 128.27 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12167,6 +12163,7 @@
 	)
 	(label "TS_READY"
 		(at 66.04 350.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12177,6 +12174,7 @@
 	)
 	(label "CAN.S.HIGH_SPLICE"
 		(at 576.58 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12187,6 +12185,7 @@
 	)
 	(label "HV+"
 		(at 355.6 373.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12197,6 +12196,7 @@
 	)
 	(label "CAN.S.LOW"
 		(at 335.28 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12207,6 +12207,7 @@
 	)
 	(label "BMS.CUR_SEN.EXC"
 		(at 335.28 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12217,6 +12218,7 @@
 	)
 	(label "ISOLATOR.EXC_SPLICE"
 		(at 535.94 31.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12227,6 +12229,7 @@
 	)
 	(label "BMS.CUR_SEN.HIGH"
 		(at 154.94 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12237,6 +12240,7 @@
 	)
 	(label "CAN.S.LOW"
 		(at 68.58 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12247,6 +12251,7 @@
 	)
 	(label "~{LOW_AIR_MECH_ON_IN}"
 		(at 66.04 332.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12257,6 +12262,7 @@
 	)
 	(label "PCHG_RLY-"
 		(at 66.04 386.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12267,6 +12273,7 @@
 	)
 	(label "ACCU.EXC"
 		(at 68.58 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12277,6 +12284,7 @@
 	)
 	(label "CAN.S.HIGH"
 		(at 68.58 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12287,6 +12295,7 @@
 	)
 	(label "CAN.S.LOW_SPLICE"
 		(at 576.58 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12297,6 +12306,7 @@
 	)
 	(label "CAN.CHARGER.HIGH"
 		(at 335.28 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12307,6 +12317,7 @@
 	)
 	(label "CAN.CHARGER.LOW"
 		(at 335.28 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12317,6 +12328,7 @@
 	)
 	(label "CHASSIS.GND"
 		(at 133.35 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12327,6 +12339,7 @@
 	)
 	(label "BMS.CUR_SEN.HIGH"
 		(at 177.8 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12337,6 +12350,7 @@
 	)
 	(label "NC_KEY"
 		(at 66.04 381 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12347,6 +12361,7 @@
 	)
 	(label "GREEN_LED_ON"
 		(at 66.04 335.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12357,6 +12372,7 @@
 	)
 	(label "ACCU.GND"
 		(at 275.59 326.39 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12367,6 +12383,7 @@
 	)
 	(label "~{CHARGE.ENABLE.INTERLOCKED}"
 		(at 68.58 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12377,6 +12394,7 @@
 	)
 	(label "ISOLATOR.GND"
 		(at 298.45 213.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12387,6 +12405,7 @@
 	)
 	(label "BMS.CUR_SEN.LOW"
 		(at 160.02 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12397,6 +12416,7 @@
 	)
 	(label "BMS.CUR_SEN.HIGH"
 		(at 300.99 228.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12407,6 +12427,7 @@
 	)
 	(label "TSAL.GND"
 		(at 66.04 393.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12417,6 +12438,7 @@
 	)
 	(label "CLOSE_PRECHARGE_IN"
 		(at 275.59 364.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12427,6 +12449,7 @@
 	)
 	(label "INV.CLOSE.+AIR"
 		(at 68.58 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12437,6 +12460,7 @@
 	)
 	(label "+AIR.EXC"
 		(at 66.04 220.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12447,6 +12471,7 @@
 	)
 	(label "SHUT.DISCHARGE"
 		(at 68.58 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12457,6 +12482,7 @@
 	)
 	(label "TSAL.GREEN.LIGHT"
 		(at 165.1 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12467,6 +12493,7 @@
 	)
 	(label "-AIR.GND"
 		(at 66.04 264.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12477,6 +12504,7 @@
 	)
 	(label "BMS.CUR_SEN.GND"
 		(at 300.99 231.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12487,6 +12515,7 @@
 	)
 	(label "ISOLATOR.TS.EXC"
 		(at 374.65 214.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12497,6 +12526,7 @@
 	)
 	(label "ISOLATOR.EXC_SPLICE"
 		(at 283.21 299.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12507,6 +12537,7 @@
 	)
 	(label "CAN.S.LOW"
 		(at 298.45 210.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12517,6 +12548,7 @@
 	)
 	(label "~{TS.DETECTED}"
 		(at 276.86 264.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12527,6 +12559,7 @@
 	)
 	(label "CAN.T.LOW"
 		(at 374.65 209.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12537,6 +12570,7 @@
 	)
 	(label "PCHG.AUX.EXC"
 		(at 66.04 293.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12547,6 +12581,7 @@
 	)
 	(label "CAN.S.HIGH"
 		(at 68.58 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12557,6 +12592,7 @@
 	)
 	(label "BMS.CUR_SEN.GND"
 		(at 335.28 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12567,6 +12603,7 @@
 	)
 	(label "IMD.OK"
 		(at 68.58 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12577,6 +12614,7 @@
 	)
 	(label "TS.ON"
 		(at 160.02 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12587,6 +12625,7 @@
 	)
 	(label "HV-"
 		(at 355.6 375.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12597,6 +12636,7 @@
 	)
 	(label "TS.ON"
 		(at 68.58 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12607,6 +12647,7 @@
 	)
 	(label "BMS.CUR_SEN.LOW"
 		(at 300.99 233.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12617,6 +12658,7 @@
 	)
 	(label "PCHG_RLY+"
 		(at 66.04 383.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12627,6 +12669,7 @@
 	)
 	(label "BMS.CUR_SEN.GND"
 		(at 157.48 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12637,6 +12680,7 @@
 	)
 	(label "BMS.CUR_SEN.LOW"
 		(at 335.28 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12647,6 +12691,7 @@
 	)
 	(label "~{BMS.FAULT}"
 		(at 335.28 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12657,6 +12702,7 @@
 	)
 	(label "TSAL.GREEN.LIGHT"
 		(at 167.64 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12667,6 +12713,7 @@
 	)
 	(label "TS.ON"
 		(at 66.04 337.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12677,6 +12724,7 @@
 	)
 	(label "INV_CLOSE_MAIN_CONTACTOR"
 		(at 66.04 375.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12687,6 +12735,7 @@
 	)
 	(label "TS.READY"
 		(at 170.18 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12697,6 +12746,7 @@
 	)
 	(label "IMD.OK"
 		(at 167.64 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12707,6 +12757,7 @@
 	)
 	(label "AIL.GND"
 		(at 558.8 322.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12717,6 +12768,7 @@
 	)
 	(label "BMS.CUR_SEN.GND"
 		(at 175.26 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12727,6 +12779,7 @@
 	)
 	(label "CAN.S.HIGH"
 		(at 298.45 208.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12737,6 +12790,7 @@
 	)
 	(label "AIR-_SPLICE"
 		(at 69.85 279.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12747,6 +12801,7 @@
 	)
 	(label "~{BMS.DISCHARGE.ENABLE}"
 		(at 335.28 116.84 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12757,6 +12812,7 @@
 	)
 	(label "CAN.CHARGER.HIGH"
 		(at 68.58 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12767,6 +12823,7 @@
 	)
 	(label "ACCU.GND"
 		(at 68.58 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12777,6 +12834,7 @@
 	)
 	(label "CAN.S.HIGH"
 		(at 335.28 144.78 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12787,6 +12845,7 @@
 	)
 	(label "SHUT.DISCHARGE"
 		(at 162.56 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12797,6 +12856,7 @@
 	)
 	(label "IMD.GND"
 		(at 275.59 318.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12807,6 +12867,7 @@
 	)
 	(label "INV_CLOSE_PCHG_RLY"
 		(at 66.04 391.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12817,6 +12878,7 @@
 	)
 	(label "BMS.GND"
 		(at 335.28 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12827,6 +12889,7 @@
 	)
 	(label "BMS.CHARGER.SAFETY"
 		(at 335.28 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12837,6 +12900,7 @@
 	)
 	(label "INV.CLOSE.+AIR"
 		(at 177.8 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12847,6 +12911,7 @@
 	)
 	(label "ISOLATOR.EXC"
 		(at 298.45 215.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12857,6 +12922,7 @@
 	)
 	(label "PCHG.AUX.GND"
 		(at 66.04 295.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12867,6 +12933,7 @@
 	)
 	(label "SHUT.DISCHARGE"
 		(at 170.18 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12877,6 +12944,7 @@
 	)
 	(label "CAN.T.HIGH"
 		(at 374.65 207.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12887,6 +12955,7 @@
 	)
 	(label "PCHG.EXC"
 		(at 66.04 288.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12897,6 +12966,7 @@
 	)
 	(label "+AIR.AUX.EXC"
 		(at 66.04 226.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12907,6 +12977,7 @@
 	)
 	(label "ACCU.EXC"
 		(at 120.65 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12917,6 +12988,7 @@
 	)
 	(label "SHDN_IN"
 		(at 66.04 370.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12927,6 +12999,7 @@
 	)
 	(label "TSAL.EXC"
 		(at 138.43 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12937,6 +13010,7 @@
 	)
 	(label "AIL.HV-"
 		(at 557.53 346.71 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12947,6 +13021,7 @@
 	)
 	(label "TSAL_POWER"
 		(at 66.04 378.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12957,6 +13032,7 @@
 	)
 	(label "-AIR.EXC"
 		(at 66.04 261.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12967,6 +13043,7 @@
 	)
 	(label "INV.CLOSE.PCHG"
 		(at 68.58 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12977,6 +13054,7 @@
 	)
 	(label "POS_AIR"
 		(at 66.04 365.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12987,6 +13065,7 @@
 	)
 	(label "SHUT.IN"
 		(at 68.58 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12997,6 +13076,7 @@
 	)
 	(label "IMD.EXC_SPLICE"
 		(at 535.94 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13007,6 +13087,7 @@
 	)
 	(label "ACCU.GND"
 		(at 140.97 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13017,6 +13098,7 @@
 	)
 	(label "AIL.HV+"
 		(at 557.53 340.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13027,6 +13109,7 @@
 	)
 	(label "~{HIGH_AIR_MECH_ON_IN}"
 		(at 66.04 330.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13037,6 +13120,7 @@
 	)
 	(label "~{PRCHG_MECH_ON_IN}"
 		(at 66.04 327.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13047,6 +13131,7 @@
 	)
 	(label "PRECHARGE.EXC"
 		(at 275.59 381 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13057,6 +13142,7 @@
 	)
 	(label "TSAL.GREEN.LIGHT"
 		(at 68.58 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13067,6 +13153,7 @@
 	)
 	(label "BMS.CUR_SEN.EXC"
 		(at 180.34 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13077,6 +13164,7 @@
 	)
 	(label "BMS.CUR_SEN.EXC"
 		(at 152.4 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13087,6 +13175,7 @@
 	)
 	(label "BMS.CASE.GND"
 		(at 335.28 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13097,6 +13186,7 @@
 	)
 	(label "DC LINK"
 		(at 358.14 368.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13107,6 +13197,7 @@
 	)
 	(label "BMS.CUR_SEN.HIGH"
 		(at 335.28 50.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13117,6 +13208,7 @@
 	)
 	(label "IMD.OK"
 		(at 275.59 336.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13127,6 +13219,7 @@
 	)
 	(label "AIL.EXC"
 		(at 558.8 320.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13137,6 +13230,7 @@
 	)
 	(label "BMS.CHARGER.SAFETY"
 		(at 68.58 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13147,6 +13241,7 @@
 	)
 	(label "+AIR.AUX.GND"
 		(at 66.04 228.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13157,6 +13252,7 @@
 	)
 	(label "TSAC.HVS.GND"
 		(at 276.86 259.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13167,6 +13263,7 @@
 	)
 	(label "CHASSIS.GND"
 		(at 130.81 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13177,6 +13274,7 @@
 	)
 	(label "ACCU.EXC"
 		(at 143.51 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13187,6 +13285,7 @@
 	)
 	(label "+AIR.GND"
 		(at 66.04 223.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13197,6 +13296,7 @@
 	)
 	(label "BMS.Charge.EXC"
 		(at 335.28 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13207,6 +13307,7 @@
 	)
 	(label "ISOLATOR.TS.GND"
 		(at 374.65 212.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13217,6 +13318,7 @@
 	)
 	(label "CHASSIS.GND"
 		(at 275.59 323.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13227,6 +13329,7 @@
 	)
 	(label "AIR+_SPLICE"
 		(at 71.12 240.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13237,6 +13340,7 @@
 	)
 	(label "INV.CLOSE.PCHG"
 		(at 180.34 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13247,6 +13351,7 @@
 	)
 	(label "IMD.OK"
 		(at 165.1 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13257,6 +13362,7 @@
 	)
 	(label "CAN.S.LOW"
 		(at 68.58 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13267,6 +13373,7 @@
 	)
 	(label "AIL.GND"
 		(at 557.53 335.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13277,6 +13384,7 @@
 	)
 	(label "AIL.EXC"
 		(at 557.53 332.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13287,6 +13395,7 @@
 	)
 	(label "CLOSE_HIGH_AIR_IN"
 		(at 275.59 369.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13297,6 +13406,7 @@
 	)
 	(label "PRECHARGE.GND"
 		(at 275.59 383.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13307,6 +13417,7 @@
 	)
 	(label "-AIR.AUX.EXC"
 		(at 66.04 266.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13317,6 +13428,7 @@
 	)
 	(label "TSAL.GND"
 		(at 68.58 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13327,6 +13439,7 @@
 	)
 	(label "TSAC.HVS.EXC"
 		(at 276.86 261.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13337,6 +13450,7 @@
 	)
 	(label "BMS.CUR_SEN.LOW"
 		(at 172.72 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13347,6 +13461,7 @@
 	)
 	(label "PCHG.GND"
 		(at 66.04 290.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13357,6 +13472,7 @@
 	)
 	(label "BMS.EXC_SPLICE"
 		(at 535.94 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13367,6 +13483,7 @@
 	)
 	(label "ACCU.GND"
 		(at 123.19 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13377,6 +13494,7 @@
 	)
 	(label "TS.READY"
 		(at 162.56 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13387,6 +13505,7 @@
 	)
 	(label "CAN.CHARGER.LOW"
 		(at 68.58 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13397,6 +13516,7 @@
 	)
 	(label "TS.ON"
 		(at 172.72 186.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13407,6 +13527,7 @@
 	)
 	(label "~{BMS.FAULT}"
 		(at 68.58 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13417,6 +13538,7 @@
 	)
 	(label "CLOSE_PRECHARGE_OUT"
 		(at 275.59 367.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13427,6 +13549,7 @@
 	)
 	(label "TS.READY"
 		(at 68.58 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13437,6 +13560,7 @@
 	)
 	(label "INV.CLOSE.+AIR"
 		(at 154.94 205.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13447,6 +13571,7 @@
 	)
 	(label "NEG_AIR"
 		(at 66.04 368.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13457,6 +13582,7 @@
 	)
 	(label "IMD.EXC"
 		(at 275.59 321.31 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13468,6 +13594,7 @@
 	(hierarchical_label "CAR I{slash}O"
 		(shape bidirectional)
 		(at 52.07 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14521,7 +14648,7 @@
 			(uuid "367ae8d1-d74f-4e97-b2e8-d38078bd33aa")
 		)
 		(instances
-			(project ""
+			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/d0591f78-2a6a-49ef-980c-e27ab4140297"
 					(reference "#PWR4")
 					(unit 1)
@@ -16298,7 +16425,7 @@
 			(uuid "7b1dcd88-a897-4906-96e6-51d55379e5cf")
 		)
 		(instances
-			(project ""
+			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/d0591f78-2a6a-49ef-980c-e27ab4140297"
 					(reference "R8")
 					(unit 1)
