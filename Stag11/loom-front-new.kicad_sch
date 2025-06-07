@@ -3103,10 +3103,6 @@
 		(uuid "5fe990a5-ffb4-44f3-bfb1-f3cfb99b6240")
 	)
 	(no_connect
-		(at 71.12 138.43)
-		(uuid "77a9953a-fab2-4d0a-b289-e7b3998662ae")
-	)
-	(no_connect
 		(at 71.12 166.37)
 		(uuid "8d6aa705-2a3d-4f5a-83ce-5f1fac0ea693")
 	)
@@ -3285,6 +3281,16 @@
 			(type default)
 		)
 		(uuid "1ff50428-d75c-4ae4-bd6f-aa0cc1cedd3c")
+	)
+	(wire
+		(pts
+			(xy 123.19 156.21) (xy 378.46 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2116cdc0-d741-42f2-9d0e-68b1f8a493b9")
 	)
 	(wire
 		(pts
@@ -3646,16 +3652,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 156.21) (xy 378.46 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a549b0b-65ec-4cf0-be2d-2c7a78a9ff90")
-	)
-	(wire
-		(pts
 			(xy 143.256 151.13) (xy 143.256 133.35)
 		)
 		(stroke
@@ -3766,6 +3762,16 @@
 			(type default)
 		)
 		(uuid "897b3a61-f70e-4d76-b817-cddc447c9db8")
+	)
+	(wire
+		(pts
+			(xy 71.12 138.43) (xy 123.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96bb6d65-0d31-4d5b-8f03-8cfd0c84d0b1")
 	)
 	(wire
 		(pts
@@ -3949,6 +3955,16 @@
 			(type default)
 		)
 		(uuid "be8c35a0-d1a3-4ef8-abeb-ffee258bb150")
+	)
+	(wire
+		(pts
+			(xy 123.19 156.21) (xy 123.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1ad29a-9a42-4dba-828f-86b2ac223170")
 	)
 	(wire
 		(pts
@@ -4717,6 +4733,17 @@
 			(justify left bottom)
 		)
 		(uuid "6e7f0023-4418-4e24-b696-0ea0ac7dd72a")
+	)
+	(label "DRS.BUTTON.EXC"
+		(at 72.39 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f5ab47d-2a46-4fe8-93e5-a96098e6ce24")
 	)
 	(label "TSAL.GREEN.DASH.LED.K"
 		(at 72.39 85.09 0)
