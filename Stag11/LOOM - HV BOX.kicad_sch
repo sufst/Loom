@@ -722,6 +722,446 @@
 				)
 			)
 		)
+		(symbol "Connectors_SUFST:Molex_2x2S_Recepticle"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Conn"
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Molex_2x2S_Recepticle"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "43025-0400"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Molex_2x2S_Recepticle_0_1"
+				(arc
+					(start -2.5368 -7.6207)
+					(mid -1.9833 -6.9863)
+					(end -2.5355 -6.3507)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.5368 -2.5407)
+					(mid -1.9833 -1.9063)
+					(end -2.5355 -1.2707)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4524 -10.1601)
+					(mid -1.8989 -9.5257)
+					(end -2.4511 -8.8901)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4524 -5.0801)
+					(mid -1.8989 -4.4457)
+					(end -2.4511 -3.8101)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Molex_2x2S_Recepticle_1_1"
+				(pin input line
+					(at 0.635 -1.905 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -4.445 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -6.985 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -9.525 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connectors_SUFST:Molex_3x2S_Recepticle"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Conn"
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Molex_3x2S_Recepticle"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "43025-0600"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Molex_3x2S_Recepticle_0_1"
+				(arc
+					(start -2.5368 -7.6207)
+					(mid -1.9833 -6.9863)
+					(end -2.5355 -6.3507)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.5368 -2.5407)
+					(mid -1.9833 -1.9063)
+					(end -2.5355 -1.2707)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4524 -12.7001)
+					(mid -1.8989 -12.0657)
+					(end -2.4511 -11.4301)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4524 -10.1601)
+					(mid -1.8989 -9.5257)
+					(end -2.4511 -8.8901)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4524 -5.0801)
+					(mid -1.8989 -4.4457)
+					(end -2.4511 -3.8101)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.368 -15.2395)
+					(mid -1.8145 -14.6051)
+					(end -2.3667 -13.9695)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Molex_3x2S_Recepticle_1_1"
+				(pin input line
+					(at 0.635 -1.905 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -4.445 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -6.985 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -9.525 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -12.065 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -14.605 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connectors_SUFST:Molex_8x1S_Recepticle"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1491,16 +1931,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 38.1) (xy 86.36 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1327dba8-ca32-45e4-aa66-55f7f62a0b07")
-	)
-	(wire
-		(pts
 			(xy 158.75 163.83) (xy 158.75 152.4)
 		)
 		(stroke
@@ -1508,6 +1938,16 @@
 			(type default)
 		)
 		(uuid "1391abef-51c2-4dd9-aa2a-1a62ed42e2fa")
+	)
+	(wire
+		(pts
+			(xy 27.94 106.68) (xy 36.83 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d20068-10a1-4c5d-8984-ae417cb11acc")
 	)
 	(wire
 		(pts
@@ -1531,6 +1971,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 104.14) (xy 30.48 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eaa55cc-8647-4be6-8fba-66896e2211e8")
+	)
+	(wire
+		(pts
 			(xy 125.73 158.75) (xy 149.86 158.75)
 		)
 		(stroke
@@ -1541,7 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 161.29) (xy 33.02 105.41)
+			(xy 33.02 161.29) (xy 33.02 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1578,16 +2028,6 @@
 			(type default)
 		)
 		(uuid "31578a5a-89bf-4b57-8327-01f479dd3b36")
-	)
-	(wire
-		(pts
-			(xy 33.02 105.41) (xy 86.36 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ef5ef14-2167-4795-beb3-dc04953290d3")
 	)
 	(wire
 		(pts
@@ -1661,7 +2101,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 45.72) (xy 81.28 100.33)
+			(xy 80.01 45.72) (xy 80.01 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1691,23 +2131,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 40.64) (xy 83.82 40.64)
+			(xy 39.37 40.64) (xy 82.55 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6981d552-7fa8-4c86-a64b-f32db805e0ff")
-	)
-	(wire
-		(pts
-			(xy 83.82 102.87) (xy 30.48 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2c742c-9a15-4170-8257-6655ac6717e0")
 	)
 	(wire
 		(pts
@@ -1751,26 +2181,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 102.87) (xy 30.48 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "848533ac-549e-4cae-9b8c-2586ac4d716b")
-	)
-	(wire
-		(pts
-			(xy 27.94 100.33) (xy 81.28 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7cddd6-cd39-49ef-870e-1e08a20c06f8")
-	)
-	(wire
-		(pts
 			(xy 115.57 66.04) (xy 152.4 66.04)
 		)
 		(stroke
@@ -1811,6 +2221,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 38.1) (xy 86.36 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15c381e-c096-42f8-a06f-559dfae80936")
+	)
+	(wire
+		(pts
 			(xy 39.37 24.13) (xy 175.26 24.13)
 		)
 		(stroke
@@ -1821,13 +2241,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 40.64) (xy 83.82 102.87)
+			(xy 82.55 40.64) (xy 82.55 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bc3d37e5-ebe7-4ab3-82af-4fb8c73aa129")
+	)
+	(wire
+		(pts
+			(xy 33.02 109.22) (xy 36.83 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfd9cca-1f52-4415-889b-b53644f57d1f")
 	)
 	(wire
 		(pts
@@ -1848,6 +2278,16 @@
 			(type default)
 		)
 		(uuid "bf60439f-98eb-4a16-8f65-0c5d845824fe")
+	)
+	(wire
+		(pts
+			(xy 30.48 104.14) (xy 36.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c380b711-52c7-40d9-b8b9-8a95731dfbc8")
 	)
 	(wire
 		(pts
@@ -1961,6 +2401,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 97.79) (xy 80.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4355e0e-2c88-4b7d-b0eb-586f39222df4")
+	)
+	(wire
+		(pts
 			(xy 124.46 104.14) (xy 143.51 104.14)
 		)
 		(stroke
@@ -1971,7 +2421,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 45.72) (xy 81.28 45.72)
+			(xy 86.36 102.87) (xy 68.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eefab804-4205-4406-a28b-80008f6dd832")
+	)
+	(wire
+		(pts
+			(xy 60.96 45.72) (xy 80.01 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1991,6 +2451,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 100.33) (xy 82.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38642a2-518f-4cba-bbfe-56bf84a902f2")
+	)
+	(wire
+		(pts
 			(xy 91.44 151.13) (xy 120.65 151.13)
 		)
 		(stroke
@@ -2001,7 +2471,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 166.37) (xy 27.94 100.33)
+			(xy 27.94 166.37) (xy 27.94 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2078,8 +2548,8 @@
 		(uuid 1bf6ae24-995b-49e9-bad7-b14d5e8ba4d5)
 	)
 	(rectangle
-		(start 43.18 96.52)
-		(end 60.96 109.22)
+		(start 35.56 93.98)
+		(end 69.85 111.76)
 		(stroke
 			(width 0)
 			(type default)
@@ -2260,7 +2730,7 @@
 	)
 	(text "Amplifier\nroute power \"around\" this"
 		(exclude_from_sim no)
-		(at 43.18 114.3 0)
+		(at 42.672 109.982 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2272,6 +2742,7 @@
 	)
 	(label "BSPD.CUR_SEN.EXC"
 		(at 39.37 38.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2282,6 +2753,7 @@
 	)
 	(label "DISCHARGE.HV+"
 		(at 115.57 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2292,6 +2764,7 @@
 	)
 	(label "BSPD.CUR_SEN.GND"
 		(at 39.37 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2302,6 +2775,7 @@
 	)
 	(label "BSPD.CUR_SEN.SIG"
 		(at 39.37 45.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2312,6 +2786,7 @@
 	)
 	(label "CANNODE.HVS.SIG"
 		(at 39.37 26.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2322,6 +2797,7 @@
 	)
 	(label "SHUT.DISCHARGE"
 		(at 39.37 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2332,6 +2808,7 @@
 	)
 	(label "SHUT.GND"
 		(at 39.37 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2342,6 +2819,7 @@
 	)
 	(label "SHUT.GND"
 		(at 115.57 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2352,6 +2830,7 @@
 	)
 	(label "BSPD.CURR.TEST.GND"
 		(at 39.37 48.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2362,6 +2841,7 @@
 	)
 	(label "REB.HVS.GND"
 		(at 223.52 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2372,6 +2852,7 @@
 	)
 	(label "REB.HVS.EXC"
 		(at 223.52 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2382,6 +2863,7 @@
 	)
 	(label "BSPD.CUR_SEN.EXC"
 		(at 57.15 161.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2392,6 +2874,7 @@
 	)
 	(label "BSPD.CUR_SEN.GND"
 		(at 57.15 166.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2402,6 +2885,7 @@
 	)
 	(label "TS.DETECTED"
 		(at 223.52 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2412,6 +2896,7 @@
 	)
 	(label "REB.HVS.EXC"
 		(at 39.37 21.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2422,6 +2907,7 @@
 	)
 	(label "SHUT.DISCHARGE"
 		(at 115.57 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2432,6 +2918,7 @@
 	)
 	(label "BSPD.CURR.TEST.EXC"
 		(at 39.37 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2442,6 +2929,7 @@
 	)
 	(label "BSPD.CUR_SEN.SIG"
 		(at 57.15 168.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2452,6 +2940,7 @@
 	)
 	(label "HVS.HV-"
 		(at 223.52 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2462,6 +2951,7 @@
 	)
 	(label "HVS.HV+"
 		(at 223.52 142.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2472,6 +2962,7 @@
 	)
 	(label "REB.HVS.GND"
 		(at 39.37 24.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2482,6 +2973,7 @@
 	)
 	(label "DISCHARGE.HV-"
 		(at 115.57 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2492,6 +2984,7 @@
 	)
 	(label "TS.DETECTED"
 		(at 39.37 19.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2503,6 +2996,7 @@
 	(hierarchical_label "HV4"
 		(shape bidirectional)
 		(at 91.44 171.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2514,6 +3008,7 @@
 	(hierarchical_label "LV - HV Connector"
 		(shape input)
 		(at 34.29 24.13 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2525,6 +3020,7 @@
 	(hierarchical_label "TSMP.HV-"
 		(shape bidirectional)
 		(at 115.57 113.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2536,6 +3032,7 @@
 	(hierarchical_label "TSMP.HV+"
 		(shape bidirectional)
 		(at 115.57 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2547,6 +3044,7 @@
 	(hierarchical_label "BSPD CT"
 		(shape bidirectional)
 		(at 62.23 160.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2558,6 +3056,7 @@
 	(hierarchical_label "HV1"
 		(shape bidirectional)
 		(at 91.44 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2569,6 +3068,7 @@
 	(hierarchical_label "HV2"
 		(shape bidirectional)
 		(at 91.44 142.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2580,6 +3080,7 @@
 	(hierarchical_label "HV3"
 		(shape bidirectional)
 		(at 91.44 151.13 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2591,6 +3092,7 @@
 	(hierarchical_label "HV Connector"
 		(shape input)
 		(at 34.29 45.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2781,6 +3283,103 @@
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/8c8ba23c-c17e-4aa5-bc73-bc09925b49ea"
 					(reference "Conn64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors_SUFST:Molex_3x2S_Recepticle")
+		(at 37.465 111.125 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ab8611f-fbf6-43dc-b3a5-4092dbc637be")
+		(property "Reference" "Conn55"
+			(at 39.751 113.157 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Molex_3x2S_Recepticle"
+			(at 37.465 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 37.465 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37.465 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37.465 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43025-0600"
+			(at 37.465 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 37.465 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aaa20c38-3f40-454c-bbe9-d8b2b15d4042")
+		)
+		(pin "3"
+			(uuid "fdb3f578-e04d-4888-a63b-a33740b479b4")
+		)
+		(pin "6"
+			(uuid "d5a005d6-9414-4d16-be80-f635c86eba80")
+		)
+		(pin "2"
+			(uuid "603b8368-5dab-4455-a728-4ef8e43a6c80")
+		)
+		(pin "5"
+			(uuid "00fe50bc-b9f1-4580-99e1-92e8184bc71d")
+		)
+		(pin "4"
+			(uuid "bb653bb7-b549-41b0-9626-f525f6fba9e9")
+		)
+		(instances
+			(project "Stag11"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/8c8ba23c-c17e-4aa5-bc73-bc09925b49ea"
+					(reference "Conn55")
 					(unit 1)
 				)
 			)
@@ -3050,6 +3649,98 @@
 			(project "Stag11"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/8c8ba23c-c17e-4aa5-bc73-bc09925b49ea"
 					(reference "Conn67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors_SUFST:Molex_2x2S_Recepticle")
+		(at 67.945 95.885 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67d44495-0419-4c34-a6d3-2f48fb03c8f1")
+		(property "Reference" "Conn56"
+			(at 65.7271 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Molex_2x2S_Recepticle"
+			(at 67.945 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.945 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.945 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.945 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43025-0400"
+			(at 67.945 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 67.945 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4dd65e3a-5772-4811-aae2-78f121efd2bc")
+		)
+		(pin "1"
+			(uuid "ca930446-f572-430b-a72a-d2ba9d194592")
+		)
+		(pin "4"
+			(uuid "867243c3-22b1-4fd3-8781-4b8517649f3d")
+		)
+		(pin "3"
+			(uuid "529a4fa7-7891-44df-adba-7f94d029ff19")
+		)
+		(instances
+			(project ""
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/8c8ba23c-c17e-4aa5-bc73-bc09925b49ea"
+					(reference "Conn56")
 					(unit 1)
 				)
 			)
