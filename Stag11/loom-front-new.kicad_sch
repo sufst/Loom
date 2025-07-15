@@ -3079,10 +3079,6 @@
 		(uuid "19adc7da-b8f8-48b2-90d9-c98b5974024e")
 	)
 	(no_connect
-		(at 71.12 146.05)
-		(uuid "33a20249-eeaa-4117-a2b5-8e7738d4b332")
-	)
-	(no_connect
 		(at 92.71 118.11)
 		(uuid "33f895b8-c95a-42c6-8bc0-30c2e465e120")
 	)
@@ -3125,10 +3121,6 @@
 	(no_connect
 		(at 71.12 140.97)
 		(uuid "d4460a06-3215-47eb-9536-d960a4bc6066")
-	)
-	(no_connect
-		(at 378.46 148.59)
-		(uuid "e2ee1b1b-99af-4c7a-9e03-e9d759c33722")
 	)
 	(no_connect
 		(at 358.14 80.01)
@@ -3382,6 +3374,16 @@
 			(type default)
 		)
 		(uuid "3b6b73e3-65ee-4e7a-8d07-5e52537a6a77")
+	)
+	(wire
+		(pts
+			(xy 378.46 148.59) (xy 94.234 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd2f94b-a49d-48a5-b183-a6b3d00862b1")
 	)
 	(wire
 		(pts
@@ -3762,6 +3764,16 @@
 			(type default)
 		)
 		(uuid "897b3a61-f70e-4d76-b817-cddc447c9db8")
+	)
+	(wire
+		(pts
+			(xy 94.234 148.59) (xy 94.234 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95182fcd-8028-4897-81c1-6d37b8d6be05")
 	)
 	(wire
 		(pts
@@ -4174,6 +4186,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "f02cb918-aa0c-4e27-a8fd-90fa47321aa2")
+	)
+	(wire
+		(pts
+			(xy 71.12 146.05) (xy 94.234 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0558b6f-fe84-4226-b7fb-8fb0a420505a")
 	)
 	(wire
 		(pts
@@ -4811,6 +4833,17 @@
 		)
 		(uuid "7ed4d01e-d794-45a5-8a41-d2fd29a667ab")
 	)
+	(label "TSAL.DASH.EXC"
+		(at 377.19 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "810b54e8-ecd7-4572-9233-a185937ae857")
+	)
 	(label "SHUT.COCKPIT.E-STOP"
 		(at 363.22 39.37 180)
 		(fields_autoplaced yes)
@@ -4964,6 +4997,17 @@
 			(justify left bottom)
 		)
 		(uuid "ad456892-7b79-49c5-b1a0-249500e0d13b")
+	)
+	(label "TSAL.DASH.EXC"
+		(at 72.39 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af76a067-37c4-475a-bc8c-6d5282ec5824")
 	)
 	(label "RTDS.GND"
 		(at 358.14 99.06 180)

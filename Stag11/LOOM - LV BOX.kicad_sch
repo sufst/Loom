@@ -3880,6 +3880,12 @@
 		(uuid "058b2cae-7723-446a-9f23-a6743ba5419a")
 	)
 	(junction
+		(at 529.59 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d3e776c-67a6-4144-8221-8d05561e9320")
+	)
+	(junction
 		(at 105.41 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3892,10 +3898,28 @@
 		(uuid "26ec36f8-9a5a-4659-9cbc-276789b4c143")
 	)
 	(junction
+		(at 529.59 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5880aca5-22c3-498f-bb15-2c6843970ed2")
+	)
+	(junction
 		(at 97.79 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58a2861d-43e3-4ba6-9459-d2ea588a6482")
+	)
+	(junction
+		(at 529.59 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "755b561e-bbdc-47cd-8fe4-cce894b8baba")
+	)
+	(junction
+		(at 529.59 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "781c663b-ddea-4354-bffb-bcca745bbe47")
 	)
 	(junction
 		(at 95.25 33.02)
@@ -4185,6 +4209,16 @@
 	)
 	(wire
 		(pts
+			(xy 529.59 238.76) (xy 529.59 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf4242f-a11c-4b8b-907c-901bd4cd97cd")
+	)
+	(wire
+		(pts
 			(xy 55.88 116.84) (xy 97.79 116.84)
 		)
 		(stroke
@@ -4380,6 +4414,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.166 45.72) (xy 185.166 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f552173-c3cb-4674-98de-1e69bcfb2376")
+	)
+	(wire
+		(pts
 			(xy 349.25 226.06) (xy 529.59 226.06)
 		)
 		(stroke
@@ -4387,6 +4431,16 @@
 			(type default)
 		)
 		(uuid "1faf7ef2-ba47-479b-b299-7708e5faba6e")
+	)
+	(wire
+		(pts
+			(xy 529.59 241.3) (xy 529.59 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2072d403-6e4c-47b6-a2d2-3a3a60afb855")
 	)
 	(wire
 		(pts
@@ -4749,6 +4803,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 45.72) (xy 185.166 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eadae87-7fbb-44af-ace6-0b028ed7fce4")
+	)
+	(wire
+		(pts
 			(xy 351.79 160.02) (xy 528.32 160.02)
 		)
 		(stroke
@@ -4776,6 +4840,16 @@
 			(type default)
 		)
 		(uuid "55e31472-5e9a-481d-80f6-a1aa627795a5")
+	)
+	(wire
+		(pts
+			(xy 529.59 236.22) (xy 529.59 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56317cb0-9700-47ce-b85f-815fb1dc990c")
 	)
 	(wire
 		(pts
@@ -5704,6 +5778,16 @@
 	)
 	(wire
 		(pts
+			(xy 529.59 233.68) (xy 529.59 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbfdef6-a394-4dc2-a289-8a0850bc717b")
+	)
+	(wire
+		(pts
 			(xy 55.88 73.66) (xy 113.03 73.66)
 		)
 		(stroke
@@ -5895,6 +5979,16 @@
 			(type default)
 		)
 		(uuid "ed35f0d2-839a-4c0e-8a11-1f371fbb9991")
+	)
+	(wire
+		(pts
+			(xy 185.166 241.3) (xy 529.59 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edac9237-f260-4eef-9bbe-3ab603c0db44")
 	)
 	(wire
 		(pts
@@ -6289,6 +6383,7 @@
 	)
 	(label "TSAL.GREEN.LED.EN"
 		(at 529.59 205.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6299,6 +6394,7 @@
 	)
 	(label "TSAL.RESET-"
 		(at 529.59 213.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6309,6 +6405,7 @@
 	)
 	(label "R2D.LED.K"
 		(at 57.15 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6317,8 +6414,20 @@
 		)
 		(uuid "029a4e0b-1613-46e2-9bce-5eb266bc63dc")
 	)
+	(label "TSAL.DASH.EXC"
+		(at 529.59 241.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "047519f6-9aed-4bc9-887e-7ea21867b4f9")
+	)
 	(label "~{BMS.DISCHARGE.ENABLE}"
 		(at 529.59 285.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6329,6 +6438,7 @@
 	)
 	(label "SPARE.GND"
 		(at 525.78 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6339,6 +6449,7 @@
 	)
 	(label "TSAL.RESET-"
 		(at 57.15 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6349,6 +6460,7 @@
 	)
 	(label "SPARE.GND"
 		(at 525.78 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6359,6 +6471,7 @@
 	)
 	(label "TSAL.RESET+"
 		(at 57.15 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6369,6 +6482,7 @@
 	)
 	(label "DRS.BUTTON.GND"
 		(at 57.15 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6379,6 +6493,7 @@
 	)
 	(label "LATCHING.RESET-"
 		(at 529.59 293.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6389,6 +6504,7 @@
 	)
 	(label "BATT-"
 		(at 57.15 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6399,6 +6515,7 @@
 	)
 	(label "IMD.LED.EXC"
 		(at 527.05 180.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6409,6 +6526,7 @@
 	)
 	(label "DASH.GND"
 		(at 527.05 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6419,6 +6537,7 @@
 	)
 	(label "BATT+"
 		(at 529.59 226.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6429,6 +6548,7 @@
 	)
 	(label "DRS_LED"
 		(at 527.05 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6439,6 +6559,7 @@
 	)
 	(label "VOLTAGE.GND"
 		(at 58.42 322.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6449,6 +6570,7 @@
 	)
 	(label "PWR_SPLICE.EXC"
 		(at 57.15 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6459,6 +6581,7 @@
 	)
 	(label "APPS2.SIG"
 		(at 525.78 35.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6469,6 +6592,7 @@
 	)
 	(label "REB.HVS.EXC"
 		(at 57.15 179.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6479,6 +6603,7 @@
 	)
 	(label "TSAL.GREEN.LIGHT"
 		(at 57.15 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6489,6 +6614,7 @@
 	)
 	(label "LATCHING.EXC"
 		(at 162.56 17.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6499,6 +6625,7 @@
 	)
 	(label "VCU.UART.TX"
 		(at 504.19 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6509,6 +6636,7 @@
 	)
 	(label "TS.ON"
 		(at 57.15 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6519,6 +6647,7 @@
 	)
 	(label "TS.ON.BUTTON.GND"
 		(at 57.15 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6529,6 +6658,7 @@
 	)
 	(label "CAN.S.LOW"
 		(at 527.05 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6537,8 +6667,20 @@
 		)
 		(uuid "209dded5-b54e-44a7-bb6b-67cd521e6576")
 	)
+	(label "TSAL.DASH.EXC"
+		(at 57.15 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2432b631-e8ff-473f-acea-e181f35be72c")
+	)
 	(label "TSAL.GREEN.LED.K"
 		(at 57.15 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6549,6 +6691,7 @@
 	)
 	(label "TS.READY"
 		(at 525.78 40.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6559,6 +6702,7 @@
 	)
 	(label "VOLTAGE.GND"
 		(at 58.42 335.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6569,6 +6713,7 @@
 	)
 	(label "BMS.LED.K"
 		(at 57.15 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6579,6 +6724,7 @@
 	)
 	(label "CAN.S.HIGH"
 		(at 57.15 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6589,6 +6735,7 @@
 	)
 	(label "TSAL.LED.GND"
 		(at 529.59 248.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6599,6 +6746,7 @@
 	)
 	(label "TSAC.HVS.GND"
 		(at 57.15 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6609,6 +6757,7 @@
 	)
 	(label "VOLTAGE.SHUT.LATCHING.SIG"
 		(at 58.42 294.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6619,6 +6768,7 @@
 	)
 	(label "RTDS.EXC"
 		(at 525.78 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6629,6 +6779,7 @@
 	)
 	(label "VCU.GND"
 		(at 162.56 25.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6639,6 +6790,7 @@
 	)
 	(label "RTDS.GND"
 		(at 525.78 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6649,6 +6801,7 @@
 	)
 	(label "CAN.C.HIGH"
 		(at 527.05 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6659,6 +6812,7 @@
 	)
 	(label "CAN.S.LOW"
 		(at 58.42 290.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6669,6 +6823,7 @@
 	)
 	(label "CANNODE.HVS.SIG"
 		(at 57.15 184.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6679,6 +6834,7 @@
 	)
 	(label "BMS.LED.EXC"
 		(at 527.05 177.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6689,6 +6845,7 @@
 	)
 	(label "TSAL.LED.EXC"
 		(at 529.59 233.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6699,6 +6856,7 @@
 	)
 	(label "TS.ON.LED.K"
 		(at 66.04 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6707,18 +6865,9 @@
 		)
 		(uuid "46b0d77a-3f2b-4472-8c57-9814a9eebc6c")
 	)
-	(label "PWR_SPLICE.GND"
-		(at 499.11 261.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4816affb-6679-4324-8999-20e3a069a924")
-	)
 	(label "CAN.S.LOW"
 		(at 57.15 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6729,6 +6878,7 @@
 	)
 	(label "TSAL.LED.GND"
 		(at 57.15 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6739,6 +6889,7 @@
 	)
 	(label "CAN.NODE.EXC"
 		(at 58.42 283.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6749,6 +6900,7 @@
 	)
 	(label "VCU.UART.RX"
 		(at 504.19 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6759,6 +6911,7 @@
 	)
 	(label "SPARE.GND"
 		(at 525.78 81.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6769,6 +6922,7 @@
 	)
 	(label "VCU.UART.TX"
 		(at 57.15 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6779,6 +6933,7 @@
 	)
 	(label "APPS2.SIG"
 		(at 57.15 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6789,6 +6944,7 @@
 	)
 	(label "SHUT.LATCHING"
 		(at 529.59 298.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6799,6 +6955,7 @@
 	)
 	(label "REB.HVS.EXC"
 		(at 529.59 238.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6809,6 +6966,7 @@
 	)
 	(label "IMD.OK"
 		(at 57.15 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6819,6 +6977,7 @@
 	)
 	(label "DRS_PWM"
 		(at 525.78 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6829,6 +6988,7 @@
 	)
 	(label "SHUT.LATCHING"
 		(at 57.15 33.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6839,6 +6999,7 @@
 	)
 	(label "BATT+"
 		(at 57.15 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6849,6 +7010,7 @@
 	)
 	(label "PWR_SPLICE.EXC"
 		(at 500.38 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6859,6 +7021,7 @@
 	)
 	(label "~{BMS.FAULT}"
 		(at 57.15 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6869,6 +7032,7 @@
 	)
 	(label "VOLTAGE.TS.DETECTED.SIG"
 		(at 58.42 313.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6879,6 +7043,7 @@
 	)
 	(label "TSAL.RED.DASH.LED.K"
 		(at 529.59 220.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6889,6 +7054,7 @@
 	)
 	(label "SPARE.EXC"
 		(at 525.78 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6899,6 +7065,7 @@
 	)
 	(label "VOLTAGE.GND"
 		(at 58.42 354.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6909,6 +7076,7 @@
 	)
 	(label "TSAL.RESET+"
 		(at 529.59 215.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6919,6 +7087,7 @@
 	)
 	(label "TSAL.GREEN.LIGHT"
 		(at 529.59 223.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6929,6 +7098,7 @@
 	)
 	(label "R2D.LED.K"
 		(at 527.05 154.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6939,6 +7109,7 @@
 	)
 	(label "BMS.FAULT.LATCHING"
 		(at 529.59 273.05 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6949,6 +7120,7 @@
 	)
 	(label "PWR_SPLICE.GND"
 		(at 57.15 43.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6959,6 +7131,7 @@
 	)
 	(label "REB.HVS.GND"
 		(at 57.15 181.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6969,6 +7142,7 @@
 	)
 	(label "TS.ON.LED.EXC"
 		(at 527.05 172.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6979,6 +7153,7 @@
 	)
 	(label "TSAC.HVS.GND"
 		(at 529.59 251.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6989,6 +7164,7 @@
 	)
 	(label "SPARE.GND"
 		(at 525.78 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6999,6 +7175,7 @@
 	)
 	(label "TSAL.RED.LED.EN"
 		(at 529.59 208.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7009,6 +7186,7 @@
 	)
 	(label "TSAL.EXC"
 		(at 162.56 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7019,6 +7197,7 @@
 	)
 	(label "VCU.GND"
 		(at 527.05 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7029,6 +7208,7 @@
 	)
 	(label "BRAKE_PRESSED"
 		(at 525.78 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7039,6 +7219,7 @@
 	)
 	(label "SPARE.GND"
 		(at 525.78 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7049,6 +7230,7 @@
 	)
 	(label "VOLTAGE.TS.READY.SIG"
 		(at 58.42 332.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7059,6 +7241,7 @@
 	)
 	(label "CAN.NODE.GND"
 		(at 58.42 285.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7069,6 +7252,7 @@
 	)
 	(label "~{BMS.DISCHARGE.ENABLE}"
 		(at 57.15 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7079,6 +7263,7 @@
 	)
 	(label "CAN.C.LOW"
 		(at 527.05 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7089,6 +7274,7 @@
 	)
 	(label "BMS.LED.K"
 		(at 527.05 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7099,6 +7285,7 @@
 	)
 	(label "TS.DETECTED"
 		(at 529.59 218.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7109,6 +7296,7 @@
 	)
 	(label "TSAC.HVS.EXC"
 		(at 529.59 236.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7119,6 +7307,7 @@
 	)
 	(label "VOLTAGE.GND"
 		(at 58.42 297.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7129,6 +7318,7 @@
 	)
 	(label "DRS.BUTTON.GND"
 		(at 527.05 142.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7139,6 +7329,7 @@
 	)
 	(label "PWR_SPLICE.GND"
 		(at 500.38 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7149,6 +7340,7 @@
 	)
 	(label "TS.ON.BUTTON.EXC"
 		(at 527.05 170.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7159,6 +7351,7 @@
 	)
 	(label "TSAC.HVS.EXC"
 		(at 57.15 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7169,6 +7362,7 @@
 	)
 	(label "TSAL.LED.EXC"
 		(at 57.15 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7179,6 +7373,7 @@
 	)
 	(label "R2D.LED.EXC"
 		(at 527.05 175.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7189,6 +7384,7 @@
 	)
 	(label "VOLTAGE.GND"
 		(at 58.42 347.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7199,6 +7395,7 @@
 	)
 	(label "TS.DETECTED"
 		(at 57.15 176.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7209,6 +7406,7 @@
 	)
 	(label "TSAL.GREEN.DASH.LED.K"
 		(at 57.15 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7219,6 +7417,7 @@
 	)
 	(label "TSAL_LATCHING.EXC"
 		(at 529.59 246.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7229,6 +7428,7 @@
 	)
 	(label "TS.ON.BUTTON.GND"
 		(at 527.05 144.78 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7239,6 +7439,7 @@
 	)
 	(label "IMD.LED.K"
 		(at 57.15 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7249,6 +7450,7 @@
 	)
 	(label "CAN.S.HIGH"
 		(at 58.42 288.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7259,6 +7461,7 @@
 	)
 	(label "APPS1.SIG"
 		(at 525.78 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7269,6 +7472,7 @@
 	)
 	(label "RTDS.EXC"
 		(at 57.15 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7279,6 +7483,7 @@
 	)
 	(label "TSAL.GREEN.DASH.LED.K"
 		(at 529.59 203.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7289,6 +7494,7 @@
 	)
 	(label "VOLTAGE.GND"
 		(at 58.42 303.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7299,6 +7505,7 @@
 	)
 	(label "VOLTAGE.SHUT.TSAC.INTERLOCK.SIG"
 		(at 58.42 345.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7309,6 +7516,7 @@
 	)
 	(label "BPS.SIG"
 		(at 525.78 30.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7319,6 +7527,7 @@
 	)
 	(label "VOLTAGE.GND"
 		(at 58.42 316.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7329,6 +7538,7 @@
 	)
 	(label "CAN.C.LOW"
 		(at 57.15 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7339,6 +7549,7 @@
 	)
 	(label "CAN.C.HIGH"
 		(at 57.15 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7349,6 +7560,7 @@
 	)
 	(label "TS.DETECTED.DASH.SPLICE"
 		(at 57.15 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7359,6 +7571,7 @@
 	)
 	(label "SHUT.HVD.INTERLOCK"
 		(at 57.15 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7369,6 +7582,7 @@
 	)
 	(label "LATCHING.RESET-"
 		(at 57.15 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7379,6 +7593,7 @@
 	)
 	(label "VCU.UART.RX"
 		(at 57.15 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7389,6 +7604,7 @@
 	)
 	(label "BPS.SIG"
 		(at 57.15 48.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7399,6 +7615,7 @@
 	)
 	(label "R2D.BUTTON.GND"
 		(at 527.05 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7409,6 +7626,7 @@
 	)
 	(label "SAGL.SIG"
 		(at 525.78 33.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7419,6 +7637,7 @@
 	)
 	(label "VOLTAGE.TS.ON.SIG"
 		(at 58.42 326.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7429,6 +7648,7 @@
 	)
 	(label "IMD.FAULT.LATCHING"
 		(at 529.59 270.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7439,6 +7659,7 @@
 	)
 	(label "VOLTAGE.SHUT.HVD.INTERLOCK.SIG"
 		(at 58.42 300.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7449,6 +7670,7 @@
 	)
 	(label "SHUT.HVD.INTERLOCK"
 		(at 529.59 280.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7457,18 +7679,9 @@
 		)
 		(uuid "bd5241e9-e4f4-43f5-b233-b6ce5dbb42c8")
 	)
-	(label "PWR_SPLICE.EXC"
-		(at 499.11 246.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "be25c423-5471-4607-87d7-a8eca9e8dfc3")
-	)
 	(label "STATUS"
 		(at 525.78 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7479,6 +7692,7 @@
 	)
 	(label "TSAL_LATCHING.GND"
 		(at 529.59 261.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7489,6 +7703,7 @@
 	)
 	(label "VCU.GND"
 		(at 527.05 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7499,6 +7714,7 @@
 	)
 	(label "PWR_SPLICE.EXC"
 		(at 58.42 269.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7509,6 +7725,7 @@
 	)
 	(label "~{BMS.FAULT}"
 		(at 529.59 290.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7519,6 +7736,7 @@
 	)
 	(label "CAN.S.HIGH"
 		(at 57.15 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7529,6 +7747,7 @@
 	)
 	(label "VCU.EXC"
 		(at 527.05 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7539,6 +7758,7 @@
 	)
 	(label "VCU.EXC"
 		(at 527.05 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7549,6 +7769,7 @@
 	)
 	(label "SHUT.LATCHING"
 		(at 529.59 283.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7559,6 +7780,7 @@
 	)
 	(label "CAN.S.HIGH"
 		(at 527.05 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7569,6 +7791,7 @@
 	)
 	(label "PWR_SPLICE.GND"
 		(at 58.42 271.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7579,6 +7802,7 @@
 	)
 	(label "APPS1.SIG"
 		(at 57.15 38.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7589,6 +7813,7 @@
 	)
 	(label "VCU.EXC"
 		(at 162.56 22.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7599,6 +7824,7 @@
 	)
 	(label "IMD.FAULT.LATCHING"
 		(at 525.78 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7609,6 +7835,7 @@
 	)
 	(label "TS.ON.LED.K"
 		(at 527.05 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7619,6 +7846,7 @@
 	)
 	(label "VOLTAGE.GND"
 		(at 58.42 309.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7629,6 +7857,7 @@
 	)
 	(label "VOLTAGE.GND"
 		(at 58.42 328.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7639,6 +7868,7 @@
 	)
 	(label "TS.READY"
 		(at 57.15 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7649,6 +7879,7 @@
 	)
 	(label "BMS.FAULT.LATCHING"
 		(at 525.78 55.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7659,6 +7890,7 @@
 	)
 	(label "BATT-"
 		(at 529.59 210.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7669,6 +7901,7 @@
 	)
 	(label "LATCHING.GND"
 		(at 162.56 20.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7679,6 +7912,7 @@
 	)
 	(label "VOLTAGE.CURRENT.SENSE.SIG"
 		(at 58.42 307.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7689,6 +7923,7 @@
 	)
 	(label "TSAL.GND"
 		(at 162.56 30.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7699,6 +7934,7 @@
 	)
 	(label "VOLTAGE.~{GREEN.LED.ON}.SIG"
 		(at 58.42 320.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7709,6 +7945,7 @@
 	)
 	(label "TSAL.RED.LED.K"
 		(at 57.15 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7719,6 +7956,7 @@
 	)
 	(label "IMD.LED.K"
 		(at 527.05 160.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7729,6 +7967,7 @@
 	)
 	(label "IMD.OK"
 		(at 529.59 288.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7739,6 +7978,7 @@
 	)
 	(label "R2D.BUTTON.GND"
 		(at 57.15 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7749,6 +7989,7 @@
 	)
 	(label "LATCHING.RESET+"
 		(at 529.59 278.13 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7759,6 +8000,7 @@
 	)
 	(label "LATCHING.RESET+"
 		(at 57.15 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7769,6 +8011,7 @@
 	)
 	(label "LVS_LED"
 		(at 527.05 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7779,6 +8022,7 @@
 	)
 	(label "VOLTAGE.GND"
 		(at 58.42 341.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7789,6 +8033,7 @@
 	)
 	(label "R2D.BUTTON.EXC"
 		(at 527.05 167.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7799,6 +8044,7 @@
 	)
 	(label "REB.HVS.GND"
 		(at 529.59 254 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7809,6 +8055,7 @@
 	)
 	(label "VOLTAGE.SHUT.TSAC.INTERLOCK.SIG"
 		(at 57.15 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7819,6 +8066,7 @@
 	)
 	(label "VOLTAGE.SIG"
 		(at 58.42 351.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7829,6 +8077,7 @@
 	)
 	(label "VOLTAGE.SAGL.SIG"
 		(at 58.42 339.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7839,6 +8088,7 @@
 	)
 	(label "RTDS.GND"
 		(at 57.15 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7849,6 +8099,7 @@
 	)
 	(label "CAN.S.LOW"
 		(at 57.15 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7859,6 +8110,7 @@
 	)
 	(label "SAGL.SIG"
 		(at 57.15 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7869,6 +8121,7 @@
 	)
 	(label "TS.ON"
 		(at 525.78 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7879,6 +8132,7 @@
 	)
 	(label "SHUT.HVD.INTERLOCK"
 		(at 529.59 295.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7890,6 +8144,7 @@
 	(hierarchical_label "LV - HV Connector"
 		(shape input)
 		(at 50.8 181.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7901,6 +8156,7 @@
 	(hierarchical_label "Main LV connector"
 		(shape input)
 		(at 50.8 87.63 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
