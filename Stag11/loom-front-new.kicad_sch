@@ -3034,6 +3034,9 @@
 			)
 		)
 	)
+	(bus_alias "L120.AUX.SIG"
+		(members "SAGL.SIG" "L120.5V.AUX" "L120.AGND" "L120.DAMPER.R" "L120.DAMPER.L")
+	)
 	(junction
 		(at 345.694 151.13)
 		(diameter 0)
@@ -3063,14 +3066,6 @@
 		(uuid "0034ca16-548c-49fa-8224-f8d857fd77a7")
 	)
 	(no_connect
-		(at 71.12 143.51)
-		(uuid "01f23e54-4f31-4d75-9450-a9f357547637")
-	)
-	(no_connect
-		(at 97.79 118.11)
-		(uuid "0f3b66c3-89c0-4862-925d-8308abf1f01b")
-	)
-	(no_connect
 		(at 71.12 161.29)
 		(uuid "15ea95b3-5335-422e-98d3-a486b36428f6")
 	)
@@ -3079,28 +3074,16 @@
 		(uuid "19adc7da-b8f8-48b2-90d9-c98b5974024e")
 	)
 	(no_connect
-		(at 71.12 146.05)
-		(uuid "33a20249-eeaa-4117-a2b5-8e7738d4b332")
-	)
-	(no_connect
-		(at 92.71 118.11)
-		(uuid "33f895b8-c95a-42c6-8bc0-30c2e465e120")
-	)
-	(no_connect
-		(at 71.12 153.67)
-		(uuid "38dd594d-35c9-4dbb-b50a-7334fc1116b8")
-	)
-	(no_connect
 		(at 71.12 151.13)
 		(uuid "4a10edc6-dce6-4688-9c80-e9bf8210196f")
 	)
 	(no_connect
-		(at 92.71 115.57)
-		(uuid "4bd0e7ec-de9f-4f24-9f61-f4635947c57a")
-	)
-	(no_connect
 		(at 71.12 163.83)
 		(uuid "5fe990a5-ffb4-44f3-bfb1-f3cfb99b6240")
+	)
+	(no_connect
+		(at 71.12 54.61)
+		(uuid "7245ef2d-3e59-4702-b5c6-c15527094874")
 	)
 	(no_connect
 		(at 71.12 166.37)
@@ -3115,28 +3098,84 @@
 		(uuid "956fa969-432e-4b4a-b6fb-03389e630634")
 	)
 	(no_connect
-		(at 97.79 115.57)
-		(uuid "a8160472-35e9-420a-a3ae-48e38311a639")
-	)
-	(no_connect
-		(at 71.12 148.59)
-		(uuid "b49f9a96-af8d-409e-afca-5b65c04f8054")
-	)
-	(no_connect
-		(at 71.12 140.97)
-		(uuid "d4460a06-3215-47eb-9536-d960a4bc6066")
-	)
-	(no_connect
 		(at 378.46 148.59)
 		(uuid "e2ee1b1b-99af-4c7a-9e03-e9d759c33722")
 	)
 	(no_connect
-		(at 358.14 80.01)
-		(uuid "e3d11f4e-bb4d-47db-8a30-ab2afb39538e")
-	)
-	(no_connect
 		(at 71.12 156.21)
 		(uuid "ec071cfb-620c-4281-8ea8-04fbcc8fc70e")
+	)
+	(bus_entry
+		(at 106.68 153.67)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099c610e-501b-46a7-a0ce-8518d038f6e9")
+	)
+	(bus_entry
+		(at 109.22 148.59)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa923cf-97b8-4833-802a-701e869e8460")
+	)
+	(bus_entry
+		(at 370.205 239.395)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50eea1d3-ecba-40a7-9437-95713f24ea7c")
+	)
+	(bus_entry
+		(at 370.205 241.935)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f63a1a8-0941-4906-ae59-f037295b8656")
+	)
+	(bus_entry
+		(at 342.9 221.615)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96607bc0-d201-4a79-94fe-7749c9e5b772")
+	)
+	(bus_entry
+		(at 370.205 241.935)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4648c6a-ecb9-487b-8639-b88168b08dba")
+	)
+	(bus_entry
+		(at 106.68 125.73)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77240bf-574f-4ecf-9bc7-11b0f001036d")
+	)
+	(bus_entry
+		(at 109.22 151.13)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f27f6b-c323-433b-b4c9-87ea6bb89ec7")
 	)
 	(wire
 		(pts
@@ -3150,7 +3189,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 125.73) (xy 358.14 125.73)
+			(xy 71.12 125.73) (xy 106.68 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3177,6 +3216,16 @@
 			(type default)
 		)
 		(uuid "0e67586a-ebc4-4d0d-97ad-1008ef8d7368")
+	)
+	(wire
+		(pts
+			(xy 372.745 244.475) (xy 382.27 244.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f95e86e-93bd-4691-ba52-084f5ef70b74")
 	)
 	(wire
 		(pts
@@ -3212,16 +3261,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 54.61) (xy 358.14 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c24579-c5e2-4db4-91f7-d8a3f8990412")
-	)
-	(wire
-		(pts
 			(xy 363.22 27.94) (xy 325.12 27.94)
 		)
 		(stroke
@@ -3233,14 +3272,13 @@
 	)
 	(wire
 		(pts
-			(xy 145.542 130.81) (xy 71.12 130.81)
+			(xy 114.3 143.51) (xy 71.12 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 0 255 1)
 		)
-		(uuid "17494fc9-4560-4162-88b6-c1da28102612")
+		(uuid "1a26625d-64c3-4c97-a4fe-5c6184d4b2a2")
 	)
 	(wire
 		(pts
@@ -3322,6 +3360,26 @@
 		)
 		(uuid "2557e3b6-77e5-48ba-9d35-d6c798a19cc1")
 	)
+	(bus
+		(pts
+			(xy 139.7 224.155) (xy 340.36 224.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab98f5e-3ab3-428d-ac79-342514d9c655")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 358.14 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301b8b34-e3ee-449d-9d54-15dba3f32fea")
+	)
 	(wire
 		(pts
 			(xy 140.97 77.47) (xy 140.97 158.75)
@@ -3331,6 +3389,16 @@
 			(type default)
 		)
 		(uuid "3181e215-542f-46c6-9138-672b9d90e876")
+	)
+	(bus
+		(pts
+			(xy 367.03 224.155) (xy 370.205 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ba7527-1ed1-4969-a171-21ca60be8565")
 	)
 	(wire
 		(pts
@@ -3365,16 +3433,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 115.57) (xy 92.71 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae1fabe-90f9-4431-be7e-665a6fbb0e41")
-	)
-	(wire
-		(pts
 			(xy 297.18 123.19) (xy 358.14 123.19)
 		)
 		(stroke
@@ -3403,6 +3461,26 @@
 		)
 		(uuid "3e5ed8c6-0fc5-419a-b5d2-5de2f094fe34")
 	)
+	(bus
+		(pts
+			(xy 370.205 239.395) (xy 370.205 241.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ba8edc-a66c-48d0-b5f3-c14733104612")
+	)
+	(bus
+		(pts
+			(xy 109.22 156.21) (xy 109.22 193.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4139f5d1-e319-4487-bc7a-c48731f45832")
+	)
 	(wire
 		(pts
 			(xy 145.542 130.81) (xy 145.542 153.67)
@@ -3413,6 +3491,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "4452469b-1803-4ca3-b382-bf9e138c1e9e")
+	)
+	(wire
+		(pts
+			(xy 106.68 125.73) (xy 358.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47574cd8-47e2-43f3-b9dc-5dceb7980714")
 	)
 	(wire
 		(pts
@@ -3488,13 +3576,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 118.11) (xy 92.71 118.11)
+			(xy 109.22 128.27) (xy 232.41 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56511d35-1c82-4b74-b955-611f369f3816")
+		(uuid "56162d0d-466c-4fbd-bb51-1e63ba18d6be")
 	)
 	(wire
 		(pts
@@ -3515,6 +3603,16 @@
 			(type default)
 		)
 		(uuid "5bd634de-000f-4974-b331-7b1ec57da16f")
+	)
+	(wire
+		(pts
+			(xy 71.12 128.27) (xy 109.22 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d0465e4-5cc2-4527-a1fe-379239bc4aa3")
 	)
 	(wire
 		(pts
@@ -3579,7 +3677,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 128.27) (xy 358.14 128.27)
+			(xy 342.9 128.27) (xy 358.14 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3597,6 +3695,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "6c970ea4-5599-4e68-a365-723a6d1a611d")
+	)
+	(wire
+		(pts
+			(xy 71.12 153.67) (xy 106.68 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc282b7-bf04-4e0d-bb0a-ce6ebe680e09")
 	)
 	(wire
 		(pts
@@ -3663,7 +3771,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 115.57) (xy 297.18 115.57)
+			(xy 71.12 115.57) (xy 297.18 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3763,6 +3871,26 @@
 		)
 		(uuid "897b3a61-f70e-4d76-b817-cddc447c9db8")
 	)
+	(bus
+		(pts
+			(xy 370.205 227.33) (xy 370.205 239.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf1076c-c70d-427f-9012-fd5c4f8d7396")
+	)
+	(wire
+		(pts
+			(xy 342.9 128.27) (xy 342.9 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a7aed2-8a79-4fc2-982b-8593bfe572ae")
+	)
 	(wire
 		(pts
 			(xy 71.12 138.43) (xy 123.19 138.43)
@@ -3782,6 +3910,16 @@
 			(type default)
 		)
 		(uuid "99766634-1729-4bc9-a600-c70df602a926")
+	)
+	(wire
+		(pts
+			(xy 293.37 80.01) (xy 293.37 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a63680a-ff45-4a8c-a331-1dadf2ea1908")
 	)
 	(wire
 		(pts
@@ -3817,6 +3955,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 146.05) (xy 106.68 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d535f9b-04df-4deb-9e2c-9fe023c90274")
+	)
+	(wire
+		(pts
 			(xy 186.69 69.85) (xy 186.69 91.44)
 		)
 		(stroke
@@ -3824,6 +3972,16 @@
 			(type default)
 		)
 		(uuid "9f1053fd-32fa-41f8-81fe-c5c3b45faaf8")
+	)
+	(wire
+		(pts
+			(xy 358.14 80.01) (xy 293.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9feeb212-382c-44be-8913-16b0da217602")
 	)
 	(wire
 		(pts
@@ -3835,6 +3993,16 @@
 		)
 		(uuid "a082062b-7b72-4a15-9f6c-36dcf7434db9")
 	)
+	(bus
+		(pts
+			(xy 109.22 128.27) (xy 109.22 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18c296a-d8ff-4ec4-8273-3f215e92cdd0")
+	)
 	(wire
 		(pts
 			(xy 71.12 113.03) (xy 217.17 113.03)
@@ -3844,6 +4012,17 @@
 			(type default)
 		)
 		(uuid "a2c98582-cae9-4738-990a-e11ab7e46700")
+	)
+	(wire
+		(pts
+			(xy 71.12 130.81) (xy 145.542 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "a320ced2-f382-45fd-9c88-e01f9595f5c1")
 	)
 	(wire
 		(pts
@@ -3864,6 +4043,36 @@
 			(type default)
 		)
 		(uuid "a6901c03-06aa-4ef8-9603-e3da8b8b5cfc")
+	)
+	(wire
+		(pts
+			(xy 71.12 140.97) (xy 111.76 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85af4d8-ce8f-4c64-afec-7d818626242e")
+	)
+	(wire
+		(pts
+			(xy 372.745 241.935) (xy 382.27 241.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ca7e46-be47-4bf7-8096-b123610b1b11")
+	)
+	(bus
+		(pts
+			(xy 340.36 224.155) (xy 367.03 224.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac399089-d1bd-473d-830e-3f03002e27a3")
 	)
 	(wire
 		(pts
@@ -3925,15 +4134,15 @@
 		)
 		(uuid "b35e1a99-e13c-4c33-b8c0-945a1f6fea74")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 232.41 128.27) (xy 71.12 128.27)
+			(xy 109.22 151.13) (xy 109.22 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4154490-8526-4cbd-bb79-33234fb72a40")
+		(uuid "b545f12b-f08e-4a00-b459-e2fa1e1e6198")
 	)
 	(wire
 		(pts
@@ -3988,6 +4197,26 @@
 		)
 		(uuid "c255b160-5e2d-4a5d-8471-9322597eefd9")
 	)
+	(bus
+		(pts
+			(xy 109.22 193.675) (xy 139.7 224.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5061ba8-5e77-4015-bfbf-fa5ef4109727")
+	)
+	(bus
+		(pts
+			(xy 109.22 148.59) (xy 109.22 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c524792e-b757-45af-a084-cd2575aaa19a")
+	)
 	(wire
 		(pts
 			(xy 71.12 62.23) (xy 322.58 62.23)
@@ -4032,6 +4261,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 140.97) (xy 114.3 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1faf55-42ef-44b0-aa71-acf0ad0d29aa")
+	)
+	(wire
+		(pts
 			(xy 177.8 143.51) (xy 378.46 143.51)
 		)
 		(stroke
@@ -4053,6 +4292,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 148.59) (xy 106.68 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb33ba4-7a4f-4240-8cf5-c79cf1ad38cf")
+	)
+	(wire
+		(pts
 			(xy 200.66 57.15) (xy 200.66 72.39)
 		)
 		(stroke
@@ -4063,6 +4312,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 140.97) (xy 293.37 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0959622-7066-4728-9864-5a88dc1b4c3d")
+	)
+	(wire
+		(pts
 			(xy 138.43 80.01) (xy 138.43 176.53)
 		)
 		(stroke
@@ -4070,6 +4329,16 @@
 			(type default)
 		)
 		(uuid "e0fae1c8-2656-43d7-9d70-b3914eec0382")
+	)
+	(wire
+		(pts
+			(xy 111.76 140.97) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1488fcf-3751-408f-9cf3-3576991acbd7")
 	)
 	(wire
 		(pts
@@ -4197,26 +4466,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 118.11) (xy 259.08 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f226fa24-6aaf-4bb0-9674-8ac7239c8fbd")
-	)
-	(wire
-		(pts
-			(xy 259.08 118.11) (xy 259.08 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f24f4bff-edfa-4672-8d0a-ae77cec49d7d")
-	)
-	(wire
-		(pts
 			(xy 325.12 62.23) (xy 358.14 62.23)
 		)
 		(stroke
@@ -4329,6 +4578,17 @@
 		)
 		(uuid "238353c0-f117-40f0-bf5b-76925a58d784")
 	)
+	(text "SAGL.EXC etc re-used\nfor L120 5V sensor\npower/gnd\n\nTODO: make bus"
+		(exclude_from_sim no)
+		(at 39.37 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7cc37b9f-e9a1-44ec-a72b-58f6bec6e715")
+	)
 	(text "1, 4, 5, 6, 34"
 		(exclude_from_sim no)
 		(at 41.91 97.79 0)
@@ -4361,6 +4621,16 @@
 		)
 		(uuid "b8ce22da-b7e3-4f61-a9f6-b71e8b2d7235")
 	)
+	(text "Pin 2 stuck,\nswap to 36"
+		(exclude_from_sim no)
+		(at 58.42 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec7bab78-6153-4d5f-9533-5957cec8fa2b")
+	)
 	(text "Splice Power too?\n"
 		(exclude_from_sim no)
 		(at 365.252 203.2 0)
@@ -4371,9 +4641,18 @@
 		)
 		(uuid "fc7dc7a5-6c35-45e3-a1ee-ba9981459b5c")
 	)
+	(label "L120.8V.AUX"
+		(at 72.39 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "071e60c3-92cf-4012-8c49-1e76a9491325")
+	)
 	(label "TSAL.LED.GND"
 		(at 358.14 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4382,9 +4661,8 @@
 		)
 		(uuid "08d2986c-79b7-49ed-a987-bb3ee2f725e7")
 	)
-	(label "SAGL.EXC"
-		(at 97.79 115.57 0)
-		(fields_autoplaced yes)
+	(label "L120.5V.AUX"
+		(at 72.39 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4395,7 +4673,6 @@
 	)
 	(label "CAN.S.LOW"
 		(at 72.39 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4406,7 +4683,6 @@
 	)
 	(label "TSAL.LED.EXC"
 		(at 72.39 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4415,9 +4691,18 @@
 		)
 		(uuid "13a84edf-9278-4fbf-9f01-c8e52ab65800")
 	)
+	(label "L120.DAMPER.L"
+		(at 72.39 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "171e6392-6bbb-4f3f-a5e6-3c5ac9aa973d")
+	)
 	(label "SHUT.LATCHING"
 		(at 72.39 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4428,7 +4713,6 @@
 	)
 	(label "SHUT.INERTIA"
 		(at 363.22 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4439,7 +4723,6 @@
 	)
 	(label "SHUT.LATCHING"
 		(at 363.22 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4450,7 +4733,6 @@
 	)
 	(label "DRS.BUTTON.EXC"
 		(at 377.19 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4461,7 +4743,6 @@
 	)
 	(label "CAN.S.HIGH"
 		(at 377.19 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4470,9 +4751,18 @@
 		)
 		(uuid "2202baf4-4dde-47f1-9b23-387197819e9a")
 	)
+	(label "L120.AGND"
+		(at 382.27 244.475 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "232978de-b66a-4e9a-9d80-db493e7740d8")
+	)
 	(label "APPS1.SIG"
 		(at 72.39 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4483,7 +4773,6 @@
 	)
 	(label "DASH.GND"
 		(at 72.39 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4494,7 +4783,6 @@
 	)
 	(label "TSAL.GREEN.LED.K"
 		(at 72.39 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4505,7 +4793,6 @@
 	)
 	(label "DASHBOX.GND"
 		(at 377.19 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4516,7 +4803,6 @@
 	)
 	(label "CAN.S.HIGH"
 		(at 72.39 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4527,7 +4813,6 @@
 	)
 	(label "BSPD.CUR_SEN.EXC"
 		(at 358.14 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4538,7 +4823,6 @@
 	)
 	(label "TSAL.LED.EXC"
 		(at 358.14 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4547,9 +4831,18 @@
 		)
 		(uuid "2bae1806-4f04-48de-90c4-a77ebd879fd3")
 	)
+	(label "L120.5V.AUX"
+		(at 382.27 241.935 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ff4ade3-7329-4e47-98b9-78ada1a09e69")
+	)
 	(label "TS.DETECTED.DASH.A"
 		(at 377.19 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4560,7 +4853,6 @@
 	)
 	(label "RTDS.EXC"
 		(at 358.14 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4569,9 +4861,18 @@
 		)
 		(uuid "347796e9-9346-4227-8154-8222c6dc7d88")
 	)
+	(label "L120.DAMPER.R"
+		(at 72.39 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37b69886-175a-41d6-90a8-87fa05ea4094")
+	)
 	(label "CT.SIG"
 		(at 72.39 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4582,7 +4883,6 @@
 	)
 	(label "BMS.LED.K"
 		(at 72.39 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4593,7 +4893,6 @@
 	)
 	(label "BPS.REAR.SIG"
 		(at 72.39 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4602,20 +4901,8 @@
 		)
 		(uuid "451c4c9d-b691-4dd6-b852-d9e99865ece9")
 	)
-	(label "SPARE.EXC"
-		(at 72.39 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45e79e17-12c5-462a-ba9d-730b13d9cfe1")
-	)
 	(label "RTDS.GND"
 		(at 72.39 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4626,7 +4913,6 @@
 	)
 	(label "IMD.LED.K"
 		(at 377.19 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4637,7 +4923,6 @@
 	)
 	(label "DASH.EXC"
 		(at 72.39 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4646,9 +4931,18 @@
 		)
 		(uuid "5afe4057-ce09-4516-8eed-c31d162724a5")
 	)
+	(label "{L120.AUX.SIG}"
+		(at 109.22 154.94 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b35173a-1d7b-4d60-9ba2-db234cd16731")
+	)
 	(label "SHUT.COCKPIT.E-STOP"
 		(at 363.22 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4659,7 +4953,6 @@
 	)
 	(label "TS.DETECTED.DASH.A"
 		(at 72.39 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4670,7 +4963,6 @@
 	)
 	(label "APPS1.SIG"
 		(at 358.14 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4681,7 +4973,6 @@
 	)
 	(label "TSAL.GREEN.DASH.LED.K"
 		(at 377.19 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4692,7 +4983,6 @@
 	)
 	(label "CT.SIG"
 		(at 358.14 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4703,7 +4993,6 @@
 	)
 	(label "PEDALBOX.EXC"
 		(at 358.14 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4714,7 +5003,6 @@
 	)
 	(label "CAN.S.LOW"
 		(at 377.19 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4725,7 +5013,6 @@
 	)
 	(label "DRS.BUTTON.GND"
 		(at 72.39 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4736,7 +5023,6 @@
 	)
 	(label "DRS.BUTTON.EXC"
 		(at 72.39 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4747,7 +5033,6 @@
 	)
 	(label "TSAL.GREEN.DASH.LED.K"
 		(at 72.39 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4758,7 +5043,6 @@
 	)
 	(label "SHUT.RIGHT.E-STOP"
 		(at 72.39 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4769,7 +5053,6 @@
 	)
 	(label "BSPD.CUR_SEN.GND"
 		(at 358.14 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4780,7 +5063,6 @@
 	)
 	(label "BSPD.CUR_SEN.GND"
 		(at 72.39 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4791,7 +5073,6 @@
 	)
 	(label "SHUT.RIGHT.E-STOP"
 		(at 358.14 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4802,7 +5083,6 @@
 	)
 	(label "SAGL.SIG"
 		(at 72.39 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4813,7 +5093,6 @@
 	)
 	(label "SHUT.COCKPIT.E-STOP"
 		(at 363.22 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4824,7 +5103,6 @@
 	)
 	(label "PEDALBOX.EXC"
 		(at 72.39 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4835,7 +5113,6 @@
 	)
 	(label "IMD.LED.K"
 		(at 72.39 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4844,20 +5121,8 @@
 		)
 		(uuid "8760b2ff-fca8-4561-9373-b5dea28d904c")
 	)
-	(label "SPARE.GND"
-		(at 72.39 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b8c9ec9-e1dc-42d5-b735-4c29eddf0d9d")
-	)
 	(label "TSAL.GREEN.LED.EN"
 		(at 358.14 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4868,7 +5133,6 @@
 	)
 	(label "SAGL.GND"
 		(at 356.87 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4879,7 +5143,6 @@
 	)
 	(label "SAGL.EXC"
 		(at 356.87 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4890,7 +5153,6 @@
 	)
 	(label "R2D.LED.K"
 		(at 72.39 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4901,7 +5163,6 @@
 	)
 	(label "PEDALBOX.GND"
 		(at 358.14 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4912,7 +5173,6 @@
 	)
 	(label "RTDS.EXC"
 		(at 72.39 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4923,7 +5183,6 @@
 	)
 	(label "APPS2.SIG"
 		(at 358.14 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4934,7 +5193,6 @@
 	)
 	(label "BPS.FRONT.SIG"
 		(at 72.39 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4945,7 +5203,6 @@
 	)
 	(label "TSAL.RED.LED.EN"
 		(at 358.14 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4956,7 +5213,6 @@
 	)
 	(label "BSPD.CUR_SEN.EXC"
 		(at 72.39 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4967,7 +5223,6 @@
 	)
 	(label "RTDS.GND"
 		(at 358.14 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4977,8 +5232,7 @@
 		(uuid "b715da7a-8bda-4d21-8d72-31e0901487d1")
 	)
 	(label "PEDALBOX.GND"
-		(at 72.39 54.61 0)
-		(fields_autoplaced yes)
+		(at 72.39 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4989,7 +5243,6 @@
 	)
 	(label "DASHBOX.EXC"
 		(at 377.19 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4998,9 +5251,18 @@
 		)
 		(uuid "bdbb6f7f-2420-4807-89a3-eacedba881d7")
 	)
+	(label "L120.DAMPER.R"
+		(at 72.39 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf5f8a82-e6e5-4f5d-adef-0f89cbc6351b")
+	)
 	(label "SHUT.BOTS"
 		(at 358.14 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5011,7 +5273,6 @@
 	)
 	(label "BMS.LED.K"
 		(at 377.19 163.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5022,7 +5283,6 @@
 	)
 	(label "DRS.BUTTON.GND"
 		(at 377.19 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5033,7 +5293,6 @@
 	)
 	(label "SAGL.SIG"
 		(at 356.87 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5044,7 +5303,6 @@
 	)
 	(label "R2D.LED.K"
 		(at 377.19 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5055,7 +5313,6 @@
 	)
 	(label "TSAL.LED.GND"
 		(at 72.39 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5064,9 +5321,8 @@
 		)
 		(uuid "d9e57a37-a7e0-45d1-86e3-48655327b7e1")
 	)
-	(label "SAGL.GND"
-		(at 97.79 118.11 0)
-		(fields_autoplaced yes)
+	(label "L120.AGND"
+		(at 72.39 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5077,7 +5333,6 @@
 	)
 	(label "TSAL.RED.LED.K"
 		(at 72.39 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5088,7 +5343,6 @@
 	)
 	(label "TS.ON.BUTTON.GND"
 		(at 377.19 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5099,7 +5353,6 @@
 	)
 	(label "SHUT.BOTS"
 		(at 358.14 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5110,7 +5363,6 @@
 	)
 	(label "BPS.FRONT.SIG"
 		(at 358.14 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5121,7 +5373,6 @@
 	)
 	(label "R2D.BUTTON.GND"
 		(at 72.39 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5132,7 +5383,6 @@
 	)
 	(label "SHUT.INERTIA"
 		(at 358.14 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5143,7 +5393,6 @@
 	)
 	(label "TS.ON.BUTTON.GND"
 		(at 72.39 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5154,7 +5403,6 @@
 	)
 	(label "APPS2.SIG"
 		(at 72.39 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5165,7 +5413,6 @@
 	)
 	(label "BPS.REAR.SIG"
 		(at 358.14 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5176,7 +5423,6 @@
 	)
 	(label "R2D.BUTTON.GND"
 		(at 377.19 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5188,7 +5434,6 @@
 	(hierarchical_label "DASHBOARD"
 		(shape bidirectional)
 		(at 382.27 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5200,7 +5445,6 @@
 	(hierarchical_label "PEDAL BOX I{slash}O"
 		(shape bidirectional)
 		(at 361.95 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5212,7 +5456,6 @@
 	(hierarchical_label "FIREWALL"
 		(shape bidirectional)
 		(at 67.31 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5224,7 +5467,6 @@
 	(hierarchical_label "COCKPIT E-STOP"
 		(shape bidirectional)
 		(at 367.03 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5236,7 +5478,6 @@
 	(hierarchical_label "ROLL HOOP SHUTDOWN"
 		(shape bidirectional)
 		(at 361.95 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5248,7 +5489,6 @@
 	(hierarchical_label "SAGL"
 		(shape input)
 		(at 363.22 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5260,7 +5500,6 @@
 	(hierarchical_label "INERTIA SW"
 		(shape bidirectional)
 		(at 367.03 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5272,7 +5511,6 @@
 	(hierarchical_label "ROLL HOOP TSAL"
 		(shape bidirectional)
 		(at 364.49 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
