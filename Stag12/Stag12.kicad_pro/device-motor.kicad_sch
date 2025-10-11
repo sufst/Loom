@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "514a2b26-ff21-42c3-b45e-2e340674313d")
 	(paper "A4")
 	(title_block
@@ -80,8 +80,8 @@
 			)
 			(symbol "Deutsch_DTM_3P_Pin_1_1"
 				(rectangle
-					(start -3.81 -8.89)
-					(end -0.635 -10.16)
+					(start -3.81 -3.81)
+					(end -0.635 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -104,8 +104,8 @@
 					)
 				)
 				(rectangle
-					(start -3.81 -3.81)
-					(end -0.635 -5.08)
+					(start -3.81 -8.89)
+					(end -0.635 -10.16)
 					(stroke
 						(width 0)
 						(type default)
@@ -116,7 +116,7 @@
 					)
 				)
 				(pin input line
-					(at 1.905 -9.525 180)
+					(at 1.905 -4.445 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -125,7 +125,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -152,7 +152,7 @@
 					)
 				)
 				(pin input line
-					(at 1.905 -4.445 180)
+					(at 1.905 -9.525 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -161,7 +161,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -170,6 +170,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connectors_SUFST:Deutsch_DTM_6P_Pin"
 			(exclude_from_sim no)
@@ -230,7 +231,7 @@
 			(symbol "Deutsch_DTM_6P_Pin_0_1"
 				(polyline
 					(pts
-						(xy -0.635 -14.605) (xy 1.905 -14.605)
+						(xy -0.635 -4.445) (xy 1.905 -4.445)
 					)
 					(stroke
 						(width 0)
@@ -254,7 +255,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -4.445) (xy 1.905 -4.445)
+						(xy -0.635 -14.605) (xy 1.905 -14.605)
 					)
 					(stroke
 						(width 0)
@@ -267,44 +268,8 @@
 			)
 			(symbol "Deutsch_DTM_6P_Pin_1_1"
 				(rectangle
-					(start -3.81 -16.51)
-					(end -0.635 -17.78)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 229 191 1)
-					)
-				)
-				(rectangle
-					(start -3.81 -13.97)
-					(end -0.635 -15.24)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 229 191 1)
-					)
-				)
-				(rectangle
-					(start -3.81 -11.43)
-					(end -0.635 -12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 229 191 1)
-					)
-				)
-				(rectangle
-					(start -3.81 -8.89)
-					(end -0.635 -10.16)
+					(start -3.81 -3.81)
+					(end -0.635 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -327,8 +292,44 @@
 					)
 				)
 				(rectangle
-					(start -3.81 -3.81)
-					(end -0.635 -5.08)
+					(start -3.81 -8.89)
+					(end -0.635 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -11.43)
+					(end -0.635 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -13.97)
+					(end -0.635 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -16.51)
+					(end -0.635 -17.78)
 					(stroke
 						(width 0)
 						(type default)
@@ -339,7 +340,7 @@
 					)
 				)
 				(pin input line
-					(at 1.905 -17.145 180)
+					(at 1.905 -4.445 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -348,61 +349,7 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.905 -14.605 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.905 -12.065 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.905 -9.525 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -429,7 +376,7 @@
 					)
 				)
 				(pin input line
-					(at 1.905 -4.445 180)
+					(at 1.905 -9.525 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -438,7 +385,61 @@
 							)
 						)
 					)
-					(number "6"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -12.065 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -14.605 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -17.145 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -447,7 +448,228 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 105.41 55.88)
+		(end 135.89 71.12)
+		(stroke
+			(width 0)
+			(type default)
+			(color 204 102 0 1)
+		)
+		(fill
+			(type color)
+			(color 204 102 0 0.2)
+		)
+		(uuid 3f7a58d9-5e85-4f99-8976-6c8a7a34027a)
+	)
+	(circle
+		(center 213.36 83.82)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 132 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 0.5)
+		)
+		(uuid 87d7bcfb-4128-4d8f-a2e3-e7f6e18f302a)
+	)
+	(circle
+		(center 215.9 76.2)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 132 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 0.5)
+		)
+		(uuid c38f40dd-9001-46f5-bb7e-233d29f3f97a)
+	)
+	(circle
+		(center 203.2 76.2)
+		(radius 18.0501)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 132 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 0.2)
+		)
+		(uuid c3dd57e5-4e9a-4553-8efc-e1cafe3879a6)
+	)
+	(circle
+		(center 213.36 68.58)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 132 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 0.5)
+		)
+		(uuid dd27031e-cfee-4c83-b1ed-7d19441b6deb)
+	)
+	(text "White/Red"
+		(exclude_from_sim no)
+		(at 95.25 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "238f6d3f-8c0a-4401-9f98-e21a9f71d2f6")
+	)
+	(text "View from 3 Phase Connection Side"
+		(exclude_from_sim no)
+		(at 185.42 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3769f1be-aa9a-41fa-91e6-44991b4ebac5")
+	)
+	(text "PHASE CONNECTIONS"
+		(exclude_from_sim no)
+		(at 105.41 54.61 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b2430b7-5792-4b78-bee2-9a05c15bf352")
+	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 101.6 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d40950f-4688-461c-ab6c-a0d8228d9f75")
+	)
+	(text "Blue"
+		(exclude_from_sim no)
+		(at 100.965 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "503b0f0f-5d0c-424b-810c-6c3ce5237229")
+	)
+	(text "Black"
+		(exclude_from_sim no)
+		(at 99.695 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "650413cc-f5c2-4592-ae16-2d44271830ee")
+	)
+	(text "White/Yellow"
+		(exclude_from_sim no)
+		(at 92.71 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c7b5894-72d3-47e7-9ecb-be3bdd3bec8f")
+	)
+	(text "Yellow"
+		(exclude_from_sim no)
+		(at 99.06 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b5bf656-5e51-48e4-a48a-fba89166f516")
+	)
+	(text "U (BLACK)"
+		(exclude_from_sim no)
+		(at 220.98 69.85 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0632cf2-bc65-4373-b490-5c3285ac28c6")
+	)
+	(text "V (RED)"
+		(exclude_from_sim no)
+		(at 222.25 77.47 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad6dda47-ba49-4833-8e93-e56179c1de9b")
+	)
+	(text "W (BLUE)"
+		(exclude_from_sim no)
+		(at 220.98 85.09 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "adf1efc7-628a-46df-926f-5fbf7ad2961c")
+	)
+	(text_box "MOTOR CASING TO GROUND DIRECTLY TO INVERTER CASING THROUGH FLYING RING TERMINAL FROM BACK OF THIS CONNECTOR\n\nRESOLVER SHIELD GROUNDED VIA MOTOR CASING"
+		(exclude_from_sim no)
+		(at 152.4 109.22 0)
+		(size 43.18 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "27358433-9158-4845-93b5-e03b262ce7ba")
 	)
 	(bus_entry
 		(at 134.62 92.71)
@@ -729,225 +951,6 @@
 			(type default)
 		)
 		(uuid "e2f3f9eb-fa55-4fc9-b689-245f67107d7c")
-	)
-	(rectangle
-		(start 105.41 55.88)
-		(end 135.89 71.12)
-		(stroke
-			(width 0)
-			(type default)
-			(color 204 102 0 1)
-		)
-		(fill
-			(type color)
-			(color 204 102 0 0.2)
-		)
-		(uuid 3f7a58d9-5e85-4f99-8976-6c8a7a34027a)
-	)
-	(circle
-		(center 213.36 83.82)
-		(radius 1.7961)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 132 1)
-		)
-		(fill
-			(type color)
-			(color 0 0 132 0.5)
-		)
-		(uuid 87d7bcfb-4128-4d8f-a2e3-e7f6e18f302a)
-	)
-	(circle
-		(center 215.9 76.2)
-		(radius 1.7961)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 132 1)
-		)
-		(fill
-			(type color)
-			(color 0 0 132 0.5)
-		)
-		(uuid c38f40dd-9001-46f5-bb7e-233d29f3f97a)
-	)
-	(circle
-		(center 203.2 76.2)
-		(radius 18.0501)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 132 1)
-		)
-		(fill
-			(type color)
-			(color 0 0 132 0.2)
-		)
-		(uuid c3dd57e5-4e9a-4553-8efc-e1cafe3879a6)
-	)
-	(circle
-		(center 213.36 68.58)
-		(radius 1.7961)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 132 1)
-		)
-		(fill
-			(type color)
-			(color 0 0 132 0.5)
-		)
-		(uuid dd27031e-cfee-4c83-b1ed-7d19441b6deb)
-	)
-	(text_box "MOTOR CASING TO GROUND DIRECTLY TO INVERTER CASING THROUGH FLYING RING TERMINAL FROM BACK OF THIS CONNECTOR\n\nRESOLVER SHIELD GROUNDED VIA MOTOR CASING"
-		(exclude_from_sim no)
-		(at 152.4 109.22 0)
-		(size 43.18 15.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "27358433-9158-4845-93b5-e03b262ce7ba")
-	)
-	(text "White/Red"
-		(exclude_from_sim no)
-		(at 95.25 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "238f6d3f-8c0a-4401-9f98-e21a9f71d2f6")
-	)
-	(text "View from 3 Phase Connection Side"
-		(exclude_from_sim no)
-		(at 185.42 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3769f1be-aa9a-41fa-91e6-44991b4ebac5")
-	)
-	(text "PHASE CONNECTIONS"
-		(exclude_from_sim no)
-		(at 105.41 54.61 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 153 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b2430b7-5792-4b78-bee2-9a05c15bf352")
-	)
-	(text "Red"
-		(exclude_from_sim no)
-		(at 101.6 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d40950f-4688-461c-ab6c-a0d8228d9f75")
-	)
-	(text "Blue"
-		(exclude_from_sim no)
-		(at 100.965 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "503b0f0f-5d0c-424b-810c-6c3ce5237229")
-	)
-	(text "Black"
-		(exclude_from_sim no)
-		(at 99.695 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "650413cc-f5c2-4592-ae16-2d44271830ee")
-	)
-	(text "White/Yellow"
-		(exclude_from_sim no)
-		(at 92.71 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c7b5894-72d3-47e7-9ecb-be3bdd3bec8f")
-	)
-	(text "Yellow"
-		(exclude_from_sim no)
-		(at 99.06 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b5bf656-5e51-48e4-a48a-fba89166f516")
-	)
-	(text "U (BLACK)"
-		(exclude_from_sim no)
-		(at 220.98 69.85 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0632cf2-bc65-4373-b490-5c3285ac28c6")
-	)
-	(text "V (RED)"
-		(exclude_from_sim no)
-		(at 222.25 77.47 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad6dda47-ba49-4833-8e93-e56179c1de9b")
-	)
-	(text "W (BLUE)"
-		(exclude_from_sim no)
-		(at 220.98 85.09 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "adf1efc7-628a-46df-926f-5fbf7ad2961c")
 	)
 	(label "MOTOR.CASING.GND"
 		(at 113.03 114.3 0)

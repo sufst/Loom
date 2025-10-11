@@ -1,63 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "47439570-2d4f-413d-a616-c3056bedd563")
 	(paper "A4")
 	(title_block
 		(title "MISC  - PINOUTS")
 	)
 	(lib_symbols)
-	(polyline
-		(pts
-			(xy 92.71 59.69) (xy 92.71 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d197597-e6e6-4b7f-8ab5-ad964f8f1abd")
-	)
-	(polyline
-		(pts
-			(xy 78.74 59.69) (xy 78.74 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "736c934c-78ed-4f47-9757-ac0eda94cc74")
-	)
-	(polyline
-		(pts
-			(xy 62.23 72.39) (xy 105.41 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "939c1152-016a-482a-a633-cc1597e8433e")
-	)
-	(polyline
-		(pts
-			(xy 62.23 59.69) (xy 105.41 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a608a865-a97c-43ef-8cbe-9bf61998ae29")
-	)
-	(polyline
-		(pts
-			(xy 73.66 59.69) (xy 73.66 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b837efae-0817-49c1-87ac-bde03159cf36")
-	)
 	(text "AWM-2S \nAWM-3S\nAWM-4S\nAWM-6S\nAWM-8S\nAWM-12S"
 		(exclude_from_sim no)
 		(at 93.98 72.39 0)
@@ -292,5 +242,55 @@
 			(justify left bottom)
 		)
 		(uuid "ffc81f9f-d16f-4d87-bedb-0a9a9d58d3fe")
+	)
+	(polyline
+		(pts
+			(xy 92.71 59.69) (xy 92.71 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d197597-e6e6-4b7f-8ab5-ad964f8f1abd")
+	)
+	(polyline
+		(pts
+			(xy 78.74 59.69) (xy 78.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736c934c-78ed-4f47-9757-ac0eda94cc74")
+	)
+	(polyline
+		(pts
+			(xy 62.23 72.39) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939c1152-016a-482a-a633-cc1597e8433e")
+	)
+	(polyline
+		(pts
+			(xy 62.23 59.69) (xy 105.41 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a608a865-a97c-43ef-8cbe-9bf61998ae29")
+	)
+	(polyline
+		(pts
+			(xy 73.66 59.69) (xy 73.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b837efae-0817-49c1-87ac-bde03159cf36")
 	)
 )

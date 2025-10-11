@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "3bc4379a-9327-4264-94ad-54614387dcb6")
 	(paper "A4")
 	(lib_symbols
@@ -66,24 +66,6 @@
 				)
 			)
 			(symbol "Bus_Bar_1_1"
-				(pin input line
-					(at 9.525 -4.445 180)
-					(length 2.54)
-					(name "HV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -9.525 -4.445 0)
 					(length 2.54)
@@ -156,7 +138,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 9.525 -4.445 180)
+					(length 2.54)
+					(name "HV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connectors_SUFST:Current Sensor Connector"
 			(exclude_from_sim no)
@@ -216,21 +217,9 @@
 			)
 			(symbol "Current Sensor Connector_0_1"
 				(arc
-					(start -2.5368 -7.6207)
-					(mid -1.9833 -6.9863)
-					(end -2.5355 -6.3507)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.5368 -2.5407)
+					(start -2.5355 -1.2707)
 					(mid -1.9833 -1.9063)
-					(end -2.5355 -1.2707)
+					(end -2.5368 -2.5407)
 					(stroke
 						(width 0)
 						(type default)
@@ -240,9 +229,9 @@
 					)
 				)
 				(arc
-					(start -2.4524 -10.1601)
-					(mid -1.8989 -9.5257)
-					(end -2.4511 -8.8901)
+					(start -2.5355 -6.3507)
+					(mid -1.9833 -6.9863)
+					(end -2.5368 -7.6207)
 					(stroke
 						(width 0)
 						(type default)
@@ -252,9 +241,21 @@
 					)
 				)
 				(arc
-					(start -2.4524 -5.0801)
+					(start -2.4511 -3.8101)
 					(mid -1.8989 -4.4457)
-					(end -2.4511 -3.8101)
+					(end -2.4524 -5.0801)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4511 -8.8901)
+					(mid -1.8989 -9.5257)
+					(end -2.4524 -10.1601)
 					(stroke
 						(width 0)
 						(type default)
@@ -266,7 +267,7 @@
 			)
 			(symbol "Current Sensor Connector_1_1"
 				(pin input line
-					(at 0.635 -9.525 180)
+					(at 0.635 -1.905 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -275,25 +276,7 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0.635 -6.985 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -320,7 +303,7 @@
 					)
 				)
 				(pin input line
-					(at 0.635 -1.905 180)
+					(at 0.635 -6.985 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -329,7 +312,25 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -9.525 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -338,6 +339,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connectors_SUFST:Deutsch_DTM_6S_Pin"
 			(exclude_from_sim no)
@@ -397,33 +399,9 @@
 			)
 			(symbol "Deutsch_DTM_6S_Pin_0_1"
 				(arc
-					(start -2.5368 -12.7007)
-					(mid -1.9833 -12.0663)
-					(end -2.5355 -11.4307)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.5368 -7.6207)
-					(mid -1.9833 -6.9863)
-					(end -2.5355 -6.3507)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.5368 -2.5407)
+					(start -2.5355 -1.2707)
 					(mid -1.9833 -1.9063)
-					(end -2.5355 -1.2707)
+					(end -2.5368 -2.5407)
 					(stroke
 						(width 0)
 						(type default)
@@ -433,9 +411,9 @@
 					)
 				)
 				(arc
-					(start -2.4524 -15.2401)
-					(mid -1.8989 -14.6057)
-					(end -2.4511 -13.9701)
+					(start -2.5355 -6.3507)
+					(mid -1.9833 -6.9863)
+					(end -2.5368 -7.6207)
 					(stroke
 						(width 0)
 						(type default)
@@ -445,9 +423,9 @@
 					)
 				)
 				(arc
-					(start -2.4524 -10.1601)
-					(mid -1.8989 -9.5257)
-					(end -2.4511 -8.8901)
+					(start -2.5355 -11.4307)
+					(mid -1.9833 -12.0663)
+					(end -2.5368 -12.7007)
 					(stroke
 						(width 0)
 						(type default)
@@ -457,9 +435,33 @@
 					)
 				)
 				(arc
-					(start -2.4524 -5.0801)
+					(start -2.4511 -3.8101)
 					(mid -1.8989 -4.4457)
-					(end -2.4511 -3.8101)
+					(end -2.4524 -5.0801)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4511 -8.8901)
+					(mid -1.8989 -9.5257)
+					(end -2.4524 -10.1601)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4511 -13.9701)
+					(mid -1.8989 -14.6057)
+					(end -2.4524 -15.2401)
 					(stroke
 						(width 0)
 						(type default)
@@ -471,7 +473,7 @@
 			)
 			(symbol "Deutsch_DTM_6S_Pin_1_1"
 				(pin input line
-					(at 0.635 -14.605 180)
+					(at 0.635 -1.905 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -480,61 +482,7 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0.635 -12.065 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0.635 -9.525 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0.635 -6.985 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -561,7 +509,7 @@
 					)
 				)
 				(pin input line
-					(at 0.635 -1.905 180)
+					(at 0.635 -6.985 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -570,7 +518,61 @@
 							)
 						)
 					)
-					(number "6"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -9.525 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -12.065 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 -14.605 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -579,6 +581,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connectors_SUFST:Molex_2x1P_Horizontal_THT"
 			(exclude_from_sim no)
@@ -661,18 +664,6 @@
 			)
 			(symbol "Molex_2x1P_Horizontal_THT_1_1"
 				(rectangle
-					(start -3.81 -6.35)
-					(end -0.635 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 229 191 1)
-					)
-				)
-				(rectangle
 					(start -3.81 -3.81)
 					(end -0.635 -5.08)
 					(stroke
@@ -684,22 +675,16 @@
 						(color 255 229 191 1)
 					)
 				)
-				(pin input line
-					(at 1.905 -6.985 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(rectangle
+					(start -3.81 -6.35)
+					(end -0.635 -7.62)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type color)
+						(color 255 229 191 1)
 					)
 				)
 				(pin input line
@@ -720,7 +705,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 1.905 -6.985 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connectors_SUFST:Molex_2x2S_Recepticle"
 			(exclude_from_sim no)
@@ -789,21 +793,9 @@
 			)
 			(symbol "Molex_2x2S_Recepticle_0_1"
 				(arc
-					(start -2.5368 -7.6207)
-					(mid -1.9833 -6.9863)
-					(end -2.5355 -6.3507)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.5368 -2.5407)
+					(start -2.5355 -1.2707)
 					(mid -1.9833 -1.9063)
-					(end -2.5355 -1.2707)
+					(end -2.5368 -2.5407)
 					(stroke
 						(width 0)
 						(type default)
@@ -813,9 +805,9 @@
 					)
 				)
 				(arc
-					(start -2.4524 -10.1601)
-					(mid -1.8989 -9.5257)
-					(end -2.4511 -8.8901)
+					(start -2.5355 -6.3507)
+					(mid -1.9833 -6.9863)
+					(end -2.5368 -7.6207)
 					(stroke
 						(width 0)
 						(type default)
@@ -825,9 +817,21 @@
 					)
 				)
 				(arc
-					(start -2.4524 -5.0801)
+					(start -2.4511 -3.8101)
 					(mid -1.8989 -4.4457)
-					(end -2.4511 -3.8101)
+					(end -2.4524 -5.0801)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4511 -8.8901)
+					(mid -1.8989 -9.5257)
+					(end -2.4524 -10.1601)
 					(stroke
 						(width 0)
 						(type default)
@@ -911,6 +915,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connectors_SUFST:Molex_3x2S_Recepticle"
 			(exclude_from_sim no)
@@ -979,21 +984,9 @@
 			)
 			(symbol "Molex_3x2S_Recepticle_0_1"
 				(arc
-					(start -2.5368 -7.6207)
-					(mid -1.9833 -6.9863)
-					(end -2.5355 -6.3507)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.5368 -2.5407)
+					(start -2.5355 -1.2707)
 					(mid -1.9833 -1.9063)
-					(end -2.5355 -1.2707)
+					(end -2.5368 -2.5407)
 					(stroke
 						(width 0)
 						(type default)
@@ -1003,9 +996,9 @@
 					)
 				)
 				(arc
-					(start -2.4524 -12.7001)
-					(mid -1.8989 -12.0657)
-					(end -2.4511 -11.4301)
+					(start -2.5355 -6.3507)
+					(mid -1.9833 -6.9863)
+					(end -2.5368 -7.6207)
 					(stroke
 						(width 0)
 						(type default)
@@ -1015,21 +1008,9 @@
 					)
 				)
 				(arc
-					(start -2.4524 -10.1601)
-					(mid -1.8989 -9.5257)
-					(end -2.4511 -8.8901)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.4524 -5.0801)
+					(start -2.4511 -3.8101)
 					(mid -1.8989 -4.4457)
-					(end -2.4511 -3.8101)
+					(end -2.4524 -5.0801)
 					(stroke
 						(width 0)
 						(type default)
@@ -1039,9 +1020,33 @@
 					)
 				)
 				(arc
-					(start -2.368 -15.2395)
+					(start -2.4511 -8.8901)
+					(mid -1.8989 -9.5257)
+					(end -2.4524 -10.1601)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4511 -11.4301)
+					(mid -1.8989 -12.0657)
+					(end -2.4524 -12.7001)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.3667 -13.9695)
 					(mid -1.8145 -14.6051)
-					(end -2.3667 -13.9695)
+					(end -2.368 -15.2395)
 					(stroke
 						(width 0)
 						(type default)
@@ -1161,6 +1166,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connectors_SUFST:Molex_8x1S_Recepticle"
 			(exclude_from_sim no)
@@ -1229,45 +1235,9 @@
 			)
 			(symbol "Molex_8x1S_Recepticle_0_1"
 				(arc
-					(start -2.5368 -17.7807)
-					(mid -1.9833 -17.1463)
-					(end -2.5355 -16.5107)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.5368 -12.7007)
-					(mid -1.9833 -12.0663)
-					(end -2.5355 -11.4307)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.5368 -7.6207)
-					(mid -1.9833 -6.9863)
-					(end -2.5355 -6.3507)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.5368 -2.5407)
+					(start -2.5355 -1.2707)
 					(mid -1.9833 -1.9063)
-					(end -2.5355 -1.2707)
+					(end -2.5368 -2.5407)
 					(stroke
 						(width 0)
 						(type default)
@@ -1277,9 +1247,9 @@
 					)
 				)
 				(arc
-					(start -2.4524 -20.3201)
-					(mid -1.8989 -19.6857)
-					(end -2.4511 -19.0501)
+					(start -2.5355 -6.3507)
+					(mid -1.9833 -6.9863)
+					(end -2.5368 -7.6207)
 					(stroke
 						(width 0)
 						(type default)
@@ -1289,9 +1259,9 @@
 					)
 				)
 				(arc
-					(start -2.4524 -15.2401)
-					(mid -1.8989 -14.6057)
-					(end -2.4511 -13.9701)
+					(start -2.5355 -11.4307)
+					(mid -1.9833 -12.0663)
+					(end -2.5368 -12.7007)
 					(stroke
 						(width 0)
 						(type default)
@@ -1301,9 +1271,9 @@
 					)
 				)
 				(arc
-					(start -2.4524 -10.1601)
-					(mid -1.8989 -9.5257)
-					(end -2.4511 -8.8901)
+					(start -2.5355 -16.5107)
+					(mid -1.9833 -17.1463)
+					(end -2.5368 -17.7807)
 					(stroke
 						(width 0)
 						(type default)
@@ -1313,9 +1283,45 @@
 					)
 				)
 				(arc
-					(start -2.4524 -5.0801)
+					(start -2.4511 -3.8101)
 					(mid -1.8989 -4.4457)
-					(end -2.4511 -3.8101)
+					(end -2.4524 -5.0801)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4511 -8.8901)
+					(mid -1.8989 -9.5257)
+					(end -2.4524 -10.1601)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4511 -13.9701)
+					(mid -1.8989 -14.6057)
+					(end -2.4524 -15.2401)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4511 -19.0501)
+					(mid -1.8989 -19.6857)
+					(end -2.4524 -20.3201)
 					(stroke
 						(width 0)
 						(type default)
@@ -1471,11 +1477,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1593,6 +1604,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Molex_2x2P_Horizontal_1"
 			(exclude_from_sim no)
@@ -1662,7 +1674,7 @@
 			(symbol "Molex_2x2P_Horizontal_1_0_1"
 				(polyline
 					(pts
-						(xy -0.635 -9.525) (xy 1.905 -9.525)
+						(xy -0.635 -4.445) (xy 1.905 -4.445)
 					)
 					(stroke
 						(width 0)
@@ -1674,7 +1686,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -4.445) (xy 1.905 -4.445)
+						(xy -0.635 -9.525) (xy 1.905 -9.525)
 					)
 					(stroke
 						(width 0)
@@ -1687,20 +1699,8 @@
 			)
 			(symbol "Molex_2x2P_Horizontal_1_1_1"
 				(rectangle
-					(start -3.81 -11.43)
-					(end -0.635 -12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 229 191 1)
-					)
-				)
-				(rectangle
-					(start -3.81 -8.89)
-					(end -0.635 -10.16)
+					(start -3.81 -3.81)
+					(end -0.635 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -1723,8 +1723,20 @@
 					)
 				)
 				(rectangle
-					(start -3.81 -3.81)
-					(end -0.635 -5.08)
+					(start -3.81 -8.89)
+					(end -0.635 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -11.43)
+					(end -0.635 -12.7)
 					(stroke
 						(width 0)
 						(type default)
@@ -1735,7 +1747,7 @@
 					)
 				)
 				(pin input line
-					(at 1.905 -12.065 180)
+					(at 1.905 -4.445 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1744,25 +1756,7 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.905 -9.525 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1789,7 +1783,7 @@
 					)
 				)
 				(pin input line
-					(at 1.905 -4.445 180)
+					(at 1.905 -9.525 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1798,7 +1792,25 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -12.065 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1807,7 +1819,229 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 100.33 59.69)
+		(end 134.62 88.9)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 0 194 0.2)
+		)
+		(uuid 154b8134-e07c-40a3-935f-30f520370dd7)
+	)
+	(rectangle
+		(start 199.39 125.73)
+		(end 246.38 154.94)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 0 0.2)
+		)
+		(uuid 1bf6ae24-995b-49e9-bad7-b14d5e8ba4d5)
+	)
+	(rectangle
+		(start 35.56 93.98)
+		(end 69.85 111.76)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 0.2)
+		)
+		(uuid 426e6103-9e25-4ee0-8e26-3f5fcbcc9732)
+	)
+	(rectangle
+		(start 85.09 119.38)
+		(end 93.98 179.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b9511dc3-0f8f-497e-9a82-266b88135ddb)
+	)
+	(rectangle
+		(start 100.33 99.06)
+		(end 134.62 118.11)
+		(stroke
+			(width 0)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(fill
+			(type color)
+			(color 221 133 0 0.2)
+		)
+		(uuid c88c6168-904d-46d6-a44b-37fc4562ac62)
+	)
+	(rectangle
+		(start 36.83 157.48)
+		(end 82.55 172.72)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 0.2)
+		)
+		(uuid fced1c13-5022-4ac3-86c6-99fe64d8ca5b)
+	)
+	(text "Coil around terminals\nTODO: Calculate number of turns \nfor BSPD plausibility check"
+		(exclude_from_sim no)
+		(at 70.358 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5037a9eb-50cd-4516-8e66-a606d13a465b")
+	)
+	(text "LOW RANGE USED"
+		(exclude_from_sim no)
+		(at 57.15 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56f1985a-6ad9-4db9-8871-49333bdf5283")
+	)
+	(text "DISCHARGE"
+		(exclude_from_sim no)
+		(at 99.06 58.42 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 194 0 194 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f3de113-8ac7-446c-8197-a81b4e1a4594")
+	)
+	(text "Change to socket molex"
+		(exclude_from_sim no)
+		(at 245.11 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ff563a1-fb36-4fa3-a6e0-ba125b472d24")
+	)
+	(text "SITS AROUND HVD BUSBARS"
+		(exclude_from_sim no)
+		(at 54.61 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7143c629-56fe-4e1c-b466-a888b73da0fe")
+	)
+	(text "HV SENSE"
+		(exclude_from_sim no)
+		(at 199.39 124.46 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 194 194 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "752146a1-2bbb-4f05-8fff-d76cea24a076")
+	)
+	(text "TSMPs"
+		(exclude_from_sim no)
+		(at 100.33 97.79 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 221 133 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f456293-4072-405e-83b3-7c1535bcfc1c")
+	)
+	(text "TODO:\nAdd Current simulation pins"
+		(exclude_from_sim no)
+		(at 205.232 61.976 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a86ccb58-7c96-405a-a6c3-73c98bd2eed3")
+	)
+	(text "Change to socket molex"
+		(exclude_from_sim no)
+		(at 82.55 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b256a781-db12-4057-ab4a-1823e86b7f85")
+	)
+	(text "CURRENT SENSOR"
+		(exclude_from_sim no)
+		(at 35.56 156.21 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c75cec80-489b-4877-90ee-54e9347c2fb8")
+	)
+	(text "Amplifier\nroute power \"around\" this"
+		(exclude_from_sim no)
+		(at 42.672 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1e7e1df-f845-4bd5-b509-5a35b8fcad53")
 	)
 	(junction
 		(at 60.96 45.72)
@@ -2518,227 +2752,6 @@
 			(type default)
 		)
 		(uuid "ff1611a9-768e-4a1f-9aab-c8f9c5f3038c")
-	)
-	(rectangle
-		(start 100.33 59.69)
-		(end 134.62 88.9)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(fill
-			(type color)
-			(color 194 0 194 0.2)
-		)
-		(uuid 154b8134-e07c-40a3-935f-30f520370dd7)
-	)
-	(rectangle
-		(start 199.39 125.73)
-		(end 246.38 154.94)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 194 0 1)
-		)
-		(fill
-			(type color)
-			(color 194 194 0 0.2)
-		)
-		(uuid 1bf6ae24-995b-49e9-bad7-b14d5e8ba4d5)
-	)
-	(rectangle
-		(start 35.56 93.98)
-		(end 69.85 111.76)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 0 0 0.2)
-		)
-		(uuid 426e6103-9e25-4ee0-8e26-3f5fcbcc9732)
-	)
-	(rectangle
-		(start 85.09 119.38)
-		(end 93.98 179.07)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b9511dc3-0f8f-497e-9a82-266b88135ddb)
-	)
-	(rectangle
-		(start 100.33 99.06)
-		(end 134.62 118.11)
-		(stroke
-			(width 0)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(fill
-			(type color)
-			(color 221 133 0 0.2)
-		)
-		(uuid c88c6168-904d-46d6-a44b-37fc4562ac62)
-	)
-	(rectangle
-		(start 36.83 157.48)
-		(end 82.55 172.72)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 194 0 1)
-		)
-		(fill
-			(type color)
-			(color 0 194 0 0.2)
-		)
-		(uuid fced1c13-5022-4ac3-86c6-99fe64d8ca5b)
-	)
-	(text "Coil around terminals\nTODO: Calculate number of turns \nfor BSPD plausibility check"
-		(exclude_from_sim no)
-		(at 70.358 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5037a9eb-50cd-4516-8e66-a606d13a465b")
-	)
-	(text "LOW RANGE USED"
-		(exclude_from_sim no)
-		(at 57.15 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "56f1985a-6ad9-4db9-8871-49333bdf5283")
-	)
-	(text "DISCHARGE"
-		(exclude_from_sim no)
-		(at 99.06 58.42 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 194 0 194 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f3de113-8ac7-446c-8197-a81b4e1a4594")
-	)
-	(text "Change to socket molex"
-		(exclude_from_sim no)
-		(at 245.11 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ff563a1-fb36-4fa3-a6e0-ba125b472d24")
-	)
-	(text "SITS AROUND HVD BUSBARS"
-		(exclude_from_sim no)
-		(at 54.61 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7143c629-56fe-4e1c-b466-a888b73da0fe")
-	)
-	(text "HV SENSE"
-		(exclude_from_sim no)
-		(at 199.39 124.46 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 194 194 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "752146a1-2bbb-4f05-8fff-d76cea24a076")
-	)
-	(text "TSMPs"
-		(exclude_from_sim no)
-		(at 100.33 97.79 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 221 133 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f456293-4072-405e-83b3-7c1535bcfc1c")
-	)
-	(text "TODO:\nAdd Current simulation pins"
-		(exclude_from_sim no)
-		(at 205.232 61.976 0)
-		(effects
-			(font
-				(size 3 3)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "a86ccb58-7c96-405a-a6c3-73c98bd2eed3")
-	)
-	(text "Change to socket molex"
-		(exclude_from_sim no)
-		(at 82.55 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "b256a781-db12-4057-ab4a-1823e86b7f85")
-	)
-	(text "CURRENT SENSOR"
-		(exclude_from_sim no)
-		(at 35.56 156.21 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c75cec80-489b-4877-90ee-54e9347c2fb8")
-	)
-	(text "Amplifier\nroute power \"around\" this"
-		(exclude_from_sim no)
-		(at 42.672 109.982 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1e7e1df-f845-4bd5-b509-5a35b8fcad53")
 	)
 	(label "BSPD.CUR_SEN.EXC"
 		(at 39.37 38.1 0)
@@ -4423,4 +4436,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
