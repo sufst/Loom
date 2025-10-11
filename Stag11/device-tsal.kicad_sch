@@ -1046,7 +1046,6 @@
 	)
 	(label "TSAL.LED.EXC"
 		(at 73.66 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1057,7 +1056,6 @@
 	)
 	(label "PWR_SPLICE"
 		(at 171.45 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1068,7 +1066,6 @@
 	)
 	(label "TSAL.RED.LED.GND"
 		(at 73.66 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1079,7 +1076,6 @@
 	)
 	(label "PWR_SPLICE"
 		(at 281.94 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1090,7 +1086,6 @@
 	)
 	(label "TSAL.GREEN.LED.GND"
 		(at 73.66 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1101,7 +1096,6 @@
 	)
 	(label "PWR_SPLICE"
 		(at 171.45 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1112,7 +1106,6 @@
 	)
 	(label "PWR_SPLICE"
 		(at 171.45 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1123,7 +1116,6 @@
 	)
 	(label "PWR_SPLICE"
 		(at 171.45 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1134,7 +1126,6 @@
 	)
 	(label "PWR_SPLICE"
 		(at 109.22 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1145,7 +1136,6 @@
 	)
 	(label "RTDS.GND"
 		(at 73.66 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1156,7 +1146,6 @@
 	)
 	(label "RTDS.EXC"
 		(at 73.66 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1168,7 +1157,6 @@
 	(hierarchical_label "TSAL I{slash}O"
 		(shape bidirectional)
 		(at 62.23 61.595 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

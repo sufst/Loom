@@ -951,7 +951,6 @@
 	)
 	(label "MOTOR.CASING.GND"
 		(at 113.03 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -962,7 +961,6 @@
 	)
 	(label "RESOLVER.SIN-"
 		(at 113.03 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -973,7 +971,6 @@
 	)
 	(label "RESOLVER.SIN+"
 		(at 113.03 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -984,7 +981,6 @@
 	)
 	(label "MOTOR.TEMP.SIG"
 		(at 113.03 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -995,7 +991,6 @@
 	)
 	(label "RESOLVER.GND"
 		(at 113.03 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1006,7 +1001,6 @@
 	)
 	(label "MOTOR.TEMP.GND"
 		(at 113.03 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1017,7 +1011,6 @@
 	)
 	(label "RESOLVER.COS-"
 		(at 113.03 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1028,7 +1021,6 @@
 	)
 	(label "RESOLVER.COS+"
 		(at 113.03 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1039,7 +1031,6 @@
 	)
 	(label "RESOLVER.EXC"
 		(at 113.03 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1051,7 +1042,6 @@
 	(hierarchical_label "PHASE.V"
 		(shape bidirectional)
 		(at 105.41 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1063,7 +1053,6 @@
 	(hierarchical_label "PHASE.U"
 		(shape bidirectional)
 		(at 105.41 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1075,7 +1064,6 @@
 	(hierarchical_label "RESOLVER"
 		(shape bidirectional)
 		(at 139.7 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1087,7 +1075,6 @@
 	(hierarchical_label "TEMP"
 		(shape bidirectional)
 		(at 139.7 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1099,7 +1086,6 @@
 	(hierarchical_label "PHASE.W"
 		(shape bidirectional)
 		(at 105.41 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

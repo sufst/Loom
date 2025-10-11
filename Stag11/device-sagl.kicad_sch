@@ -318,7 +318,6 @@
 	)
 	(label "SAGL.GND"
 		(at 67.31 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -329,7 +328,6 @@
 	)
 	(label "SAGL.EXC"
 		(at 67.31 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -340,7 +338,6 @@
 	)
 	(label "SAGL.SIG"
 		(at 67.31 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -352,7 +349,6 @@
 	(hierarchical_label "SAGL"
 		(shape bidirectional)
 		(at 59.69 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

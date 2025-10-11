@@ -288,7 +288,6 @@
 	)
 	(label "EXC"
 		(at 124.46 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -299,7 +298,6 @@
 	)
 	(label "BPS"
 		(at 124.46 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -310,7 +308,6 @@
 	)
 	(label "CT"
 		(at 124.46 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -321,7 +318,6 @@
 	)
 	(label "SHUT.OUT"
 		(at 124.46 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -332,7 +328,6 @@
 	)
 	(label "SHUT.IN"
 		(at 124.46 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -343,7 +338,6 @@
 	)
 	(label "GND"
 		(at 124.46 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -355,7 +349,6 @@
 	(hierarchical_label "BSPD"
 		(shape bidirectional)
 		(at 138.43 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
