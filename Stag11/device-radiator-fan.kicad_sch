@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "9cb6a772-1166-48b7-8367-47ebfd1be1f0")
 	(paper "A4")
 	(title_block
@@ -80,18 +80,6 @@
 			)
 			(symbol "Deutsch_DTM_2P_Pin_1_1"
 				(rectangle
-					(start -3.81 -6.35)
-					(end -0.635 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 229 191 1)
-					)
-				)
-				(rectangle
 					(start -3.81 -3.81)
 					(end -0.635 -5.08)
 					(stroke
@@ -103,22 +91,16 @@
 						(color 255 229 191 1)
 					)
 				)
-				(pin input line
-					(at 1.905 -6.985 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(rectangle
+					(start -3.81 -6.35)
+					(end -0.635 -7.62)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type color)
+						(color 255 229 191 1)
 					)
 				)
 				(pin input line
@@ -139,7 +121,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 1.905 -6.985 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Motor:Fan"
 			(pin_names
@@ -213,9 +214,9 @@
 			)
 			(symbol "Fan_0_1"
 				(arc
-					(start -2.54 -0.508)
-					(mid 0.0028 0.9121)
-					(end 0 3.81)
+					(start 0 3.81)
+					(mid -0.0015 0.9048)
+					(end -2.54 -0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -226,8 +227,43 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
+						(xy 0 4.572) (xy 0 5.08)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.2672) (xy 0 4.6228)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.016)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -0.508)
+					(mid 0 1.0618)
+					(end 2.54 -0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -250,43 +286,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 4.2672) (xy 0 4.6228)
+						(xy 0 -5.08) (xy 0 -4.572)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.572) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.016)
-					(radius 3.2512)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.81)
-					(mid 0.053 0.921)
-					(end 2.54 -0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -297,8 +298,8 @@
 				)
 				(arc
 					(start 2.54 -0.508)
-					(mid 0 1.0618)
-					(end -2.54 -0.508)
+					(mid 0.047 0.9315)
+					(end 0 3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -346,6 +347,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire

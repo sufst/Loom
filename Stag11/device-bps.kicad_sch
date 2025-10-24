@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ec75e8bf-ecee-4f2a-90ea-5a38177d8b92")
 	(paper "A4")
 	(title_block
@@ -10,7 +10,9 @@
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -84,21 +86,53 @@
 				)
 			)
 			(symbol "Conn_01x04_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -122,7 +156,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -132,48 +166,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -249,7 +251,83 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 97.79 66.04)
+		(end 119.38 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 70207205-9245-4432-ab2a-9ceedb5aee07)
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 116.84 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d020303-7313-4880-ae53-eb46c05814a5")
+	)
+	(text "PWR"
+		(exclude_from_sim no)
+		(at 116.84 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "432ca7a3-5251-4785-a573-2d84df4fffd0")
+	)
+	(text "Add device symbol here"
+		(exclude_from_sim no)
+		(at 111.76 58.42 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "511b97ef-d007-4541-8943-0a464c6a8409")
+	)
+	(text "OUTPUT"
+		(exclude_from_sim no)
+		(at 116.84 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "6db73fe1-bb94-4dd7-be22-a66c03229e05")
+	)
+	(text "generic for now"
+		(exclude_from_sim no)
+		(at 168.91 97.79 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d47ef73b-b971-4ac6-b78b-4bdeca61d5a9")
 	)
 	(no_connect
 		(at 162.56 88.9)
@@ -334,81 +412,6 @@
 			(type default)
 		)
 		(uuid "f18075fd-6df9-44ab-a357-a02fe4f5d5b6")
-	)
-	(rectangle
-		(start 97.79 66.04)
-		(end 119.38 111.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 70207205-9245-4432-ab2a-9ceedb5aee07)
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 116.84 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "2d020303-7313-4880-ae53-eb46c05814a5")
-	)
-	(text "PWR"
-		(exclude_from_sim no)
-		(at 116.84 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "432ca7a3-5251-4785-a573-2d84df4fffd0")
-	)
-	(text "Add device symbol here"
-		(exclude_from_sim no)
-		(at 111.76 58.42 0)
-		(effects
-			(font
-				(size 3 3)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "511b97ef-d007-4541-8943-0a464c6a8409")
-	)
-	(text "OUTPUT"
-		(exclude_from_sim no)
-		(at 116.84 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "6db73fe1-bb94-4dd7-be22-a66c03229e05")
-	)
-	(text "generic for now"
-		(exclude_from_sim no)
-		(at 168.91 97.79 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "d47ef73b-b971-4ac6-b78b-4bdeca61d5a9")
 	)
 	(hierarchical_label "BPS"
 		(shape output)

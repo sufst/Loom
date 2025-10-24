@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7fd41cac-e232-4642-bd8e-b7dbfb1f01b4")
 	(paper "A4")
 	(title_block
@@ -9,9 +9,13 @@
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -109,6 +113,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connectors_SUFST:Deutsch_DTM_6P_Pin"
 			(exclude_from_sim no)
@@ -169,7 +174,7 @@
 			(symbol "Deutsch_DTM_6P_Pin_0_1"
 				(polyline
 					(pts
-						(xy -0.635 -14.605) (xy 1.905 -14.605)
+						(xy -0.635 -4.445) (xy 1.905 -4.445)
 					)
 					(stroke
 						(width 0)
@@ -193,7 +198,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -4.445) (xy 1.905 -4.445)
+						(xy -0.635 -14.605) (xy 1.905 -14.605)
 					)
 					(stroke
 						(width 0)
@@ -206,44 +211,8 @@
 			)
 			(symbol "Deutsch_DTM_6P_Pin_1_1"
 				(rectangle
-					(start -3.81 -16.51)
-					(end -0.635 -17.78)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 229 191 1)
-					)
-				)
-				(rectangle
-					(start -3.81 -13.97)
-					(end -0.635 -15.24)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 229 191 1)
-					)
-				)
-				(rectangle
-					(start -3.81 -11.43)
-					(end -0.635 -12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 229 191 1)
-					)
-				)
-				(rectangle
-					(start -3.81 -8.89)
-					(end -0.635 -10.16)
+					(start -3.81 -3.81)
+					(end -0.635 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -266,8 +235,44 @@
 					)
 				)
 				(rectangle
-					(start -3.81 -3.81)
-					(end -0.635 -5.08)
+					(start -3.81 -8.89)
+					(end -0.635 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -11.43)
+					(end -0.635 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -13.97)
+					(end -0.635 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 229 191 1)
+					)
+				)
+				(rectangle
+					(start -3.81 -16.51)
+					(end -0.635 -17.78)
 					(stroke
 						(width 0)
 						(type default)
@@ -278,7 +283,7 @@
 					)
 				)
 				(pin input line
-					(at 1.905 -17.145 180)
+					(at 1.905 -4.445 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -287,61 +292,7 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.905 -14.605 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.905 -12.065 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.905 -9.525 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -368,7 +319,7 @@
 					)
 				)
 				(pin input line
-					(at 1.905 -4.445 180)
+					(at 1.905 -9.525 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -377,7 +328,61 @@
 							)
 						)
 					)
-					(number "6"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -12.065 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -14.605 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.905 -17.145 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -386,10 +391,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED_Series"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -481,6 +489,42 @@
 				)
 				(polyline
 					(pts
+						(xy -3.302 1.397) (xy -1.778 2.921) (xy -2.54 2.921) (xy -1.778 2.921) (xy -1.778 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.397) (xy -0.508 2.921) (xy -1.27 2.921) (xy -0.508 2.921) (xy -0.508 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 -1.27) (xy -1.143 1.27) (xy -3.683 0) (xy -1.143 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -0.508 0) (xy -0.762 0)
 					)
 					(stroke
@@ -541,54 +585,6 @@
 				)
 				(polyline
 					(pts
-						(xy -1.143 -1.27) (xy -1.143 1.27) (xy -3.683 0) (xy -1.143 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.27) (xy 3.683 1.27) (xy 1.143 0) (xy 3.683 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.397) (xy -1.778 2.921) (xy -2.54 2.921) (xy -1.778 2.921) (xy -1.778 2.159)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 1.397) (xy -0.508 2.921) (xy -1.27 2.921) (xy -0.508 2.921) (xy -0.508 2.159)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.524 1.397) (xy 3.048 2.921) (xy 2.286 2.921) (xy 3.048 2.921) (xy 3.048 2.159)
 					)
 					(stroke
@@ -605,6 +601,18 @@
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.27) (xy 3.683 1.27) (xy 1.143 0) (xy 3.683 -1.27)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -650,10 +658,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Speaker"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -774,7 +785,34 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 95.25 49.53)
+		(end 110.49 58.42)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 0.2)
+		)
+		(uuid 34730862-1e8a-43d6-be06-451c829cba21)
+	)
+	(text "Buckboost for TSAL?"
+		(exclude_from_sim no)
+		(at 93.98 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c6f0669-6319-44fb-85b3-53baccd883de")
 	)
 	(junction
 		(at 111.76 66.04)
@@ -1017,32 +1055,6 @@
 			(type default)
 		)
 		(uuid "fecefba0-d3a3-4e36-ad99-95a3b7ef6f16")
-	)
-	(rectangle
-		(start 95.25 49.53)
-		(end 110.49 58.42)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 0 0 0.2)
-		)
-		(uuid 34730862-1e8a-43d6-be06-451c829cba21)
-	)
-	(text "Buckboost for TSAL?"
-		(exclude_from_sim no)
-		(at 93.98 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c6f0669-6319-44fb-85b3-53baccd883de")
 	)
 	(label "TSAL.LED.EXC"
 		(at 73.66 57.15 0)
