@@ -1,0 +1,29 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "05fe35d4-4918-4f7b-97c6-795907f7364c")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 66.675 62.23) (xy 88.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32dc1f18-69ae-45f8-99cd-c5003e7f981f")
+	)
+	(hierarchical_label "VCU"
+		(shape bidirectional)
+		(at 66.675 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac4ca844-00a7-4f12-b008-d02199ec1619")
+	)
+)
