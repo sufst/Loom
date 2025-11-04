@@ -3605,16 +3605,6 @@
 		)
 		(uuid "40ba8edc-a66c-48d0-b5f3-c14733104612")
 	)
-	(bus
-		(pts
-			(xy 109.22 156.21) (xy 109.22 193.675)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4139f5d1-e319-4487-bc7a-c48731f45832")
-	)
 	(wire
 		(pts
 			(xy 145.542 130.81) (xy 145.542 153.67)
@@ -3635,6 +3625,16 @@
 			(type default)
 		)
 		(uuid "47574cd8-47e2-43f3-b9dc-5dceb7980714")
+	)
+	(bus
+		(pts
+			(xy 109.22 151.13) (xy 109.22 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497c8248-79ca-4b86-9bc3-6d37bf96f734")
 	)
 	(wire
 		(pts
@@ -4035,6 +4035,16 @@
 		)
 		(uuid "95182fcd-8028-4897-81c1-6d37b8d6be05")
 	)
+	(bus
+		(pts
+			(xy 109.22 156.21) (xy 109.22 193.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955c97b6-d020-42e8-b83f-b6f687090b8f")
+	)
 	(wire
 		(pts
 			(xy 71.12 138.43) (xy 123.19 138.43)
@@ -4267,16 +4277,6 @@
 			(type default)
 		)
 		(uuid "b35e1a99-e13c-4c33-b8c0-945a1f6fea74")
-	)
-	(bus
-		(pts
-			(xy 109.22 151.13) (xy 109.22 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b545f12b-f08e-4a00-b459-e2fa1e1e6198")
 	)
 	(wire
 		(pts
@@ -4993,7 +4993,7 @@
 		(uuid "5afe4057-ce09-4516-8eed-c31d162724a5")
 	)
 	(label "{L120.AUX.SIG}"
-		(at 109.22 154.94 270)
+		(at 109.22 160.655 270)
 		(effects
 			(font
 				(size 1.27 1.27)
