@@ -862,6 +862,16 @@
 		)
 		(uuid "dad271cf-9617-4017-be34-8d94b002b947")
 	)
+	(bus
+		(pts
+			(xy 189.23 156.845) (xy 189.23 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbd8e19-5104-4b9b-ac72-5bb4341babf1")
+	)
 	(wire
 		(pts
 			(xy 16.51 30.48) (xy 22.86 30.48)
@@ -954,6 +964,16 @@
 			(type default)
 		)
 		(uuid "f0848feb-1cfb-4b37-a636-512441ef24bc")
+	)
+	(bus
+		(pts
+			(xy 189.23 134.62) (xy 171.45 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e3e7e5-e156-47ac-8616-91ba95d13b82")
 	)
 	(bus
 		(pts
@@ -2828,6 +2848,96 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "L120 SPARE 2" input
+			(at 171.45 303.53 180)
+			(uuid "f76d17a1-2a31-485f-9d69-309ed3ccbc86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LV - HV Connector" input
+			(at 214.63 281.305 0)
+			(uuid "718c98de-1404-48cf-a05b-2dbbe6ce1ff2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LVS.MAIN.EXC" input
+			(at 171.45 309.88 180)
+			(uuid "ab082a3c-3ac1-452c-aa0a-0d60464db044")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LVS.MAIN.SWITCHED.EXC" output
+			(at 171.45 312.42 180)
+			(uuid "99d661a5-817c-4e97-8ab1-91fcb95d8aad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REAR BULKHEAD" bidirectional
+			(at 194.31 156.845 90)
+			(uuid "1d1e05cd-9a6c-472f-9ac9-7a19958cd380")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT_GND" input
+			(at 214.63 184.785 0)
+			(uuid "17fb29ff-5429-4717-9855-6e9e0092117f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LVBMS_DATA" input
+			(at 171.45 184.785 180)
+			(uuid "57b89cde-457e-4fd8-83ee-de2fef663d91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LVBMS_PWR" input
+			(at 171.45 182.245 180)
+			(uuid "9057ca30-a2b0-41e4-ab2f-fd742ee0348b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{BSPD.SIM}" bidirectional
+			(at 189.23 156.845 90)
+			(uuid "7a93db54-cd1c-45b1-b1b4-33087de17d82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
