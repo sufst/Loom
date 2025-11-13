@@ -416,6 +416,16 @@
 		)
 		(uuid "0dfd4180-5dc1-4840-a50c-bb91a3305719")
 	)
+	(text "+\n\n\n-"
+		(exclude_from_sim no)
+		(at 154.305 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16bf77e4-288a-4048-bc4d-2c368e281181")
+	)
 	(text "Colour Coding\n"
 		(exclude_from_sim no)
 		(at 20.066 27.686 0)
@@ -622,7 +632,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 143.51) (xy 153.67 260.35)
+			(xy 153.67 162.56) (xy 153.67 260.35)
 		)
 		(stroke
 			(width 0)
@@ -653,13 +663,35 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 143.51) (xy 153.67 143.51)
+			(xy 156.21 162.56) (xy 153.67 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "36cb76a2-cd9a-4edb-a125-0de097ecc505")
+	)
+	(wire
+		(pts
+			(xy 125.73 114.3) (xy 125.73 148.59)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "3b83a0e0-16b2-4862-9ba6-10c7328d8405")
+	)
+	(wire
+		(pts
+			(xy 87.63 114.3) (xy 125.73 114.3)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "3b891f1b-2303-4a87-bde4-613adb120d53")
 	)
 	(wire
 		(pts
@@ -670,6 +702,17 @@
 			(type default)
 		)
 		(uuid "3bd0055b-49e7-4f77-8d0d-790509786aa3")
+	)
+	(wire
+		(pts
+			(xy 191.135 146.05) (xy 191.135 125.095)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "3e0822ff-4d28-4e54-97d3-b3ce4685c392")
 	)
 	(bus
 		(pts
@@ -693,7 +736,18 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 146.05) (xy 151.13 256.54)
+			(xy 193.675 122.555) (xy 189.23 122.555)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "499a33fe-1c20-4591-b209-dcd6266ec2e1")
+	)
+	(wire
+		(pts
+			(xy 151.13 159.385) (xy 151.13 256.54)
 		)
 		(stroke
 			(width 0)
@@ -720,6 +774,17 @@
 			(type default)
 		)
 		(uuid "5e7e56c6-7eee-4447-81c2-99d7705f5022")
+	)
+	(wire
+		(pts
+			(xy 191.135 125.095) (xy 189.23 125.095)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "60c346fc-c165-4988-92dc-0ad21e1974b7")
 	)
 	(bus
 		(pts
@@ -854,6 +919,17 @@
 		)
 		(uuid "837760f9-dd1b-4b0b-ab6e-0afa0f2db499")
 	)
+	(wire
+		(pts
+			(xy 87.63 111.76) (xy 128.27 111.76)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "84bae37d-a5b1-41e4-98f3-61f4110d7096")
+	)
 	(bus
 		(pts
 			(xy 227.33 215.9) (xy 227.33 203.2)
@@ -866,14 +942,14 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 104.14) (xy 60.96 104.14)
+			(xy 128.27 146.05) (xy 156.21 146.05)
 		)
 		(stroke
 			(width 0.5)
 			(type default)
 			(color 255 153 0 1)
 		)
-		(uuid "8cb8b877-fdbf-48c7-81ce-bd103c70e5ac")
+		(uuid "87167db6-79d6-46cf-bf61-45b966be0ab7")
 	)
 	(bus
 		(pts
@@ -1054,13 +1130,35 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 146.05) (xy 151.13 146.05)
+			(xy 182.88 146.05) (xy 191.135 146.05)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "d5272035-4f2a-4fba-95ab-c580717e0666")
+	)
+	(wire
+		(pts
+			(xy 156.21 159.385) (xy 151.13 159.385)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d9991a06-479f-4fa5-a272-790207fc6e5f")
+	)
+	(wire
+		(pts
+			(xy 182.88 148.59) (xy 193.675 148.59)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "dad271cf-9617-4017-be34-8d94b002b947")
 	)
 	(wire
 		(pts
@@ -1074,14 +1172,36 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 106.68) (xy 60.96 106.68)
+			(xy 125.73 148.59) (xy 156.21 148.59)
 		)
 		(stroke
 			(width 0.5)
 			(type default)
 			(color 255 153 0 1)
 		)
-		(uuid "e4369437-18e6-4e5f-81b8-0c702e46db52")
+		(uuid "de6eca19-4850-4cf2-98f9-6be1f0c7a131")
+	)
+	(wire
+		(pts
+			(xy 193.675 148.59) (xy 193.675 122.555)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "eb2c6d2e-a955-4dee-afe1-6979c639af9f")
+	)
+	(wire
+		(pts
+			(xy 128.27 111.76) (xy 128.27 146.05)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "efcb311d-e49e-4e1b-9174-c7abdfdbb41c")
 	)
 	(bus
 		(pts
@@ -1300,7 +1420,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "11")
 				)
@@ -1374,7 +1494,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "25")
 				)
@@ -1418,7 +1538,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "99")
 				)
@@ -1472,7 +1592,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "27")
 				)
@@ -1594,7 +1714,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "2")
 				)
@@ -1648,7 +1768,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "19")
 				)
@@ -1752,27 +1872,27 @@
 			)
 		)
 		(pin "DC+" bidirectional
-			(at 60.96 104.14 180)
+			(at 87.63 111.76 0)
 			(uuid "ca13ce5a-995a-4db6-be56-9f247d913dad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DC-" bidirectional
-			(at 60.96 106.68 180)
+			(at 87.63 114.3 0)
 			(uuid "a9f414d3-14fa-422a-a2f9-ad248b96dbcd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "23")
 				)
@@ -1826,7 +1946,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "30")
 				)
@@ -1880,7 +2000,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "26")
 				)
@@ -1934,7 +2054,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "10")
 				)
@@ -2027,7 +2147,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "6")
 				)
@@ -2081,7 +2201,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "28")
 				)
@@ -2143,7 +2263,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "35")
 				)
@@ -2185,7 +2305,7 @@
 			)
 		)
 		(pin "TSMP.HV-" bidirectional
-			(at 156.21 143.51 180)
+			(at 156.21 162.56 180)
 			(uuid "577b927d-1460-4261-8040-23014d79c825")
 			(effects
 				(font
@@ -2195,7 +2315,7 @@
 			)
 		)
 		(pin "TSMP.HV+" bidirectional
-			(at 156.21 146.05 180)
+			(at 156.21 159.385 180)
 			(uuid "b0e1666e-45c8-4ba2-a644-7ffe46e4f6a2")
 			(effects
 				(font
@@ -2224,9 +2344,9 @@
 				(justify left)
 			)
 		)
-		(pin "HV4" bidirectional
-			(at 182.88 142.24 0)
-			(uuid "2bd94ab4-ef14-4a1f-8c00-db3c73aa5d0c")
+		(pin "ACCU+" bidirectional
+			(at 182.88 146.05 0)
+			(uuid "130c9429-e4bf-4f57-b7bc-fb13c190deab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,9 +2354,19 @@
 				(justify right)
 			)
 		)
-		(pin "HV1" bidirectional
-			(at 156.21 151.13 180)
-			(uuid "cc65a3a6-dc74-4532-8429-32a948212ce4")
+		(pin "ACCU-" bidirectional
+			(at 182.88 148.59 0)
+			(uuid "2a907970-6997-473b-9a22-4d17044f57ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCLINK+" bidirectional
+			(at 156.21 146.05 180)
+			(uuid "bcf05bb2-882b-405f-a96c-0a403778c9c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,29 +2374,9 @@
 				(justify left)
 			)
 		)
-		(pin "HV2" bidirectional
-			(at 182.88 137.16 0)
-			(uuid "f96168b5-d707-40ee-9674-4365460034a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HV3" bidirectional
-			(at 182.88 139.7 0)
-			(uuid "c9fe59bf-1480-4f18-9f0b-a5596641210e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BSPD CT" bidirectional
-			(at 156.21 134.62 180)
-			(uuid "95229f3b-b062-4d2a-94a9-81b2711ab351")
+		(pin "DCLINK-" bidirectional
+			(at 156.21 148.59 180)
+			(uuid "2f3ac4d5-7ee4-4aee-b9e0-45ab88b4a4c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +2385,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "34")
 				)
@@ -2329,7 +2439,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "18")
 				)
@@ -2383,7 +2493,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "12")
 				)
@@ -2426,7 +2536,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "33")
 				)
@@ -2480,7 +2590,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "20")
 				)
@@ -2573,7 +2683,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "9")
 				)
@@ -2627,7 +2737,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "15")
 				)
@@ -2691,7 +2801,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "21")
 				)
@@ -2785,7 +2895,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "24")
 				)
@@ -3027,7 +3137,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "3")
 				)
@@ -3071,7 +3181,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "50")
 				)
@@ -3125,9 +3235,63 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 342.9 179.07)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "cb56092d-6a5f-45d2-8b91-b2a4b062d135")
+		(property "Sheetname" "DEVICE - VCU"
+			(at 342.9 178.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device-vcu.kicad_sch"
+			(at 342.9 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VCU" bidirectional
+			(at 342.9 182.88 180)
+			(uuid "5be73487-dd91-4e1c-8e0d-0129f8524108")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "34")
 				)
 			)
 		)
@@ -3188,7 +3352,7 @@
 			)
 		)
 		(pin "DC.-" bidirectional
-			(at 189.23 125.73 0)
+			(at 189.23 122.555 0)
 			(uuid "66338f39-6a34-4be6-b14f-5ffc47017126")
 			(effects
 				(font
@@ -3198,7 +3362,7 @@
 			)
 		)
 		(pin "DC.+" bidirectional
-			(at 189.23 123.19 0)
+			(at 189.23 125.095 0)
 			(uuid "f551275c-844e-4f9e-ab70-ee08884a3aa3")
 			(effects
 				(font
@@ -3208,7 +3372,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "4")
 				)
@@ -3252,7 +3416,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "98")
 				)
@@ -3306,7 +3470,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "13")
 				)
@@ -3399,7 +3563,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "7")
 				)
@@ -3512,7 +3676,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "5")
 				)
@@ -3566,7 +3730,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "22")
 				)
@@ -3620,7 +3784,7 @@
 			)
 		)
 		(instances
-			(project "Stag12.kicad_pro"
+			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "14")
 				)

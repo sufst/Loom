@@ -11807,16 +11807,6 @@
 		)
 		(uuid "2a5abc72-106f-44a7-98e7-69092165b17a")
 	)
-	(text "Add BMS reset buttom to sidepanel\n"
-		(exclude_from_sim no)
-		(at 651.51 258.318 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2c30e241-4482-4f4d-8e17-95259d652fdc")
-	)
 	(text "<--\n"
 		(exclude_from_sim no)
 		(at 741.68 84.074 0)
@@ -11893,7 +11883,7 @@
 		)
 		(uuid "4e2f97e2-85b8-4117-b7a7-a0a74724739b")
 	)
-	(text "Open collector\noutput from BMS\nGPIO"
+	(text "Open drain\noutput from BMS\nGPIO"
 		(exclude_from_sim no)
 		(at 431.8 410.21 0)
 		(effects
