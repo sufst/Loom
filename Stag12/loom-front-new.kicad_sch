@@ -3111,6 +3111,17 @@
 		)
 		(uuid "b8ce22da-b7e3-4f61-a9f6-b71e8b2d7235")
 	)
+	(text "TODO:\n\nMove to rear\nbulkhead conn."
+		(exclude_from_sim no)
+		(at 384.175 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c5189c58-35f9-46ec-8b74-f9b9a707debc")
+	)
 	(text "Pin 2 stuck,\nswap to 36"
 		(exclude_from_sim no)
 		(at 58.42 55.88 0)
@@ -3229,15 +3240,6 @@
 		(uuid "099c610e-501b-46a7-a0ce-8518d038f6e9")
 	)
 	(bus_entry
-		(at 109.22 148.59)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aa923cf-97b8-4833-802a-701e869e8460")
-	)
-	(bus_entry
 		(at 370.205 239.395)
 		(size 2.54 2.54)
 		(stroke
@@ -3265,6 +3267,24 @@
 		(uuid "96607bc0-d201-4a79-94fe-7749c9e5b772")
 	)
 	(bus_entry
+		(at 106.68 148.59)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68f2bd9-1ce1-4ac1-8c1d-27939aa2c3fe")
+	)
+	(bus_entry
+		(at 106.68 151.13)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6eaf0c-f999-4967-8e22-804d98d88647")
+	)
+	(bus_entry
 		(at 370.205 241.935)
 		(size 2.54 2.54)
 		(stroke
@@ -3281,15 +3301,6 @@
 			(type default)
 		)
 		(uuid "e77240bf-574f-4ecf-9bc7-11b0f001036d")
-	)
-	(bus_entry
-		(at 109.22 151.13)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4f27f6b-c323-433b-b4c9-87ea6bb89ec7")
 	)
 	(wire
 		(pts
@@ -3351,6 +3362,16 @@
 		)
 		(uuid "0fb0dee9-532a-4799-b5a2-b89835455c30")
 	)
+	(bus
+		(pts
+			(xy 109.22 151.13) (xy 109.22 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12075319-e5b1-45e4-b23c-8d99cfad359e")
+	)
 	(wire
 		(pts
 			(xy 345.694 151.13) (xy 378.46 151.13)
@@ -3361,6 +3382,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "1209a5b1-b949-4e70-8823-5ee1a6e34d8d")
+	)
+	(wire
+		(pts
+			(xy 343.535 125.73) (xy 358.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13227b7e-e6bb-46a8-a9cd-a72822fd9d0c")
 	)
 	(wire
 		(pts
@@ -3466,16 +3497,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 148.59) (xy 106.68 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "252ecb3a-8970-42b1-9719-c3a5c6a4537d")
-	)
-	(wire
-		(pts
 			(xy 71.12 67.31) (xy 189.23 67.31)
 		)
 		(stroke
@@ -3567,16 +3588,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 148.59) (xy 109.22 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dd2f94b-a49d-48a5-b183-a6b3d00862b1")
-	)
-	(wire
-		(pts
 			(xy 71.12 102.87) (xy 229.87 102.87)
 		)
 		(stroke
@@ -3615,26 +3626,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "4452469b-1803-4ca3-b382-bf9e138c1e9e")
-	)
-	(wire
-		(pts
-			(xy 106.68 125.73) (xy 358.14 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47574cd8-47e2-43f3-b9dc-5dceb7980714")
-	)
-	(bus
-		(pts
-			(xy 109.22 151.13) (xy 109.22 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "497c8248-79ca-4b86-9bc3-6d37bf96f734")
 	)
 	(wire
 		(pts
@@ -3717,6 +3708,16 @@
 			(type default)
 		)
 		(uuid "56162d0d-466c-4fbd-bb51-1e63ba18d6be")
+	)
+	(wire
+		(pts
+			(xy 71.12 151.13) (xy 106.68 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57578ed4-3384-4234-9ce4-b3c8df1936dc")
 	)
 	(wire
 		(pts
@@ -3883,6 +3884,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.955 148.59) (xy 378.46 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76025d41-5c2a-497a-a286-2a3332f1845d")
+	)
+	(wire
+		(pts
 			(xy 325.12 27.94) (xy 325.12 39.37)
 		)
 		(stroke
@@ -3923,6 +3934,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "7ca9c9c6-7cb7-486a-ba56-4c82ee82db77")
+	)
+	(bus
+		(pts
+			(xy 109.22 153.67) (xy 109.22 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ddf08c4-9c57-4b16-a231-c2ccf93ac446")
 	)
 	(wire
 		(pts
@@ -4027,7 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 94.234 148.59) (xy 94.234 146.05)
+			(xy 147.955 148.59) (xy 147.955 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4054,6 +4075,16 @@
 			(type default)
 		)
 		(uuid "96bb6d65-0d31-4d5b-8f03-8cfd0c84d0b1")
+	)
+	(wire
+		(pts
+			(xy 71.12 146.05) (xy 147.955 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988af2e3-c5ca-4ad0-bbcb-4efc87825f65")
 	)
 	(wire
 		(pts
@@ -4136,16 +4167,6 @@
 			(type default)
 		)
 		(uuid "a082062b-7b72-4a15-9f6c-36dcf7434db9")
-	)
-	(bus
-		(pts
-			(xy 109.22 128.27) (xy 109.22 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a18c296a-d8ff-4ec4-8273-3f215e92cdd0")
 	)
 	(wire
 		(pts
@@ -4331,6 +4352,16 @@
 		)
 		(uuid "c255b160-5e2d-4a5d-8471-9322597eefd9")
 	)
+	(wire
+		(pts
+			(xy 71.12 148.59) (xy 106.68 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2825583-9276-4e96-8866-1e69e83a67f9")
+	)
 	(bus
 		(pts
 			(xy 109.22 193.675) (xy 139.7 224.155)
@@ -4343,7 +4374,7 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 148.59) (xy 109.22 151.13)
+			(xy 109.22 128.27) (xy 109.22 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4423,16 +4454,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "d6b128b8-b565-4098-966e-14f4ed552186")
-	)
-	(wire
-		(pts
-			(xy 71.12 148.59) (xy 106.68 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deb33ba4-7a4f-4240-8cf5-c79cf1ad38cf")
 	)
 	(wire
 		(pts
@@ -4577,16 +4598,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "f02cb918-aa0c-4e27-a8fd-90fa47321aa2")
-	)
-	(wire
-		(pts
-			(xy 71.12 146.05) (xy 106.68 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0558b6f-fe84-4226-b7fb-8fb0a420505a")
 	)
 	(wire
 		(pts
@@ -4753,7 +4764,7 @@
 		(uuid "13a84edf-9278-4fbf-9f01-c8e52ab65800")
 	)
 	(label "L120.DAMPER.L"
-		(at 72.39 146.05 0)
+		(at 72.39 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5153,7 +5164,7 @@
 		(uuid "7ed4d01e-d794-45a5-8a41-d2fd29a667ab")
 	)
 	(label "TSAL.DASH.EXC"
-		(at 377.19 148.59 180)
+		(at 361.95 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5331,16 +5342,6 @@
 			(justify right bottom)
 		)
 		(uuid "bdbb6f7f-2420-4807-89a3-eacedba881d7")
-	)
-	(label "L120.DAMPER.R"
-		(at 72.39 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf5f8a82-e6e5-4f5d-adef-0f89cbc6351b")
 	)
 	(label "SHUT.BOTS"
 		(at 358.14 64.77 180)
