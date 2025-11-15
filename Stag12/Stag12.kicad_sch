@@ -181,6 +181,16 @@
 	)
 	(bus
 		(pts
+			(xy 376.555 368.935) (xy 92.71 368.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5f1667-1e74-4afb-99a5-3e7779d2adb7")
+	)
+	(bus
+		(pts
 			(xy 156.21 182.245) (xy 171.45 182.245)
 		)
 		(stroke
@@ -563,7 +573,7 @@
 	)
 	(bus
 		(pts
-			(xy 280.67 348.615) (xy 375.92 348.615)
+			(xy 280.67 342.9) (xy 375.92 342.9)
 		)
 		(stroke
 			(width 0)
@@ -698,7 +708,7 @@
 	)
 	(polyline
 		(pts
-			(xy 271.78 147.32) (xy 271.78 370.205)
+			(xy 271.78 147.32) (xy 271.78 363.22)
 		)
 		(stroke
 			(width 1)
@@ -719,7 +729,7 @@
 	)
 	(bus
 		(pts
-			(xy 280.67 217.805) (xy 280.67 348.615)
+			(xy 280.67 217.805) (xy 280.67 342.9)
 		)
 		(stroke
 			(width 0)
@@ -737,6 +747,16 @@
 			(color 0 0 155 1)
 		)
 		(uuid "aad75502-6912-42e9-87ef-0973e1229c1b")
+	)
+	(bus
+		(pts
+			(xy 92.71 368.935) (xy 92.71 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba51ea8-c4e4-4b7b-ad43-c07458641829")
 	)
 	(bus
 		(pts
@@ -850,6 +870,16 @@
 			(type default)
 		)
 		(uuid "d9ade907-39de-4aa7-87f9-907ecbbd040e")
+	)
+	(bus
+		(pts
+			(xy 92.71 134.62) (xy 128.27 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da11df27-3787-4f50-8ad7-c735d5b41be9")
 	)
 	(wire
 		(pts
@@ -1114,7 +1144,7 @@
 		)
 	)
 	(sheet
-		(at 306.07 367.665)
+		(at 479.425 332.74)
 		(size 19.05 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1131,7 +1161,7 @@
 		)
 		(uuid "1c4d452a-c783-4626-bc64-0a85545a4ca3")
 		(property "Sheetname" "ACRONYMS"
-			(at 306.07 366.9534 0)
+			(at 479.425 332.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1170,7 @@
 			)
 		)
 		(property "Sheetfile" "acronyms.kicad_sch"
-			(at 306.07 377.1396 0)
+			(at 479.425 342.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,6 +1746,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "{UMBILICAL_BOX}" input
+			(at 128.27 134.62 180)
+			(uuid "cceb9277-761d-42c4-8668-8f3d0a3e7a6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2852,7 +2892,7 @@
 		)
 		(pin "L120 SPARE 2" input
 			(at 171.45 303.53 180)
-			(uuid "f76d17a1-2a31-485f-9d69-309ed3ccbc86")
+			(uuid "f76d17a1-2a31-485f-9d69-309ed3ccbc87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2902,7 @@
 		)
 		(pin "LV - HV Connector" input
 			(at 214.63 281.305 0)
-			(uuid "718c98de-1404-48cf-a05b-2dbbe6ce1ff2")
+			(uuid "718c98de-1404-48cf-a05b-2dbbe6ce1ff3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2912,7 @@
 		)
 		(pin "LVS.MAIN.EXC" input
 			(at 171.45 309.88 180)
-			(uuid "ab082a3c-3ac1-452c-aa0a-0d60464db044")
+			(uuid "ab082a3c-3ac1-452c-aa0a-0d60464db045")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +2922,7 @@
 		)
 		(pin "LVS.MAIN.SWITCHED.EXC" output
 			(at 171.45 312.42 180)
-			(uuid "99d661a5-817c-4e97-8ab1-91fcb95d8aad")
+			(uuid "99d661a5-817c-4e97-8ab1-91fcb95d8aae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +2932,7 @@
 		)
 		(pin "REAR BULKHEAD" bidirectional
 			(at 194.31 156.845 90)
-			(uuid "1d1e05cd-9a6c-472f-9ac9-7a19958cd380")
+			(uuid "1d1e05cd-9a6c-472f-9ac9-7a19958cd381")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2902,7 +2942,7 @@
 		)
 		(pin "BATT_GND" input
 			(at 214.63 184.785 0)
-			(uuid "17fb29ff-5429-4717-9855-6e9e0092117f")
+			(uuid "17fb29ff-5429-4717-9855-6e9e00921180")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +2952,7 @@
 		)
 		(pin "LVBMS_DATA" input
 			(at 171.45 184.785 180)
-			(uuid "57b89cde-457e-4fd8-83ee-de2fef663d91")
+			(uuid "57b89cde-457e-4fd8-83ee-de2fef663d92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +2962,7 @@
 		)
 		(pin "LVBMS_PWR" input
 			(at 171.45 182.245 180)
-			(uuid "9057ca30-a2b0-41e4-ab2f-fd742ee0348b")
+			(uuid "9057ca30-a2b0-41e4-ab2f-fd742ee0348c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,6 +3022,16 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "CAR I{slash}O" bidirectional
+			(at 375.92 342.9 180)
+			(uuid "c18ceec8-d396-4886-bb60-b3efbdc61708")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -3184,7 +3234,7 @@
 		)
 	)
 	(sheet
-		(at 337.82 366.395)
+		(at 511.175 331.47)
 		(size 20.32 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3201,7 +3251,7 @@
 		)
 		(uuid "d071d412-53b1-477c-a42d-6144a34d2391")
 		(property "Sheetname" "PINOUTS"
-			(at 337.82 365.6834 0)
+			(at 511.175 330.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3260,7 @@
 			)
 		)
 		(property "Sheetfile" "pinouts.kicad_sch"
-			(at 337.82 378.4096 0)
+			(at 511.175 343.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,6 +3273,59 @@
 			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "98")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 376.555 361.95)
+		(size 50.8 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d89d42f9-2088-4558-9da6-1298445370d6")
+		(property "Sheetname" "LOOM - UMBILICAL BOX"
+			(at 376.555 361.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loom-umbilical-box.kicad_sch"
+			(at 376.555 385.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{UMBILICAL_BOX}" input
+			(at 376.555 368.935 180)
+			(uuid "81216f94-de9c-4a5e-aeb3-a0d86d257dc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "38")
 				)
 			)
 		)

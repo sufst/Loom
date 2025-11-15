@@ -4333,6 +4333,17 @@
 		)
 		(uuid "ee90590d-8869-4ad4-b9a1-fba91dc3fd31")
 	)
+	(hierarchical_label "{UMBILICAL_BOX}"
+		(shape input)
+		(at 113.03 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0845d23d-f7fc-40e5-955c-392841b01f8c")
+	)
 	(hierarchical_label "{UMBILICAL}"
 		(shape bidirectional)
 		(at 78.105 22.225 180)
