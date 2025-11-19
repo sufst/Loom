@@ -2874,8 +2874,8 @@
 		)
 		(uuid "fa919dcd-dade-4c73-acc7-80dafa78c316")
 	)
-	(hierarchical_label "C"
-		(shape bidirectional)
+	(hierarchical_label "{PDM.C}"
+		(shape output)
 		(at 198.12 68.58 0)
 		(effects
 			(font
@@ -2885,8 +2885,8 @@
 		)
 		(uuid "7803ed05-4f62-4363-8e7b-f8b30a639c7d")
 	)
-	(hierarchical_label "B"
-		(shape bidirectional)
+	(hierarchical_label "{PDM.B}"
+		(shape input)
 		(at 154.305 68.58 0)
 		(effects
 			(font
@@ -2896,7 +2896,7 @@
 		)
 		(uuid "84318cb9-9a54-406d-9c0c-abb1d821a296")
 	)
-	(hierarchical_label "A"
+	(hierarchical_label "{PDM.A}"
 		(shape bidirectional)
 		(at 111.76 68.58 0)
 		(effects

@@ -8,14 +8,14 @@
 		(title "STAG 12 - TOP LEVEL")
 	)
 	(lib_symbols)
-	(bus_alias "LVBMS.DATA"
+	(bus_alias "LVBMS.CTRL"
 		(members "LVBMS.AUX" "LVBMS.BUTTON" "LVBMS.ONLINE" "LVBMS.CHARGE")
 	)
 	(bus_alias "LVBMS.PWR"
 		(members "LVBMS.PWR+" "LVBMS.PWR-")
 	)
 	(rectangle
-		(start 115.57 146.685)
+		(start 106.68 146.685)
 		(end 265.43 328.295)
 		(stroke
 			(width 1)
@@ -118,6 +118,26 @@
 		)
 		(uuid "0103e3d2-217c-4237-97e3-526f35e580a1")
 	)
+	(bus
+		(pts
+			(xy 98.425 244.475) (xy 98.425 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06874dfa-b621-462d-bb43-6f32c94449bd")
+	)
+	(bus
+		(pts
+			(xy 98.425 244.475) (xy 108.585 244.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06dcb6db-f049-4e80-9b41-a0bd460034bb")
+	)
 	(wire
 		(pts
 			(xy 214.63 288.925) (xy 224.79 288.925)
@@ -181,16 +201,6 @@
 	)
 	(bus
 		(pts
-			(xy 376.555 368.935) (xy 92.71 368.935)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f5f1667-1e74-4afb-99a5-3e7779d2adb7")
-	)
-	(bus
-		(pts
 			(xy 156.21 182.245) (xy 171.45 182.245)
 		)
 		(stroke
@@ -219,16 +229,6 @@
 			(type default)
 		)
 		(uuid "21559e5c-d1b9-4860-89f9-1ef21c96060f")
-	)
-	(wire
-		(pts
-			(xy 214.63 203.835) (xy 232.41 203.835)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2396fbff-487c-429d-abda-4b9c7a368e8e")
 	)
 	(wire
 		(pts
@@ -345,6 +345,16 @@
 		)
 		(uuid "3bd0055b-49e7-4f77-8d0d-790509786aa3")
 	)
+	(bus
+		(pts
+			(xy 191.77 132.08) (xy 171.45 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cccd7c3-0116-4cf3-a261-4459ee26f051")
+	)
 	(wire
 		(pts
 			(xy 259.715 245.745) (xy 259.715 224.79)
@@ -387,6 +397,16 @@
 		)
 		(uuid "499a33fe-1c20-4591-b209-dcd6266ec2e1")
 	)
+	(bus
+		(pts
+			(xy 214.63 201.295) (xy 232.41 201.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d68af23-5300-4fd2-a6b5-05c1edbbc435")
+	)
 	(wire
 		(pts
 			(xy 219.71 259.08) (xy 219.71 357.505)
@@ -396,6 +416,16 @@
 			(type default)
 		)
 		(uuid "50587e63-b8b3-4363-91ff-86b10e49228a")
+	)
+	(bus
+		(pts
+			(xy 214.63 206.375) (xy 232.41 206.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f266b8-7824-4b91-a776-7b3668b39d8b")
 	)
 	(bus
 		(pts
@@ -500,16 +530,6 @@
 		)
 		(uuid "72385bc1-4ad8-46c4-a7d9-6642d86bc4ec")
 	)
-	(wire
-		(pts
-			(xy 194.31 109.855) (xy 194.31 156.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73251bc3-e1ce-4ef0-8a9d-ea4984b25b8f")
-	)
 	(bus
 		(pts
 			(xy 302.26 165.735) (xy 214.63 165.735)
@@ -583,16 +603,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 201.295) (xy 232.41 201.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "837760f9-dd1b-4b0b-ab6e-0afa0f2db499")
-	)
-	(wire
-		(pts
 			(xy 156.21 211.455) (xy 196.85 211.455)
 		)
 		(stroke
@@ -611,6 +621,16 @@
 			(type default)
 		)
 		(uuid "855f6486-fde0-462c-9d8b-618c81cdcb98")
+	)
+	(bus
+		(pts
+			(xy 76.835 80.01) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b6acb9-159e-40eb-bdf4-82bf8878ffe6")
 	)
 	(wire
 		(pts
@@ -750,16 +770,6 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 368.935) (xy 92.71 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aba51ea8-c4e4-4b7b-ad43-c07458641829")
-	)
-	(bus
-		(pts
 			(xy 156.21 226.695) (xy 171.45 226.695)
 		)
 		(stroke
@@ -787,6 +797,26 @@
 			(type default)
 		)
 		(uuid "b0884761-0d54-493b-9fd3-28b375b68457")
+	)
+	(wire
+		(pts
+			(xy 149.86 287.02) (xy 171.45 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ffd350-20d1-43c9-8141-32720232fde7")
+	)
+	(bus
+		(pts
+			(xy 95.25 134.62) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b417d1d0-853b-453c-b97b-bd3eddadfad2")
 	)
 	(bus
 		(pts
@@ -851,6 +881,16 @@
 		)
 		(uuid "d5272035-4f2a-4fba-95ab-c580717e0666")
 	)
+	(bus
+		(pts
+			(xy 98.425 213.36) (xy 83.185 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d784836f-c195-457b-9997-79064c57212c")
+	)
 	(wire
 		(pts
 			(xy 224.79 259.08) (xy 219.71 259.08)
@@ -870,16 +910,6 @@
 			(type default)
 		)
 		(uuid "d9ade907-39de-4aa7-87f9-907ecbbd040e")
-	)
-	(bus
-		(pts
-			(xy 92.71 134.62) (xy 128.27 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da11df27-3787-4f50-8ad7-c735d5b41be9")
 	)
 	(wire
 		(pts
@@ -922,6 +952,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "de6eca19-4850-4cf2-98f9-6be1f0c7a131")
+	)
+	(bus
+		(pts
+			(xy 214.63 203.835) (xy 232.41 203.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a4ba86-efa0-4e61-98e4-8ab2b1817ff5")
 	)
 	(wire
 		(pts
@@ -974,6 +1014,16 @@
 		)
 		(uuid "ec5ee0ae-c336-4476-8481-7ae4eb9c9370")
 	)
+	(bus
+		(pts
+			(xy 95.25 134.62) (xy 128.27 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee79e365-1af2-49c1-803c-74d3d9c7136a")
+	)
 	(wire
 		(pts
 			(xy 196.85 211.455) (xy 196.85 245.745)
@@ -984,6 +1034,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "efcb311d-e49e-4e1b-9174-c7abdfdbb41c")
+	)
+	(wire
+		(pts
+			(xy 149.86 298.45) (xy 171.45 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdc47f7-f0f6-4727-a736-3c08ea8228c6")
 	)
 	(bus
 		(pts
@@ -1004,6 +1064,16 @@
 			(type default)
 		)
 		(uuid "f3e3e7e5-e156-47ac-8616-91ba95d13b82")
+	)
+	(bus
+		(pts
+			(xy 191.77 156.845) (xy 191.77 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cb57e6-a24b-4aa7-a787-f9369c8a27db")
 	)
 	(bus
 		(pts
@@ -1070,6 +1140,59 @@
 		)
 	)
 	(sheet
+		(at 108.585 239.395)
+		(size 26.035 24.765)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "167025eb-ed59-4d2a-8ea9-c8c13801aea9")
+		(property "Sheetname" "LOOM - REAR BOX"
+			(at 108.585 238.6834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loom-rear-LV-box.kicad_sch"
+			(at 108.585 264.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{BRAKE_LIGHT}" input
+			(at 108.585 244.475 180)
+			(uuid "6f2aff1c-64df-4d1a-ac26-6fe643c60477")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "39")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 232.41 198.755)
 		(size 26.67 10.16)
 		(exclude_from_sim no)
@@ -1105,29 +1228,29 @@
 				(hide yes)
 			)
 		)
-		(pin "C" bidirectional
-			(at 232.41 206.375 180)
-			(uuid "2344e11a-3f00-427a-8c78-f143d85395f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "B" bidirectional
-			(at 232.41 203.835 180)
-			(uuid "3588cc74-9783-4e40-a1ac-5def797a97da")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "A" bidirectional
+		(pin "{PDM.A}" bidirectional
 			(at 232.41 201.295 180)
-			(uuid "39742b21-cb58-4835-aeee-964e8c04da19")
+			(uuid "62c81509-7581-48a2-8435-278078d15b51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{PDM.B}" input
+			(at 232.41 203.835 180)
+			(uuid "21e4e6e2-8688-4201-acf0-a720877b765c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{PDM.C}" output
+			(at 232.41 206.375 180)
+			(uuid "95202e5f-5650-4100-85f7-88cee9b93119")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1311,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 281.305)
+		(at 123.19 294.64)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1205,7 +1328,7 @@
 		)
 		(uuid "2cf8afa7-2cb2-4c65-9a6a-3a43fa257b78")
 		(property "Sheetname" "DEVICE - PUMP2"
-			(at 129.54 280.5934 0)
+			(at 123.19 293.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1337,7 @@
 			)
 		)
 		(property "Sheetfile" "device-pump.kicad_sch"
-			(at 129.54 289.5096 0)
+			(at 123.19 302.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,7 +1347,7 @@
 			)
 		)
 		(pin "PUMP" bidirectional
-			(at 156.21 285.115 0)
+			(at 149.86 298.45 0)
 			(uuid "907ac7f0-0c0a-43ad-bb6e-3ea589bcd01d")
 			(effects
 				(font
@@ -1576,7 +1699,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 269.875)
+		(at 123.19 283.21)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1593,7 +1716,7 @@
 		)
 		(uuid "51825ed1-c28d-47fe-be22-df39d19065ff")
 		(property "Sheetname" "DEVICE - PUMP1"
-			(at 129.54 269.1634 0)
+			(at 123.19 282.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1725,7 @@
 			)
 		)
 		(property "Sheetfile" "device-pump.kicad_sch"
-			(at 129.54 278.0796 0)
+			(at 123.19 291.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1735,7 @@
 			)
 		)
 		(pin "PUMP" bidirectional
-			(at 156.21 273.685 0)
+			(at 149.86 287.02 0)
 			(uuid "92a92850-d424-4d44-964a-85f763860c48")
 			(effects
 				(font
@@ -1738,7 +1861,7 @@
 				(justify right)
 			)
 		)
-		(pin "{LVBMS.DATA}" bidirectional
+		(pin "{LVBMS.CTRL}" bidirectional
 			(at 171.45 132.08 0)
 			(uuid "27420130-cb18-4da0-9abb-673aef780b7f")
 			(effects
@@ -1767,7 +1890,7 @@
 		)
 	)
 	(sheet
-		(at 116.84 77.47)
+		(at 56.515 196.85)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1784,7 +1907,7 @@
 		)
 		(uuid "808d560b-b52c-4c85-927c-da1ea855555d")
 		(property "Sheetname" "DEVICE - RADIATOR FAN"
-			(at 116.84 76.7584 0)
+			(at 56.515 196.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1916,7 @@
 			)
 		)
 		(property "Sheetfile" "device-radiator-fan.kicad_sch"
-			(at 116.84 85.6746 0)
+			(at 56.515 205.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +1926,7 @@
 			)
 		)
 		(pin "FAN" bidirectional
-			(at 143.51 81.28 0)
+			(at 83.185 200.66 0)
 			(uuid "fd39ceed-dbc4-4b18-9e03-6b9c40d17f42")
 			(effects
 				(font
@@ -2771,7 +2894,7 @@
 			)
 		)
 		(pin "PUMP 1" bidirectional
-			(at 171.45 273.685 180)
+			(at 171.45 287.02 180)
 			(uuid "e4e399de-03af-4f11-a2a3-8e93f694e29c")
 			(effects
 				(font
@@ -2781,7 +2904,7 @@
 			)
 		)
 		(pin "PUMP 2" bidirectional
-			(at 171.45 285.115 180)
+			(at 171.45 298.45 180)
 			(uuid "84d1a612-ddd1-4b33-843d-6edd2a147635")
 			(effects
 				(font
@@ -2850,7 +2973,7 @@
 				(justify left)
 			)
 		)
-		(pin "REAR BULKHEAD" bidirectional
+		(pin "TOP LOOM" bidirectional
 			(at 194.31 156.845 90)
 			(uuid "1d1e05cd-9a6c-472f-9ac9-7a19958cd380")
 			(effects
@@ -2930,16 +3053,6 @@
 				(justify left)
 			)
 		)
-		(pin "REAR BULKHEAD" bidirectional
-			(at 194.31 156.845 90)
-			(uuid "1d1e05cd-9a6c-472f-9ac9-7a19958cd381")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "BATT_GND" input
 			(at 214.63 184.785 0)
 			(uuid "17fb29ff-5429-4717-9855-6e9e00921180")
@@ -2973,6 +3086,26 @@
 		(pin "{BSPD.SIM}" bidirectional
 			(at 189.23 156.845 90)
 			(uuid "7a93db54-cd1c-45b1-b1b4-33087de17d82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{LVBMS.CTRL}" bidirectional
+			(at 191.77 156.845 90)
+			(uuid "8623cba4-ee54-4d77-91d1-40abe312b4a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PDM C" input
+			(at 214.63 206.375 0)
+			(uuid "65aab374-c639-4c85-be5e-4e002e5baf3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3411,7 @@
 		)
 	)
 	(sheet
-		(at 376.555 361.95)
+		(at 26.035 64.135)
 		(size 50.8 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3294,7 +3427,7 @@
 		)
 		(uuid "d89d42f9-2088-4558-9da6-1298445370d6")
 		(property "Sheetname" "LOOM - UMBILICAL BOX"
-			(at 376.555 361.2384 0)
+			(at 26.035 63.4234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,7 +3436,7 @@
 			)
 		)
 		(property "Sheetfile" "loom-umbilical-box.kicad_sch"
-			(at 376.555 385.3946 0)
+			(at 26.035 87.5796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,13 +3446,13 @@
 			)
 		)
 		(pin "{UMBILICAL_BOX}" input
-			(at 376.555 368.935 180)
+			(at 76.835 80.01 0)
 			(uuid "81216f94-de9c-4a5e-aeb3-a0d86d257dc0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -3762,7 +3895,7 @@
 		)
 	)
 	(sheet
-		(at 116.84 90.17)
+		(at 56.515 209.55)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3779,7 +3912,7 @@
 		)
 		(uuid "fbcd0b6d-423f-4780-bac5-0cf90db94f41")
 		(property "Sheetname" "DEVICE - BRAKE LIGHT"
-			(at 116.84 89.4584 0)
+			(at 56.515 208.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +3921,7 @@
 			)
 		)
 		(property "Sheetfile" "device-brake-light.kicad_sch"
-			(at 116.84 98.3746 0)
+			(at 56.515 217.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3931,7 @@
 			)
 		)
 		(pin "BRAKE LIGHT" bidirectional
-			(at 143.51 93.98 0)
+			(at 83.185 213.36 0)
 			(uuid "bdb3bb8e-89fe-4206-bc64-b73f713771cb")
 			(effects
 				(font
