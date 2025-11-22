@@ -2295,8 +2295,9 @@
 		)
 	)
 	(bus_alias "TOP_CONNECTOR"
-		(members "SDC.TOP" "SDC.RH" "TSAL.PWR" "TSAL.RED.EN" "TSAL.GRN.EN" "TSAL.GND"
-			"R2D.PWR" "R2D.GND" "FSUK.DL.PWR" "CAN.FSUK.H" "CAN.FSUK.L" "FSUK.DL.GND"
+		(members "SDC.TOP" "SDC.RH" "TSAL.LED.PWR" "TSAL.RED.EN" "TSAL.GRN.EN"
+			"TSAL.LED.GND" "R2D.PWR" "R2D.GND" "FSUK.DL.PWR" "CAN.FSUK.H" "CAN.FSUK.L"
+			"FSUK.DL.GND"
 		)
 	)
 	(text "Extra pins for\ndebug when tethered\nto umbilical box!"
