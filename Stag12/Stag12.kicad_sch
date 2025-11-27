@@ -3207,16 +3207,6 @@
 				(justify left)
 			)
 		)
-		(pin "TOP LOOM" bidirectional
-			(at 194.31 156.845 90)
-			(uuid "1d1e05cd-9a6c-472f-9ac9-7a19958cd380")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "BATT_GND" input
 			(at 214.63 184.785 0)
 			(uuid "17fb29ff-5429-4717-9855-6e9e0092117f")
@@ -3340,6 +3330,26 @@
 		(pin "PDM C" input
 			(at 214.63 206.375 0)
 			(uuid "65aab374-c639-4c85-be5e-4e002e5baf3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{REAR_BOX}" bidirectional
+			(at 171.45 259.08 180)
+			(uuid "c2e05f23-91d2-4898-927a-672a8f622fc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{TOP_CONNECTOR}" bidirectional
+			(at 194.31 156.845 90)
+			(uuid "952d1887-28c7-42ef-b1c9-fe7ccb7bef49")
 			(effects
 				(font
 					(size 1.27 1.27)
