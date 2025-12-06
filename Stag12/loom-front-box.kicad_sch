@@ -7841,7 +7841,7 @@
 		)
 		(uuid "855dc6ce-87b6-4171-8933-a12814bdeba9")
 	)
-	(label "IMD.LED.GND"
+	(label "IMD.LED.SIG"
 		(at 127.635 228.6 0)
 		(effects
 			(font
@@ -7871,7 +7871,7 @@
 		)
 		(uuid "9197b8d7-2fb5-4804-aeed-97b154d625a6")
 	)
-	(label "AMS.LED.GND"
+	(label "AMS.LED.SIG"
 		(at 127.635 231.14 0)
 		(effects
 			(font
