@@ -7141,22 +7141,6 @@
 		)
 		(uuid "f2cd8e96-f1e9-47b8-bdf3-bde5544149cf")
 	)
-	(no_connect
-		(at 127.635 231.14)
-		(uuid "6fa13e6c-2ed2-495a-997d-7e4ffd35c73b")
-	)
-	(no_connect
-		(at 127.635 228.6)
-		(uuid "8d2162c4-65de-4b8a-b608-7cbde865cdcf")
-	)
-	(no_connect
-		(at 127.635 233.68)
-		(uuid "9e0605d3-b4f5-4b1e-9337-204650de42f4")
-	)
-	(no_connect
-		(at 127.635 226.06)
-		(uuid "c3363d54-bd3b-4ce6-86dc-de6cf3e80958")
-	)
 	(wire
 		(pts
 			(xy 440.69 150.495) (xy 462.28 150.495)
@@ -7777,97 +7761,7 @@
 		)
 		(uuid "ff8f5a13-ec97-47d8-9fa7-e516086ad7e4")
 	)
-	(label "TSAL.DASH.PWR"
-		(at 127.635 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e5c8a3d-5ce4-4c30-add0-866380c02106")
-	)
 	(label "TS.ON.LED.GND"
-		(at 127.635 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2227b652-399b-429c-98f8-c1adaa7b5182")
-	)
-	(label "CAN.C.L"
-		(at 127.635 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3428a5cd-b4c7-4c43-928d-c2fe313ce196")
-	)
-	(label "DASH.GND"
-		(at 127.635 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f9b4bfa-f8de-4fd8-9cb1-bf352073d1fa")
-	)
-	(label "R2D.LED.GND"
-		(at 127.635 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62781347-6334-45b0-b051-777e9dbbabce")
-	)
-	(label "TSAL.GREEN.DASH.LED.GND"
-		(at 127.635 218.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67f467c7-6b8c-44e4-ba83-c840a84c0888")
-	)
-	(label "SPARE.LED.GND"
-		(at 127.635 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "703cdf39-7129-42cf-82c2-5072327f2f92")
-	)
-	(label "R2D.BUTTON.GND"
-		(at 127.635 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b9fbeff-40e0-4ebd-a5c2-d158b027c97e")
-	)
-	(label "CAN.C.H"
-		(at 127.635 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e429c94-0f5d-4843-9cb2-f2fa48122c01")
-	)
-	(label "SPARE.BUTTON.GND"
 		(at 127.635 213.36 0)
 		(effects
 			(font
@@ -7875,9 +7769,49 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7ee43409-19c5-479f-b9d3-ff20bfa1b1c7")
+		(uuid "12a404b6-d836-4715-b736-e1391e941584")
 	)
-	(label "CAN.C.L"
+	(label "CAN.F.L"
+		(at 127.635 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17dfda1e-6d29-4388-a8d3-c066c74b8083")
+	)
+	(label "R2D.LED.GND"
+		(at 127.635 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "411c3153-9d56-41f8-bc39-d4771fdc9a6d")
+	)
+	(label "TS.ON.BUTTON.GND"
+		(at 127.635 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45387472-922c-4360-a4f6-32d87673df55")
+	)
+	(label "TSAL.DASH.PWR"
+		(at 127.635 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e1b195b-ff1a-4a5c-9fde-09a497268f55")
+	)
+	(label "CAN.C.H"
 		(at 127.635 195.58 0)
 		(effects
 			(font
@@ -7885,9 +7819,49 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a7706dfd-ebfe-49be-96fb-5488e3b11866")
+		(uuid "5235e9f3-4624-4595-a397-47d8d3b5462a")
 	)
-	(label "AMS.LED.GND"
+	(label "R2D.BUTTON.GND"
+		(at 127.635 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8347cf03-1162-4414-b186-0b0e42789398")
+	)
+	(label "DASH.GND"
+		(at 127.635 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "855dc6ce-87b6-4171-8933-a12814bdeba9")
+	)
+	(label "IMD.LED.SIG"
+		(at 127.635 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "893337ef-f80e-4a81-a198-8fccd053f634")
+	)
+	(label "CAN.F.L"
+		(at 127.635 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f333408-f48b-4070-bd14-0618eba066b6")
+	)
+	(label "SPARE.LED.GND"
 		(at 127.635 223.52 0)
 		(effects
 			(font
@@ -7895,27 +7869,37 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ad2426ed-a502-47b5-b874-dc75c8807e90")
+		(uuid "9197b8d7-2fb5-4804-aeed-97b154d625a6")
 	)
-	(label "IMD.LED.GND"
-		(at 127.635 220.98 0)
+	(label "AMS.LED.SIG"
+		(at 127.635 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b59df622-ab2a-46c8-a201-7e96988978a2")
+		(uuid "af1c7307-2568-4d6a-8d39-200561461238")
 	)
 	(label "CAN.C.H"
-		(at 127.635 193.04 0)
+		(at 127.635 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c522d2d9-2853-4dd9-88b4-20dfc27eb336")
+		(uuid "d0f8c4bb-16af-4c6e-8fc8-7a4567dfab99")
+	)
+	(label "CAN.C.L"
+		(at 127.635 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1e4697e-e5ec-499c-a167-67f98d9bee0b")
 	)
 	(label "DASH.GLV"
 		(at 127.635 185.42 0)
@@ -7927,15 +7911,55 @@
 		)
 		(uuid "ddd2e6bf-ce0a-4953-8b01-0a1bf0e3fb54")
 	)
-	(label "TS.ON.BUTTON.GND"
-		(at 127.635 203.2 0)
+	(label "CAN.F.H"
+		(at 127.635 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f5e7ad57-2fbf-4e2e-bcfb-a3dc5f1c9613")
+		(uuid "e2478c69-2b45-47e7-974d-8b0207ac292b")
+	)
+	(label "SPARE.BUTTON.GND"
+		(at 127.635 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8229a19-4c40-4cab-945c-3f5c0e5f0fc5")
+	)
+	(label "CAN.F.H"
+		(at 127.635 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edc9b952-0293-4bb3-bd07-a3de82f067df")
+	)
+	(label "CAN.C.L"
+		(at 127.635 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f678d4c5-36a8-4a29-b890-2593fc6b9e94")
+	)
+	(label "TSAL.GREEN.DASH.LED.GND"
+		(at 127.635 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f814f101-e85c-4059-90d1-e251bff79c03")
 	)
 	(hierarchical_label "Dashboard"
 		(shape bidirectional)
