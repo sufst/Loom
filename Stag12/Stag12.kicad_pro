@@ -505,11 +505,11 @@
     "netclass_patterns": [
       {
         "netclass": "Shutdown",
-        "pattern": "SDC*"
+        "pattern": "/*/SDC.*"
       },
       {
-        "netclass": "Default",
-        "pattern": "CAN.*"
+        "netclass": "CAN",
+        "pattern": "/*/CAN*"
       }
     ]
   },
