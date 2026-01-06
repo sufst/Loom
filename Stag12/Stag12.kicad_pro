@@ -644,8 +644,8 @@
       "LOOM - FRONT"
     ],
     [
-      "bafd9cf7-e770-4582-bce0-db34b2753411",
-      "LOOM - REAR"
+      "9e578ce3-156d-4015-8549-8397930d52c7",
+      "LOOM - FRONT BOX"
     ],
     [
       "d0591f78-2a6a-49ef-980c-e27ab4140297",
@@ -656,20 +656,32 @@
       "LOOM - PEDAL BOX"
     ],
     [
-      "7e9384ba-916e-4f11-9c24-cf48d3c4adfe",
-      "LOOM - LEFT SIDE PANEL"
+      "bafd9cf7-e770-4582-bce0-db34b2753411",
+      "LOOM - REAR"
     ],
     [
-      "5800ac3f-0c71-4c1d-843a-354b05f477de",
-      "DEVICE - RIGHT FAN"
+      "7e9384ba-916e-4f11-9c24-cf48d3c4adfe",
+      "LOOM - LEFT SIDE PANEL"
     ],
     [
       "abd63648-061b-4836-be2a-4e6f9e8b66f3",
       "LOOM - RIGHT SIDE PANEL"
     ],
     [
-      "5ebd4266-1aa3-4074-a4aa-e04f022b7120",
-      "DEVICE - APPS"
+      "8c8ba23c-c17e-4aa5-bc73-bc09925b49ea",
+      "LOOM - HV BOX"
+    ],
+    [
+      "8b0beb0f-c453-4b15-89f4-ecc97c450520",
+      "LOOM - LV BOX"
+    ],
+    [
+      "876765b2-be52-449d-b7c3-fd130e79e6de",
+      "LOOM - TOP"
+    ],
+    [
+      "167025eb-ed59-4d2a-8ea9-c8c13801aea9",
+      "LOOM - REAR BOX"
     ],
     [
       "070b8217-88a3-4264-8b23-f32d97ad3850",
@@ -680,12 +692,12 @@
       "DEVICE - BPS - FRONT"
     ],
     [
-      "dc6d80d9-f422-484b-86ff-2d32d226b895",
-      "DEVICE - BPS - REAR"
-    ],
-    [
       "fbcd0b6d-423f-4780-bac5-0cf90db94f41",
       "DEVICE - BRAKE LIGHT"
+    ],
+    [
+      "dc6d80d9-f422-484b-86ff-2d32d226b895",
+      "DEVICE - BPS - REAR"
     ],
     [
       "ac5342b2-3f31-4ced-840e-357d9fbb572e",
@@ -704,6 +716,18 @@
       "DEVICE - E-STOP - RHS"
     ],
     [
+      "c83e0eda-d315-4937-8993-0c53aef1fcca",
+      "DEVICE - SAGL"
+    ],
+    [
+      "808d560b-b52c-4c85-927c-da1ea855555d",
+      "DEVICE - FAN - LEFT"
+    ],
+    [
+      "5800ac3f-0c71-4c1d-843a-354b05f477de",
+      "DEVICE - FAN - RIGHT"
+    ],
+    [
       "b02648f7-a452-477f-b99b-aaa3ed22e7a7",
       "DEVICE - GROUND BOX"
     ],
@@ -714,6 +738,10 @@
     [
       "4213cda8-8461-4416-95a8-cacbe36d2108",
       "DEVICE - INVERTER"
+    ],
+    [
+      "dd4a1145-c3f1-4886-be91-6a17f0433e28",
+      "DEVICE - LV Battery"
     ],
     [
       "b0453e95-da99-41eb-96b0-5966f0081854",
@@ -732,60 +760,32 @@
       "DEVICE - PUMP2"
     ],
     [
-      "808d560b-b52c-4c85-927c-da1ea855555d",
-      "DEVICE - LEFT FAN"
-    ],
-    [
-      "c83e0eda-d315-4937-8993-0c53aef1fcca",
-      "DEVICE - SAGL"
-    ],
-    [
       "48616204-6721-438e-b659-db9d23586403",
       "DEVICE - TSAL"
-    ],
-    [
-      "9e578ce3-156d-4015-8549-8397930d52c7",
-      "LOOM - FRONT BOX"
-    ],
-    [
-      "8c8ba23c-c17e-4aa5-bc73-bc09925b49ea",
-      "LOOM - HV BOX"
     ],
     [
       "cb56092d-6a5f-45d2-8b91-b2a4b062d135",
       "DEVICE - VCU"
     ],
     [
-      "dd4a1145-c3f1-4886-be91-6a17f0433e28",
-      "DEVICE - LV Battery"
-    ],
-    [
-      "8b0beb0f-c453-4b15-89f4-ecc97c450520",
-      "LOOM - LV BOX"
-    ],
-    [
-      "876765b2-be52-449d-b7c3-fd130e79e6de",
-      "LOOM - TOP"
-    ],
-    [
       "f2e95598-4849-4065-9830-1162dbd6ddf4",
       "DEVICE - FSUK Datalogger"
-    ],
-    [
-      "d89d42f9-2088-4558-9da6-1298445370d6",
-      "LOOM - UMBILICAL BOX"
-    ],
-    [
-      "167025eb-ed59-4d2a-8ea9-c8c13801aea9",
-      "LOOM - REAR BOX"
     ],
     [
       "d05287bd-2293-4bca-8dad-8c717e36f6ff",
       "DEVICE - R2DS"
     ],
     [
+      "5ebd4266-1aa3-4074-a4aa-e04f022b7120",
+      "DEVICE - APPS"
+    ],
+    [
       "c24e4324-79c1-4828-a7be-e83d495a6b6b",
       "LOOM - CHARGING CART"
+    ],
+    [
+      "d89d42f9-2088-4558-9da6-1298445370d6",
+      "LOOM - UMBILICAL BOX"
     ],
     [
       "d071d412-53b1-477c-a42d-6144a34d2391",
