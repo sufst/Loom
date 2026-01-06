@@ -1261,7 +1261,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-bots.kicad_sch"
+		(property "Sheetfile" "device/device-bots.kicad_sch"
 			(at 411.48 248.8696 0)
 			(effects
 				(font
@@ -1314,7 +1314,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "loom-rear-LV-box.kicad_sch"
+		(property "Sheetfile" "loom/loom-rear-LV-box.kicad_sch"
 			(at 108.585 278.7146 0)
 			(effects
 				(font
@@ -1368,7 +1368,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-pdm.kicad_sch"
+		(property "Sheetfile" "device/device-pdm.kicad_sch"
 			(at 232.41 209.4996 0)
 			(effects
 				(font
@@ -1486,7 +1486,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-pump.kicad_sch"
+		(property "Sheetfile" "device/device-pump.kicad_sch"
 			(at 123.19 302.8446 0)
 			(effects
 				(font
@@ -1539,13 +1539,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "loom-front-new.kicad_sch"
+		(property "Sheetfile" "loom/loom-front-new.kicad_sch"
 			(at 302.26 304.7496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "DASHBOARD" bidirectional
@@ -1642,7 +1643,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-e-stop.kicad_sch"
+		(property "Sheetfile" "device/device-e-stop.kicad_sch"
 			(at 302.26 319.9896 0)
 			(effects
 				(font
@@ -1696,7 +1697,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-inverter.kicad_sch"
+		(property "Sheetfile" "device/device-inverter.kicad_sch"
 			(at 129.54 219.6596 0)
 			(effects
 				(font
@@ -1820,7 +1821,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-tsal.kicad_sch"
+		(property "Sheetfile" "device/device-tsal.kicad_sch"
 			(at 243.84 93.2946 0)
 			(effects
 				(font
@@ -1874,7 +1875,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-pump.kicad_sch"
+		(property "Sheetfile" "device/device-pump.kicad_sch"
 			(at 123.19 291.4146 0)
 			(effects
 				(font
@@ -1928,7 +1929,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-radiator-fan.kicad_sch"
+		(property "Sheetfile" "device/device-radiator-fan.kicad_sch"
 			(at 56.515 229.8196 0)
 			(effects
 				(font
@@ -1982,7 +1983,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-apps.kicad_sch"
+		(property "Sheetfile" "device/device-apps.kicad_sch"
 			(at 411.48 210.7696 0)
 			(effects
 				(font
@@ -2035,7 +2036,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "loom-side-panel-left.kicad_sch"
+		(property "Sheetfile" "loom/loom-side-panel-left.kicad_sch"
 			(at 128.27 140.9196 0)
 			(effects
 				(font
@@ -2129,7 +2130,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-radiator-fan.kicad_sch"
+		(property "Sheetfile" "device/device-radiator-fan.kicad_sch"
 			(at 56.515 205.0546 0)
 			(effects
 				(font
@@ -2181,7 +2182,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "loom-top.kicad_sch"
+		(property "Sheetfile" "loom/loom-top.kicad_sch"
 			(at 215.2146 109.855 90)
 			(effects
 				(font
@@ -2284,13 +2285,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LOOM - LV BOX.kicad_sch"
+		(property "Sheetfile" "loom/LOOM - LV BOX.kicad_sch"
 			(at 224.79 309.8296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "Main LV connector" input
@@ -2346,13 +2348,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LOOM - HV BOX.kicad_sch"
+		(property "Sheetfile" "loom/LOOM - HV BOX.kicad_sch"
 			(at 224.79 271.7296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "TSMP.HV-" bidirectional
@@ -2469,7 +2472,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-e-stop.kicad_sch"
+		(property "Sheetfile" "device/device-e-stop.kicad_sch"
 			(at 243.84 67.8946 0)
 			(effects
 				(font
@@ -2523,7 +2526,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-bps.kicad_sch"
+		(property "Sheetfile" "device/device-bps.kicad_sch"
 			(at 411.48 223.4696 0)
 			(effects
 				(font
@@ -2576,7 +2579,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "loom-front-box.kicad_sch"
+		(property "Sheetfile" "loom/loom-front-box.kicad_sch"
 			(at 378.46 196.1646 0)
 			(effects
 				(font
@@ -2620,7 +2623,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-e-stop.kicad_sch"
+		(property "Sheetfile" "device/device-e-stop.kicad_sch"
 			(at 243.84 80.5946 0)
 			(effects
 				(font
@@ -2673,7 +2676,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "loom-side-panel-right.kicad_sch"
+		(property "Sheetfile" "loom/loom-side-panel-right.kicad_sch"
 			(at 171.45 363.1696 0)
 			(effects
 				(font
@@ -2767,7 +2770,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-bspd.kicad_sch"
+		(property "Sheetfile" "device/device-bspd.kicad_sch"
 			(at 411.48 274.2696 0)
 			(effects
 				(font
@@ -2821,7 +2824,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-ground-box.kicad_sch"
+		(property "Sheetfile" "device/device-ground-box.kicad_sch"
 			(at 232.41 190.4496 0)
 			(effects
 				(font
@@ -2885,7 +2888,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-motor.kicad_sch"
+		(property "Sheetfile" "device/device-motor.kicad_sch"
 			(at 129.54 234.8996 0)
 			(effects
 				(font
@@ -2978,13 +2981,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "loom-rear-new.kicad_sch"
+		(property "Sheetfile" "loom/loom-rear-new.kicad_sch"
 			(at 171.45 319.9896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "{UMBILICAL}" bidirectional
@@ -3391,7 +3395,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "loom-charging-cart.kicad_sch"
+		(property "Sheetfile" "loom/loom-charging-cart.kicad_sch"
 			(at 375.92 351.7396 0)
 			(effects
 				(font
@@ -3445,7 +3449,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-sagl.kicad_sch"
+		(property "Sheetfile" "device/device-sagl.kicad_sch"
 			(at 411.48 261.5696 0)
 			(effects
 				(font
@@ -3499,7 +3503,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-vcu.kicad_sch"
+		(property "Sheetfile" "device/device-vcu.kicad_sch"
 			(at 411.48 178.3846 0)
 			(effects
 				(font
@@ -3553,7 +3557,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-r2ds.kicad_sch"
+		(property "Sheetfile" "device/device-r2ds.kicad_sch"
 			(at 243.84 105.9946 0)
 			(effects
 				(font
@@ -3606,7 +3610,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "loom-accumulator.kicad_sch"
+		(property "Sheetfile" "loom/loom-accumulator.kicad_sch"
 			(at 231.14 228.5496 0)
 			(effects
 				(font
@@ -3733,7 +3737,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "loom-umbilical-box.kicad_sch"
+		(property "Sheetfile" "loom/loom-umbilical-box.kicad_sch"
 			(at 26.035 87.5796 0)
 			(effects
 				(font
@@ -3787,7 +3791,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-bps.kicad_sch"
+		(property "Sheetfile" "device/device-bps.kicad_sch"
 			(at 411.48 236.1696 0)
 			(effects
 				(font
@@ -3841,7 +3845,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-lvbms.kicad_sch"
+		(property "Sheetfile" "device/device-lvbms.kicad_sch"
 			(at 129.54 190.4496 0)
 			(effects
 				(font
@@ -3904,7 +3908,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "loom-pedal-box.kicad_sch"
+		(property "Sheetfile" "loom/loom-pedal-box.kicad_sch"
 			(at 378.46 274.2696 0)
 			(effects
 				(font
@@ -4018,7 +4022,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-inertia-switch.kicad_sch"
+		(property "Sheetfile" "device/device-inertia-switch.kicad_sch"
 			(at 302.26 332.6896 0)
 			(effects
 				(font
@@ -4071,7 +4075,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-fsuk_datalogger.kicad_sch"
+		(property "Sheetfile" "device/device-fsuk_datalogger.kicad_sch"
 			(at 171.45 59.6396 0)
 			(effects
 				(font
@@ -4125,7 +4129,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "device-brake-light.kicad_sch"
+		(property "Sheetfile" "device/device-brake-light.kicad_sch"
 			(at 56.515 217.7546 0)
 			(effects
 				(font

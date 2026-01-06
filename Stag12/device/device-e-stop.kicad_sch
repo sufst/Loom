@@ -2,10 +2,10 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "dfb7b2d8-935a-4ac0-aea3-46df85850d86")
+	(uuid "9300cd75-b1fb-4f74-b7ad-3baaa2250dfc")
 	(paper "A4")
 	(title_block
-		(title "LOOM - BRAKE LIGHT")
+		(title "DEVICE - E-STOP")
 	)
 	(lib_symbols
 		(symbol "Connectors_SUFST:Deutsch_DTM_2P_Pin"
@@ -142,7 +142,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Series"
+		(symbol "Switch:SW_Push_Open"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -150,16 +153,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.715 0)
+			(property "Reference" "SW"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LED_Series"
-				(at 0 3.81 0)
+			(property "Value" "SW_Push_Open"
+				(at 0 -1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -167,7 +170,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -2.54 0 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -176,7 +179,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at -2.54 0 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -184,7 +187,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Several LEDs in series"
+			(property "Description" "Push button switch, push-to-open, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -193,7 +196,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED diode"
+			(property "ki_keywords" "switch normally-closed pushbutton push-button"
 				(at 0 0 0)
 				(effects
 					(font
@@ -202,20 +205,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Series_0_1"
+			(symbol "SW_Push_Open_0_1"
 				(polyline
 					(pts
-						(xy -3.81 0) (xy -1.016 0)
+						(xy -2.54 -0.635) (xy 2.54 -0.635)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -226,19 +231,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.683 -1.27) (xy -3.683 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.397) (xy -1.778 2.921) (xy -2.54 2.921) (xy -1.778 2.921) (xy -1.778 2.159)
+						(xy 0 -0.635) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -248,10 +241,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.032 1.397) (xy -0.508 2.921) (xy -1.27 2.921) (xy -0.508 2.921) (xy -0.508 2.159)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -260,120 +252,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.143 -1.27) (xy -1.143 1.27) (xy -3.683 0) (xy -1.143 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.127 0) (xy -0.127 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 -1.27) (xy 1.143 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.397) (xy 3.048 2.921) (xy 2.286 2.921) (xy 3.048 2.921) (xy 3.048 2.159)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 1.397) (xy 4.318 2.921) (xy 3.556 2.921) (xy 4.318 2.921) (xy 4.318 2.159)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.27) (xy 3.683 1.27) (xy 1.143 0) (xy 3.683 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Series_1_1"
 				(pin passive line
-					(at -6.35 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -388,10 +270,12 @@
 						)
 					)
 				)
+			)
+			(symbol "SW_Push_Open_1_1"
 				(pin passive line
-					(at 6.35 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "A"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -412,174 +296,75 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 120.65 93.98)
+			(xy 119.38 99.06) (xy 116.84 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0c711f5-3c61-4671-bd9e-08c39695a79b")
+		(uuid "1f7d196e-2b4c-43a2-8560-5c186daef66f")
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 166.37 96.52)
+			(xy 116.84 101.6) (xy 157.48 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b85a414a-36c1-4a5f-87df-dca8013f448f")
+		(uuid "2402ce64-7b86-4086-bb7e-8abfeff69631")
 	)
 	(wire
 		(pts
-			(xy 120.65 93.98) (xy 120.65 96.52)
+			(xy 116.84 99.06) (xy 116.84 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1a507eb-106d-4502-976f-0c17d170b637")
+		(uuid "2b6b6a98-7fa3-41cc-9376-22f1f9f22a19")
 	)
 	(wire
 		(pts
-			(xy 138.43 93.98) (xy 166.37 93.98)
+			(xy 129.54 99.06) (xy 157.48 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f509ca94-83df-4dd7-9bc2-b67892eae8fe")
+		(uuid "b52eef2f-5026-460f-ab68-099338ec3080")
 	)
-	(label "BRAKE.LIGHT.GND"
-		(at 166.37 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "48965cb6-9630-4120-9d70-63ee62fd01cc")
-	)
-	(label "BRAKE.LIGHT.PWR"
-		(at 166.37 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f789d381-6dec-4e3f-ac68-4a8f21f7e682")
-	)
-	(hierarchical_label "BRAKE LIGHT"
+	(hierarchical_label "E-STOP"
 		(shape bidirectional)
-		(at 172.72 91.44 0)
+		(at 163.83 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "cc5a5a4a-91ab-40e7-829b-7b09597d9900")
+		(uuid "c9b88a73-eb38-4e30-b94c-f23fb4bd40bb")
 	)
 	(symbol
-		(lib_id "Connectors_SUFST:Deutsch_DTM_2P_Pin")
-		(at 168.275 100.965 180)
+		(lib_id "Switch:SW_Push_Open")
+		(at 124.46 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2eaa839d-c530-481a-a2a8-639c543a4def")
-		(property "Reference" "Conn?"
-			(at 172.72 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Deutsch_DTM_2P_Pin"
-			(at 168.275 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.275 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.275 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.275 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "DTM042P-E003"
-			(at 172.72 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "236fa31f-aa8f-4158-a588-af08737a3425")
-		)
-		(pin "2"
-			(uuid "9fb80fbb-7d57-4c8e-a41c-6a75f695722c")
-		)
-		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/fbcd0b6d-423f-4780-bac5-0cf90db94f41"
-					(reference "Conn?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Series")
-		(at 132.08 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4203f245-c77d-4d1c-b8f6-a722e798d6cd")
-		(property "Reference" "D?"
-			(at 132.334 86.36 0)
+		(uuid "13433466-557a-412a-a079-12bd4b2f3f6a")
+		(property "Reference" "SW?"
+			(at 124.46 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BRAKE LIGHT"
-			(at 132.334 88.9 0)
+		(property "Value" "E-Stop"
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -587,7 +372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 93.98 0)
+			(at 124.46 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -596,7 +381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 93.98 0)
+			(at 124.46 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -605,7 +390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 93.98 0)
+			(at 124.46 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -613,16 +398,128 @@
 				(hide yes)
 			)
 		)
+		(property "Conn Name" ""
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "f8c895bc-6a61-4522-a576-6e38cd8c590e")
+			(uuid "e0fa3c25-198b-4662-9762-03fb00682998")
 		)
 		(pin "2"
-			(uuid "47d33141-25d7-4238-898d-a17912b985c9")
+			(uuid "fe4c142a-8be8-403d-ae4c-f193a13c4408")
 		)
 		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/fbcd0b6d-423f-4780-bac5-0cf90db94f41"
-					(reference "D?")
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/3cdef822-b27b-4a71-b67b-74c9f7188311"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/8cb55a6b-0d65-49e2-b083-4cc99e15786c"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/a345ed85-d8da-42e0-9850-81cfb8a2389f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors_SUFST:Deutsch_DTM_2P_Pin")
+		(at 159.385 106.045 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beb8c097-b610-4607-a9f4-9fc214540474")
+		(property "Reference" "Conn?"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Deutsch_DTM_2P_Pin"
+			(at 159.385 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.385 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 159.385 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "DTM042P-E003"
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Conn Name" "E-Stop"
+			(at 163.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "c73974cc-09c1-45b2-a048-ffde1c452e9c")
+		)
+		(pin "2"
+			(uuid "a4476f6a-9400-41fc-9cde-c615c2c54e20")
+		)
+		(instances
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/3cdef822-b27b-4a71-b67b-74c9f7188311"
+					(reference "Conn?")
+					(unit 1)
+				)
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/8cb55a6b-0d65-49e2-b083-4cc99e15786c"
+					(reference "Conn?")
+					(unit 1)
+				)
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/a345ed85-d8da-42e0-9850-81cfb8a2389f"
+					(reference "Conn?")
 					(unit 1)
 				)
 			)

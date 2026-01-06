@@ -2,10 +2,10 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "0ea4964d-7b63-43ab-9f76-6cef4da316ce")
+	(uuid "708e2be6-c0a1-40fd-b0b6-182beb029899")
 	(paper "A4")
 	(title_block
-		(title "DEVICE - INERTIA SWITCH")
+		(title "DEVICE - BOTS")
 	)
 	(lib_symbols
 		(symbol "Connectors_SUFST:Deutsch_DTM_2P_Pin"
@@ -296,143 +296,67 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 96.52) (xy 149.86 96.52)
+			(xy 114.935 90.17) (xy 112.395 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5eb20640-5868-4e87-834d-a3d133635c5b")
+		(uuid "92bdb36f-f440-4157-b95d-7fe60eb5490b")
 	)
 	(wire
 		(pts
-			(xy 121.92 93.98) (xy 149.86 93.98)
+			(xy 112.395 92.71) (xy 153.035 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d79f4f1d-0374-4c2c-b15a-b159e5f8c845")
+		(uuid "963f3ae8-608f-4dfc-8e9f-f41d1e06e1af")
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 109.22 96.52)
+			(xy 125.095 90.17) (xy 153.035 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3db4f1a-0e63-4b03-bd77-721259f2ffa2")
+		(uuid "d248130f-a0b8-4d6c-9d1c-b50af010376f")
 	)
 	(wire
 		(pts
-			(xy 111.76 93.98) (xy 109.22 93.98)
+			(xy 112.395 90.17) (xy 112.395 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0188c69-07ab-4bbd-a76b-4b03b42fd506")
+		(uuid "e3fc576e-168a-493f-89c7-a988fb744f3d")
 	)
-	(hierarchical_label "INERTIA SWITCH"
+	(hierarchical_label "BOTS"
 		(shape bidirectional)
-		(at 156.21 90.17 0)
+		(at 160.02 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fcc52d05-5df6-46ad-8e7e-dd0675fc0c9c")
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Open")
-		(at 116.84 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d31f2bb-c096-42f6-bb29-f52bbc9328e0")
-		(property "Reference" "SW?"
-			(at 116.84 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Inertia Switch"
-			(at 116.84 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Conn Name" ""
-			(at 116.84 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43dc217b-431b-44c7-b7e6-b4c2ffc0261a")
-		)
-		(pin "2"
-			(uuid "68a8f1b8-d8a5-46fd-bacf-702e20e65e28")
-		)
-		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/f29d1e22-db5a-4e21-943f-a4075fd10598"
-					(reference "SW?")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "8f86c491-5b34-45bc-a714-b4bd987d1f57")
 	)
 	(symbol
 		(lib_id "Connectors_SUFST:Deutsch_DTM_2P_Pin")
-		(at 151.765 100.965 180)
+		(at 154.94 97.155 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1bd2a00-326f-4ab4-8fef-477f58b352f0")
+		(uuid "796d87f4-5891-48f5-9b33-0a91579774ae")
 		(property "Reference" "Conn?"
-			(at 156.21 92.71 0)
+			(at 160.02 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -441,7 +365,7 @@
 			)
 		)
 		(property "Value" "Deutsch_DTM_2P_Pin"
-			(at 151.765 100.965 0)
+			(at 154.94 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -450,7 +374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.765 99.06 0)
+			(at 154.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -459,7 +383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.765 99.06 0)
+			(at 154.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -468,7 +392,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.765 100.965 0)
+			(at 154.94 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,7 +401,7 @@
 			)
 		)
 		(property "P/N" "DTM042P-E003"
-			(at 156.21 95.25 0)
+			(at 160.02 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -485,8 +409,8 @@
 				(justify right)
 			)
 		)
-		(property "Conn Name" "Inertia Switch"
-			(at 156.21 97.79 0)
+		(property "Conn Name" "BOTS"
+			(at 160.02 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -495,15 +419,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "9883ec4a-c5bb-47ba-aa8b-ee3c030a581b")
+			(uuid "e598fa93-ee48-4670-bea1-038dead163c9")
 		)
 		(pin "2"
-			(uuid "1f069d84-bda1-4fe9-a70d-db76d4137b23")
+			(uuid "bdf01523-9f70-4c8f-a265-ae751a6614c1")
 		)
 		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/f29d1e22-db5a-4e21-943f-a4075fd10598"
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/070b8217-88a3-4264-8b23-f32d97ad3850"
 					(reference "Conn?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 120.015 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a66fbc4-a149-4b62-b76d-7c072c452b9e")
+		(property "Reference" "SW?"
+			(at 120.015 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOTS"
+			(at 120.015 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.015 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.015 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.015 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Conn Name" ""
+			(at 120.015 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4563ba41-d363-4333-bf90-2644316aedc9")
+		)
+		(pin "2"
+			(uuid "8945892e-dfd0-4dda-9074-f3534b25335e")
+		)
+		(instances
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/070b8217-88a3-4264-8b23-f32d97ad3850"
+					(reference "SW?")
 					(unit 1)
 				)
 			)

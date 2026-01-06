@@ -2,10 +2,10 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "708e2be6-c0a1-40fd-b0b6-182beb029899")
+	(uuid "dfb7b2d8-935a-4ac0-aea3-46df85850d86")
 	(paper "A4")
 	(title_block
-		(title "DEVICE - BOTS")
+		(title "LOOM - BRAKE LIGHT")
 	)
 	(lib_symbols
 		(symbol "Connectors_SUFST:Deutsch_DTM_2P_Pin"
@@ -142,10 +142,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_Open"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:LED_Series"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -153,16 +150,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 2.54 0)
+			(property "Reference" "D"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_Push_Open"
-				(at 0 -1.905 0)
+			(property "Value" "LED_Series"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -170,7 +167,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
+				(at -2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -179,7 +176,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 5.08 0)
+				(at -2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -187,7 +184,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(property "Description" "Several LEDs in series"
 				(at 0 0 0)
 				(effects
 					(font
@@ -196,7 +193,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-closed pushbutton push-button"
+			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -205,22 +202,20 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_Open_0_1"
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Series_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -0.635) (xy 2.54 -0.635)
+						(xy -3.81 0) (xy -1.016 0)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -231,7 +226,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.635) (xy 0 1.27)
+						(xy -3.683 -1.27) (xy -3.683 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.397) (xy -1.778 2.921) (xy -2.54 2.921) (xy -1.778 2.921) (xy -1.778 2.159)
 					)
 					(stroke
 						(width 0)
@@ -241,9 +248,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy -2.032 1.397) (xy -0.508 2.921) (xy -1.27 2.921) (xy -0.508 2.921) (xy -0.508 2.159)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -252,10 +260,120 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.143 -1.27) (xy -1.143 1.27) (xy -3.683 0) (xy -1.143 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 0) (xy -0.127 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 -1.27) (xy 1.143 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.397) (xy 3.048 2.921) (xy 2.286 2.921) (xy 3.048 2.921) (xy 3.048 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 1.397) (xy 4.318 2.921) (xy 3.556 2.921) (xy 4.318 2.921) (xy 4.318 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.27) (xy 3.683 1.27) (xy 1.143 0) (xy 3.683 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Series_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at -6.35 0 0)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -270,12 +388,10 @@
 						)
 					)
 				)
-			)
-			(symbol "SW_Push_Open_1_1"
 				(pin passive line
-					(at 5.08 0 180)
+					(at 6.35 0 180)
 					(length 2.54)
-					(name "B"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -296,67 +412,87 @@
 	)
 	(wire
 		(pts
-			(xy 114.935 90.17) (xy 112.395 90.17)
+			(xy 125.73 93.98) (xy 120.65 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92bdb36f-f440-4157-b95d-7fe60eb5490b")
+		(uuid "a0c711f5-3c61-4671-bd9e-08c39695a79b")
 	)
 	(wire
 		(pts
-			(xy 112.395 92.71) (xy 153.035 92.71)
+			(xy 120.65 96.52) (xy 166.37 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "963f3ae8-608f-4dfc-8e9f-f41d1e06e1af")
+		(uuid "b85a414a-36c1-4a5f-87df-dca8013f448f")
 	)
 	(wire
 		(pts
-			(xy 125.095 90.17) (xy 153.035 90.17)
+			(xy 120.65 93.98) (xy 120.65 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d248130f-a0b8-4d6c-9d1c-b50af010376f")
+		(uuid "f1a507eb-106d-4502-976f-0c17d170b637")
 	)
 	(wire
 		(pts
-			(xy 112.395 90.17) (xy 112.395 92.71)
+			(xy 138.43 93.98) (xy 166.37 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3fc576e-168a-493f-89c7-a988fb744f3d")
+		(uuid "f509ca94-83df-4dd7-9bc2-b67892eae8fe")
 	)
-	(hierarchical_label "BOTS"
+	(label "BRAKE.LIGHT.GND"
+		(at 166.37 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48965cb6-9630-4120-9d70-63ee62fd01cc")
+	)
+	(label "BRAKE.LIGHT.PWR"
+		(at 166.37 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f789d381-6dec-4e3f-ac68-4a8f21f7e682")
+	)
+	(hierarchical_label "BRAKE LIGHT"
 		(shape bidirectional)
-		(at 160.02 87.63 0)
+		(at 172.72 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8f86c491-5b34-45bc-a714-b4bd987d1f57")
+		(uuid "cc5a5a4a-91ab-40e7-829b-7b09597d9900")
 	)
 	(symbol
 		(lib_id "Connectors_SUFST:Deutsch_DTM_2P_Pin")
-		(at 154.94 97.155 180)
+		(at 168.275 100.965 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "796d87f4-5891-48f5-9b33-0a91579774ae")
+		(uuid "2eaa839d-c530-481a-a2a8-639c543a4def")
 		(property "Reference" "Conn?"
-			(at 160.02 89.535 0)
+			(at 172.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,7 +501,7 @@
 			)
 		)
 		(property "Value" "Deutsch_DTM_2P_Pin"
-			(at 154.94 97.155 0)
+			(at 168.275 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -374,7 +510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 95.25 0)
+			(at 168.275 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,7 +519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 95.25 0)
+			(at 168.275 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -392,7 +528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 97.155 0)
+			(at 168.275 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,16 +537,7 @@
 			)
 		)
 		(property "P/N" "DTM042P-E003"
-			(at 160.02 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Conn Name" "BOTS"
-			(at 160.02 94.615 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -419,14 +546,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e598fa93-ee48-4670-bea1-038dead163c9")
+			(uuid "236fa31f-aa8f-4158-a588-af08737a3425")
 		)
 		(pin "2"
-			(uuid "bdf01523-9f70-4c8f-a265-ae751a6614c1")
+			(uuid "9fb80fbb-7d57-4c8e-a41c-6a75f695722c")
 		)
 		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/070b8217-88a3-4264-8b23-f32d97ad3850"
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/fbcd0b6d-423f-4780-bac5-0cf90db94f41"
 					(reference "Conn?")
 					(unit 1)
 				)
@@ -434,25 +561,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Open")
-		(at 120.015 90.17 0)
+		(lib_id "Device:LED_Series")
+		(at 132.08 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9a66fbc4-a149-4b62-b76d-7c072c452b9e")
-		(property "Reference" "SW?"
-			(at 120.015 85.09 0)
+		(uuid "4203f245-c77d-4d1c-b8f6-a722e798d6cd")
+		(property "Reference" "D?"
+			(at 132.334 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BOTS"
-			(at 120.015 87.63 0)
+		(property "Value" "BRAKE LIGHT"
+			(at 132.334 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,7 +587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.015 85.09 0)
+			(at 129.54 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +596,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.015 85.09 0)
+			(at 129.54 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -478,7 +605,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.015 90.17 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,24 +613,16 @@
 				(hide yes)
 			)
 		)
-		(property "Conn Name" ""
-			(at 120.015 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "4563ba41-d363-4333-bf90-2644316aedc9")
+			(uuid "f8c895bc-6a61-4522-a576-6e38cd8c590e")
 		)
 		(pin "2"
-			(uuid "8945892e-dfd0-4dda-9074-f3534b25335e")
+			(uuid "47d33141-25d7-4238-898d-a17912b985c9")
 		)
 		(instances
-			(project "Stag11"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/070b8217-88a3-4264-8b23-f32d97ad3850"
-					(reference "SW?")
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/fbcd0b6d-423f-4780-bac5-0cf90db94f41"
+					(reference "D?")
 					(unit 1)
 				)
 			)
