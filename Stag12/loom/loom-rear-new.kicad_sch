@@ -9692,13 +9692,13 @@
 		)
 	)
 	(bus_alias "BSPD.CUR_SEN"
-		(members "CT.SIG" "BSPD.CUR_SEN.EXC" "BSPD.CUR_SEN.GND")
+		(members "CT.SIG" "BSPD.CUR_SEN.PWR" "BSPD.CUR_SEN.GND")
 	)
 	(bus_alias "BSPD.SIM"
 		(members "BSPD.CURR_TEST+" "BSPD.CURR_TEST-")
 	)
 	(bus_alias "DASH.REAR.SIG"
-		(members "TS.DETECTED.DASH" "DASH.TS.OFF" "TSAL.DASH.EXC")
+		(members "TS.DETECTED.DASH" "DASH.TS.OFF" "TSAL.DASH.PWR")
 	)
 	(bus_alias "INV.RS232"
 		(members "INV.RS232.TX" "INV.RS232.RX" "INV.RS232.GND")
@@ -9709,11 +9709,11 @@
 		)
 	)
 	(bus_alias "ONLYFANS"
-		(members "FAN.EXC" "FAN.L.PWM" "FAN.L.TACH" "FAN.R.PWM" "FAN.R.TACH" "FAN.GND")
+		(members "FAN.PWR" "FAN.L.PWM" "FAN.L.TACH" "FAN.R.PWM" "FAN.R.TACH" "FAN.GND")
 	)
 	(bus_alias "REAR_BOX"
-		(members "FAN.EXC" "FAN.GND" "FAN.L.PWM" "FAN.R.PWM" "FAN.L.TACH" "FAN.R.TACH"
-			"BRAKE.LIGHT.EXC" "BRAKE.LIGHT.GND" "CAN.B.HIGH" "CAN.B.LOW" "CAN.B.EXC"
+		(members "FAN.PWR" "FAN.GND" "FAN.L.PWM" "FAN.R.PWM" "FAN.L.TACH" "FAN.R.TACH"
+			"BRAKE.LIGHT.PWR" "BRAKE.LIGHT.GND" "CAN.B.HIGH" "CAN.B.LOW" "CAN.B.PWR"
 			"CAN.B.GND" "WHLSPD.RL.PWR" "WHLSPD.RL.SIG" "WHLSPD.RL.GND" "WHLSPD.RR.PWR"
 			"WHLSPD.RR.SIG" "WHLSPD.RR.GND" "WHLACL.RL.PWR" "WHLACL.RL.SIG" "WHLACL.RL.GND"
 			"WHLACL.RR.PWR" "WHLACL.RR.SIG" "WHLACL.RR.GND"
@@ -9723,7 +9723,7 @@
 		(members "TSAL.RESET+" "TSAL.RESET-" "LATCHING.RESET+" "LATCHING.RESET-")
 	)
 	(bus_alias "RESOLVER"
-		(members "RESOLVER.EXC" "RESOLVER.GND" "RESOLVER.SIN+" "RESOLVER.SIN-"
+		(members "RESOLVER.PWR" "RESOLVER.GND" "RESOLVER.SIN+" "RESOLVER.SIN-"
 			"RESOLVER.COS+" "RESOLVER.COS-"
 		)
 	)
@@ -20898,7 +20898,7 @@
 		)
 		(uuid "01fdca0a-0312-497a-9442-901d59e3762a")
 	)
-	(label "L120.EXC"
+	(label "L120.PWR"
 		(at 417.83 48.26 180)
 		(effects
 			(font
@@ -20948,7 +20948,7 @@
 		)
 		(uuid "08ea3d74-c2d8-48ef-a532-1b407068322c")
 	)
-	(label "DASH.EXC"
+	(label "DASH.PWR"
 		(at 53.975 33.02 0)
 		(effects
 			(font
@@ -20958,7 +20958,7 @@
 		)
 		(uuid "0997b0c0-f691-4e18-835e-83e0470e3605")
 	)
-	(label "HVSENSE.EXC"
+	(label "HVSENSE.PWR"
 		(at 714.375 349.885 0)
 		(effects
 			(font
@@ -20988,7 +20988,7 @@
 		)
 		(uuid "0b7ea4dd-ba97-47ab-ae20-4bf4ce70a673")
 	)
-	(label "CAN.AB.PWR"
+	(label "AIRBRIDGE.PWR"
 		(at 473.71 316.23 0)
 		(effects
 			(font
@@ -20998,7 +20998,7 @@
 		)
 		(uuid "0c255f49-ba3c-4429-a57f-3d6d62a0780e")
 	)
-	(label "CAN.AB.EXC"
+	(label "AIRBRIDGE.PWR"
 		(at 486.41 28.575 180)
 		(effects
 			(font
@@ -21028,7 +21028,7 @@
 		)
 		(uuid "0dae695e-44dd-4b38-bd2d-bd8c01dc2641")
 	)
-	(label "LV_BOX.EXC"
+	(label "LV_BOX.PWR"
 		(at 486.41 23.495 180)
 		(effects
 			(font
@@ -21058,7 +21058,7 @@
 		)
 		(uuid "10ba910a-aca5-4d22-a9d5-e9819f064bc7")
 	)
-	(label "PUMP1.EXC"
+	(label "PUMP1.PWR"
 		(at 486.41 99.06 180)
 		(effects
 			(font
@@ -21208,7 +21208,7 @@
 		)
 		(uuid "1a18becf-b53d-4f33-9a7e-37c92c5c95c6")
 	)
-	(label "CAN.B.EXC"
+	(label "CAN.B.PWR"
 		(at 417.83 40.64 180)
 		(effects
 			(font
@@ -21258,7 +21258,7 @@
 		)
 		(uuid "1bf2954d-e8d2-45fd-842d-545be8217801")
 	)
-	(label "LV_BOX.EXC"
+	(label "LV_BOX.PWR"
 		(at 417.83 33.02 180)
 		(effects
 			(font
@@ -21358,7 +21358,7 @@
 		)
 		(uuid "246d8d51-b4c1-4772-85de-cfa5e22bad5c")
 	)
-	(label "PUMP2.EXC"
+	(label "PUMP2.PWR"
 		(at 208.28 544.83 90)
 		(effects
 			(font
@@ -21398,7 +21398,7 @@
 		)
 		(uuid "2af84327-a6e2-4526-a49d-8302c4065cc0")
 	)
-	(label "DASH.EXC"
+	(label "DASH.PWR"
 		(at 486.41 59.055 180)
 		(effects
 			(font
@@ -21428,7 +21428,7 @@
 		)
 		(uuid "2cbcd24e-53b2-40a1-b0bd-c2d4ba6f8b13")
 	)
-	(label "CAN.AB.GND"
+	(label "AIRBRIDGE.GND"
 		(at 305.435 544.195 90)
 		(effects
 			(font
@@ -21508,7 +21508,7 @@
 		)
 		(uuid "32028927-62d9-4a7f-95d6-725f26e5bdd8")
 	)
-	(label "BSPD.CUR_SEN.EXC"
+	(label "BSPD.CUR_SEN.PWR"
 		(at 53.975 43.18 0)
 		(effects
 			(font
@@ -21638,7 +21638,7 @@
 		)
 		(uuid "3bc264f1-5a64-4f85-a5e2-43fa03462a2e")
 	)
-	(label "CAN.B.EXC"
+	(label "CAN.B.PWR"
 		(at 52.07 518.16 0)
 		(effects
 			(font
@@ -21678,7 +21678,7 @@
 		)
 		(uuid "3d9d8369-d34c-4621-9393-3792b7ef4267")
 	)
-	(label "CAN.B.EXC"
+	(label "CAN.B.PWR"
 		(at 52.07 449.58 0)
 		(effects
 			(font
@@ -21768,7 +21768,7 @@
 		)
 		(uuid "473bcac6-7896-4867-b0ec-dd2f33533489")
 	)
-	(label "TSAL.EXC"
+	(label "TSAL.PWR"
 		(at 486.41 91.44 180)
 		(effects
 			(font
@@ -21828,7 +21828,7 @@
 		)
 		(uuid "49ac3590-cbd3-4869-9fbd-1d1a416c8668")
 	)
-	(label "INV.EXC"
+	(label "INV.PWR"
 		(at 52.07 312.42 0)
 		(effects
 			(font
@@ -21888,7 +21888,7 @@
 		)
 		(uuid "4cc53800-cfc7-4d58-adfb-6bfbc5b7ae69")
 	)
-	(label "L120.EXC"
+	(label "L120.PWR"
 		(at 486.41 56.515 180)
 		(effects
 			(font
@@ -21928,7 +21928,7 @@
 		)
 		(uuid "4edc0419-9fba-425e-827a-035b6d7f45e3")
 	)
-	(label "PUMP1.EXC"
+	(label "PUMP1.PWR"
 		(at 198.12 544.83 90)
 		(effects
 			(font
@@ -21938,7 +21938,7 @@
 		)
 		(uuid "4f93e45e-e69a-489e-8788-7810f0e23a9a")
 	)
-	(label "ACCU.EXC"
+	(label "ACCU.PWR"
 		(at 486.41 53.975 180)
 		(effects
 			(font
@@ -22038,7 +22038,7 @@
 		)
 		(uuid "5976e303-88e8-404a-ba32-4e6faf4ad9b8")
 	)
-	(label "PEDALBOX.EXC"
+	(label "PEDALBOX.PWR"
 		(at 486.41 26.035 180)
 		(effects
 			(font
@@ -22068,7 +22068,7 @@
 		)
 		(uuid "5c549e01-f8dd-450f-b03f-da09804c47ef")
 	)
-	(label "BSPD.CUR_SEN.EXC"
+	(label "BSPD.CUR_SEN.PWR"
 		(at 714.375 354.965 0)
 		(effects
 			(font
@@ -22118,7 +22118,7 @@
 		)
 		(uuid "5eb64d59-ea53-46ab-aa8e-5f2e82913de2")
 	)
-	(label "CAN.AB.EXC"
+	(label "AIRBRIDGE.PWR"
 		(at 417.83 38.1 180)
 		(effects
 			(font
@@ -22188,7 +22188,7 @@
 		)
 		(uuid "644b297c-37bf-4de3-af27-ec4cac2957e6")
 	)
-	(label "TSAC.HVS.EXC"
+	(label "TSAC.HVS.PWR"
 		(at 714.375 277.495 0)
 		(effects
 			(font
@@ -22198,7 +22198,7 @@
 		)
 		(uuid "64c0a953-1b90-42c8-996f-5e9fc683f72c")
 	)
-	(label "FAN.EXC"
+	(label "FAN.PWR"
 		(at 486.41 93.98 180)
 		(effects
 			(font
@@ -22388,7 +22388,7 @@
 		)
 		(uuid "780b7152-e878-443e-aaa2-7870573b8d14")
 	)
-	(label "DASH.EXC"
+	(label "DASH.PWR"
 		(at 417.83 50.8 180)
 		(effects
 			(font
@@ -22688,7 +22688,7 @@
 		)
 		(uuid "8e2798e4-14c2-4d26-bf52-bd51736c3e45")
 	)
-	(label "INV.EXC"
+	(label "INV.PWR"
 		(at 486.41 104.14 180)
 		(effects
 			(font
@@ -22698,7 +22698,7 @@
 		)
 		(uuid "8e9e3d29-c38d-4d4c-84f8-82ab70222284")
 	)
-	(label "L120.SENSOR.5V.EXC"
+	(label "L120.SENSOR.5V.PWR"
 		(at 719.455 497.205 0)
 		(effects
 			(font
@@ -22768,7 +22768,7 @@
 		)
 		(uuid "919d5541-e765-4f10-9b69-ecef32d1e30c")
 	)
-	(label "PUMP2.EXC"
+	(label "PUMP2.PWR"
 		(at 486.41 101.6 180)
 		(effects
 			(font
@@ -22798,7 +22798,7 @@
 		)
 		(uuid "932c3e49-3d64-4454-8cc8-15f16356fb59")
 	)
-	(label "PEDALBOX.EXC"
+	(label "PEDALBOX.PWR"
 		(at 417.83 35.56 180)
 		(effects
 			(font
@@ -22848,7 +22848,7 @@
 		)
 		(uuid "95f5e7b4-65f1-4c6e-8c92-60bbaa9fcff8")
 	)
-	(label "BRAKE.LIGHT.EXC"
+	(label "BRAKE.LIGHT.PWR"
 		(at 486.41 96.52 180)
 		(effects
 			(font
@@ -22938,7 +22938,7 @@
 		)
 		(uuid "9aa81434-d961-4c54-b86d-a0059cf34de1")
 	)
-	(label "MOTOR.TEMP.EXC"
+	(label "MOTOR.TEMP.PWR"
 		(at 52.07 193.04 0)
 		(effects
 			(font
@@ -22978,7 +22978,7 @@
 		)
 		(uuid "9d46b490-2bbc-4b32-9985-bc6a00373f1d")
 	)
-	(label "L120.EXC"
+	(label "L120.PWR"
 		(at 714.375 487.045 0)
 		(effects
 			(font
@@ -23008,7 +23008,7 @@
 		)
 		(uuid "9f2af7aa-d24d-44cf-9d5e-f07aa27cf4d3")
 	)
-	(label "ACCU.EXC"
+	(label "ACCU.PWR"
 		(at 417.83 45.72 180)
 		(effects
 			(font
@@ -23018,7 +23018,7 @@
 		)
 		(uuid "a206c9cc-1a5d-4e1a-8620-09f9a8957aab")
 	)
-	(label "RESOLVER.EXC"
+	(label "RESOLVER.PWR"
 		(at 52.07 336.55 0)
 		(effects
 			(font
@@ -23048,7 +23048,7 @@
 		)
 		(uuid "a4a7ad6f-6c41-4512-8255-a2e5020676b7")
 	)
-	(label "BRAKE.LIGHT.EXC"
+	(label "BRAKE.LIGHT.PWR"
 		(at 52.07 502.92 0)
 		(effects
 			(font
@@ -23218,7 +23218,7 @@
 		)
 		(uuid "b03c8687-bd72-4572-b804-ffc5aa549e1d")
 	)
-	(label "TSAL.DASH.EXC"
+	(label "TSAL.DASH.PWR"
 		(at 714.375 219.075 0)
 		(effects
 			(font
@@ -23288,7 +23288,7 @@
 		)
 		(uuid "b58fa4ab-99d0-4f5a-af86-9d7f66796cff")
 	)
-	(label "FAN.EXC"
+	(label "FAN.PWR"
 		(at 52.07 487.68 0)
 		(effects
 			(font
@@ -23328,7 +23328,7 @@
 		)
 		(uuid "b799687e-0622-45ca-bb40-814c5632c388")
 	)
-	(label "CAN.F.EXC"
+	(label "CAN.F.PWR"
 		(at 486.41 51.435 180)
 		(effects
 			(font
@@ -23348,7 +23348,7 @@
 		)
 		(uuid "b9a8a76a-1c2c-4776-a2fd-8df9bdd5e1a1")
 	)
-	(label "RESOLVER.EXC"
+	(label "RESOLVER.PWR"
 		(at 52.07 297.18 0)
 		(effects
 			(font
@@ -23368,7 +23368,7 @@
 		)
 		(uuid "ba9118b2-5b62-4ac5-9f1e-d00e595f8e9b")
 	)
-	(label "L120.SENSOR.5V.EXC"
+	(label "L120.SENSOR.5V.PWR"
 		(at 714.375 423.545 0)
 		(effects
 			(font
@@ -23398,7 +23398,7 @@
 		)
 		(uuid "bd0eff57-bde2-4f26-b441-59a3eee340e9")
 	)
-	(label "TSAL.DASH.EXC"
+	(label "TSAL.DASH.PWR"
 		(at 53.975 66.04 0)
 		(effects
 			(font
@@ -23468,7 +23468,7 @@
 		)
 		(uuid "c17ba109-997b-4071-851f-c88d9869ba91")
 	)
-	(label "CAN.F.EXC"
+	(label "CAN.F.PWR"
 		(at 417.83 43.18 180)
 		(effects
 			(font
@@ -23488,7 +23488,7 @@
 		)
 		(uuid "c2657dc7-7ca4-4924-9bc3-98b04b40ec82")
 	)
-	(label "CAN.B.EXC"
+	(label "CAN.B.PWR"
 		(at 486.41 48.895 180)
 		(effects
 			(font
@@ -23778,7 +23778,7 @@
 		)
 		(uuid "e36b883c-6a71-48e5-ad89-90138109ce76")
 	)
-	(label "CAN.AB.GND"
+	(label "AIRBRIDGE.GND"
 		(at 473.71 318.77 0)
 		(effects
 			(font
@@ -23808,7 +23808,7 @@
 		)
 		(uuid "e422b810-6f10-479d-9974-1925afcb3db8")
 	)
-	(label "CAN.B.EXC"
+	(label "CAN.B.PWR"
 		(at 52.07 469.265 0)
 		(effects
 			(font
@@ -23878,7 +23878,7 @@
 		)
 		(uuid "e77ea08e-6dc8-48e5-b3ae-0220b14304d7")
 	)
-	(label "TSAL.EXC"
+	(label "TSAL.PWR"
 		(at 715.01 55.88 0)
 		(effects
 			(font
@@ -23888,7 +23888,7 @@
 		)
 		(uuid "e81170a7-a75c-4b22-a619-cced2269432e")
 	)
-	(label "HVSENSE.EXC"
+	(label "HVSENSE.PWR"
 		(at 714.375 259.715 0)
 		(effects
 			(font
@@ -23898,7 +23898,7 @@
 		)
 		(uuid "e93032b3-8d13-473c-88ea-10d4d678f52d")
 	)
-	(label "PEDALBOX.EXC"
+	(label "PEDALBOX.PWR"
 		(at 53.975 55.88 0)
 		(effects
 			(font
@@ -23928,7 +23928,7 @@
 		)
 		(uuid "ea231651-bfc9-4738-9ee3-967fa3d2b7c6")
 	)
-	(label "SPARE.EXC"
+	(label "SPARE.PWR"
 		(at 719.455 522.605 0)
 		(effects
 			(font
@@ -24018,7 +24018,7 @@
 		)
 		(uuid "f4fabb68-a183-4533-845a-82152c81c510")
 	)
-	(label "LV_BOX.EXC"
+	(label "LV_BOX.PWR"
 		(at 714.375 213.995 0)
 		(effects
 			(font
@@ -24078,7 +24078,7 @@
 		)
 		(uuid "fae8c28c-e165-40ce-a95e-62adffabda8c")
 	)
-	(label "ACCU.EXC"
+	(label "ACCU.PWR"
 		(at 715.01 60.96 0)
 		(effects
 			(font
