@@ -1782,7 +1782,7 @@
 		)
 		(uuid "0acdd7a1-48d1-4a62-bee5-2cb3a275b7e8")
 	)
-	(hierarchical_label "LVS.MAIN.EXC"
+	(hierarchical_label "LVS.MAIN.PWR"
 		(shape input)
 		(at 90.17 86.36 180)
 		(effects
@@ -1793,7 +1793,7 @@
 		)
 		(uuid "47867e0b-da0d-4673-9f19-833c0a0901be")
 	)
-	(hierarchical_label "LVS.MAIN.SWITCHED.EXC"
+	(hierarchical_label "LVS.MAIN.SWITCHED.PWR"
 		(shape output)
 		(at 170.18 86.36 0)
 		(effects
@@ -2165,7 +2165,7 @@
 		(fields_autoplaced yes)
 		(uuid "87043e1a-0678-4807-bae4-ba1cdbe9a92c")
 		(property "Reference" "Conn38"
-			(at 173.99 63.5 0)
+			(at 173.99 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2174,7 @@
 			)
 		)
 		(property "Value" "Banana Plug"
-			(at 173.99 66.04 0)
+			(at 173.99 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,8 +2209,8 @@
 				(hide yes)
 			)
 		)
-		(property "Connection Type" "LVS.MAIN.SWITCHED.EXC"
-			(at 173.99 68.58 0)
+		(property "Connection Type" "LVS.MAIN.SWITCHED.PWR"
+			(at 173.99 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)

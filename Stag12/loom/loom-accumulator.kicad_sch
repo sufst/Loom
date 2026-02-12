@@ -10735,16 +10735,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 383.54) (xy 92.71 383.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb5b94b-f3c1-4509-a680-f219d7222d2f")
-	)
-	(wire
-		(pts
 			(xy 85.09 295.91) (xy 66.04 295.91)
 		)
 		(stroke
@@ -11178,6 +11168,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 330.2) (xy 100.33 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad3f5cf-d645-465e-aed6-04ad2d578362")
+	)
+	(wire
+		(pts
 			(xy 175.26 231.14) (xy 175.26 205.74)
 		)
 		(stroke
@@ -11319,6 +11319,16 @@
 			(type default)
 		)
 		(uuid "c98ef6f0-11fd-4d31-bb6d-5495de705a1e")
+	)
+	(wire
+		(pts
+			(xy 66.04 383.54) (xy 92.71 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1cd3e3-5319-4ac3-a5aa-654d330956a9")
 	)
 	(wire
 		(pts
@@ -11571,16 +11581,6 @@
 			(type default)
 		)
 		(uuid "d9b79a96-b447-4cdb-9b3f-b6d5b262f07b")
-	)
-	(wire
-		(pts
-			(xy 66.04 330.2) (xy 100.33 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9bc6cd0-cb70-4649-855e-a60c5c0f90be")
 	)
 	(wire
 		(pts
@@ -12022,7 +12022,7 @@
 		)
 		(uuid "005ec5ef-540b-4ce3-bf61-ba5a066516a0")
 	)
-	(label "BMS.EXC"
+	(label "BMS.PWR"
 		(at 335.28 104.14 180)
 		(effects
 			(font
@@ -12092,7 +12092,7 @@
 		)
 		(uuid "09979a4b-5d03-478c-aa5b-1985d8290ae9")
 	)
-	(label "ACCU.CHARGE.EXC"
+	(label "ACCU.CHARGE.PWR"
 		(at 68.58 134.62 0)
 		(effects
 			(font
@@ -12142,7 +12142,7 @@
 		)
 		(uuid "1bd9590f-1e32-4c8f-9abc-0469f32966ce")
 	)
-	(label "TSAL.EXC"
+	(label "TSAL.PWR"
 		(at 68.58 53.34 0)
 		(effects
 			(font
@@ -12162,7 +12162,7 @@
 		)
 		(uuid "1cf8be71-8b4c-4acc-a16f-972032a801c6")
 	)
-	(label "BMS.CUR_SEN.EXC"
+	(label "BMS.CUR_SEN.PWR"
 		(at 300.99 226.06 180)
 		(effects
 			(font
@@ -12172,7 +12172,7 @@
 		)
 		(uuid "1fa40078-9190-4fc2-8a1e-95876a8486dd")
 	)
-	(label "TSAL.EXC"
+	(label "TSAL.PWR"
 		(at 125.73 205.74 270)
 		(effects
 			(font
@@ -12232,7 +12232,7 @@
 		)
 		(uuid "2666ff6a-47a4-4524-8ef6-23eae26c3061")
 	)
-	(label "BMS.CUR_SEN.EXC"
+	(label "BMS.CUR_SEN.PWR"
 		(at 335.28 88.9 180)
 		(effects
 			(font
@@ -12242,7 +12242,7 @@
 		)
 		(uuid "26dafcd0-74df-4449-92a7-b584159dc93f")
 	)
-	(label "ISOLATOR.EXC_SPLICE"
+	(label "ISOLATOR.PWR_SPLICE"
 		(at 535.94 31.75 180)
 		(effects
 			(font
@@ -12252,7 +12252,7 @@
 		)
 		(uuid "2ab2461b-e0c9-4323-8a52-07dcf9af2d24")
 	)
-	(label "-AIR.AUX.EXC"
+	(label "-AIR.AUX.PWR"
 		(at 66.04 332.74 0)
 		(effects
 			(font
@@ -12302,7 +12302,7 @@
 		)
 		(uuid "3010b59d-8c58-4ff3-b443-f449d31beaf9")
 	)
-	(label "ACCU.EXC"
+	(label "ACCU.PWR"
 		(at 68.58 58.42 0)
 		(effects
 			(font
@@ -12322,7 +12322,7 @@
 		)
 		(uuid "3421d1a5-96b0-42ac-a801-d13f877cf56d")
 	)
-	(label "+AIR.AUX.EXC"
+	(label "+AIR.AUX.PWR"
 		(at 66.04 330.2 0)
 		(effects
 			(font
@@ -12422,7 +12422,7 @@
 		)
 		(uuid "45e7d6cd-f9f1-472f-a918-a0597680325b")
 	)
-	(label "-AIR.EXC"
+	(label "-AIR.PWR"
 		(at 66.04 368.3 0)
 		(effects
 			(font
@@ -12492,7 +12492,7 @@
 		)
 		(uuid "54171706-7bd3-4e16-8764-9d207b1fec8b")
 	)
-	(label "+AIR.EXC"
+	(label "+AIR.PWR"
 		(at 66.04 220.98 0)
 		(effects
 			(font
@@ -12552,7 +12552,7 @@
 		)
 		(uuid "5f0caefb-a9a4-470f-a5da-e2f3d48c2851")
 	)
-	(label "ISOLATOR.TS.EXC"
+	(label "ISOLATOR.TS.PWR"
 		(at 374.65 214.63 0)
 		(effects
 			(font
@@ -12562,7 +12562,7 @@
 		)
 		(uuid "6013bb68-2efa-45d9-a861-c210f37c789e")
 	)
-	(label "ISOLATOR.EXC_SPLICE"
+	(label "ISOLATOR.PWR_SPLICE"
 		(at 283.21 299.72 0)
 		(effects
 			(font
@@ -12602,7 +12602,7 @@
 		)
 		(uuid "684c493a-e9e8-4338-9324-c0b17f266b8c")
 	)
-	(label "PCHG.AUX.EXC"
+	(label "PCHG.AUX.PWR"
 		(at 66.04 293.37 0)
 		(effects
 			(font
@@ -12642,7 +12642,7 @@
 		)
 		(uuid "737754e4-b609-4587-b42e-7b3c7e410e8b")
 	)
-	(label "+AIR.EXC"
+	(label "+AIR.PWR"
 		(at 66.04 365.76 0)
 		(effects
 			(font
@@ -12832,8 +12832,8 @@
 		)
 		(uuid "897186f9-641e-4ea3-be5a-5516d7a70394")
 	)
-	(label "PCHG.EXC"
-		(at 66.04 383.54 0)
+	(label "PCHG.PWR"
+		(at 74.93 383.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12942,7 +12942,7 @@
 		)
 		(uuid "9f287d5c-09a1-4996-aefa-a24b1edf9ed6")
 	)
-	(label "ISOLATOR.EXC"
+	(label "ISOLATOR.PWR"
 		(at 298.45 215.9 180)
 		(effects
 			(font
@@ -12992,7 +12992,7 @@
 		)
 		(uuid "a449f802-2810-4b18-9dc6-92ec2edeaa97")
 	)
-	(label "PCHG.EXC"
+	(label "PCHG.PWR"
 		(at 66.04 288.29 0)
 		(effects
 			(font
@@ -13002,7 +13002,7 @@
 		)
 		(uuid "a5c84966-eaec-4fd7-b4a1-fb71e3dfa3ac")
 	)
-	(label "+AIR.AUX.EXC"
+	(label "+AIR.AUX.PWR"
 		(at 66.04 226.06 0)
 		(effects
 			(font
@@ -13012,7 +13012,7 @@
 		)
 		(uuid "a61c2f83-4294-496d-90fa-019694a0a9e1")
 	)
-	(label "ACCU.EXC"
+	(label "ACCU.PWR"
 		(at 120.65 205.74 270)
 		(effects
 			(font
@@ -13032,7 +13032,7 @@
 		)
 		(uuid "a951b479-dd72-4962-9a26-04b651e158d6")
 	)
-	(label "TSAL.EXC"
+	(label "TSAL.PWR"
 		(at 138.43 186.69 90)
 		(effects
 			(font
@@ -13062,7 +13062,7 @@
 		)
 		(uuid "ad2a9778-7cad-4f35-8411-ccce2c2a28b2")
 	)
-	(label "-AIR.EXC"
+	(label "-AIR.PWR"
 		(at 66.04 261.62 0)
 		(effects
 			(font
@@ -13102,7 +13102,7 @@
 		)
 		(uuid "b0dc4136-22c6-46f0-b995-0c4826dcedc1")
 	)
-	(label "IMD.EXC_SPLICE"
+	(label "IMD.PWR_SPLICE"
 		(at 535.94 62.23 180)
 		(effects
 			(font
@@ -13133,7 +13133,7 @@
 		(uuid "b7e1a26f-1575-4019-9149-0f8452ff459b")
 	)
 	(label "~{HIGH_AIR_MECH_ON_IN}"
-		(at 66.04 330.2 0)
+		(at 67.31 330.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13152,7 +13152,7 @@
 		)
 		(uuid "bc0ff480-c268-4af0-8348-4295f8fe164c")
 	)
-	(label "PRECHARGE.EXC"
+	(label "PRECHARGE.PWR"
 		(at 275.59 381 180)
 		(effects
 			(font
@@ -13172,7 +13172,7 @@
 		)
 		(uuid "be41ae57-8d1d-45bb-b010-414f73bfd780")
 	)
-	(label "BMS.CUR_SEN.EXC"
+	(label "BMS.CUR_SEN.PWR"
 		(at 180.34 205.74 270)
 		(effects
 			(font
@@ -13182,7 +13182,7 @@
 		)
 		(uuid "bf413db6-1251-4404-9887-4b66b0f60742")
 	)
-	(label "BMS.CUR_SEN.EXC"
+	(label "BMS.CUR_SEN.PWR"
 		(at 152.4 186.69 90)
 		(effects
 			(font
@@ -13232,7 +13232,7 @@
 		)
 		(uuid "c581009c-6bd8-466f-9acc-4b9136deb253")
 	)
-	(label "AIL.EXC"
+	(label "AIL.PWR"
 		(at 558.8 320.04 180)
 		(effects
 			(font
@@ -13282,7 +13282,7 @@
 		)
 		(uuid "d0fec59c-6004-4620-90e5-385884a10cd8")
 	)
-	(label "ACCU.EXC"
+	(label "ACCU.PWR"
 		(at 143.51 186.69 90)
 		(effects
 			(font
@@ -13302,7 +13302,7 @@
 		)
 		(uuid "d20b0ba2-11df-4db2-9db4-1e9aaae230b2")
 	)
-	(label "BMS.Charge.EXC"
+	(label "BMS.Charge.PWR"
 		(at 335.28 106.68 180)
 		(effects
 			(font
@@ -13382,7 +13382,7 @@
 		)
 		(uuid "dbd614b0-cc46-48d9-8747-5b1f7e29ad2d")
 	)
-	(label "AIL.EXC"
+	(label "AIL.PWR"
 		(at 557.53 332.74 180)
 		(effects
 			(font
@@ -13412,7 +13412,7 @@
 		)
 		(uuid "e0789773-c04e-4379-8ddc-6cc643ce8b09")
 	)
-	(label "-AIR.AUX.EXC"
+	(label "-AIR.AUX.PWR"
 		(at 66.04 266.7 0)
 		(effects
 			(font
@@ -13442,7 +13442,7 @@
 		)
 		(uuid "e71bde96-f382-4d1b-883a-d63b913794a9")
 	)
-	(label "TSAC.HVS.EXC"
+	(label "TSAC.HVS.PWR"
 		(at 276.86 261.62 180)
 		(effects
 			(font
@@ -13472,7 +13472,7 @@
 		)
 		(uuid "e97c5d22-b1e4-4e79-9ead-19e9fcbd1ef6")
 	)
-	(label "BMS.EXC_SPLICE"
+	(label "BMS.PWR_SPLICE"
 		(at 535.94 46.99 180)
 		(effects
 			(font
@@ -13572,7 +13572,7 @@
 		)
 		(uuid "f9e8369e-5fa0-408d-b1cf-e3e9832fb1b3")
 	)
-	(label "IMD.EXC"
+	(label "IMD.PWR"
 		(at 275.59 321.31 180)
 		(effects
 			(font

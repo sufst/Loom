@@ -6848,7 +6848,7 @@
 		)
 		(uuid "1679072d-c3b4-457d-bead-4b9039092fc5")
 	)
-	(label "ACCU.EXC"
+	(label "ACCU.PWR"
 		(at 35.56 85.725 0)
 		(effects
 			(font
@@ -6998,7 +6998,7 @@
 		)
 		(uuid "7830ba3b-e5a7-477d-9b3c-6d26255be9ae")
 	)
-	(label "ACCU.CHARGE.EXC"
+	(label "ACCU.CHARGE.PWR"
 		(at 35.56 161.925 0)
 		(effects
 			(font
@@ -7008,7 +7008,7 @@
 		)
 		(uuid "7f91fc42-c67f-49cb-9b74-f066ab62e674")
 	)
-	(label "LATCHING.EXC"
+	(label "LATCHING.PWR"
 		(at 247.65 151.13 180)
 		(effects
 			(font
@@ -7108,7 +7108,7 @@
 		)
 		(uuid "97bc6060-3b92-45a8-8f1f-eba2e61d28ea")
 	)
-	(label "TSAL.EXC"
+	(label "TSAL.PWR"
 		(at 35.56 80.645 0)
 		(effects
 			(font

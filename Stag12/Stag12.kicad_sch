@@ -2686,7 +2686,7 @@
 				(hide yes)
 			)
 		)
-		(pin "LVS.MAIN.EXC" input
+		(pin "LVS.MAIN.PWR" input
 			(at 171.45 360.045 180)
 			(uuid "12acc7a2-edbb-4258-8173-2bcda834c659")
 			(effects
@@ -2726,7 +2726,7 @@
 				(justify right)
 			)
 		)
-		(pin "LVS.MAIN.SWITCHED.EXC" output
+		(pin "LVS.MAIN.SWITCHED.PWR" output
 			(at 171.45 357.505 180)
 			(uuid "ce4508ec-baea-47ba-9861-6b570378b855")
 			(effects
@@ -3191,7 +3191,7 @@
 				(justify right)
 			)
 		)
-		(pin "LVS.MAIN.EXC" input
+		(pin "LVS.MAIN.PWR" input
 			(at 171.45 309.88 180)
 			(uuid "ab082a3c-3ac1-452c-aa0a-0d60464db044")
 			(effects
@@ -3201,7 +3201,7 @@
 				(justify left)
 			)
 		)
-		(pin "LVS.MAIN.SWITCHED.EXC" output
+		(pin "LVS.MAIN.SWITCHED.PWR" output
 			(at 171.45 312.42 180)
 			(uuid "99d661a5-817c-4e97-8ab1-91fcb95d8aad")
 			(effects

@@ -4753,7 +4753,7 @@
 		)
 		(uuid "0bd5ac82-dc3e-411b-93b0-d482c9fd2dce")
 	)
-	(label "TSAL.LED.EXC"
+	(label "TSAL.LED.PWR"
 		(at 72.39 67.31 0)
 		(effects
 			(font
@@ -4803,7 +4803,7 @@
 		)
 		(uuid "1d0cdcc7-c451-43b2-88c4-0387e3295df7")
 	)
-	(label "DRS.BUTTON.EXC"
+	(label "DRS.BUTTON.PWR"
 		(at 377.19 156.21 180)
 		(effects
 			(font
@@ -4883,7 +4883,7 @@
 		)
 		(uuid "2b1ea7e7-fcea-4760-b568-28effe821eb6")
 	)
-	(label "BSPD.CUR_SEN.EXC"
+	(label "BSPD.CUR_SEN.PWR"
 		(at 358.14 74.93 180)
 		(effects
 			(font
@@ -4893,7 +4893,7 @@
 		)
 		(uuid "2b5b6eb6-672b-4f72-a993-cbbe0ad86d52")
 	)
-	(label "TSAL.LED.EXC"
+	(label "TSAL.LED.PWR"
 		(at 358.14 88.9 180)
 		(effects
 			(font
@@ -4923,7 +4923,7 @@
 		)
 		(uuid "31a61033-4fc7-4271-aaa3-f867a3d507cf")
 	)
-	(label "RTDS.EXC"
+	(label "RTDS.PWR"
 		(at 358.14 96.52 180)
 		(effects
 			(font
@@ -4993,7 +4993,7 @@
 		)
 		(uuid "4fb00801-b578-4730-8d12-7013dc3fc5ce")
 	)
-	(label "DASH.EXC"
+	(label "DASH.PWR"
 		(at 72.39 59.69 0)
 		(effects
 			(font
@@ -5063,7 +5063,7 @@
 		)
 		(uuid "639f4dcf-21ef-418b-a837-babe5fe3dc81")
 	)
-	(label "PEDALBOX.EXC"
+	(label "PEDALBOX.PWR"
 		(at 358.14 52.07 180)
 		(effects
 			(font
@@ -5093,7 +5093,7 @@
 		)
 		(uuid "6e7f0023-4418-4e24-b696-0ea0ac7dd72a")
 	)
-	(label "DRS.BUTTON.EXC"
+	(label "DRS.BUTTON.PWR"
 		(at 72.39 138.43 0)
 		(effects
 			(font
@@ -5163,7 +5163,7 @@
 		)
 		(uuid "7ed4d01e-d794-45a5-8a41-d2fd29a667ab")
 	)
-	(label "TSAL.DASH.EXC"
+	(label "TSAL.DASH.PWR"
 		(at 361.95 148.59 180)
 		(effects
 			(font
@@ -5183,7 +5183,7 @@
 		)
 		(uuid "8344cf81-76aa-454a-9a12-f2056403e90e")
 	)
-	(label "PEDALBOX.EXC"
+	(label "PEDALBOX.PWR"
 		(at 72.39 52.07 0)
 		(effects
 			(font
@@ -5223,7 +5223,7 @@
 		)
 		(uuid "90c0baf2-f7ab-4892-b714-4a123cb68da5")
 	)
-	(label "SAGL.EXC"
+	(label "SAGL.PWR"
 		(at 356.87 123.19 180)
 		(effects
 			(font
@@ -5253,7 +5253,7 @@
 		)
 		(uuid "97156b62-bc76-45d6-9a2f-09c08ca17684")
 	)
-	(label "RTDS.EXC"
+	(label "RTDS.PWR"
 		(at 72.39 100.33 0)
 		(effects
 			(font
@@ -5293,7 +5293,7 @@
 		)
 		(uuid "a67334ba-1907-480b-bac9-3a45fbb8be3b")
 	)
-	(label "BSPD.CUR_SEN.EXC"
+	(label "BSPD.CUR_SEN.PWR"
 		(at 72.39 120.65 0)
 		(effects
 			(font
@@ -5303,7 +5303,7 @@
 		)
 		(uuid "ad456892-7b79-49c5-b1a0-249500e0d13b")
 	)
-	(label "TSAL.DASH.EXC"
+	(label "TSAL.DASH.PWR"
 		(at 72.39 146.05 0)
 		(effects
 			(font
@@ -5333,7 +5333,7 @@
 		)
 		(uuid "b890145b-3f62-4bfe-b51c-11d9524e5d93")
 	)
-	(label "DASHBOX.EXC"
+	(label "DASHBOX.PWR"
 		(at 377.19 143.51 180)
 		(effects
 			(font

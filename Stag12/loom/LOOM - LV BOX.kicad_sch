@@ -6435,7 +6435,7 @@
 		)
 		(uuid "029a4e0b-1613-46e2-9bce-5eb266bc63dc")
 	)
-	(label "TSAL.DASH.EXC"
+	(label "TSAL.DASH.PWR"
 		(at 529.59 241.3 180)
 		(effects
 			(font
@@ -6525,7 +6525,7 @@
 		)
 		(uuid "0e1ecbbe-ef37-4435-a55b-a04d17358544")
 	)
-	(label "IMD.LED.EXC"
+	(label "IMD.LED.PWR"
 		(at 527.05 180.34 180)
 		(effects
 			(font
@@ -6575,7 +6575,7 @@
 		)
 		(uuid "1429c061-03a4-4062-834d-011308298a5d")
 	)
-	(label "PWR_SPLICE.EXC"
+	(label "PWR_SPLICE.PWR"
 		(at 57.15 40.64 0)
 		(effects
 			(font
@@ -6595,7 +6595,7 @@
 		)
 		(uuid "18e0a90c-aab6-4efd-bb4e-61b696ed348e")
 	)
-	(label "REB.HVS.EXC"
+	(label "REB.HVS.PWR"
 		(at 57.15 179.07 0)
 		(effects
 			(font
@@ -6615,7 +6615,7 @@
 		)
 		(uuid "1a949a46-c39e-417a-b3f6-d36cafcce487")
 	)
-	(label "LATCHING.EXC"
+	(label "LATCHING.PWR"
 		(at 162.56 17.78 0)
 		(effects
 			(font
@@ -6665,7 +6665,7 @@
 		)
 		(uuid "209dded5-b54e-44a7-bb6b-67cd521e6576")
 	)
-	(label "TSAL.DASH.EXC"
+	(label "TSAL.DASH.PWR"
 		(at 57.15 45.72 0)
 		(effects
 			(font
@@ -6755,7 +6755,7 @@
 		)
 		(uuid "34a65a8b-8ea1-4a77-a8a1-0674845af117")
 	)
-	(label "RTDS.EXC"
+	(label "RTDS.PWR"
 		(at 525.78 91.44 180)
 		(effects
 			(font
@@ -6815,7 +6815,7 @@
 		)
 		(uuid "4445f733-31e0-4358-b975-67aa12e7490f")
 	)
-	(label "BMS.LED.EXC"
+	(label "BMS.LED.PWR"
 		(at 527.05 177.8 180)
 		(effects
 			(font
@@ -6825,7 +6825,7 @@
 		)
 		(uuid "459a5aaf-5fc1-4150-aeb2-8838206d6677")
 	)
-	(label "TSAL.LED.EXC"
+	(label "TSAL.LED.PWR"
 		(at 529.59 233.68 180)
 		(effects
 			(font
@@ -6865,7 +6865,7 @@
 		)
 		(uuid "48e2ccd9-f11a-40cb-9c5b-4c30d94924ec")
 	)
-	(label "CAN.NODE.EXC"
+	(label "CAN.NODE.PWR"
 		(at 58.42 283.21 0)
 		(effects
 			(font
@@ -6925,7 +6925,7 @@
 		)
 		(uuid "52d3fbb4-9f73-4b23-8e9a-f114630535c7")
 	)
-	(label "REB.HVS.EXC"
+	(label "REB.HVS.PWR"
 		(at 529.59 238.76 180)
 		(effects
 			(font
@@ -7005,7 +7005,7 @@
 		)
 		(uuid "6216fe71-d32e-422b-8502-ae5b9273b9b0")
 	)
-	(label "SPARE.EXC"
+	(label "SPARE.PWR"
 		(at 525.78 76.2 180)
 		(effects
 			(font
@@ -7085,7 +7085,7 @@
 		)
 		(uuid "7471feab-404b-4f62-a313-3e0df0c3670f")
 	)
-	(label "TS.ON.LED.EXC"
+	(label "TS.ON.LED.PWR"
 		(at 527.05 172.72 180)
 		(effects
 			(font
@@ -7125,7 +7125,7 @@
 		)
 		(uuid "7bf0451a-3148-4473-bfa3-0d5f6ce62a3f")
 	)
-	(label "TSAL.EXC"
+	(label "TSAL.PWR"
 		(at 162.56 27.94 0)
 		(effects
 			(font
@@ -7225,7 +7225,7 @@
 		)
 		(uuid "8b2b90cb-ec37-4804-b347-d6803ffb12d9")
 	)
-	(label "TSAC.HVS.EXC"
+	(label "TSAC.HVS.PWR"
 		(at 529.59 236.22 180)
 		(effects
 			(font
@@ -7255,7 +7255,7 @@
 		)
 		(uuid "8bbb6aca-236c-48aa-88c7-cd6bc0dd9ccc")
 	)
-	(label "TS.ON.BUTTON.EXC"
+	(label "TS.ON.BUTTON.PWR"
 		(at 527.05 170.18 180)
 		(effects
 			(font
@@ -7265,7 +7265,7 @@
 		)
 		(uuid "8fb12dca-e349-4f89-8488-0bc92e5f2427")
 	)
-	(label "TSAC.HVS.EXC"
+	(label "TSAC.HVS.PWR"
 		(at 57.15 104.14 0)
 		(effects
 			(font
@@ -7275,7 +7275,7 @@
 		)
 		(uuid "912c006b-1716-410b-97be-dfe84f7312af")
 	)
-	(label "TSAL.LED.EXC"
+	(label "TSAL.LED.PWR"
 		(at 57.15 58.42 0)
 		(effects
 			(font
@@ -7285,7 +7285,7 @@
 		)
 		(uuid "91ef39d6-fdd9-4b0a-99b3-5efaebfbc0bc")
 	)
-	(label "R2D.LED.EXC"
+	(label "R2D.LED.PWR"
 		(at 527.05 175.26 180)
 		(effects
 			(font
@@ -7325,7 +7325,7 @@
 		)
 		(uuid "971c667b-909d-4d69-8eb3-8e1be1ea82e2")
 	)
-	(label "TSAL_LATCHING.EXC"
+	(label "TSAL_LATCHING.PWR"
 		(at 529.59 246.38 180)
 		(effects
 			(font
@@ -7375,7 +7375,7 @@
 		)
 		(uuid "a38c408d-c858-4dd1-8567-b81f9d33d73a")
 	)
-	(label "RTDS.EXC"
+	(label "RTDS.PWR"
 		(at 57.15 83.82 0)
 		(effects
 			(font
@@ -7595,7 +7595,7 @@
 		)
 		(uuid "c1f46579-e88f-4873-be3d-9fcf83e79788")
 	)
-	(label "PWR_SPLICE.EXC"
+	(label "PWR_SPLICE.PWR"
 		(at 58.42 269.24 0)
 		(effects
 			(font
@@ -7625,7 +7625,7 @@
 		)
 		(uuid "c56b8606-121c-4086-9805-f2aac6b59e42")
 	)
-	(label "VCU.EXC"
+	(label "VCU.PWR"
 		(at 527.05 121.92 180)
 		(effects
 			(font
@@ -7635,7 +7635,7 @@
 		)
 		(uuid "c61592b4-d4d5-43af-a6e1-e0c5479e835b")
 	)
-	(label "VCU.EXC"
+	(label "VCU.PWR"
 		(at 527.05 127 180)
 		(effects
 			(font
@@ -7685,7 +7685,7 @@
 		)
 		(uuid "cbc232f5-5cad-4591-a122-e027a92037f0")
 	)
-	(label "VCU.EXC"
+	(label "VCU.PWR"
 		(at 162.56 22.86 0)
 		(effects
 			(font
@@ -7885,7 +7885,7 @@
 		)
 		(uuid "f08bf325-5d0d-4059-9c56-4538ac570190")
 	)
-	(label "R2D.BUTTON.EXC"
+	(label "R2D.BUTTON.PWR"
 		(at 527.05 167.64 180)
 		(effects
 			(font

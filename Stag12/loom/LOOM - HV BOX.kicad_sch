@@ -3404,7 +3404,7 @@
 		)
 		(uuid "ff1611a9-768e-4a1f-9aab-c8f9c5f3038c")
 	)
-	(label "BSPD.CUR_SEN.EXC"
+	(label "BSPD.CUR_SEN.PWR"
 		(at 39.37 26.67 0)
 		(effects
 			(font
@@ -3534,7 +3534,7 @@
 		)
 		(uuid "7ec8bc93-f9d8-497c-9dae-394235386d48")
 	)
-	(label "REB.HVS.EXC"
+	(label "REB.HVS.PWR"
 		(at 242.57 140.335 180)
 		(effects
 			(font
@@ -3544,7 +3544,7 @@
 		)
 		(uuid "875f78bd-90ff-482c-a99e-ccfc28e1b5f7")
 	)
-	(label "BSPD.CUR_SEN.EXC"
+	(label "BSPD.CUR_SEN.PWR"
 		(at 57.15 161.29 180)
 		(effects
 			(font
@@ -3594,7 +3594,7 @@
 		)
 		(uuid "b75e187f-55d7-444a-af54-9887fd0ae511")
 	)
-	(label "HVSENSE.EXC"
+	(label "HVSENSE.PWR"
 		(at 39.37 21.59 0)
 		(effects
 			(font
