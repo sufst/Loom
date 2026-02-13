@@ -1330,20 +1330,20 @@
 		)
 	)
 	(junction
-		(at 129.54 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "064f963b-21aa-437f-9d71-c7498305b4a0")
-	)
-	(junction
 		(at 124.46 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "156bdaec-5eb0-4bdf-bdf3-9f3af11b786e")
 	)
+	(junction
+		(at 130.81 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a6bd43e-d8bc-45ac-b16a-9ad7f5f81b98")
+	)
 	(wire
 		(pts
-			(xy 167.64 66.04) (xy 129.54 66.04)
+			(xy 167.64 66.04) (xy 130.81 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1483,23 +1483,33 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 116.84) (xy 142.24 116.84)
+			(xy 130.81 90.17) (xy 130.81 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5865df83-1524-4164-978f-738cdb733ca4")
+		(uuid "436b70f5-f241-496e-9897-0062adaad54b")
 	)
 	(wire
 		(pts
-			(xy 179.07 124.46) (xy 125.73 124.46)
+			(xy 142.24 116.84) (xy 179.07 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c2334f8-cd50-4698-ae6d-19305e34ea08")
+		(uuid "4e47e5b9-fcd8-4c48-ab46-d4ae731f88bf")
+	)
+	(wire
+		(pts
+			(xy 130.81 129.54) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d222dc5-6517-4c40-bc3a-f7d769dcb920")
 	)
 	(wire
 		(pts
@@ -1533,7 +1543,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 66.04) (xy 129.54 86.36)
+			(xy 130.81 66.04) (xy 130.81 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1583,6 +1593,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 129.54) (xy 130.81 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ed32f1-b08e-4128-b272-fc953a529d27")
+	)
+	(wire
+		(pts
 			(xy 101.6 151.13) (xy 128.27 151.13)
 		)
 		(stroke
@@ -1593,6 +1613,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 86.36) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a823bf44-848c-41e3-aa38-95ee20173616")
+	)
+	(wire
+		(pts
 			(xy 118.11 111.76) (xy 179.07 111.76)
 		)
 		(stroke
@@ -1600,6 +1630,16 @@
 			(type default)
 		)
 		(uuid "aa61c5e5-3365-486e-9b30-92361871c425")
+	)
+	(wire
+		(pts
+			(xy 128.27 127) (xy 179.07 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad2ba91-1b04-4f8c-9d60-e6639b4dcbe3")
 	)
 	(wire
 		(pts
@@ -1633,16 +1673,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 127) (xy 128.27 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8a3b31a-5030-4fa0-93a5-f1b289f0e973")
-	)
-	(wire
-		(pts
 			(xy 114.3 106.68) (xy 118.11 106.68)
 		)
 		(stroke
@@ -1650,16 +1680,6 @@
 			(type default)
 		)
 		(uuid "ccae4b7d-7d28-4681-8a6a-8b0cd03d01e0")
-	)
-	(wire
-		(pts
-			(xy 129.54 86.36) (xy 170.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de5f82f6-0dc6-4d6d-8007-4218b073ad26")
 	)
 	(wire
 		(pts
@@ -1683,7 +1703,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 86.36) (xy 129.54 86.36)
+			(xy 124.46 86.36) (xy 130.81 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1691,83 +1711,103 @@
 		)
 		(uuid "fa8d62d2-c6b8-47fd-9be9-e0ecfb3776b8")
 	)
+	(wire
+		(pts
+			(xy 125.73 124.46) (xy 179.07 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff309649-d9e8-4891-9081-9ae139ef64c3")
+	)
 	(label "LATCHING.RESET+"
-		(at 177.8 127 180)
+		(at 154.305 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "553bb383-7703-49df-b6e5-5e0336871bf0")
 	)
 	(label "LATCHING.RESET-"
-		(at 177.8 124.46 180)
+		(at 154.305 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "6e6a5dcc-272c-44ea-baa9-d4b4641043da")
 	)
 	(label "SIDE-PANEL.GND"
-		(at 177.8 116.84 180)
+		(at 154.305 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "764936ba-f533-4c95-a142-9517c4fea9c8")
 	)
-	(label "SHUT.TSMS"
-		(at 177.8 111.76 180)
+	(label "BSPD.PWR"
+		(at 154.305 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "8660299e-f804-41b8-9ec0-b21152654a6d")
+	)
+	(label "SHUT.TSMS"
+		(at 154.305 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "88f9aacc-31d6-4b0e-b689-0166fc880197")
 	)
 	(label "SHUT.TSAC.INTERLOCK"
-		(at 177.8 114.3 180)
+		(at 154.305 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9593b3f7-d9da-4a88-986b-59021d9680cb")
 	)
 	(label "TSAL.RESET-"
-		(at 177.8 121.92 180)
+		(at 154.305 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c3fa42aa-52e1-4a24-85b2-ac787342c8be")
 	)
 	(label "TSAL.RESET+"
-		(at 177.8 119.38 180)
+		(at 154.305 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ec436ba5-e4f7-4ae4-bc62-60b200143fbb")
 	)
 	(label "SHUT.RIGHT.E-STOP"
-		(at 177.8 109.22 180)
+		(at 154.305 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "fb05955d-ed42-4685-ba72-5a35535558e3")
 	)
@@ -1825,6 +1865,76 @@
 			(justify right)
 		)
 		(uuid "d2c4cf65-e178-447d-9afd-6d94d448dae2")
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 130.81 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02cbb690-40c0-4d99-8e5d-f7052e9009c3")
+		(property "Reference" "F3"
+			(at 133.35 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1A"
+			(at 133.35 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.032 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39f6cd60-de3f-415a-ae71-cefe385cd33c")
+		)
+		(pin "2"
+			(uuid "b36827e5-c1a9-4454-93dd-a04148b7a1ed")
+		)
+		(instances
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/abd63648-061b-4836-be2a-4e6f9e8b66f3"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connectors_SUFST:Banana Plug")

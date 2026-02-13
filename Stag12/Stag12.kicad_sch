@@ -150,6 +150,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 212.725) (xy 370.205 212.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d8846a-3de1-4fd9-a838-a174287dae4f")
+	)
+	(wire
+		(pts
 			(xy 219.71 357.505) (xy 214.63 357.505)
 		)
 		(stroke
@@ -188,6 +198,16 @@
 			(type default)
 		)
 		(uuid "1c083805-a201-422c-bd38-aaa93885d2b6")
+	)
+	(wire
+		(pts
+			(xy 370.205 212.725) (xy 370.205 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c742067-f591-43e8-8582-44c43e899063")
 	)
 	(bus
 		(pts
@@ -825,6 +845,16 @@
 		)
 		(uuid "9a38db5a-42ea-4040-b527-8af32401553f")
 	)
+	(wire
+		(pts
+			(xy 370.205 190.5) (xy 378.46 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c10d42f-e24c-4473-80e1-bd777bbf3744")
+	)
 	(bus
 		(pts
 			(xy 217.805 79.375) (xy 214.63 79.375)
@@ -910,7 +940,7 @@
 	)
 	(bus
 		(pts
-			(xy 361.95 206.375) (xy 378.46 206.375)
+			(xy 361.95 238.125) (xy 378.46 238.125)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1600,7 @@
 			)
 		)
 		(pin "PEDAL BOX I{slash}O" bidirectional
-			(at 361.95 206.375 0)
+			(at 361.95 238.125 0)
 			(uuid "87fdc2b9-de30-44f8-8dbe-9408afe95903")
 			(effects
 				(font
@@ -3885,7 +3915,7 @@
 	)
 	(sheet
 		(at 378.46 202.565)
-		(size 29.21 71.12)
+		(size 29.21 111.76)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3909,7 +3939,7 @@
 			)
 		)
 		(property "Sheetfile" "loom/loom-pedal-box.kicad_sch"
-			(at 378.46 274.2696 0)
+			(at 378.46 314.9096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,9 +3998,39 @@
 				(justify right)
 			)
 		)
-		(pin "PEDAL BOX I{slash}O" bidirectional
-			(at 378.46 206.375 180)
-			(uuid "470e3517-259e-432a-a512-69792a33617a")
+		(pin "BSPD" bidirectional
+			(at 407.67 269.875 0)
+			(uuid "07d055aa-7b79-4c9a-98a0-187123827db3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FRONT WING" bidirectional
+			(at 407.67 282.575 0)
+			(uuid "5b20182a-0af7-4d7f-8516-a7cd1d3a5c82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LW SENSORS" bidirectional
+			(at 407.67 295.275 0)
+			(uuid "2bf92063-243a-48e4-a56d-c709e7e18960")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PEDAL BOX DASH" bidirectional
+			(at 378.46 212.725 180)
+			(uuid "759febae-873f-4e8b-b043-5e13beab9c31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,9 +4038,19 @@
 				(justify left)
 			)
 		)
-		(pin "BSPD" bidirectional
-			(at 407.67 269.875 0)
-			(uuid "07d055aa-7b79-4c9a-98a0-187123827db3")
+		(pin "PEDAL BOX FIREWALL" bidirectional
+			(at 378.46 238.125 180)
+			(uuid "1aee7667-aafb-447b-a12d-8b1913bc1ab1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RW SENSORS" bidirectional
+			(at 407.67 307.975 0)
+			(uuid "24f28962-48e7-4ff8-bbda-b248a503a23d")
 			(effects
 				(font
 					(size 1.27 1.27)
