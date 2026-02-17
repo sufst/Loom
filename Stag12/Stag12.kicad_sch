@@ -303,6 +303,16 @@
 	)
 	(bus
 		(pts
+			(xy 477.52 307.975) (xy 473.71 307.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2acbb6c4-04c7-4bd3-8ba4-c989e62af0fc")
+	)
+	(bus
+		(pts
 			(xy 407.67 206.375) (xy 411.48 206.375)
 		)
 		(stroke
@@ -719,16 +729,6 @@
 			(type default)
 		)
 		(uuid "812259a5-21d4-4544-815b-0dfd6117bc41")
-	)
-	(bus
-		(pts
-			(xy 302.26 328.295) (xy 294.005 328.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "818abe8e-8bae-48a1-98bd-a2ec65c84692")
 	)
 	(bus
 		(pts
@@ -2026,6 +2026,60 @@
 			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "41")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 477.52 304.165)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 0 132 132 0.2000)
+		)
+		(uuid "6406ca02-a7b3-44d1-a9c8-8d41c28475a6")
+		(property "Sheetname" "DEVICE - INERTIA SWITCH"
+			(at 477.52 303.4534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "device/device-inertia-switch.kicad_sch"
+			(at 477.52 312.3696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "INERTIA SWITCH" bidirectional
+			(at 477.52 307.975 180)
+			(uuid "b99600d1-3811-47b9-8455-812e9e8afd10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "24")
 				)
 			)
 		)
@@ -4051,60 +4105,6 @@
 			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 302.26 324.485)
-		(size 26.67 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 0 132 132 1)
-		)
-		(fill
-			(color 0 132 132 0.2000)
-		)
-		(uuid "f29d1e22-db5a-4e21-943f-a4075fd10598")
-		(property "Sheetname" "DEVICE - INERTIA SWITCH"
-			(at 302.26 323.7734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "device/device-inertia-switch.kicad_sch"
-			(at 302.26 332.6896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "INERTIA SWITCH" bidirectional
-			(at 302.26 328.295 180)
-			(uuid "2a1efe5b-89a4-4a86-939f-29ba57952c19")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Stag12"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
-					(page "24")
 				)
 			)
 		)

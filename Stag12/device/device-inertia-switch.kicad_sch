@@ -355,7 +355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d31f2bb-c096-42f6-bb29-f52bbc9328e0")
-		(property "Reference" "SW?"
+		(property "Reference" "SW13"
 			(at 116.84 88.9 0)
 			(effects
 				(font
@@ -407,15 +407,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "43dc217b-431b-44c7-b7e6-b4c2ffc0261a")
+			(uuid "b957e89b-05ae-4235-b373-cee630a5eae1")
 		)
 		(pin "2"
-			(uuid "68a8f1b8-d8a5-46fd-bacf-702e20e65e28")
+			(uuid "59ada320-fc11-467f-85d8-0f25b47b8eb3")
 		)
 		(instances
 			(project "Stag12"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/f29d1e22-db5a-4e21-943f-a4075fd10598"
-					(reference "SW?")
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/6406ca02-a7b3-44d1-a9c8-8d41c28475a6"
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -431,7 +431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1bd2a00-326f-4ab4-8fef-477f58b352f0")
-		(property "Reference" "Conn?"
+		(property "Reference" "Conn41"
 			(at 156.21 92.71 0)
 			(effects
 				(font
@@ -495,15 +495,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9883ec4a-c5bb-47ba-aa8b-ee3c030a581b")
+			(uuid "3b7daf68-bdda-41ea-986f-2f404fb6124f")
 		)
 		(pin "2"
-			(uuid "1f069d84-bda1-4fe9-a70d-db76d4137b23")
+			(uuid "2b8ea740-1154-483b-a19f-13951cfdd880")
 		)
 		(instances
 			(project "Stag12"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/f29d1e22-db5a-4e21-943f-a4075fd10598"
-					(reference "Conn?")
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/6406ca02-a7b3-44d1-a9c8-8d41c28475a6"
+					(reference "Conn41")
 					(unit 1)
 				)
 			)

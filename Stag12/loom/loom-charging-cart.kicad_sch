@@ -697,6 +697,30 @@
 			(symbol "AMPHENOL-47P-Pannel_0_1"
 				(polyline
 					(pts
+						(xy -3.81 -88.265) (xy -0.635 -88.265)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -4.445) (xy -3.81 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -0.635 -4.445) (xy 1.905 -4.445)
 					)
 					(stroke
@@ -721,7 +745,43 @@
 				)
 				(polyline
 					(pts
+						(xy -0.635 -12.065) (xy -3.81 -12.065)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -14.605) (xy -3.81 -14.605)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -0.635 -14.605) (xy 1.905 -14.605)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -17.145) (xy -3.81 -17.145)
 					)
 					(stroke
 						(width 0)
