@@ -139,13 +139,23 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 212.725) (xy 370.205 212.725)
+			(xy 473.71 173.99) (xy 477.52 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09d8846a-3de1-4fd9-a838-a174287dae4f")
+		(uuid "08d685e0-df97-4558-971d-dd32d31f5a28")
+	)
+	(wire
+		(pts
+			(xy 361.95 212.725) (xy 378.46 212.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d696fe5-817f-4b9f-84be-6476d5453790")
 	)
 	(wire
 		(pts
@@ -187,16 +197,6 @@
 			(type default)
 		)
 		(uuid "1c083805-a201-422c-bd38-aaa93885d2b6")
-	)
-	(wire
-		(pts
-			(xy 370.205 212.725) (xy 370.205 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c742067-f591-43e8-8582-44c43e899063")
 	)
 	(bus
 		(pts
@@ -836,7 +836,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.205 190.5) (xy 378.46 190.5)
+			(xy 361.95 183.515) (xy 444.5 183.515)
 		)
 		(stroke
 			(width 0)
@@ -2574,8 +2574,8 @@
 		)
 	)
 	(sheet
-		(at 378.46 170.18)
-		(size 29.21 25.4)
+		(at 444.5 170.18)
+		(size 29.21 144.145)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2590,7 +2590,7 @@
 		)
 		(uuid "9e578ce3-156d-4015-8549-8397930d52c7")
 		(property "Sheetname" "LOOM - FRONT BOX"
-			(at 378.46 169.4684 0)
+			(at 444.5 169.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2599,7 @@
 			)
 		)
 		(property "Sheetfile" "loom/loom-front-box.kicad_sch"
-			(at 378.46 196.1646 0)
+			(at 444.5 314.9096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3497,7 @@
 		)
 	)
 	(sheet
-		(at 411.48 170.18)
+		(at 477.52 170.18)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3514,7 +3514,7 @@
 		)
 		(uuid "cb56092d-6a5f-45d2-8b91-b2a4b062d135")
 		(property "Sheetname" "DEVICE - VCU"
-			(at 411.48 169.4684 0)
+			(at 477.52 169.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3523,7 @@
 			)
 		)
 		(property "Sheetfile" "device/device-vcu.kicad_sch"
-			(at 411.48 178.3846 0)
+			(at 477.52 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3533,7 @@
 			)
 		)
 		(pin "VCU" bidirectional
-			(at 411.48 173.99 180)
+			(at 477.52 173.99 180)
 			(uuid "5be73487-dd91-4e1c-8e0d-0129f8524108")
 			(effects
 				(font

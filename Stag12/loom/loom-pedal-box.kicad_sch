@@ -2693,6 +2693,17 @@
 		)
 		(uuid "30fb5adc-9791-4112-8eb9-78f24a08d5bd")
 	)
+	(text "PANEL MOUNT,\nPINS"
+		(exclude_from_sim no)
+		(at 27.432 98.552 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "41ff158a-5e78-41c4-b195-af02138fa164")
+	)
 	(text "Key Pin 10"
 		(exclude_from_sim no)
 		(at 323.596 129.54 0)
