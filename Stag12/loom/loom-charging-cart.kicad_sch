@@ -3838,6 +3838,166 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:CircuitBreaker_1P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CB"
+				(at 1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CircuitBreaker_1P"
+				(at 1.905 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single pole circuit breaker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CircuitBreaker_1P_0_1"
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CircuitBreaker_1P_1_1"
+				(polyline
+					(pts
+						(xy -0.635 4.445) (xy 0.635 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 4.445) (xy -0.635 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -6574,12 +6734,6 @@
 		(uuid "0b6c7417-dee7-4abc-92ab-038ba08317f6")
 	)
 	(junction
-		(at 22.86 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "144335a4-c419-40cc-b815-817abf195825")
-	)
-	(junction
 		(at 71.12 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6610,12 +6764,6 @@
 		(uuid "3769b8ec-a59d-4838-b227-685da35d986d")
 	)
 	(junction
-		(at 25.4 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44d3bb3f-a092-4da4-ac89-fccb5af4493d")
-	)
-	(junction
 		(at 217.17 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6638,6 +6786,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68276e57-27b4-4124-9fa8-0a23ed6e810c")
+	)
+	(junction
+		(at 44.45 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6851d1fc-aaf9-4962-868b-4763703de35b")
 	)
 	(junction
 		(at 71.12 81.28)
@@ -6686,6 +6840,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b55d14f0-bdf6-448c-814b-0f2a1a036df7")
+	)
+	(junction
+		(at 46.99 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b914635f-2d95-4949-a836-f344a3840462")
 	)
 	(junction
 		(at 99.06 93.98)
@@ -6990,26 +7150,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 246.38) (xy 22.86 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06feab8f-1df4-4177-ad7a-591b47c68518")
-	)
-	(wire
-		(pts
-			(xy 22.86 246.38) (xy 127 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0834551a-ac55-4593-b9e6-c3d1ac3c73a3")
-	)
-	(wire
-		(pts
 			(xy 205.74 59.69) (xy 205.74 35.56)
 		)
 		(stroke
@@ -7256,7 +7396,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.195 260.35) (xy 25.4 260.35)
+			(xy 57.785 260.35) (xy 46.99 260.35)
 		)
 		(stroke
 			(width 0)
@@ -7338,6 +7478,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "22ccc75f-dd40-4281-a7c8-5b7784c3bb97")
+	)
+	(wire
+		(pts
+			(xy 44.45 246.38) (xy 44.45 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234d517b-17bd-4b3d-b974-c32d029fa52c")
 	)
 	(wire
 		(pts
@@ -7504,16 +7654,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "2e48803f-88cf-4807-85f3-95baabd6fa58")
-	)
-	(wire
-		(pts
-			(xy 25.4 260.35) (xy 25.4 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fcf3322-88df-40c8-84f5-177be5c001ec")
 	)
 	(wire
 		(pts
@@ -7981,7 +8121,7 @@
 	)
 	(wire
 		(pts
-			(xy 3.175 243.84) (xy 25.4 243.84)
+			(xy 3.175 243.84) (xy 23.495 243.84)
 		)
 		(stroke
 			(width 0)
@@ -8001,7 +8141,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.355 260.35) (xy 75.565 260.35)
+			(xy 67.945 260.35) (xy 75.565 260.35)
 		)
 		(stroke
 			(width 0)
@@ -8254,16 +8394,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 243.84) (xy 127.635 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ce0f18b-10ac-4be0-ad7a-5ff0256d9700")
-	)
-	(wire
-		(pts
 			(xy 19.05 230.505) (xy 43.815 230.505)
 		)
 		(stroke
@@ -8469,6 +8599,16 @@
 			(type default)
 		)
 		(uuid "7bb46889-0a05-4d95-9460-1c45e856f095")
+	)
+	(wire
+		(pts
+			(xy 38.735 243.84) (xy 46.99 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bfb77e0-2cb2-4312-a2bc-d13be50fd6a5")
 	)
 	(wire
 		(pts
@@ -8797,7 +8937,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.355 265.43) (xy 75.565 265.43)
+			(xy 67.945 265.43) (xy 75.565 265.43)
 		)
 		(stroke
 			(width 0)
@@ -8958,6 +9098,16 @@
 			(type default)
 		)
 		(uuid "a976c292-39b5-4318-a337-66040798bd95")
+	)
+	(wire
+		(pts
+			(xy 46.99 243.84) (xy 46.99 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa630db7-7cd1-437e-92c0-4bb7633d3a8d")
 	)
 	(wire
 		(pts
@@ -9278,7 +9428,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 265.43) (xy 36.195 265.43)
+			(xy 44.45 265.43) (xy 57.785 265.43)
 		)
 		(stroke
 			(width 0)
@@ -9808,6 +9958,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 246.38) (xy 127 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed56f054-e447-42a1-991c-0b6416742c65")
+	)
+	(wire
+		(pts
 			(xy 73.025 292.735) (xy 99.695 292.735)
 		)
 		(stroke
@@ -9836,6 +9996,16 @@
 			(type default)
 		)
 		(uuid "ed97f047-7040-452f-8ed0-2c634f82e29e")
+	)
+	(wire
+		(pts
+			(xy 46.99 243.84) (xy 127.635 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee570ac9-9098-4b12-99e4-2017816a9446")
 	)
 	(wire
 		(pts
@@ -9902,7 +10072,7 @@
 	)
 	(wire
 		(pts
-			(xy 3.175 246.38) (xy 22.86 246.38)
+			(xy 3.175 246.38) (xy 44.45 246.38)
 		)
 		(stroke
 			(width 0)
@@ -17013,7 +17183,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPST")
-		(at 41.275 262.89 0)
+		(at 62.865 262.89 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17022,7 +17192,7 @@
 		(dnp no)
 		(uuid "c7443c8c-035a-492f-bda0-0fc9d4991b17")
 		(property "Reference" "SW19"
-			(at 43.815 268.605 0)
+			(at 65.405 268.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17031,7 +17201,7 @@
 			)
 		)
 		(property "Value" "SW_DPST"
-			(at 45.72 257.175 0)
+			(at 67.31 257.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17040,7 +17210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.275 262.89 0)
+			(at 62.865 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17049,7 +17219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.275 262.89 0)
+			(at 62.865 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17058,7 +17228,7 @@
 			)
 		)
 		(property "Description" "Double Pole Single Throw (DPST) Switch"
-			(at 41.275 262.89 0)
+			(at 62.865 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17600,6 +17770,74 @@
 			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/c24e4324-79c1-4828-a7be-e83d495a6b6b"
 					(reference "#PWR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:CircuitBreaker_1P")
+		(at 31.115 243.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6e0b2c0-17db-472c-a9c9-ad43535827ab")
+		(property "Reference" "CB1"
+			(at 31.115 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS PRO DHMZ"
+			(at 31.115 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.115 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.115 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single pole circuit breaker"
+			(at 31.115 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48bc1d17-3585-4dd5-8068-e0db37058812")
+		)
+		(pin "2"
+			(uuid "ccb617bc-da20-4b80-9d84-ef6175a3941a")
+		)
+		(instances
+			(project ""
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/c24e4324-79c1-4828-a7be-e83d495a6b6b"
+					(reference "CB1")
 					(unit 1)
 				)
 			)
