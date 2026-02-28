@@ -6489,6 +6489,16 @@
 		)
 		(uuid "2dd4246f-4d25-4227-8bc6-9031aa44f6fd")
 	)
+	(text "Splice to pitot tube here?"
+		(exclude_from_sim no)
+		(at 497.586 99.568 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5671e66c-81f9-4b20-9e90-e9509959a456")
+	)
 	(text "Splice with switch here?"
 		(exclude_from_sim no)
 		(at 385.572 93.98 0)
