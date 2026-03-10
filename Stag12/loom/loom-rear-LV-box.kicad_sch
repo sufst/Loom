@@ -1865,16 +1865,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 197.485) (xy 330.835 197.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "326648ef-a00a-4a55-96d5-a04802111996")
-	)
-	(wire
-		(pts
 			(xy 302.26 60.325) (xy 330.835 60.325)
 		)
 		(stroke
@@ -1912,16 +1902,6 @@
 			(type default)
 		)
 		(uuid "49c6cc72-b184-4e1d-890e-d043291ccb63")
-	)
-	(wire
-		(pts
-			(xy 317.5 200.025) (xy 330.835 200.025)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4df5e5a3-b659-449c-a291-4edcc870c70b")
 	)
 	(wire
 		(pts
@@ -2065,16 +2045,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 194.945) (xy 330.835 194.945)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7fc8a08-331d-43e8-949a-56074444f429")
-	)
-	(wire
-		(pts
 			(xy 313.69 110.49) (xy 330.835 110.49)
 		)
 		(stroke
@@ -2152,16 +2122,6 @@
 			(type default)
 		)
 		(uuid "d043f00e-b33e-4261-a3cb-10632789566d")
-	)
-	(wire
-		(pts
-			(xy 317.5 192.405) (xy 330.835 192.405)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e26a321d-08c5-4250-bd8f-7b12dcf51429")
 	)
 	(wire
 		(pts
@@ -2262,16 +2222,6 @@
 			(type default)
 		)
 		(uuid "f79cd0de-74b3-4651-aea2-1f65cc1d1b28")
-	)
-	(label "FSUK.DL.PWR"
-		(at 317.5 192.405 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "019bdea5-433d-47ac-b4c9-5190764b0284")
 	)
 	(label "WHLACL.RR.PWR"
 		(at 316.23 178.435 0)
@@ -2443,16 +2393,6 @@
 		)
 		(uuid "7f661923-4219-40b1-a3ef-4f2f6342e9c9")
 	)
-	(label "CAN.FSUK.L"
-		(at 317.5 197.485 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8850cfdd-2b1c-4a93-a4dd-24be7071a6b0")
-	)
 	(label "RWPT.GND"
 		(at 321.31 137.795 0)
 		(effects
@@ -2512,16 +2452,6 @@
 			(justify left bottom)
 		)
 		(uuid "9640d61b-150f-4fe4-82ac-b87c1ba12e9b")
-	)
-	(label "FSUK.DL.GND"
-		(at 317.5 200.025 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9739d972-f4e9-441c-b82f-481d3fde7c64")
 	)
 	(label "CAN.B.L"
 		(at 321.31 142.875 0)
@@ -2722,16 +2652,6 @@
 			(justify left bottom)
 		)
 		(uuid "f6105ab9-a8e3-4e36-8466-f5e0db6cb41a")
-	)
-	(label "CAN.FSUK.H"
-		(at 317.5 194.945 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f792a83f-d193-4809-b413-5136fa38e40e")
 	)
 	(label "FAN.TACH.L"
 		(at 302.26 34.925 0)
@@ -3213,88 +3133,6 @@
 			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/167025eb-ed59-4d2a-8ea9-c8c13801aea9"
 					(reference "J28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Socket")
-		(at 335.915 197.485 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fffab1e5-cbfe-4563-8243-07e8239dd4f0")
-		(property "Reference" "J32"
-			(at 337.185 197.4849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06_Socket"
-			(at 337.185 200.0249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 335.915 197.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 335.915 197.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 335.915 197.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "58f2106e-29d1-4bcd-8fd5-1ddcfafa4f27")
-		)
-		(pin "4"
-			(uuid "c24bc1d0-78e6-461b-9054-c0f68f402f32")
-		)
-		(pin "1"
-			(uuid "ca1b5ca3-f99b-4c6b-8cb2-08d77b3eb5e0")
-		)
-		(pin "3"
-			(uuid "a56a3562-fdb9-4d3d-8eb5-4af6c17daf9d")
-		)
-		(pin "2"
-			(uuid "c3b4f3a0-8c56-497c-a6a2-119399ac18b1")
-		)
-		(pin "6"
-			(uuid "24dbe53c-9a62-47d3-808a-fb88d3312087")
-		)
-		(instances
-			(project "Stag12"
-				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/167025eb-ed59-4d2a-8ea9-c8c13801aea9"
-					(reference "J32")
 					(unit 1)
 				)
 			)
