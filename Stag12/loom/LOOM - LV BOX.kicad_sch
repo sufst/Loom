@@ -3964,6 +3964,16 @@
 		)
 		(uuid "100b59f7-753e-4816-ab6f-9c16e04b80d3")
 	)
+	(text "tsac conected to tsal\n"
+		(exclude_from_sim no)
+		(at 38.862 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11d0ee06-9830-40fd-88b7-8e485680f7b3")
+	)
 	(text "Voltage 9"
 		(exclude_from_sim no)
 		(at 46.99 345.44 0)
@@ -4193,6 +4203,16 @@
 			(justify left bottom)
 		)
 		(uuid "d11e0e1a-7c51-4c57-ac7c-0bcb0a822246")
+	)
+	(text "fix me\n"
+		(exclude_from_sim no)
+		(at 40.64 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d22067d5-f5a2-4d38-8292-24a296b4c314")
 	)
 	(text "Voltage 7"
 		(exclude_from_sim no)
