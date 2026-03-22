@@ -2332,6 +2332,26 @@
 		)
 		(uuid "80ad0202-6f91-4535-83f8-9152762988a1")
 	)
+	(text "TODO: Move to umbilical"
+		(exclude_from_sim no)
+		(at 256.286 55.372 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "95ec8c7a-230f-4e3e-b979-5fa5ba7f5a8c")
+	)
+	(text "TODO: Switch to sockets!"
+		(exclude_from_sim no)
+		(at 74.422 20.574 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "ea20e491-ac58-4e52-babc-797181fc868f")
+	)
 	(junction
 		(at 217.805 55.245)
 		(diameter 0)
