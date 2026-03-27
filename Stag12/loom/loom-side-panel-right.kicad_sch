@@ -1329,6 +1329,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: MATCH PCB PINOUT"
+		(exclude_from_sim no)
+		(at 241.3 99.314 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "73be550d-6289-4035-a8df-62ba390bfdf6")
+	)
 	(junction
 		(at 124.46 86.36)
 		(diameter 0)
@@ -1721,6 +1732,26 @@
 		)
 		(uuid "ff309649-d9e8-4891-9081-9ae139ef64c3")
 	)
+	(label "FS_DATALOGGER"
+		(at 224.155 133.985 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a96bc6d-816b-4b61-9bbb-5c118510c361")
+	)
+	(label "SHUT.TSMS"
+		(at 224.155 108.585 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5258e7b3-31db-4788-9eb9-0165a529521f")
+	)
 	(label "LATCHING.RESET+"
 		(at 154.305 127 0)
 		(effects
@@ -1730,6 +1761,16 @@
 			(justify left bottom)
 		)
 		(uuid "553bb383-7703-49df-b6e5-5e0336871bf0")
+	)
+	(label "SIDE-PANEL.GND"
+		(at 224.155 118.745 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68f96b7b-12d9-47c3-a11e-5e60740a5ddb")
 	)
 	(label "LATCHING.RESET-"
 		(at 154.305 124.46 0)
@@ -1751,6 +1792,36 @@
 		)
 		(uuid "764936ba-f533-4c95-a142-9517c4fea9c8")
 	)
+	(label "LATCHING.RESET-"
+		(at 224.155 128.905 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76f07e18-49c7-42d7-8970-23d71c598998")
+	)
+	(label "PDM_BATT+"
+		(at 224.155 123.825 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77836ef6-43f2-45c0-80f1-a2aa15c700d3")
+	)
+	(label "TSAL.RESET-"
+		(at 224.155 131.445 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f07500e-78ac-421e-a46b-34948420b3d6")
+	)
 	(label "BSPD.PWR"
 		(at 154.305 129.54 0)
 		(effects
@@ -1771,6 +1842,26 @@
 		)
 		(uuid "88f9aacc-31d6-4b0e-b689-0166fc880197")
 	)
+	(label "LATCHING.RESET+"
+		(at 224.155 116.205 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e8b9712-af1f-4daa-8eed-3187447f67a7")
+	)
+	(label "TSAL.RESET+"
+		(at 224.155 113.665 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "949eb500-9824-4891-99a1-7438752b5983")
+	)
 	(label "SHUT.TSAC.INTERLOCK"
 		(at 154.305 114.3 0)
 		(effects
@@ -1781,6 +1872,26 @@
 		)
 		(uuid "9593b3f7-d9da-4a88-986b-59021d9680cb")
 	)
+	(label "SHUT.TSAC.INTERLOCK"
+		(at 224.155 136.525 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3c27461-12b9-44fd-8b15-be54f9604ff3")
+	)
+	(label "SDC_ORIGIN"
+		(at 224.155 111.125 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5efdee3-e874-475f-8dc6-ca3a7ebb8e33")
+	)
 	(label "TSAL.RESET-"
 		(at 154.305 121.92 0)
 		(effects
@@ -1790,6 +1901,16 @@
 			(justify left bottom)
 		)
 		(uuid "c3fa42aa-52e1-4a24-85b2-ac787342c8be")
+	)
+	(label "PDM_BATT+"
+		(at 224.155 121.285 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6f18663-9bf5-4b35-9b8a-aeab3f0b772d")
 	)
 	(label "TSAL.RESET+"
 		(at 154.305 119.38 0)
@@ -1810,6 +1931,16 @@
 			(justify left bottom)
 		)
 		(uuid "fb05955d-ed42-4685-ba72-5a35535558e3")
+	)
+	(label "BSPD.PWR"
+		(at 224.155 126.365 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fef90204-ee1c-4f2f-a659-14408086941d")
 	)
 	(hierarchical_label "SIDE PANEL"
 		(shape input)
@@ -2428,6 +2559,124 @@
 			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/abd63648-061b-4836-be2a-4e6f9e8b66f3"
 					(reference "Conn37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors_SUFST:Deutsch_DTM_12P_Pin")
+		(at 250.825 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5183f78-74ce-4d78-ab19-300232617bbf")
+		(property "Reference" "J38"
+			(at 255.905 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ATF13-12PA-BM01"
+			(at 263.779 123.571 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sufst-lib:ATF1312PABM01"
+			(at 250.825 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.825 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.825 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "ATF13-12PA-BM01"
+			(at 255.27 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Conn Name" "Main Loom Conn"
+			(at 255.27 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "df2b1192-827a-4eee-9876-7f35edde0b1d")
+		)
+		(pin "8"
+			(uuid "a874cabb-68d6-47f5-8a43-dd653946e538")
+		)
+		(pin "12"
+			(uuid "f6ca3562-8a3b-4c15-a105-8a585b347f21")
+		)
+		(pin "10"
+			(uuid "0604b84f-7dae-4e0a-b82f-47e02c46b190")
+		)
+		(pin "5"
+			(uuid "095e83c4-d502-483a-bf54-57c637cee172")
+		)
+		(pin "6"
+			(uuid "b58a8dc0-1cd6-4ff7-bd3a-e0bcd3df79c7")
+		)
+		(pin "11"
+			(uuid "f23b7010-f407-4cad-921f-4cc85aff9e6e")
+		)
+		(pin "1"
+			(uuid "d5e6b7ef-8d7c-4d01-8ce9-351de1545112")
+		)
+		(pin "7"
+			(uuid "3535a96b-f3cc-45ac-8cca-951c3cc924c7")
+		)
+		(pin "4"
+			(uuid "f218c5d5-461c-4618-9d80-682edc73d445")
+		)
+		(pin "3"
+			(uuid "d56d5a01-84b3-460b-859a-37318fbb9f0d")
+		)
+		(pin "2"
+			(uuid "60b66166-b19c-46b4-887d-4c6ed5fca8ce")
+		)
+		(instances
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1/abd63648-061b-4836-be2a-4e6f9e8b66f3"
+					(reference "J38")
 					(unit 1)
 				)
 			)
