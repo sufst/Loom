@@ -5,19 +5,19 @@
 	(uuid "a23aaf61-92c1-4826-8005-c5e124ab2ace")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connectors_SUFST:Deutsch_DTM_12S_Pin"
+		(symbol "Connectors_SUFST:AT16-18SA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Conn"
-				(at 0 0.635 0)
+				(at 8.636 -9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Deutsch_DTM_12S_Pin"
+			(property "Value" ""
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -53,15 +53,51 @@
 					(hide yes)
 				)
 			)
-			(property "P/N" "DTM0612SB"
-				(at 0 0 0)
+			(property "P/N" "AT16-18SA"
+				(at 11.176 -6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "Deutsch_DTM_12S_Pin_0_1"
+			(symbol "AT16-18SA_0_1"
+				(arc
+					(start -2.5355 13.9693)
+					(mid -1.9833 13.3337)
+					(end -2.5368 12.6993)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.5355 8.8893)
+					(mid -1.9833 8.2537)
+					(end -2.5368 7.6193)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.5355 3.8093)
+					(mid -1.9833 3.1737)
+					(end -2.5368 2.5393)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start -2.5355 -1.2707)
 					(mid -1.9833 -1.9063)
@@ -126,6 +162,42 @@
 					(start -2.5355 -26.6707)
 					(mid -1.9833 -27.3063)
 					(end -2.5368 -27.9407)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4511 11.4299)
+					(mid -1.8989 10.7943)
+					(end -2.4524 10.1599)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4511 6.3499)
+					(mid -1.8989 5.7143)
+					(end -2.4524 5.0799)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4511 1.2699)
+					(mid -1.8989 0.6343)
+					(end -2.4524 -0.0001)
 					(stroke
 						(width 0)
 						(type default)
@@ -207,7 +279,115 @@
 					)
 				)
 			)
-			(symbol "Deutsch_DTM_12S_Pin_1_1"
+			(symbol "AT16-18SA_1_1"
+				(pin input line
+					(at 0.635 13.335 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 10.795 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 8.255 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 5.715 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 3.175 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0.635 0.635 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 0.635 -1.905 180)
 					(length 2.54)
@@ -549,6 +729,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Might be\n09 9764 70 04\n\nWarwick might know?"
+		(exclude_from_sim no)
+		(at 233.172 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6d47269-ef0c-49ec-b337-2e3239722714")
 	)
 	(wire
 		(pts
@@ -1207,7 +1397,7 @@
 		(uuid "d69df60d-0ab4-47a5-b737-f1cfaad96295")
 	)
 	(symbol
-		(lib_id "Connectors_SUFST:Deutsch_DTM_12S_Pin")
+		(lib_id "Connectors_SUFST:AT16-18SA")
 		(at 52.07 101.6 0)
 		(mirror x)
 		(unit 1)
@@ -1260,8 +1450,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "AT/DT Plug, 12pos"
-			(at 38.735 83.185 0)
+		(property "P/N" "AT16-18SA"
+			(at 42.418 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Conn Name" ""
+			(at 52.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,6 +1501,24 @@
 		)
 		(pin "4"
 			(uuid "14121052-e0aa-4173-aed4-2d9ca13ae5ba")
+		)
+		(pin "18"
+			(uuid "3947f0dc-e694-47c0-91ed-cd86351b70f0")
+		)
+		(pin "15"
+			(uuid "70d9129d-c389-465b-bee9-70088a004257")
+		)
+		(pin "16"
+			(uuid "3c5db8f5-da6d-4d52-abfb-1d2af4531288")
+		)
+		(pin "17"
+			(uuid "f36fd544-6034-4488-84d1-ea6140d2cbf8")
+		)
+		(pin "14"
+			(uuid "64d8e6e9-b417-4de2-bc82-1f8c2cf90b80")
+		)
+		(pin "13"
+			(uuid "703e7529-06ea-401d-b2ea-e7d6d4b29cc7")
 		)
 		(instances
 			(project "Stag12"
