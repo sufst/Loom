@@ -623,7 +623,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./accu.pdf",
+    "plot_directory": "../../../OneDrive - University of Southampton/Documents/FS/looom/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -776,8 +776,20 @@
       "DEVICE - R2DS"
     ],
     [
+      "4ab3a82b-5703-4ab8-9d99-650af724dd19",
+      "BUS - CAN"
+    ],
+    [
       "5ebd4266-1aa3-4074-a4aa-e04f022b7120",
       "DEVICE - APPS"
+    ],
+    [
+      "3052a23c-2cb0-4a48-b2e9-1be2bb2ce862",
+      "BUS - SHUTDOWN"
+    ],
+    [
+      "fd86bd1b-ad9b-41b8-8999-0f060a240d51",
+      "BUS - GROUND"
     ],
     [
       "c24e4324-79c1-4828-a7be-e83d495a6b6b",

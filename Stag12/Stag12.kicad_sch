@@ -1534,6 +1534,48 @@
 		)
 	)
 	(sheet
+		(at 406.4 66.04)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3052a23c-2cb0-4a48-b2e9-1be2bb2ce862")
+		(property "Sheetname" "BUS - SHUTDOWN"
+			(at 406.4 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SHUTDOWN.kicad_sch"
+			(at 406.4 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "42")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 302.26 156.845)
 		(size 59.69 147.32)
 		(exclude_from_sim no)
@@ -1864,6 +1906,48 @@
 			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 349.25 64.77)
+		(size 43.18 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ab3a82b-5703-4ab8-9d99-650af724dd19")
+		(property "Sheetname" "BUS - CAN"
+			(at 349.25 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 349.25 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "41")
 				)
 			)
 		)
@@ -4212,6 +4296,48 @@
 			(project "Stag12"
 				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
 					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 474.98 66.04)
+		(size 45.72 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd86bd1b-ad9b-41b8-8999-0f060a240d51")
+		(property "Sheetname" "BUS - GROUND"
+			(at 474.98 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GROUND.kicad_sch"
+			(at 474.98 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stag12"
+				(path "/03011643-0690-4b85-ab78-d6a62dae52b1"
+					(page "43")
 				)
 			)
 		)
