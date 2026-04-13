@@ -2713,7 +2713,7 @@
 		)
 		(uuid "1dc1b9c8-3107-49df-a61f-dc2d24f928bd")
 	)
-	(text "Do not terminate shield here!"
+	(text "Do not terminate shield at sensor!"
 		(exclude_from_sim no)
 		(at 401.32 247.65 0)
 		(effects
@@ -2726,7 +2726,7 @@
 		)
 		(uuid "299cbd10-27c8-4082-8012-64822483897b")
 	)
-	(text "Do not terminate shield here!"
+	(text "Do not terminate shield at sensor!"
 		(exclude_from_sim no)
 		(at 401.32 203.2 0)
 		(effects
@@ -3018,24 +3018,8 @@
 		(uuid "090a2116-b4dc-44a3-9975-27c35f6a7c6f")
 	)
 	(no_connect
-		(at 408.94 184.15)
-		(uuid "4ef3816a-cf56-494b-b90f-86edd2d0f44a")
-	)
-	(no_connect
-		(at 408.94 199.39)
-		(uuid "56d64ceb-a65f-426c-a405-8b37015b56b1")
-	)
-	(no_connect
 		(at 412.75 101.6)
 		(uuid "607c4e63-b86c-4930-8da1-2fd17def33f8")
-	)
-	(no_connect
-		(at 414.02 243.84)
-		(uuid "85b51c89-769b-4f62-b552-a69eb409ecdb")
-	)
-	(no_connect
-		(at 414.02 227.33)
-		(uuid "953b2ad5-742a-4e48-9891-b2d65b80a405")
 	)
 	(no_connect
 		(at 369.57 88.9)
@@ -3046,24 +3030,8 @@
 		(uuid "a4c430b9-d55e-431f-a7e8-4375b0a50abb")
 	)
 	(no_connect
-		(at 412.75 199.39)
-		(uuid "be21896c-8ea5-4257-98e0-2359ba8b3477")
-	)
-	(no_connect
-		(at 408.94 243.84)
-		(uuid "c24540bc-e09a-480b-92c6-554802d4e850")
-	)
-	(no_connect
-		(at 412.75 184.15)
-		(uuid "d76bc6c5-7bba-4638-8d8a-40b17363aad2")
-	)
-	(no_connect
 		(at 410.21 101.6)
 		(uuid "eec1bc1d-b97c-488a-932c-4824f123cec1")
-	)
-	(no_connect
-		(at 408.94 227.33)
-		(uuid "f40e383c-f1d4-4762-846d-e16c912d222a")
 	)
 	(wire
 		(pts
@@ -3637,7 +3605,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 227.33) (xy 408.94 227.33)
+			(xy 297.18 227.33) (xy 414.02 227.33)
 		)
 		(stroke
 			(width 0)
@@ -3717,7 +3685,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 243.84) (xy 408.94 243.84)
+			(xy 287.02 243.84) (xy 414.02 243.84)
 		)
 		(stroke
 			(width 0)
@@ -3817,7 +3785,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 184.15) (xy 408.94 184.15)
+			(xy 353.06 184.15) (xy 412.75 184.15)
 		)
 		(stroke
 			(width 0)
@@ -3857,7 +3825,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 199.39) (xy 408.94 199.39)
+			(xy 342.9 199.39) (xy 412.75 199.39)
 		)
 		(stroke
 			(width 0)
@@ -4037,6 +4005,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 320.04) (xy 195.58 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0cc11a7-690c-4901-9677-7698abd4abb6")
+	)
+	(wire
+		(pts
 			(xy 345.44 194.31) (xy 412.75 194.31)
 		)
 		(stroke
@@ -4044,16 +4022,6 @@
 			(type default)
 		)
 		(uuid "c1f6eb3f-2224-409a-92aa-355953d56fbe")
-	)
-	(wire
-		(pts
-			(xy 195.58 320.04) (xy 134.62 320.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c25d3e55-cfda-4be3-8509-2b078c34adf5")
 	)
 	(wire
 		(pts
@@ -4486,12 +4454,12 @@
 		(uuid "0bb06e7e-fdb8-4d9f-a868-f76de64339d7")
 	)
 	(label "DAMPER.FL.SIG"
-		(at 161.29 270.51 180)
+		(at 145.415 270.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0f51418f-c537-4501-875a-22defad19192")
 	)
@@ -4656,12 +4624,12 @@
 		(uuid "38a14e44-765a-4bd9-8ad3-1486439f9fc9")
 	)
 	(label "DAMPER.FL.PWR"
-		(at 161.29 273.05 180)
+		(at 145.415 273.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "3bcdc388-d783-40d5-8c5c-b75aada7296d")
 	)
@@ -4777,12 +4745,12 @@
 		(uuid "5f1fa036-de6b-47d4-8aea-8cced95738d5")
 	)
 	(label "BSPD.SDC.STATUS"
-		(at 161.29 312.42 180)
+		(at 145.415 312.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "5f7e537d-c83a-424a-9f55-870e5247ebba")
 	)
@@ -4877,12 +4845,12 @@
 		(uuid "713abf8b-ea73-4789-bbac-02ed2eedaa84")
 	)
 	(label "DAMPER.FR.GND"
-		(at 161.29 283.21 180)
+		(at 145.415 283.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "73d5d6ad-73b1-4962-8a7d-dde9c81d139a")
 	)
@@ -5017,12 +4985,12 @@
 		(uuid "8f75c64e-a489-481e-a968-e2dcda247f14")
 	)
 	(label "DAMPER.FL.GND"
-		(at 161.29 275.59 180)
+		(at 145.415 275.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "987c45e6-b66f-4708-97ef-d4a97adc3ef6")
 	)
@@ -5077,13 +5045,13 @@
 		)
 		(uuid "b88ca58b-e0b8-4613-9eee-8903badb8f81")
 	)
-	(label "BOTS.SDC.STATUS"
-		(at 161.29 320.04 180)
+	(label "GPS.PPS2"
+		(at 145.415 320.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b8fd040b-ce63-4aeb-8a0d-78ba2f814623")
 	)
@@ -5158,22 +5126,22 @@
 		(uuid "ce0f3154-f2b1-45fa-82ff-0a10e1392515")
 	)
 	(label "DAMPER.FR.SIG"
-		(at 161.29 278.13 180)
+		(at 145.415 278.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d32aa94c-7851-4b80-af30-b7fd4e6a8722")
 	)
 	(label "DAMPER.FR.PWR"
-		(at 161.29 280.67 180)
+		(at 145.415 280.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d8e76401-9aef-4922-b5d9-74818d84269f")
 	)
@@ -5187,7 +5155,7 @@
 		)
 		(uuid "dd0c6c87-8383-4a09-9efc-63f86346e746")
 	)
-	(label "BOTS.SDC.STATUS"
+	(label "GPS.PPS2"
 		(at 121.92 86.36 0)
 		(effects
 			(font
