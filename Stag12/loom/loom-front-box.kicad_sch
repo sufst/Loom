@@ -9211,6 +9211,16 @@
 		)
 		(uuid "2681f9e5-d98e-41c0-8a97-5d4a5e881036")
 	)
+	(text "This is out of date slightly"
+		(exclude_from_sim no)
+		(at -53.594 416.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "274bb7d2-b836-41fc-8cf7-8d2e933ee1ea")
+	)
 	(text "HSDO_9"
 		(exclude_from_sim no)
 		(at 755.65 377.19 0)
@@ -9366,7 +9376,7 @@
 	)
 	(text "GPS"
 		(exclude_from_sim no)
-		(at 284.48 34.29 0)
+		(at 284.48 33.528 0)
 		(effects
 			(font
 				(size 3 3)
