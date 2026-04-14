@@ -10021,6 +10021,16 @@
 		)
 		(uuid "c68c09b0-3a6a-47bc-98cf-899bf7d0cba2")
 	)
+	(text "Button is non-existent on STAG 12"
+		(exclude_from_sim no)
+		(at 763.016 140.208 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9aeb3f6-5f14-4a7e-b524-61dfe7ce501f")
+	)
 	(text "TS_ON"
 		(exclude_from_sim no)
 		(at 742.95 162.56 0)
