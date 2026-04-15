@@ -391,7 +391,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x51_MountingPin"
+		(symbol "Connector_Generic_MountingPin:Conn_01x55_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -400,15 +400,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 66.04 0)
+				(at 0 71.12 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x51_MountingPin"
-				(at 1.27 -66.04 0)
+			(property "Value" "Conn_01x55_MountingPin"
+				(at 1.27 -71.12 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -434,7 +434,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "\"Generic connectable mounting pin connector, single row, 01x51, script generated\""
+			(property "Description" "\"Generic connectable mounting pin connector, single row, 01x55, script generated\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -469,16 +469,38 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x51_MountingPin_1_1"
+			(symbol "Conn_01x55_MountingPin_1_1"
 				(rectangle
-					(start -1.27 64.77)
-					(end 1.27 -64.77)
+					(start -1.27 69.85)
+					(end 1.27 -69.85)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 68.707)
+					(end 0 68.453)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 66.167)
+					(end 0 65.913)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -1042,9 +1064,31 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 -65.913)
+					(end 0 -66.167)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -68.453)
+					(end 0 -68.707)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.016 -65.532) (xy 1.016 -65.532)
+						(xy -1.016 -70.612) (xy 1.016 -70.612)
 					)
 					(stroke
 						(width 0.1524)
@@ -1055,7 +1099,7 @@
 					)
 				)
 				(text "Mounting"
-					(at 0 -65.151 0)
+					(at 0 -70.231 0)
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -1063,7 +1107,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 63.5 0)
+					(at -5.08 68.58 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1081,7 +1125,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 60.96 0)
+					(at -5.08 66.04 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1099,7 +1143,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 58.42 0)
+					(at -5.08 63.5 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1117,7 +1161,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 55.88 0)
+					(at -5.08 60.96 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1135,7 +1179,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 53.34 0)
+					(at -5.08 58.42 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1153,7 +1197,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 50.8 0)
+					(at -5.08 55.88 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1171,7 +1215,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 48.26 0)
+					(at -5.08 53.34 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1189,7 +1233,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 45.72 0)
+					(at -5.08 50.8 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1207,7 +1251,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 43.18 0)
+					(at -5.08 48.26 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -1225,7 +1269,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 40.64 0)
+					(at -5.08 45.72 0)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -1243,7 +1287,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 38.1 0)
+					(at -5.08 43.18 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -1261,7 +1305,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 35.56 0)
+					(at -5.08 40.64 0)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -1279,7 +1323,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 33.02 0)
+					(at -5.08 38.1 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -1297,7 +1341,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 30.48 0)
+					(at -5.08 35.56 0)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -1315,7 +1359,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 27.94 0)
+					(at -5.08 33.02 0)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -1333,7 +1377,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 25.4 0)
+					(at -5.08 30.48 0)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -1351,7 +1395,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 22.86 0)
+					(at -5.08 27.94 0)
 					(length 3.81)
 					(name "Pin_17"
 						(effects
@@ -1369,7 +1413,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 20.32 0)
+					(at -5.08 25.4 0)
 					(length 3.81)
 					(name "Pin_18"
 						(effects
@@ -1387,7 +1431,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 17.78 0)
+					(at -5.08 22.86 0)
 					(length 3.81)
 					(name "Pin_19"
 						(effects
@@ -1405,7 +1449,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 15.24 0)
+					(at -5.08 20.32 0)
 					(length 3.81)
 					(name "Pin_20"
 						(effects
@@ -1423,7 +1467,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at -5.08 17.78 0)
 					(length 3.81)
 					(name "Pin_21"
 						(effects
@@ -1441,7 +1485,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 15.24 0)
 					(length 3.81)
 					(name "Pin_22"
 						(effects
@@ -1459,7 +1503,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 12.7 0)
 					(length 3.81)
 					(name "Pin_23"
 						(effects
@@ -1477,7 +1521,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_24"
 						(effects
@@ -1495,7 +1539,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_25"
 						(effects
@@ -1513,7 +1557,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_26"
 						(effects
@@ -1531,7 +1575,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_27"
 						(effects
@@ -1549,7 +1593,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_28"
 						(effects
@@ -1567,7 +1611,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_29"
 						(effects
@@ -1585,7 +1629,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_30"
 						(effects
@@ -1603,7 +1647,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_31"
 						(effects
@@ -1621,7 +1665,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_32"
 						(effects
@@ -1639,7 +1683,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -17.78 0)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_33"
 						(effects
@@ -1657,7 +1701,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -20.32 0)
+					(at -5.08 -15.24 0)
 					(length 3.81)
 					(name "Pin_34"
 						(effects
@@ -1675,7 +1719,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -22.86 0)
+					(at -5.08 -17.78 0)
 					(length 3.81)
 					(name "Pin_35"
 						(effects
@@ -1693,7 +1737,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -25.4 0)
+					(at -5.08 -20.32 0)
 					(length 3.81)
 					(name "Pin_36"
 						(effects
@@ -1711,7 +1755,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -27.94 0)
+					(at -5.08 -22.86 0)
 					(length 3.81)
 					(name "Pin_37"
 						(effects
@@ -1729,7 +1773,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -30.48 0)
+					(at -5.08 -25.4 0)
 					(length 3.81)
 					(name "Pin_38"
 						(effects
@@ -1747,7 +1791,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -33.02 0)
+					(at -5.08 -27.94 0)
 					(length 3.81)
 					(name "Pin_39"
 						(effects
@@ -1765,7 +1809,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -35.56 0)
+					(at -5.08 -30.48 0)
 					(length 3.81)
 					(name "Pin_40"
 						(effects
@@ -1783,7 +1827,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -38.1 0)
+					(at -5.08 -33.02 0)
 					(length 3.81)
 					(name "Pin_41"
 						(effects
@@ -1801,7 +1845,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -40.64 0)
+					(at -5.08 -35.56 0)
 					(length 3.81)
 					(name "Pin_42"
 						(effects
@@ -1819,7 +1863,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -43.18 0)
+					(at -5.08 -38.1 0)
 					(length 3.81)
 					(name "Pin_43"
 						(effects
@@ -1837,7 +1881,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -45.72 0)
+					(at -5.08 -40.64 0)
 					(length 3.81)
 					(name "Pin_44"
 						(effects
@@ -1855,7 +1899,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -48.26 0)
+					(at -5.08 -43.18 0)
 					(length 3.81)
 					(name "Pin_45"
 						(effects
@@ -1873,7 +1917,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -50.8 0)
+					(at -5.08 -45.72 0)
 					(length 3.81)
 					(name "Pin_46"
 						(effects
@@ -1891,7 +1935,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -53.34 0)
+					(at -5.08 -48.26 0)
 					(length 3.81)
 					(name "Pin_47"
 						(effects
@@ -1909,7 +1953,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -55.88 0)
+					(at -5.08 -50.8 0)
 					(length 3.81)
 					(name "Pin_48"
 						(effects
@@ -1927,7 +1971,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -58.42 0)
+					(at -5.08 -53.34 0)
 					(length 3.81)
 					(name "Pin_49"
 						(effects
@@ -1945,7 +1989,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -60.96 0)
+					(at -5.08 -55.88 0)
 					(length 3.81)
 					(name "Pin_50"
 						(effects
@@ -1963,7 +2007,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -63.5 0)
+					(at -5.08 -58.42 0)
 					(length 3.81)
 					(name "Pin_51"
 						(effects
@@ -1981,7 +2025,79 @@
 					)
 				)
 				(pin passive line
-					(at 0 -68.58 90)
+					(at -5.08 -60.96 0)
+					(length 3.81)
+					(name "Pin_52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -63.5 0)
+					(length 3.81)
+					(name "Pin_53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -66.04 0)
+					(length 3.81)
+					(name "Pin_54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -68.58 0)
+					(length 3.81)
+					(name "Pin_55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -73.66 90)
 					(length 3.048)
 					(name "MountPin"
 						(effects
@@ -44635,7 +44751,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x51_MountingPin")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x55_MountingPin")
 		(at 59.69 517.525 0)
 		(mirror y)
 		(unit 1)
@@ -44646,7 +44762,7 @@
 		(fields_autoplaced yes)
 		(uuid "d96f5785-c627-4691-933a-63556b08366c")
 		(property "Reference" "J56"
-			(at 59.69 448.31 0)
+			(at 59.69 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44654,7 +44770,7 @@
 			)
 		)
 		(property "Value" "Conn_01x51_MountingPin"
-			(at 59.69 450.85 0)
+			(at 59.69 445.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44679,7 +44795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\"Generic connectable mounting pin connector, single row, 01x51, script generated\""
+		(property "Description" "\"Generic connectable mounting pin connector, single row, 01x55, script generated\""
 			(at 59.69 517.525 0)
 			(effects
 				(font
@@ -44843,6 +44959,18 @@
 		)
 		(pin "MP"
 			(uuid "32305cee-a5a2-4398-85f8-adb3dd279c81")
+		)
+		(pin "53"
+			(uuid "d13c07b2-11ee-4abb-bf36-e78b072cf2ad")
+		)
+		(pin "54"
+			(uuid "20b45a29-5127-4e42-8d60-89e09548228a")
+		)
+		(pin "52"
+			(uuid "cab11145-4893-4cf5-930f-7b6abe0af190")
+		)
+		(pin "55"
+			(uuid "527ec306-8ae0-4f41-bb96-9c25f6ad7fc4")
 		)
 		(instances
 			(project "Stag12"
