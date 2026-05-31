@@ -3262,6 +3262,17 @@
 		)
 		(uuid a945a35b-4270-40c1-a314-51bc8b07ccb2)
 	)
+	(text "Buffered\nRC filter cutoff 32Hz"
+		(exclude_from_sim no)
+		(at 56.134 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12f15f5d-3892-4065-b953-dbbdd4b977b7")
+	)
 	(text "Ferrule splice for brakelight pwr/gnd?"
 		(exclude_from_sim no)
 		(at 298.45 230.632 0)
@@ -3271,6 +3282,27 @@
 			)
 		)
 		(uuid "1eab83aa-228f-4162-9a3d-a8fa31e26625")
+	)
+	(text "Use 4.7k pullup on board"
+		(exclude_from_sim no)
+		(at 72.39 46.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20d8deb0-fc8a-4649-827b-e451a59af3e1")
+	)
+	(text "Not enough inputs on sensor hub\nRoute signal so possible to\nreplace tach or temp"
+		(exclude_from_sim no)
+		(at 74.676 230.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a7a4237-69a9-430d-b2d9-ee7c7dca6d7a")
 	)
 	(text "Splice in\nconnector"
 		(exclude_from_sim no)
@@ -3445,6 +3477,17 @@
 		)
 		(uuid "f4d20283-44ff-47a4-a60e-cc97ba49e042")
 	)
+	(text "10K NTC\nConfigured as Voltage Divider\nwith 10K pullup"
+		(exclude_from_sim no)
+		(at 57.15 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fac12201-2654-4c1f-b6bf-f6779e6b80bc")
+	)
 	(text "ADC\nGND\n3V3"
 		(exclude_from_sim no)
 		(at 44.45 96.52 0)
@@ -3454,12 +3497,6 @@
 			)
 		)
 		(uuid "ff10ffc1-8ee1-496a-82c2-949c41c04f70")
-	)
-	(junction
-		(at 52.07 225.425)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5199590f-7586-412c-af98-033dc47a4111")
 	)
 	(junction
 		(at 102.87 222.885)
@@ -3510,6 +3547,10 @@
 		(uuid "ffd6fd69-d26a-415c-9b95-d4a170bc550f")
 	)
 	(no_connect
+		(at 54.61 53.34)
+		(uuid "06f577e6-3477-4ddd-a173-d2eb36f2cf0c")
+	)
+	(no_connect
 		(at 371.475 230.505)
 		(uuid "3135bbfc-47a8-4418-8d7d-e827e5d67d86")
 	)
@@ -3518,8 +3559,32 @@
 		(uuid "5254fbc7-6777-4e3b-83c4-ca6fe2f2dbf0")
 	)
 	(no_connect
+		(at 54.61 48.26)
+		(uuid "53351554-1ff4-4e23-a808-c7b11d5dc488")
+	)
+	(no_connect
 		(at 371.475 37.465)
 		(uuid "668e943f-d677-4068-9f5e-ced222c16244")
+	)
+	(no_connect
+		(at 54.61 45.72)
+		(uuid "687741cb-627d-4bff-9cc5-c0f725fccc67")
+	)
+	(no_connect
+		(at 54.61 90.17)
+		(uuid "8a1a8eeb-cc32-4a8a-aeb9-a41c740757ca")
+	)
+	(no_connect
+		(at 52.07 233.045)
+		(uuid "91e9fdb0-e4c4-43c3-935a-6a335b5d6435")
+	)
+	(no_connect
+		(at 54.61 113.03)
+		(uuid "95c443c9-4978-411e-bbd1-abc335720d0f")
+	)
+	(no_connect
+		(at 54.61 105.41)
+		(uuid "9e1b2819-1f08-474b-b9b9-bd825a22f19b")
 	)
 	(no_connect
 		(at 371.475 127.635)
@@ -3534,8 +3599,24 @@
 		(uuid "c73c1194-caee-4b23-baff-8678e7a65d92")
 	)
 	(no_connect
+		(at 54.61 97.79)
+		(uuid "ce116a31-3a6e-490d-8c19-b6596dc00192")
+	)
+	(no_connect
+		(at 69.215 227.965)
+		(uuid "d37bcff9-6f01-49dd-bf29-bab4e7448077")
+	)
+	(no_connect
 		(at 371.475 233.045)
 		(uuid "d52acba6-b91c-45d3-99e2-ec77c2920454")
+	)
+	(no_connect
+		(at 52.07 230.505)
+		(uuid "daeccdda-7697-482f-9782-2775462c4366")
+	)
+	(no_connect
+		(at 54.61 55.88)
+		(uuid "e0d75cab-7918-49b0-90ac-19f13ba75052")
 	)
 	(no_connect
 		(at 371.475 104.775)
@@ -4397,16 +4478,6 @@
 	)
 	(wire
 		(pts
-			(xy -19.685 225.425) (xy 52.07 225.425)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a336a67d-93d2-4579-8e2c-78eb95bd9e59")
-	)
-	(wire
-		(pts
 			(xy 288.925 87.63) (xy 288.925 102.235)
 		)
 		(stroke
@@ -4514,6 +4585,16 @@
 			(type default)
 		)
 		(uuid "bd9c7fd5-556d-4514-8eff-fc8636422537")
+	)
+	(wire
+		(pts
+			(xy 52.07 227.965) (xy 69.215 227.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08b6124-4167-421c-ac06-1b349eeea467")
 	)
 	(wire
 		(pts
@@ -5296,7 +5377,7 @@
 		(uuid "bacf0587-7990-4c2b-b1f1-f6a6ccc65f7d")
 	)
 	(label "BRAKE.LIGHT.PWR"
-		(at 4.445 225.425 180)
+		(at 76.2 225.425 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5354,6 +5435,16 @@
 			(justify left bottom)
 		)
 		(uuid "c7da72e2-3859-4734-b6a6-8a08a980b21e")
+	)
+	(label "PPS"
+		(at 63.5 227.965 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca640846-1baa-4318-97e6-6ec812709578")
 	)
 	(label "DAMPER.RR.SIG"
 		(at 342.9 78.105 0)
@@ -5586,7 +5677,7 @@
 	)
 	(hierarchical_label "{REAR_WING}"
 		(shape input)
-		(at 382.905 218.44 0)
+		(at 382.905 221.615 0)
 		(effects
 			(font
 				(size 1.27 1.27)
