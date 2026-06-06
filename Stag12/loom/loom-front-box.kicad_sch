@@ -9326,9 +9326,9 @@
 		)
 		(uuid "419c9cce-c26a-4d42-8377-329ace73a733")
 	)
-	(text "currently not needed"
+	(text "Wheelspeed sensor shield \ngo to sensorpdm if needed"
 		(exclude_from_sim no)
-		(at 720.09 722.63 0)
+		(at 721.868 725.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9468,6 +9468,17 @@
 			)
 		)
 		(uuid "590d44b6-78b0-407e-b50f-b5e6bfc2dd95")
+	)
+	(text "Other channels not used currently\n(Week before DS - STAG12)"
+		(exclude_from_sim no)
+		(at 708.66 732.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a06c277-0d07-416a-9aec-0e4429f316a3")
 	)
 	(text "Mini PDM"
 		(exclude_from_sim no)
@@ -10086,18 +10097,6 @@
 		)
 		(uuid "caadb714-f168-441a-a3d5-5f1f5f2dcc6a")
 	)
-	(text "might not use?"
-		(exclude_from_sim no)
-		(at 85.09 365.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "cb943e48-7e9c-4c51-9e4d-276815fbfafd")
-	)
 	(text "HSDI_12"
 		(exclude_from_sim no)
 		(at 755.65 337.82 0)
@@ -10349,12 +10348,6 @@
 		(uuid "72e65398-42a9-4684-ba5b-91f261f83953")
 	)
 	(junction
-		(at 749.3 467.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "775a4d47-b13f-43d6-8afa-ccd36cc9308d")
-	)
-	(junction
 		(at 704.85 351.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10395,6 +10388,10 @@
 		(uuid "0498d3a2-f9fe-4a56-b80a-8fcd453ef1ae")
 	)
 	(no_connect
+		(at 52.07 394.97)
+		(uuid "09547e64-df09-4870-a576-1bb88f0e95b4")
+	)
+	(no_connect
 		(at 67.31 62.23)
 		(uuid "0dcc017d-e6c1-4722-8c95-f29967ab91d2")
 	)
@@ -10405,6 +10402,10 @@
 	(no_connect
 		(at 67.31 101.6)
 		(uuid "1fcafbba-56ce-4698-97c9-18917b926c09")
+	)
+	(no_connect
+		(at 52.07 364.49)
+		(uuid "2d2ba5c8-85e4-4832-9435-a26e086824af")
 	)
 	(no_connect
 		(at 67.31 134.62)
@@ -10433,6 +10434,10 @@
 	(no_connect
 		(at 713.74 410.21)
 		(uuid "482d2e6e-72c4-4ba9-84fd-be3fa0677cc2")
+	)
+	(no_connect
+		(at 52.07 367.03)
+		(uuid "4bdd6913-066a-4ecd-8c4c-7ef430bf2270")
 	)
 	(no_connect
 		(at 67.31 139.7)
@@ -11749,16 +11754,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 364.49) (xy 73.66 364.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27479441-257f-453e-a41c-12cb88603b0b")
-	)
-	(wire
-		(pts
 			(xy 57.15 509.27) (xy 388.62 509.27)
 		)
 		(stroke
@@ -12816,16 +12811,6 @@
 	)
 	(wire
 		(pts
-			(xy 750.57 467.36) (xy 749.3 467.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5476c777-1a30-4084-9751-70e4f6279d83")
-	)
-	(wire
-		(pts
 			(xy 208.28 49.53) (xy 313.69 49.53)
 		)
 		(stroke
@@ -13396,16 +13381,6 @@
 			(type default)
 		)
 		(uuid "705f3d4e-3ff1-442c-b8b4-6af9962d96c4")
-	)
-	(wire
-		(pts
-			(xy 52.07 394.97) (xy 77.47 394.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7093fa38-6fec-4469-956e-5c1b919d4610")
 	)
 	(wire
 		(pts
@@ -14509,16 +14484,6 @@
 			(type default)
 		)
 		(uuid "a48d7a1d-ba93-4954-a723-84074f970047")
-	)
-	(wire
-		(pts
-			(xy 52.07 367.03) (xy 76.2 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a490eabb-9620-4f8f-8b47-83e597d817d6")
 	)
 	(wire
 		(pts
@@ -25250,16 +25215,6 @@
 		)
 		(uuid "1794e1dc-ad18-4e7b-a125-cc0d82b65cec")
 	)
-	(label "MPDM.SPARE2.GND"
-		(at 57.15 367.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "179d3c1a-ba8b-4b92-987b-6963863bfd03")
-	)
 	(label "VCU.GND"
 		(at 57.15 379.73 0)
 		(effects
@@ -25863,16 +25818,6 @@
 			(justify left bottom)
 		)
 		(uuid "5e593beb-742d-464a-8350-66bfc70787ca")
-	)
-	(label "MPDM.SPARE2.SHIELD"
-		(at 57.15 394.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62999cfb-4255-4b3d-92df-50273f63d24e")
 	)
 	(label "DASH.TSAL_RED_LED"
 		(at 57.15 415.29 0)
@@ -26625,16 +26570,6 @@
 			(justify left bottom)
 		)
 		(uuid "9e267224-3961-4e39-ad7c-80ddfab03403")
-	)
-	(label "MPDM.SPARE2.PWR"
-		(at 57.15 364.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a047b488-5b0c-4d04-b295-612ed4375e97")
 	)
 	(label "VCU.WHEELSPEED_RL"
 		(at 57.15 483.87 0)
