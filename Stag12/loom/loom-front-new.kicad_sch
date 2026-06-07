@@ -7873,6 +7873,18 @@
 		)
 		(uuid "6280221b-8562-45c8-a2c1-558e03f55240")
 	)
+	(text "SOCKET STUCK IN POSITION 52 DO NOT USE"
+		(exclude_from_sim no)
+		(at 86.106 542.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6a9f3649-d5de-4c75-91a2-58067a0ae9e0")
+	)
 	(text "APPS"
 		(exclude_from_sim no)
 		(at 94.234 152.908 0)
