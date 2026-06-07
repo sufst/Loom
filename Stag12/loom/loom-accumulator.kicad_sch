@@ -9594,10 +9594,6 @@
 		(uuid "7a71132c-4a37-4913-9b83-607feb0ddd07")
 	)
 	(no_connect
-		(at 55.88 113.03)
-		(uuid "7c149b85-2da9-4cc7-8fe1-0b1d27b2b468")
-	)
-	(no_connect
 		(at 311.15 218.44)
 		(uuid "7dda31da-baae-4233-9a68-da9a1f63f41d")
 	)
@@ -10288,6 +10284,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "2db62aa6-cf92-4dde-a1e1-8446680daacd")
+	)
+	(wire
+		(pts
+			(xy 75.565 113.03) (xy 55.88 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f74d78b-2f8f-4ea7-b42b-715387641a8b")
 	)
 	(wire
 		(pts
@@ -11179,6 +11185,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 110.49) (xy 55.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e426b89-acfc-4d8c-8a83-d3ced89383a9")
+	)
+	(wire
+		(pts
 			(xy 106.68 40.64) (xy 106.68 95.25)
 		)
 		(stroke
@@ -11899,6 +11915,16 @@
 			(type default)
 		)
 		(uuid "cdf73d8f-12c1-4bf5-9e26-207b62e19988")
+	)
+	(wire
+		(pts
+			(xy 85.09 107.95) (xy 55.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3e075c-15e0-46b3-8626-cdefd8a5b888")
 	)
 	(wire
 		(pts
@@ -13178,6 +13204,16 @@
 		)
 		(uuid "630f5e24-c449-45d0-a6c0-b06fa25b9322")
 	)
+	(label "ACCU.GND"
+		(at 85.09 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65257b49-a480-4e82-9c55-4e1d120fd88f")
+	)
 	(label "~{HIGH_AIR_MECH_ON}"
 		(at 73.66 369.57 0)
 		(effects
@@ -13287,6 +13323,16 @@
 			(justify left bottom)
 		)
 		(uuid "6dc8edd0-d5ba-45e1-9311-affae70079f3")
+	)
+	(label "ACCU.PWR"
+		(at 75.565 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ee28a4f-9203-433d-9d83-3af6296549e5")
 	)
 	(label "~{TS.DETECTED}"
 		(at 73.66 275.59 0)
@@ -13967,6 +14013,16 @@
 			(justify left bottom)
 		)
 		(uuid "ebe54936-7dcb-49bb-8c6a-82f4bf4b6c69")
+	)
+	(label "ACCU.GND"
+		(at 85.09 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "edda1365-1334-4f8e-a6fb-57ea27f20b1f")
 	)
 	(label "SDC.DISCHARGE"
 		(at 132.08 177.8 90)
