@@ -1100,7 +1100,7 @@
 		)
 		(uuid "2205754b-76ac-40ac-bae5-c0b7f5447e00")
 	)
-	(label "FSUK.DL.GND"
+	(label "FSUK_DL.GND"
 		(at 53.975 99.695 0)
 		(effects
 			(font
@@ -1170,7 +1170,7 @@
 		)
 		(uuid "4e39c1a3-19cc-4504-a6cd-50db832083c8")
 	)
-	(label "CAN.FSUK.L"
+	(label "CAN.COMP.L"
 		(at 53.9732 97.155 0)
 		(effects
 			(font
@@ -1270,7 +1270,7 @@
 		)
 		(uuid "a17169b3-8331-4fa2-a54a-eb634d434ab1")
 	)
-	(label "CAN.FSUK.H"
+	(label "CAN.COMP.H"
 		(at 53.975 94.615 0)
 		(effects
 			(font
@@ -1290,7 +1290,7 @@
 		)
 		(uuid "c6211f5e-09de-4ce9-8305-e6055f6d0ebe")
 	)
-	(label "FSUK.DL.PWR"
+	(label "COMP_DL.PWR"
 		(at 53.9732 92.075 0)
 		(effects
 			(font
