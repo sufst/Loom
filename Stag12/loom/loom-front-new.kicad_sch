@@ -7870,7 +7870,7 @@
 		)
 		(uuid "ca626b90-8460-4321-b217-95f14863b79b")
 	)
-	(text "Firewall to Pedalbox Length: 130 cm"
+	(text "Dashbox to Pedalbox Length: 130 cm"
 		(exclude_from_sim no)
 		(at 184.404 27.94 0)
 		(effects
@@ -7918,7 +7918,7 @@
 		)
 		(uuid "db408459-03c9-4841-b4e1-06199d9c66f6")
 	)
-	(text "Wire Idents:\n\nRTDS - BLUE\nTSREADY - White+Yellow\nTSON - White+Red\nAMS - White+Blue\nIMD - White+Green\nCAN-S - Blue\nCAN-T - Black\nBrakelight - Red\nFAN PWM L - Yellow+Black\nFAN PWM R - Black + Yellow\nRR Wheelspeed - Black\nRL Wheelspeed - Brown\nCurrent sense - Red\nRS232 GPS - Grey\nRS232 VCU - Green\n\n\nTwisted pair - Red is CAN Hi / RS232 Tx"
+	(text "Wire Idents:\n\nRTDS - BLUE\nTSREADY - White+Yellow\nTSON - White+Red\nAMS - White+Blue\nIMD - White+Green\nCAN-S - Blue\nCAN-T - Black\nBrakelight - Red\nFAN PWM L - Yellow+Black\nFAN PWM R - Black + Yellow\nRR Wheelspeed - Black\nRL Wheelspeed - Brown\nCurrent sense - Red\nRS232 GPS - Grey\nRS232 VCU - Green\nBSPD CT - RED\n\n\nTwisted pair - Red is CAN Hi / RS232 Tx"
 		(exclude_from_sim no)
 		(at 14.478 493.522 0)
 		(effects
