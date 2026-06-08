@@ -3924,6 +3924,18 @@
 		)
 		(uuid "20d8deb0-fc8a-4649-827b-e451a59af3e1")
 	)
+	(text "BOTTOM LEFT"
+		(exclude_from_sim no)
+		(at 35.814 57.404 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "22b67469-161d-4f4b-b144-123063362e15")
+	)
 	(text "Not enough inputs on sensor hub\nRoute signal so possible to\nreplace tach or temp"
 		(exclude_from_sim no)
 		(at 74.676 230.124 0)
@@ -3955,9 +3967,9 @@
 		)
 		(uuid "622dfa28-164f-429f-be44-3456b160453f")
 	)
-	(text "ADC\nGND\n3V3"
+	(text "L5\nGND\n3V3"
 		(exclude_from_sim no)
-		(at 44.45 88.9 0)
+		(at 44.45 87.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3965,7 +3977,7 @@
 		)
 		(uuid "6d0836b7-39f1-497a-84c8-bc3ab559c4fc")
 	)
-	(text "ADC\nGND\n3V3"
+	(text "L4\nGND\n3V3"
 		(exclude_from_sim no)
 		(at 44.45 68.58 0)
 		(effects
@@ -3985,7 +3997,7 @@
 		)
 		(uuid "767b6227-eea2-40ff-b247-91af242fa5fa")
 	)
-	(text "ADC\nGND\n3V3"
+	(text "L3\nGND\n3V3"
 		(exclude_from_sim no)
 		(at 44.45 60.96 0)
 		(effects
@@ -4016,7 +4028,19 @@
 		)
 		(uuid "80612307-0189-4136-8635-e83381b6cdff")
 	)
-	(text "ADC\nGND\n3V3"
+	(text "TOP LEFT"
+		(exclude_from_sim no)
+		(at 35.814 99.568 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "808efe24-5a68-4edc-bc1e-b16b0a753525")
+	)
+	(text "L1\nGND\n3V3"
 		(exclude_from_sim no)
 		(at 44.45 45.72 0)
 		(effects
@@ -4026,7 +4050,7 @@
 		)
 		(uuid "82d27429-19c5-4588-9351-e399ea3ab349")
 	)
-	(text "ADC\nGND\n3V3"
+	(text "L2\nGND\n3V3"
 		(exclude_from_sim no)
 		(at 44.45 53.34 0)
 		(effects
@@ -4056,7 +4080,7 @@
 		)
 		(uuid "b3f2cd6d-2577-43e8-8ff7-41f6d7fcfe12")
 	)
-	(text "ADC\nGND\n3V3"
+	(text "L8\nGND\n3V3"
 		(exclude_from_sim no)
 		(at 44.45 110.49 0)
 		(effects
@@ -4076,7 +4100,7 @@
 		)
 		(uuid "b8420634-8922-4aec-9d9a-90d30a6c4638")
 	)
-	(text "ADC\nGND\n3V3"
+	(text "L7\nGND\n3V3"
 		(exclude_from_sim no)
 		(at 44.45 102.87 0)
 		(effects
@@ -4140,9 +4164,9 @@
 		)
 		(uuid "fe5fc107-7e86-4d36-b6e4-5189f8b711f4")
 	)
-	(text "ADC\nGND\n3V3"
+	(text "L6\nGND\n3V3"
 		(exclude_from_sim no)
-		(at 44.45 96.52 0)
+		(at 44.45 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
