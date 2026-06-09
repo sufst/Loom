@@ -7395,6 +7395,17 @@
 		)
 		(uuid "0ad0bb6b-d30c-4020-8d93-869a938b177a")
 	)
+	(text "Wire Idents:\n\nAPPS1 - Blue\nAPPS2 - Green\nBPS F - Grey\nBPS R - Yellow\nCAN-S - Blue\nGPS PPS - Red + Blue\n\nTwisted pair - Red is CAN Hi"
+		(exclude_from_sim no)
+		(at 24.13 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d513593-4636-4bce-b54c-184ece95cdb4")
+	)
 	(text "Front power spliced at firewall"
 		(exclude_from_sim no)
 		(at 112.268 375.412 0)
@@ -7602,18 +7613,6 @@
 			)
 		)
 		(uuid "6280221b-8562-45c8-a2c1-558e03f55240")
-	)
-	(text "SOCKET STUCK IN POSITION 52 DO NOT USE"
-		(exclude_from_sim no)
-		(at 86.106 542.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "6a9f3649-d5de-4c75-91a2-58067a0ae9e0")
 	)
 	(text "APPS"
 		(exclude_from_sim no)
