@@ -10121,6 +10121,16 @@
 		)
 		(uuid "cd040702-21dd-4207-a961-dde2bc7cc24e")
 	)
+	(text "CAN ACTUALLY GOES TO SENSOR HUB FIRST THEN GPS THEN DASH!"
+		(exclude_from_sim no)
+		(at 202.184 34.798 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "d1abb838-d6c9-4260-858d-2be2d4f794ba")
+	)
 	(text "BOTTOM RIGHT"
 		(exclude_from_sim no)
 		(at 48.26 183.896 0)
