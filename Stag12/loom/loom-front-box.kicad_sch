@@ -9104,7 +9104,7 @@
 	)
 	(text "HSDI_11"
 		(exclude_from_sim no)
-		(at 755.65 335.28 0)
+		(at 755.65 336.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9176,7 +9176,7 @@
 	)
 	(text "HSDI_7"
 		(exclude_from_sim no)
-		(at 755.65 325.12 0)
+		(at 755.65 326.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9424,7 +9424,7 @@
 	)
 	(text "HSDI_6"
 		(exclude_from_sim no)
-		(at 755.65 322.58 0)
+		(at 755.65 323.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9447,7 +9447,7 @@
 	)
 	(text "HSDI_14"
 		(exclude_from_sim no)
-		(at 755.65 342.9 0)
+		(at 755.65 344.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9529,7 +9529,7 @@
 	)
 	(text "HSDI_9"
 		(exclude_from_sim no)
-		(at 755.65 330.2 0)
+		(at 755.65 331.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9621,7 +9621,7 @@
 	)
 	(text "HSDI_5"
 		(exclude_from_sim no)
-		(at 755.65 320.04 0)
+		(at 755.65 321.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9795,7 +9795,7 @@
 	)
 	(text "HSDI_3"
 		(exclude_from_sim no)
-		(at 755.65 314.96 0)
+		(at 755.65 316.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9807,7 +9807,7 @@
 	)
 	(text "HSDI_10"
 		(exclude_from_sim no)
-		(at 755.65 332.74 0)
+		(at 755.65 334.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9819,7 +9819,7 @@
 	)
 	(text "HSDI_2"
 		(exclude_from_sim no)
-		(at 755.65 312.42 0)
+		(at 755.65 313.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9935,7 +9935,7 @@
 	)
 	(text "HSDI_1"
 		(exclude_from_sim no)
-		(at 755.65 309.88 0)
+		(at 755.65 311.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9947,7 +9947,7 @@
 	)
 	(text "HSDI_13"
 		(exclude_from_sim no)
-		(at 755.65 340.36 0)
+		(at 755.65 341.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10099,7 +10099,7 @@
 	)
 	(text "HSDI_12"
 		(exclude_from_sim no)
-		(at 755.65 337.82 0)
+		(at 755.65 339.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10120,6 +10120,16 @@
 			)
 		)
 		(uuid "cd040702-21dd-4207-a961-dde2bc7cc24e")
+	)
+	(text "CAN ACTUALLY GOES TO SENSOR HUB FIRST THEN GPS THEN DASH!"
+		(exclude_from_sim no)
+		(at 202.184 34.798 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "d1abb838-d6c9-4260-858d-2be2d4f794ba")
 	)
 	(text "BOTTOM RIGHT"
 		(exclude_from_sim no)
@@ -10181,7 +10191,7 @@
 	)
 	(text "HSDI_4"
 		(exclude_from_sim no)
-		(at 755.65 317.5 0)
+		(at 755.65 318.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10249,7 +10259,7 @@
 	)
 	(text "HSDI_8"
 		(exclude_from_sim no)
-		(at 755.65 327.66 0)
+		(at 755.65 328.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
