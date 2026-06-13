@@ -730,6 +730,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DB9"
+		(exclude_from_sim no)
+		(at 222.25 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59bded3c-b3f8-47eb-ae36-2d26ca92779d")
+	)
 	(text "Might be\n09 9764 70 04\n\nWarwick might know?"
 		(exclude_from_sim no)
 		(at 233.172 114.554 0)
@@ -739,6 +749,14 @@
 			)
 		)
 		(uuid "f6d47269-ef0c-49ec-b337-2e3239722714")
+	)
+	(no_connect
+		(at 52.705 114.935)
+		(uuid "17b4452c-37e1-4e05-9386-f13d8b93e8a9")
+	)
+	(no_connect
+		(at 52.705 112.395)
+		(uuid "aeb78ea7-bc13-4043-b66e-b031382d70c5")
 	)
 	(wire
 		(pts
@@ -752,6 +770,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.705 107.315) (xy 121.285 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06784317-3fae-4540-83de-9f19a59b94c7")
+	)
+	(wire
+		(pts
 			(xy 181.61 50.8) (xy 215.9 50.8)
 		)
 		(stroke
@@ -762,6 +790,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 130.175) (xy 201.2968 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126ee292-4c58-441b-8382-969e8c4e18c6")
+	)
+	(wire
+		(pts
 			(xy 52.705 92.075) (xy 148.59 92.075)
 		)
 		(stroke
@@ -769,6 +807,26 @@
 			(type default)
 		)
 		(uuid "179d1468-28b3-4b7a-97e5-da68098b84da")
+	)
+	(wire
+		(pts
+			(xy 201.295 132.715) (xy 121.285 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc537ce-65e0-421f-9870-2a48d081dac9")
+	)
+	(wire
+		(pts
+			(xy 201.2968 127.635) (xy 127 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d572ec-6e9c-454a-ab88-2115a6fd444b")
 	)
 	(wire
 		(pts
@@ -792,6 +850,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.705 104.775) (xy 124.46 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce855ff-0e7a-486d-8dd7-9db8ea1a8fd2")
+	)
+	(wire
+		(pts
 			(xy 151.13 95.885) (xy 214.63 95.885)
 		)
 		(stroke
@@ -812,6 +880,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 109.855) (xy 118.11 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48566770-14a9-40c3-b08f-12f7e9e20be9")
+	)
+	(wire
+		(pts
 			(xy 52.705 71.755) (xy 143.51 71.755)
 		)
 		(stroke
@@ -829,6 +907,16 @@
 			(type default)
 		)
 		(uuid "52cecf6b-2f73-4364-9025-3e6ac3712813")
+	)
+	(wire
+		(pts
+			(xy 127 127.635) (xy 127 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ebd30c-911a-4ef8-9ba5-925353205168")
 	)
 	(wire
 		(pts
@@ -892,6 +980,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 104.775) (xy 124.46 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a9e263-511f-47e1-ab66-e1f12de06dac")
+	)
+	(wire
+		(pts
 			(xy 140.97 112.395) (xy 214.63 112.395)
 		)
 		(stroke
@@ -899,6 +997,26 @@
 			(type default)
 		)
 		(uuid "83ad3079-8136-48a2-8f03-aedf74502373")
+	)
+	(wire
+		(pts
+			(xy 118.11 135.255) (xy 201.2968 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a313c96-faa0-48eb-b89b-bdf753e52657")
+	)
+	(wire
+		(pts
+			(xy 121.285 132.715) (xy 121.285 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9007f7cb-55b9-425d-b4d2-23f97654dbed")
 	)
 	(wire
 		(pts
@@ -912,6 +1030,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.705 102.235) (xy 127 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d13b15f-9f1a-4d81-8519-12114585052e")
+	)
+	(wire
+		(pts
 			(xy 179.07 48.26) (xy 215.9 48.26)
 		)
 		(stroke
@@ -919,6 +1047,16 @@
 			(type default)
 		)
 		(uuid "aa303a08-76c4-432f-83d0-23a62f0c3f42")
+	)
+	(wire
+		(pts
+			(xy 52.705 109.855) (xy 118.11 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafe3fc7-0c71-4166-bf02-d3515a6af59d")
 	)
 	(wire
 		(pts
@@ -1080,7 +1218,17 @@
 		)
 		(uuid "01421086-ea3d-484c-be6e-de42d0cc7559")
 	)
-	(label "R2D.PWR"
+	(label "AIRBRIDGE.PWR"
+		(at 201.2968 127.635 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "069d445c-0a0c-4253-8fbf-291be9d0469d")
+	)
+	(label "RTDS+"
 		(at 53.9732 86.995 0)
 		(effects
 			(font
@@ -1089,6 +1237,16 @@
 			(justify left bottom)
 		)
 		(uuid "17cef667-ce01-4ab9-a217-111957b29378")
+	)
+	(label "CAN.T.H"
+		(at 53.975 104.775 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1929d3f8-b1b7-4cbb-a98c-e4323b08293e")
 	)
 	(label "SDC.R-SW"
 		(at 200.025 66.04 0)
@@ -1140,6 +1298,16 @@
 		)
 		(uuid "330c7a3f-a76e-407e-a9f1-d428869d1f84")
 	)
+	(label "AIRBRIDGE.GND"
+		(at 201.2968 135.255 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3562b147-1bcb-4111-ba9f-4983dece3c39")
+	)
 	(label "SDC.FRONT"
 		(at 53.9732 74.295 0)
 		(effects
@@ -1160,7 +1328,7 @@
 		)
 		(uuid "4836e632-d2de-41ef-b565-4d059ca0e22c")
 	)
-	(label "R2D.GND"
+	(label "RTDS-"
 		(at 53.975 89.535 0)
 		(effects
 			(font
@@ -1179,6 +1347,26 @@
 			(justify left bottom)
 		)
 		(uuid "559dcea1-ed41-4403-a048-8c637a449e04")
+	)
+	(label "CAN.T.L"
+		(at 53.9732 107.315 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59815e37-70ee-4722-813c-571357002bcf")
+	)
+	(label "CAN.T.L"
+		(at 201.295 132.715 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fb72d21-0f8c-4f25-9717-cf999089396b")
 	)
 	(label "TSAL.GND"
 		(at 200.025 84.455 0)
@@ -1230,6 +1418,16 @@
 		)
 		(uuid "81e2f3ad-5374-4002-ad4d-6ef5bb8e1918")
 	)
+	(label "CAN.T.H"
+		(at 201.2968 130.175 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82ce62d5-192d-4116-8741-6215146e1cbe")
+	)
 	(label "CAN.FSUK.L"
 		(at 200.0232 109.855 0)
 		(effects
@@ -1240,7 +1438,7 @@
 		)
 		(uuid "888b7b96-794c-47b8-abc6-5cea48f29171")
 	)
-	(label "R2D.PWR"
+	(label "RTDS+"
 		(at 200.0232 93.345 0)
 		(effects
 			(font
@@ -1259,6 +1457,26 @@
 			(justify left bottom)
 		)
 		(uuid "959ea6cd-1688-476b-a60f-8ab948e6d490")
+	)
+	(label "AIRBRIDGE.PWR"
+		(at 53.975 102.235 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95cc0beb-6d7d-4d09-8e26-05ff298bea47")
+	)
+	(label "AIRBRIDGE.GND"
+		(at 53.975 109.855 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a4912de-bc75-4e60-b97b-d737c7e26392")
 	)
 	(label "TSAL.GRN.EN"
 		(at 54.0319 81.915 0)
@@ -1310,7 +1528,7 @@
 		)
 		(uuid "cc90ad54-1263-4cdd-91f0-22eccbfce92f")
 	)
-	(label "R2D.GND"
+	(label "RTDS-"
 		(at 200.025 95.885 0)
 		(effects
 			(font
