@@ -3938,7 +3938,7 @@
 	)
 	(text "Not enough inputs on sensor hub\nRoute signal so possible to\nreplace tach or temp"
 		(exclude_from_sim no)
-		(at 74.676 230.124 0)
+		(at 72.136 234.188 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4181,22 +4181,22 @@
 		(uuid "1e04f14d-0f02-407a-b8db-02e7b46adf4a")
 	)
 	(junction
-		(at 102.87 222.885)
+		(at 100.33 217.805)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5bebcd5a-ad6e-42ca-bea3-22472b1989b6")
+		(uuid "23f993f3-afbc-447b-987e-5f9f9a7394cb")
+	)
+	(junction
+		(at 327.66 222.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4afab971-32c9-47cd-b5a0-d9e4f768387f")
 	)
 	(junction
 		(at 119.38 212.725)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "651a9a23-1cff-45d1-a9e6-2b292ed49a19")
-	)
-	(junction
-		(at 328.295 222.885)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79df240c-7589-4c94-b40b-cb70ee34f01a")
 	)
 	(junction
 		(at 31.115 262.89)
@@ -4223,6 +4223,12 @@
 		(uuid "ae777105-a982-4040-9213-77f1ddc33d91")
 	)
 	(junction
+		(at 102.87 220.345)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c717d080-8bba-4f77-8573-d0076a14892f")
+	)
+	(junction
 		(at 325.755 225.425)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4233,12 +4239,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c771d3c1-d1f1-4e4f-9bd8-2ccb84fc5cce")
-	)
-	(junction
-		(at 100.33 220.345)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c86bddde-f392-4454-999f-cfbdb87b6803")
 	)
 	(junction
 		(at 114.3 212.725)
@@ -4273,6 +4273,10 @@
 	(no_connect
 		(at 54.61 48.26)
 		(uuid "53351554-1ff4-4e23-a808-c7b11d5dc488")
+	)
+	(no_connect
+		(at 69.215 230.505)
+		(uuid "6010fe4c-7424-47a5-afce-79b5fc8372b1")
 	)
 	(no_connect
 		(at 371.475 37.465)
@@ -4315,16 +4319,8 @@
 		(uuid "ce116a31-3a6e-490d-8c19-b6596dc00192")
 	)
 	(no_connect
-		(at 69.215 227.965)
-		(uuid "d37bcff9-6f01-49dd-bf29-bab4e7448077")
-	)
-	(no_connect
 		(at 371.475 233.045)
 		(uuid "d52acba6-b91c-45d3-99e2-ec77c2920454")
-	)
-	(no_connect
-		(at 52.07 230.505)
-		(uuid "daeccdda-7697-482f-9782-2775462c4366")
 	)
 	(no_connect
 		(at 54.61 55.88)
@@ -4367,6 +4363,16 @@
 			(type default)
 		)
 		(uuid "02c06d7c-def5-4b25-ba81-7fe925bda129")
+	)
+	(wire
+		(pts
+			(xy 327.66 222.885) (xy 371.475 222.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043c342f-d651-4b18-bdd1-6a69d31221a9")
 	)
 	(wire
 		(pts
@@ -4510,7 +4516,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 128.27) (xy 102.87 222.885)
+			(xy 102.87 128.27) (xy 102.87 220.345)
 		)
 		(stroke
 			(width 0.5)
@@ -4547,16 +4553,6 @@
 			(type default)
 		)
 		(uuid "21be9706-0c45-45b8-b1ad-71275be63e39")
-	)
-	(wire
-		(pts
-			(xy 328.295 220.345) (xy 371.475 220.345)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "23e666cd-6457-41b6-852c-a21ed47ab960")
 	)
 	(wire
 		(pts
@@ -4610,23 +4606,13 @@
 	)
 	(wire
 		(pts
-			(xy 325.755 220.345) (xy 325.755 217.805)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "2f9f4e5c-5ed2-4c34-9e13-8efb86dbc1e4")
-	)
-	(wire
-		(pts
-			(xy 350.52 222.885) (xy 371.475 222.885)
+			(xy 327.66 243.205) (xy 372.11 243.205)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3114be4c-083e-4875-8043-9ec9cfd39ccc")
+		(uuid "30db9eb0-440f-401c-a244-c9605b5e2547")
 	)
 	(wire
 		(pts
@@ -4640,7 +4626,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 130.81) (xy 100.33 220.345)
+			(xy 100.33 130.81) (xy 100.33 217.805)
 		)
 		(stroke
 			(width 0.5)
@@ -4657,16 +4643,6 @@
 			(type default)
 		)
 		(uuid "33c69128-7ad7-47dd-aa97-9454b8c8b904")
-	)
-	(wire
-		(pts
-			(xy 328.295 243.205) (xy 372.11 243.205)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "346b1b90-d428-4444-9931-2c6acf9b2835")
 	)
 	(wire
 		(pts
@@ -4700,16 +4676,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.295 243.205) (xy 328.295 222.885)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "38cf8253-977e-4a3c-a257-4814c0a88de5")
-	)
-	(wire
-		(pts
 			(xy 264.795 125.095) (xy 264.795 110.49)
 		)
 		(stroke
@@ -4727,6 +4693,16 @@
 			(type default)
 		)
 		(uuid "3b06b6af-1a72-4173-aa79-2c0bcd3a8772")
+	)
+	(wire
+		(pts
+			(xy 238.76 225.425) (xy 52.07 225.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2c4cae-8bcd-41fd-8c70-75ef12cf9521")
 	)
 	(wire
 		(pts
@@ -4770,6 +4746,26 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 222.885) (xy 238.76 225.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eee86d6-5758-4cb9-8b77-109b87a25c12")
+	)
+	(wire
+		(pts
+			(xy 52.07 227.965) (xy 243.84 227.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4011f213-d131-4980-93e1-504588d420d3")
+	)
+	(wire
+		(pts
 			(xy 54.61 66.04) (xy 307.34 66.04)
 		)
 		(stroke
@@ -4807,16 +4803,6 @@
 			(type default)
 		)
 		(uuid "481ebb16-49f8-4faf-8bb7-ed3f16f512b7")
-	)
-	(wire
-		(pts
-			(xy 328.295 222.885) (xy 371.475 222.885)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "486684f3-f925-42e8-baca-b84c66c0fb29")
 	)
 	(wire
 		(pts
@@ -4930,6 +4916,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 227.965) (xy 243.84 225.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d08a4c-205b-4d61-8a32-6ae1fe2ece7d")
+	)
+	(wire
+		(pts
 			(xy 52.07 189.865) (xy 163.83 189.865)
 		)
 		(stroke
@@ -5010,6 +5006,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 220.345) (xy 102.87 222.885)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "70fb973c-33cb-4c24-be23-53f1dd754f01")
+	)
+	(wire
+		(pts
 			(xy 128.905 27.305) (xy 128.905 177.165)
 		)
 		(stroke
@@ -5050,6 +5056,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 225.425) (xy 325.755 225.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c79e6c-be2c-49be-b8fe-00447bc7991a")
+	)
+	(wire
+		(pts
 			(xy 283.845 107.315) (xy 371.475 107.315)
 		)
 		(stroke
@@ -5070,7 +5086,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 222.885) (xy 328.295 222.885)
+			(xy 102.87 220.345) (xy 371.475 220.345)
 		)
 		(stroke
 			(width 0.5)
@@ -5087,16 +5103,6 @@
 			(type default)
 		)
 		(uuid "78b5868b-6971-48cb-a504-a80d5565e049")
-	)
-	(wire
-		(pts
-			(xy 52.07 225.425) (xy 325.755 225.425)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ad58ff6-f2a1-4711-9efb-cbe611a01560")
 	)
 	(wire
 		(pts
@@ -5127,16 +5133,6 @@
 			(type default)
 		)
 		(uuid "853c3945-bddf-47f0-a510-bbd2bf5d602d")
-	)
-	(wire
-		(pts
-			(xy 325.755 217.805) (xy 371.475 217.805)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "85a58c15-c7d5-4c63-bc15-4e17edae2ea2")
 	)
 	(wire
 		(pts
@@ -5240,7 +5236,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 220.345) (xy 325.755 220.345)
+			(xy 100.33 217.805) (xy 371.475 217.805)
 		)
 		(stroke
 			(width 0.5)
@@ -5460,13 +5456,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 227.965) (xy 69.215 227.965)
+			(xy 327.66 222.885) (xy 238.76 222.885)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c08b6124-4167-421c-ac06-1b349eeea467")
+		(uuid "bed2d7a4-96e0-4369-aad1-09c7b3ed8829")
 	)
 	(wire
 		(pts
@@ -5477,6 +5473,16 @@
 			(type default)
 		)
 		(uuid "c1b71485-ba08-4fa8-a715-821b36c8aeb0")
+	)
+	(wire
+		(pts
+			(xy 100.33 217.805) (xy 100.33 220.345)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "c26f94bc-dc76-4a3e-bf43-52d35d575297")
 	)
 	(wire
 		(pts
@@ -5610,6 +5616,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 230.505) (xy 69.215 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de383cd1-b839-4c50-9c9a-4b7e7189dc9c")
+	)
+	(wire
+		(pts
 			(xy 31.115 262.89) (xy 43.18 262.89)
 		)
 		(stroke
@@ -5627,6 +5643,16 @@
 			(type default)
 		)
 		(uuid "e072f5c0-1aec-4119-9de7-9d04f622966f")
+	)
+	(wire
+		(pts
+			(xy 327.66 243.205) (xy 327.66 222.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2aeef37-78a4-4f8f-b58a-812cbc0311a8")
 	)
 	(wire
 		(pts
@@ -5728,26 +5754,6 @@
 		)
 		(uuid "faffdd70-bcf5-4fe0-b429-29b8dcbbae0a")
 	)
-	(wire
-		(pts
-			(xy 328.295 222.885) (xy 328.295 220.345)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "fd799152-a8d1-4d45-8e32-fac4b415d437")
-	)
-	(label "BRAKE.LIGHT.PWR"
-		(at 351.79 245.745 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "00da35d1-ecda-4825-802b-1f008909c5a9")
-	)
 	(label "COOLANT_TEMP.L.OUT.SIG"
 		(at 342.9 107.315 0)
 		(effects
@@ -5788,16 +5794,6 @@
 		)
 		(uuid "09213782-5228-4732-a612-83da4afde08b")
 	)
-	(label "BRAKE.LIGHT.PWR"
-		(at 350.52 225.425 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c4ca160-50ff-4d50-992b-0d6feb0a7065")
-	)
 	(label "WHEELSPEED.RL.SIG"
 		(at 76.2 194.945 180)
 		(effects
@@ -5808,7 +5804,7 @@
 		)
 		(uuid "114f424b-443a-46ce-b36c-f2964c9d600b")
 	)
-	(label "FAN.24V"
+	(label "FAN.24V.PWR"
 		(at 76.2 182.245 180)
 		(effects
 			(font
@@ -5827,6 +5823,16 @@
 			(justify right bottom)
 		)
 		(uuid "15191922-396c-4e22-b069-c4cb2d96c6ae")
+	)
+	(label "PPS"
+		(at 63.5 230.505 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15a001f5-1011-4d94-926f-6e0511bdc23a")
 	)
 	(label "FAN.R.GND"
 		(at 167.64 182.245 90)
@@ -5998,16 +6004,6 @@
 		)
 		(uuid "4a24896f-fb81-4ab8-a8ad-9aec163636d7")
 	)
-	(label "BRAKE.LIGHT.GND"
-		(at 350.52 222.885 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ba15234-b7ad-43c9-b139-77f1ec41363c")
-	)
 	(label "WHEELSPEED.RR.SHIELD"
 		(at 76.2 210.185 180)
 		(effects
@@ -6157,6 +6153,16 @@
 			(justify left bottom)
 		)
 		(uuid "80e4d5e9-46e1-44cf-a6c3-794f6a42f585")
+	)
+	(label "BRAKELIGHT.GND"
+		(at 350.52 225.425 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82165b4e-26b7-4cde-8d68-8ea0b6fa64d9")
 	)
 	(label "COOLANT_TEMP.R.IN.SIG"
 		(at 59.055 100.33 0)
@@ -6348,7 +6354,7 @@
 		)
 		(uuid "bacf0587-7990-4c2b-b1f1-f6a6ccc65f7d")
 	)
-	(label "BRAKE.LIGHT.PWR"
+	(label "BRAKELIGHT.PWR"
 		(at 76.2 225.425 180)
 		(effects
 			(font
@@ -6388,8 +6394,8 @@
 		)
 		(uuid "c34c9684-d9ed-44ca-adef-ff1ec907416f")
 	)
-	(label "BRAKE.LIGHT.GND"
-		(at 351.79 243.205 0)
+	(label "BRAKELIGHT.GND"
+		(at 351.79 245.745 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6407,16 +6413,6 @@
 			(justify left bottom)
 		)
 		(uuid "c7da72e2-3859-4734-b6a6-8a08a980b21e")
-	)
-	(label "PPS"
-		(at 63.5 227.965 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca640846-1baa-4318-97e6-6ec812709578")
 	)
 	(label "DAMPER.RR.SIG"
 		(at 342.9 78.105 0)
@@ -6487,6 +6483,26 @@
 			(justify left bottom)
 		)
 		(uuid "daf6c8a0-a1a5-4d97-9f1a-8be4c18b64d5")
+	)
+	(label "BRAKELIGHT.PWR"
+		(at 351.79 243.205 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd1081d6-6624-4d95-b3e7-19649f7bf52d")
+	)
+	(label "BRAKELIGHT.PWR"
+		(at 350.52 222.885 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddc22c11-c2c2-4454-9921-8ff0b1f9a957")
 	)
 	(label "CAN.S.L"
 		(at 76.2 215.265 180)
@@ -6567,6 +6583,16 @@
 			(justify left bottom)
 		)
 		(uuid "f3aa280f-acd1-4647-bd9c-e26590bacf9a")
+	)
+	(label "BRAKELIGHT.GND"
+		(at 76.2 227.965 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4226a9f-fade-4d75-a5c0-679ae7aa0fce")
 	)
 	(label "DAMPER.RR.PWR"
 		(at 58.42 71.12 0)
