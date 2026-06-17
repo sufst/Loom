@@ -482,14 +482,13 @@
         "bus_width": 20,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -498,16 +497,24 @@
       },
       {
         "bus_width": 20,
+        "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 10
+      },
+      {
+        "bus_width": 20,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Shutdown",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -528,6 +535,66 @@
       {
         "netclass": "CAN",
         "pattern": "/*/CAN*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/PDM.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/ACCU.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/AIRBRIDGE.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/FS_DATALOGGER.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/MEMORATA.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/DASHBOX.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/FRONT.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/BSPD.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/L120.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/LVBOX.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/SIDE-PANEL.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/PUMP2.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/PUMP1.GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/LOOM - REAR/FAN.PWR"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/FAN.GND"
       }
     ]
   },
