@@ -9326,9 +9326,9 @@
 		)
 		(uuid "419c9cce-c26a-4d42-8377-329ace73a733")
 	)
-	(text "Wheelspeed sensor shield \ngo to sensorpdm if needed"
+	(text "Wheelspeed sensors to use spare 4 and 5\nSpare 3 shield used for CT shield"
 		(exclude_from_sim no)
-		(at 721.868 725.17 0)
+		(at 729.996 726.186 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10446,6 +10446,10 @@
 		(uuid "482d2e6e-72c4-4ba9-84fd-be3fa0677cc2")
 	)
 	(no_connect
+		(at 52.07 273.05)
+		(uuid "4b267069-8a30-430d-9426-4ed5b7efa2e4")
+	)
+	(no_connect
 		(at 52.07 367.03)
 		(uuid "4bdd6913-066a-4ecd-8c4c-7ef430bf2270")
 	)
@@ -10665,6 +10669,16 @@
 	)
 	(wire
 		(pts
+			(xy 450.85 660.4) (xy 734.06 660.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c3fe82-c9f5-4bb4-b837-d645be445b6c")
+	)
+	(wire
+		(pts
 			(xy 511.81 114.3) (xy 645.16 114.3)
 		)
 		(stroke
@@ -10755,16 +10769,6 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 678.18) (xy 734.06 678.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "077691b0-fbed-4acc-842f-41ade5711d31")
-	)
-	(wire
-		(pts
 			(xy 476.25 99.06) (xy 476.25 111.76)
 		)
 		(stroke
@@ -10802,6 +10806,16 @@
 			(type default)
 		)
 		(uuid "09789196-791a-43b5-a5f3-45ab51ecef2a")
+	)
+	(wire
+		(pts
+			(xy 734.06 675.64) (xy 443.23 675.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a069739-0a43-421a-b66a-cc39d5eed2fb")
 	)
 	(wire
 		(pts
@@ -11007,6 +11021,16 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 673.1) (xy 734.06 673.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1122ac42-0d33-4b3e-ba40-33247d8652df")
+	)
+	(wire
+		(pts
 			(xy 274.32 402.59) (xy 274.32 184.15)
 		)
 		(stroke
@@ -11124,6 +11148,16 @@
 			(type default)
 		)
 		(uuid "144d1cb5-a31e-462d-8f2e-4666833f7d3a")
+	)
+	(wire
+		(pts
+			(xy 405.13 652.78) (xy 734.06 652.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14827c46-cc52-4920-8b76-fe47a6e9d742")
 	)
 	(wire
 		(pts
@@ -11835,6 +11869,16 @@
 	)
 	(wire
 		(pts
+			(xy 453.39 662.94) (xy 734.06 662.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2967d7c0-9c36-45f9-b2b8-b6f407e1f718")
+	)
+	(wire
+		(pts
 			(xy 52.07 331.47) (xy 177.8 331.47)
 		)
 		(stroke
@@ -12014,16 +12058,6 @@
 			(type default)
 		)
 		(uuid "3296ed30-10d6-49e9-9572-02d42564c2e0")
-	)
-	(wire
-		(pts
-			(xy 443.23 660.4) (xy 734.06 660.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32a6b711-6fa7-4074-8eb2-d270a17ca1a5")
 	)
 	(wire
 		(pts
@@ -12700,16 +12734,6 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 668.02) (xy 734.06 668.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5024389f-5ae9-48e0-ae8f-e25582a06e78")
-	)
-	(wire
-		(pts
 			(xy 330.2 240.03) (xy 330.2 478.79)
 		)
 		(stroke
@@ -12760,7 +12784,7 @@
 	)
 	(wire
 		(pts
-			(xy 443.23 354.33) (xy 443.23 660.4)
+			(xy 443.23 354.33) (xy 443.23 675.64)
 		)
 		(stroke
 			(width 0)
@@ -13072,6 +13096,16 @@
 	)
 	(wire
 		(pts
+			(xy 440.69 680.72) (xy 734.06 680.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629be0b6-acc5-4fd9-8419-026f97f82bf2")
+	)
+	(wire
+		(pts
 			(xy 52.07 313.69) (xy 396.24 313.69)
 		)
 		(stroke
@@ -13153,6 +13187,16 @@
 	)
 	(wire
 		(pts
+			(xy 420.37 665.48) (xy 734.06 665.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662a758b-6ea3-49a4-a1a9-150c5c379497")
+	)
+	(wire
+		(pts
 			(xy 463.55 615.95) (xy 478.79 615.95)
 		)
 		(stroke
@@ -13210,16 +13254,6 @@
 			(type default)
 		)
 		(uuid "68496bae-b881-4e79-a448-c0e21260656f")
-	)
-	(wire
-		(pts
-			(xy 52.07 273.05) (xy 77.47 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68754523-05b7-4e10-9f5c-9eaf2d25d661")
 	)
 	(wire
 		(pts
@@ -13565,26 +13599,6 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 655.32) (xy 734.06 655.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d55c86-73ed-4b40-812b-25b9f671b3a9")
-	)
-	(wire
-		(pts
-			(xy 407.67 670.56) (xy 734.06 670.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78ebd3cf-5e46-4244-805a-dfe84c65baef")
-	)
-	(wire
-		(pts
 			(xy 440.69 356.87) (xy 440.69 680.72)
 		)
 		(stroke
@@ -13692,6 +13706,16 @@
 			(type default)
 		)
 		(uuid "7dbb875d-af88-4436-9286-353cf08305b5")
+	)
+	(wire
+		(pts
+			(xy 407.67 670.56) (xy 734.06 670.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6c54c1-2e04-4c66-8395-1c9c595deb02")
 	)
 	(wire
 		(pts
@@ -13812,16 +13836,6 @@
 			(type default)
 		)
 		(uuid "8661f8e4-fa85-4044-adec-35ef2bea22d6")
-	)
-	(wire
-		(pts
-			(xy 450.85 675.64) (xy 734.06 675.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86a63074-96f1-429c-9d6c-7a9839326e8d")
 	)
 	(wire
 		(pts
@@ -13994,16 +14008,6 @@
 			(type default)
 		)
 		(uuid "8be77faa-6b53-4a21-b6df-5d8968605a4d")
-	)
-	(wire
-		(pts
-			(xy 440.69 680.72) (xy 734.06 680.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ccd777b-0e4c-477c-a34d-dc666586a00a")
 	)
 	(wire
 		(pts
@@ -14207,7 +14211,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 346.71) (xy 450.85 675.64)
+			(xy 450.85 346.71) (xy 450.85 660.4)
 		)
 		(stroke
 			(width 0)
@@ -14547,6 +14551,16 @@
 	)
 	(wire
 		(pts
+			(xy 412.75 655.32) (xy 734.06 655.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a855b332-a973-42ee-80b0-13fd543c9d32")
+	)
+	(wire
+		(pts
 			(xy 320.04 229.87) (xy 496.57 229.87)
 		)
 		(stroke
@@ -14688,16 +14702,6 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 673.1) (xy 734.06 673.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae775d19-60c8-4a5e-84cc-8f6e46a04169")
-	)
-	(wire
-		(pts
 			(xy 52.07 427.99) (xy 292.1 427.99)
 		)
 		(stroke
@@ -14819,13 +14823,13 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 652.78) (xy 734.06 652.78)
+			(xy 422.91 657.86) (xy 734.06 657.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3301457-51d8-49cc-8c0c-309df27a5c47")
+		(uuid "b33fdf96-b01c-4c74-831d-b1aa671b25c5")
 	)
 	(wire
 		(pts
@@ -15710,7 +15714,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 364.49) (xy 433.07 662.94)
+			(xy 433.07 364.49) (xy 433.07 678.18)
 		)
 		(stroke
 			(width 0)
@@ -15980,7 +15984,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 344.17) (xy 453.39 678.18)
+			(xy 453.39 344.17) (xy 453.39 662.94)
 		)
 		(stroke
 			(width 0)
@@ -16091,6 +16095,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 668.02) (xy 734.06 668.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63395f5-f213-4b8c-aeaa-f4d6a9944068")
+	)
+	(wire
+		(pts
 			(xy 619.76 441.96) (xy 749.3 441.96)
 		)
 		(stroke
@@ -16108,16 +16122,6 @@
 			(type default)
 		)
 		(uuid "e740af1e-3e34-4121-b2d1-4851d387ec75")
-	)
-	(wire
-		(pts
-			(xy 420.37 665.48) (xy 734.06 665.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e829666c-05f7-456b-bbd0-57c7cd2722fe")
 	)
 	(wire
 		(pts
@@ -16201,6 +16205,16 @@
 	)
 	(wire
 		(pts
+			(xy 734.06 678.18) (xy 433.07 678.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec58523b-f611-4b3f-9ff2-83cb9a266b16")
+	)
+	(wire
+		(pts
 			(xy 241.3 106.68) (xy 241.3 361.95)
 		)
 		(stroke
@@ -16278,16 +16292,6 @@
 			(type default)
 		)
 		(uuid "efb287c8-ed53-4b0a-8f9e-8cbc1dd61ccc")
-	)
-	(wire
-		(pts
-			(xy 422.91 657.86) (xy 734.06 657.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f02321f1-5663-47f5-a979-87577c0e875e")
 	)
 	(wire
 		(pts
@@ -16408,16 +16412,6 @@
 			(type default)
 		)
 		(uuid "f4d6f0bf-c0aa-4536-8705-40b1a1a17d7f")
-	)
-	(wire
-		(pts
-			(xy 433.07 662.94) (xy 734.06 662.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f55059b1-4137-42be-b5aa-f8a8df3563c9")
 	)
 	(wire
 		(pts
@@ -25012,16 +25006,6 @@
 		)
 		(uuid "032f389e-6429-4395-ba06-c1db1bafe941")
 	)
-	(label "MPDM.APPS_1.SHIELD"
-		(at 708.66 657.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "03341ca1-9cc6-411e-96c5-2c518c884bb0")
-	)
 	(label "VCU.RS232.GND"
 		(at 57.15 473.71 0)
 		(effects
@@ -25074,6 +25058,16 @@
 		)
 		(uuid "04ff901b-0adc-4859-9e9b-bed27f342f45")
 	)
+	(label "MPDM.SPARE1.PWR"
+		(at 708.66 662.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05ae9c75-884d-4091-b401-a025d9bafff9")
+	)
 	(label "CANS+"
 		(at 57.15 494.03 0)
 		(effects
@@ -25095,6 +25089,16 @@
 		)
 		(uuid "06441a09-9246-4562-a517-50e80aa04a07")
 	)
+	(label "MPDM.APPS_2.SHLD"
+		(at 708.66 673.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08d88b08-6e24-4c57-a5f1-e407affff250")
+	)
 	(label "GPS.PPS.2"
 		(at 295.91 49.53 0)
 		(effects
@@ -25105,7 +25109,7 @@
 		)
 		(uuid "08e0b24c-c4b4-4495-8eaa-693cdba28684")
 	)
-	(label "VCU.IMD_DASH_LED"
+	(label "VCU.IMD_FAULT_LED"
 		(at 674.37 354.33 0)
 		(effects
 			(font
@@ -25267,16 +25271,6 @@
 		)
 		(uuid "1cfba93f-67fb-47cb-a7a0-ab0abdd9c8b4")
 	)
-	(label "MPDM.SAGL.GND"
-		(at 708.66 660.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1db554a8-19fc-4c23-bc57-2e5b669c59f8")
-	)
 	(label "MPDM.SPARE3.GND"
 		(at 708.66 697.23 0)
 		(effects
@@ -25288,6 +25282,16 @@
 			(justify left bottom)
 		)
 		(uuid "1e03a108-53ad-4bca-8fdb-62d969a84476")
+	)
+	(label "MPDM.APPS_2.GND"
+		(at 708.66 668.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20423193-e6db-4998-be47-afb9c8a63a8b")
 	)
 	(label "VCU.SPARE_OUT.6"
 		(at 57.15 463.55 0)
@@ -25544,16 +25548,6 @@
 		)
 		(uuid "3c8351f0-6ace-431e-bddc-9794e48cec06")
 	)
-	(label "MPDM.APPS_2.SHLD"
-		(at 708.66 673.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3cc50eb4-c2f6-4b16-ae30-7a17a29589f6")
-	)
 	(label "DASH.TS_ON_BUTTON+"
 		(at 782.32 162.56 180)
 		(effects
@@ -25605,6 +25599,16 @@
 		)
 		(uuid "427df38b-ca77-423c-b594-69262b4fbc06")
 	)
+	(label "MPDM.APPS_1.PWR"
+		(at 708.66 655.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4342b1a4-ab5f-4f71-9e2f-f3d4e6e4123d")
+	)
 	(label "DASH.R2D_LED+"
 		(at 782.32 182.88 180)
 		(effects
@@ -25634,16 +25638,6 @@
 			(justify left bottom)
 		)
 		(uuid "48b9cf4e-00b1-49da-a82c-2846d7b9885f")
-	)
-	(label "MPDM.APPS_2.PWR"
-		(at 708.66 670.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4944194a-e0ce-4ebd-91e9-509ae1cdc0b0")
 	)
 	(label "VCU.BPSR.SIG"
 		(at 57.15 445.77 0)
@@ -25686,16 +25680,6 @@
 			(justify right bottom)
 		)
 		(uuid "4eb0417e-da5f-42ea-b7a2-c6c653ec0867")
-	)
-	(label "MPDM.SPARE1.GND"
-		(at 708.66 675.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f995113-444c-444f-b943-9038c6a7033e")
 	)
 	(label "VCU.APPS_1.SIG"
 		(at 727.71 477.52 0)
@@ -25870,16 +25854,6 @@
 		)
 		(uuid "63e0a8f4-7aa0-4648-ae7e-a0379d7fa4b2")
 	)
-	(label "MPDM.SAGL.SHLD"
-		(at 708.66 665.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "644acb1f-b3f6-42c8-aed2-6ef9807165ac")
-	)
 	(label "VCU.IMD_FAULT_LATCH"
 		(at 726.44 351.79 0)
 		(effects
@@ -25910,16 +25884,6 @@
 			(justify left bottom)
 		)
 		(uuid "651c7b80-cc18-4cf9-bba0-54f87885df34")
-	)
-	(label "MPDM.APPS_1.PWR"
-		(at 708.66 655.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "659d11c0-e045-4deb-864a-534448a1d5f3")
 	)
 	(label "MPDM.SPARE4.PWR"
 		(at 708.66 707.39 0)
@@ -25952,16 +25916,6 @@
 			(justify left bottom)
 		)
 		(uuid "6b75b000-65a3-42ec-a0b7-5df7fb077b80")
-	)
-	(label "MPDM.SAGL.PWR"
-		(at 708.66 662.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6bdd3cb1-16ac-4f93-990e-55fc1bbc9a26")
 	)
 	(label "MPDM.SPARE1.GND"
 		(at 57.15 278.13 0)
@@ -26183,7 +26137,7 @@
 		)
 		(uuid "7cbe7289-21cc-4195-87cc-e25cf58c33b5")
 	)
-	(label "VCU.IMD_DASH_LED"
+	(label "VCU.IMD_FAULT_LED"
 		(at 742.95 101.6 0)
 		(effects
 			(font
@@ -26315,6 +26269,16 @@
 		)
 		(uuid "849804b3-2caf-4c1c-91d6-b79f8a047733")
 	)
+	(label "MPDM.SAGL.PWR"
+		(at 708.66 678.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84b18779-28e1-48ef-9ece-ed2b345d822d")
+	)
 	(label "HUB.THERM_2.SIG"
 		(at 137.16 181.61 180)
 		(effects
@@ -26438,15 +26402,15 @@
 		)
 		(uuid "91917493-a0a9-4b4e-94f2-0855f77bd08d")
 	)
-	(label "MPDM.SPARE3.SHIELD"
-		(at 57.15 273.05 0)
+	(label "MPDM.APPS_1.SHIELD"
+		(at 708.66 657.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9330f4fb-bb6d-4cf5-b309-e7f6b82b26e8")
+		(uuid "93f4838c-b845-4efb-9f55-3638e6f96687")
 	)
 	(label "VCU.PWR"
 		(at 727.71 504.19 0)
@@ -26530,16 +26494,6 @@
 			(justify left bottom)
 		)
 		(uuid "978e4951-b8ee-4d19-abf4-66c8f3c0fdcc")
-	)
-	(label "MPDM.SPARE1.SHLD"
-		(at 708.66 680.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9793949c-6613-421a-b6c3-da0204700513")
 	)
 	(label "VCU.SPARE_LED"
 		(at 726.44 356.87 0)
@@ -26683,16 +26637,6 @@
 		)
 		(uuid "a7b89d6f-09ce-48a7-ba19-4fd55e9deb20")
 	)
-	(label "MPDM.SPARE1.PWR"
-		(at 708.66 678.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8929fcf-7bed-4a1e-a262-c96817b724ab")
-	)
 	(label "GPS.PPS.1"
 		(at 295.91 46.99 0)
 		(effects
@@ -26825,6 +26769,16 @@
 		)
 		(uuid "b3561cda-33a1-40e5-8106-e532d18f9d22")
 	)
+	(label "MPDM.SPARE1.SHLD"
+		(at 708.66 665.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b44c29b4-12bd-4fdf-896b-0d26b7d2bc15")
+	)
 	(label "MPDM.SPARE5.GND"
 		(at 57.15 341.63 0)
 		(effects
@@ -26865,17 +26819,7 @@
 		)
 		(uuid "b5c03e8a-5c13-4c1f-8d05-19d27324cf6e")
 	)
-	(label "MPDM.APPS_1.GND"
-		(at 708.66 652.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7127750-aa73-4739-aea3-1d3d81595d61")
-	)
-	(label "VCU.AMS_DASH_LED"
+	(label "VCU.AMS_FAULT_LED"
 		(at 674.37 405.13 0)
 		(effects
 			(font
@@ -27050,6 +26994,16 @@
 		)
 		(uuid "c263b163-1d63-4042-8798-6c065a0ce83c")
 	)
+	(label "MPDM.APPS_1.GND"
+		(at 708.66 652.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c27574cf-514b-49b6-9ce3-dce52cf40924")
+	)
 	(label "VCU.MOTORSPEED"
 		(at 57.15 468.63 0)
 		(effects
@@ -27060,7 +27014,7 @@
 		)
 		(uuid "c4394a66-0606-4548-8da3-fba3cf365a72")
 	)
-	(label "VCU.IMD_FAULT_LATCH"
+	(label "VCU.IMD_FAULT"
 		(at 57.15 417.83 0)
 		(effects
 			(font
@@ -27110,6 +27064,16 @@
 		)
 		(uuid "c985a53f-1ada-4d88-828c-8f67deebe1b0")
 	)
+	(label "MPDM.SPARE1.GND"
+		(at 708.66 660.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb0ae70d-8de9-4530-9e6b-27e813511be9")
+	)
 	(label "HUB.THERM_4.GND"
 		(at 67.31 199.39 0)
 		(effects
@@ -27119,16 +27083,6 @@
 			(justify left bottom)
 		)
 		(uuid "cb9ae2e2-15d6-435e-913e-8cb66fdcf4de")
-	)
-	(label "MPDM.APPS_2.GND"
-		(at 708.66 668.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ccd51932-6e7b-4552-b44c-9aeb664be558")
 	)
 	(label "GPS.STAMP"
 		(at 295.91 54.61 0)
@@ -27209,6 +27163,16 @@
 			(justify left bottom)
 		)
 		(uuid "d36262a6-9665-4c09-be95-f6bb14f780a4")
+	)
+	(label "MPDM.APPS_2.PWR"
+		(at 708.66 670.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3ff4df3-61f2-4953-a569-2cf462c18493")
 	)
 	(label "GPS.RS232.OUT"
 		(at 295.91 52.07 0)
@@ -27355,7 +27319,7 @@
 		)
 		(uuid "dd38180f-8dc8-4640-892e-982fd9369caa")
 	)
-	(label "VCU.AMS_DASH_LED"
+	(label "VCU.AMS_FAULT_LED"
 		(at 742.95 76.2 0)
 		(effects
 			(font
@@ -27396,6 +27360,16 @@
 			(justify left bottom)
 		)
 		(uuid "e038b637-c5ab-46ed-a20d-0575748f19cb")
+	)
+	(label "MPDM.SAGL.GND"
+		(at 708.66 675.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e04a78c5-8a62-4409-8d53-692fda8d1e8e")
 	)
 	(label "VCU.SDC_TAP.SIG"
 		(at 57.15 427.99 0)
@@ -27589,6 +27563,16 @@
 		)
 		(uuid "f023cbb5-672f-43ca-b5d8-39a62d05888b")
 	)
+	(label "MPDM.SAGL.SHLD"
+		(at 708.66 680.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1f7179d-aa61-499b-acc5-32ea75068f77")
+	)
 	(label "VCU.RTDS-"
 		(at 57.15 392.43 0)
 		(effects
@@ -27733,7 +27717,7 @@
 		)
 		(uuid "fc0629c6-7fa7-4f12-b687-b0e33b5281e2")
 	)
-	(label "VCU.AMS_FAULT_LATCH"
+	(label "VCU.AMS_FAULT"
 		(at 57.15 420.37 0)
 		(effects
 			(font

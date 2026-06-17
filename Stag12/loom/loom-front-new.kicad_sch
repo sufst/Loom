@@ -11595,16 +11595,6 @@
 		)
 		(uuid "02891499-9a2d-435e-b967-8512bedc4e65")
 	)
-	(label "DASH.TS.OFF"
-		(at 85.09 383.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "030f8de0-8358-45a1-ac00-46361a13f38a")
-	)
 	(label "APPS1.PWR"
 		(at 64.77 128.27 0)
 		(effects
@@ -11818,7 +11808,7 @@
 		)
 		(uuid "18dd2f74-8313-4725-9198-9dffceec6f54")
 	)
-	(label "VCU.AMS_FAULT_LATCH"
+	(label "VCU.AMS_FAULT"
 		(at 989.33 332.74 180)
 		(effects
 			(font
@@ -12284,16 +12274,6 @@
 		)
 		(uuid "4e1c219f-615a-425e-a973-a37452d8f037")
 	)
-	(label "TS.DETECTED.DASH"
-		(at 85.09 381 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4efa1013-2c3b-40ba-a62c-06c3df3a9c49")
-	)
 	(label "WHEELSPEED_RR.SHIELD"
 		(at 86.36 532.13 180)
 		(effects
@@ -12546,6 +12526,16 @@
 		)
 		(uuid "6c4bc456-b774-4bff-9a5b-ba71ad7c2f57")
 	)
+	(label "DASH.TSAL_RED_LED"
+		(at 85.09 381 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e3ae9c0-2b38-4a99-8a4c-e632828e179b")
+	)
 	(label "VCU.RS232.OUT"
 		(at 989.33 365.76 180)
 		(effects
@@ -12587,6 +12577,16 @@
 			(justify left bottom)
 		)
 		(uuid "70cb4c32-2d95-49fa-a1d8-7c09b43aade4")
+	)
+	(label "DASH.TSAL_GREEN_LED"
+		(at 85.09 383.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71a4ef62-b46c-4907-aac6-da2dc7d31d61")
 	)
 	(label "MPDM.APPS_1.PWR"
 		(at 989.33 284.48 180)
@@ -13155,7 +13155,7 @@
 		)
 		(uuid "b93dc43e-af8c-4921-8bb8-935a73a94e42")
 	)
-	(label "VCU.IMD_FAULT_LATCH"
+	(label "VCU.IMD_FAULT"
 		(at 989.33 330.2 180)
 		(effects
 			(font
@@ -13519,7 +13519,7 @@
 		)
 		(uuid "d449916e-b758-450b-9499-27a2a6234d21")
 	)
-	(label "IMD_FAULT_LED"
+	(label "IMD_FAULT"
 		(at 86.36 466.09 180)
 		(effects
 			(font
@@ -13793,7 +13793,7 @@
 		)
 		(uuid "ece82a14-89b9-4eb8-858b-75dbbea5016d")
 	)
-	(label "AMS_FAULT_LED"
+	(label "AMS_FAULT"
 		(at 86.36 468.63 180)
 		(effects
 			(font

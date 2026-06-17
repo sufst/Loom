@@ -1238,16 +1238,6 @@
 		)
 		(uuid "17cef667-ce01-4ab9-a217-111957b29378")
 	)
-	(label "CAN.T.H"
-		(at 53.975 104.775 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1929d3f8-b1b7-4cbb-a98c-e4323b08293e")
-	)
 	(label "SDC.R-SW"
 		(at 200.025 66.04 0)
 		(effects
@@ -1347,16 +1337,6 @@
 			(justify left bottom)
 		)
 		(uuid "559dcea1-ed41-4403-a048-8c637a449e04")
-	)
-	(label "CAN.T.L"
-		(at 53.9732 107.315 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59815e37-70ee-4722-813c-571357002bcf")
 	)
 	(label "CAN.T.L"
 		(at 201.295 132.715 0)
@@ -1498,6 +1478,16 @@
 		)
 		(uuid "ab0612b6-db92-4aa5-a1d5-d96ef3820de0")
 	)
+	(label "CAN.AB.H"
+		(at 53.975 104.775 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6388e4d-c147-45f9-9326-af18769cd956")
+	)
 	(label "SDC.R-SW"
 		(at 200.025 50.8 0)
 		(effects
@@ -1517,6 +1507,16 @@
 			(justify left bottom)
 		)
 		(uuid "c689d7ab-4848-414f-9687-d5966b96f959")
+	)
+	(label "CAN.AB.L"
+		(at 53.975 107.315 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c923cc25-f889-43f7-920f-a91e6afa3ca9")
 	)
 	(label "TSAL.RED.EN"
 		(at 54.0319 79.375 0)
