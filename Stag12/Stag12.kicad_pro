@@ -595,6 +595,10 @@
       {
         "netclass": "GND",
         "pattern": "/LOOM - REAR/FAN.GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/LOOM - REAR/INV.CASE.GND"
       }
     ]
   },
