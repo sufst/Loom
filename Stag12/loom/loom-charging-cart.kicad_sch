@@ -6056,6 +6056,16 @@
 		)
 		(uuid "0b8ea4f8-7074-469d-b1d6-006d9b671837")
 	)
+	(text "ACCU2"
+		(exclude_from_sim no)
+		(at 172.974 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0f380fd8-0d24-4bff-ac0e-f0d1561983e2")
+	)
 	(text "Drawn by Adam Eastman"
 		(exclude_from_sim no)
 		(at 316.611 262.128 0)
@@ -6182,6 +6192,16 @@
 		)
 		(uuid "901d2e4a-4e39-40a6-8bc5-2af142077603")
 	)
+	(text "ACCU1"
+		(exclude_from_sim no)
+		(at 174.244 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "945e9809-d015-4c52-87e9-fa225adcb7ff")
+	)
 	(text "12V power supply\nDRAN60-12(A)\n\n(Must be 12V out\nfor BMS)"
 		(exclude_from_sim no)
 		(at 148.971 58.674 0)
@@ -6201,16 +6221,6 @@
 			)
 		)
 		(uuid "d4acc59f-c8cf-4e24-bddf-87f09fdaf355")
-	)
-	(text "<--\n"
-		(exclude_from_sim no)
-		(at 118.11 118.745 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e97432f5-5640-4f3a-a2c8-9e6d28101f70")
 	)
 	(text "OUTPUT"
 		(exclude_from_sim no)
@@ -6655,17 +6665,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 113.665) (xy 86.36 113.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "1a0c11c4-b8bd-4d88-b7b4-c77dc94f9902")
-	)
-	(wire
-		(pts
 			(xy 134.62 83.185) (xy 86.36 83.185)
 		)
 		(stroke
@@ -7084,17 +7083,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 116.205) (xy 116.84 116.205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "4a42c591-1b99-4f71-9699-f0cc38b3e17d")
-	)
-	(wire
-		(pts
 			(xy 257.175 87.63) (xy 307.975 87.63)
 		)
 		(stroke
@@ -7340,17 +7328,6 @@
 			(type default)
 		)
 		(uuid "5ca0ab70-1d08-4ee8-b0da-3849220428aa")
-	)
-	(wire
-		(pts
-			(xy 119.38 123.825) (xy 119.38 113.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "5cb1f5cd-3b0c-4ad9-85e1-981cbd859084")
 	)
 	(wire
 		(pts
@@ -7762,17 +7739,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 126.365) (xy 116.84 116.205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "9c423e68-916b-42da-aeae-ab138975c070")
-	)
-	(wire
-		(pts
 			(xy 304.165 102.87) (xy 304.165 176.53)
 		)
 		(stroke
@@ -7979,28 +7945,6 @@
 			(color 255 153 0 1)
 		)
 		(uuid "bdfc5828-f26d-4d02-b4cb-1ae15bb2551d")
-	)
-	(wire
-		(pts
-			(xy 86.36 123.825) (xy 119.38 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "be17d89a-b0db-42a3-9fb5-a733e13f91ed")
-	)
-	(wire
-		(pts
-			(xy 86.36 126.365) (xy 116.84 126.365)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "bf24329d-1e06-4d81-9103-562062ccf019")
 	)
 	(wire
 		(pts
@@ -10918,7 +10862,7 @@
 		)
 		(uuid "3d3e575b-afe9-472b-be76-67219bb4c47c")
 	)
-	(label "CAN.B.HIGH"
+	(label "CAN.T.HIGH"
 		(at 86.36 113.665 0)
 		(effects
 			(font
@@ -11108,7 +11052,7 @@
 		)
 		(uuid "65295a8c-a5c1-4cb1-9cda-f4feee43c1aa")
 	)
-	(label "CAN.B.LOW"
+	(label "CAN.T.LOW"
 		(at 86.36 126.365 0)
 		(effects
 			(font
@@ -11288,7 +11232,7 @@
 		)
 		(uuid "97a2e3fc-f5f4-48a5-9039-797a1d80359b")
 	)
-	(label "CAN.B.HIGH"
+	(label "CAN.T.HIGH"
 		(at 86.36 123.825 0)
 		(effects
 			(font
@@ -11438,7 +11382,7 @@
 		)
 		(uuid "c8992de3-90d0-42bc-9579-a4306ff8c458")
 	)
-	(label "CAN.B.LOW"
+	(label "CAN.T.LOW"
 		(at 86.36 116.205 0)
 		(effects
 			(font
