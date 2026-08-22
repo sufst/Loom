@@ -3192,6 +3192,16 @@
 		)
 		(uuid "9f456293-4072-405e-83b3-7c1535bcfc1c")
 	)
+	(text "gnd"
+		(exclude_from_sim no)
+		(at 61.722 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b98b04f3-0430-4f3a-ba4b-731411dd3d47")
+	)
 	(text "CURRENT SENSOR"
 		(exclude_from_sim no)
 		(at 35.56 156.21 0)
@@ -3206,6 +3216,16 @@
 		)
 		(uuid "c75cec80-489b-4877-90ee-54e9347c2fb8")
 	)
+	(text "pwr"
+		(exclude_from_sim no)
+		(at 61.976 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "caa44561-af71-4994-a216-f2fa7501eb5d")
+	)
 	(text "USING THIS PINOUT!"
 		(exclude_from_sim no)
 		(at -22.098 9.906 0)
@@ -3217,6 +3237,16 @@
 			)
 		)
 		(uuid "d4d48bf0-dc42-4c71-b3f7-ac890e7c6c90")
+	)
+	(text "sig"
+		(exclude_from_sim no)
+		(at 61.722 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de73ef58-8af8-406b-b0a8-5ea9d141ba4c")
 	)
 	(text "Amplifier\nroute power \"around\" this"
 		(exclude_from_sim no)

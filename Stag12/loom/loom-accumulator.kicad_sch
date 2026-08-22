@@ -9806,12 +9806,6 @@
 		(uuid "acf1a786-4bb2-4e3b-a498-d21ae11d295a")
 	)
 	(junction
-		(at 172.72 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "beeef03a-59d6-417a-bbd1-91b72bf19dcc")
-	)
-	(junction
 		(at 162.56 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10108,10 +10102,6 @@
 	(no_connect
 		(at 374.65 39.37)
 		(uuid "d837e75b-ff81-4903-95cc-f3ea9d0ad03d")
-	)
-	(no_connect
-		(at 132.08 200.66)
-		(uuid "d8d1a461-81cc-424a-8e8d-c5f9938782b8")
 	)
 	(no_connect
 		(at 243.84 288.29)
@@ -10546,13 +10536,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 224.79) (xy 243.84 224.79)
+			(xy 132.08 200.66) (xy 132.08 214.63)
 		)
 		(stroke
-			(width 0.5)
+			(width 0)
 			(type default)
 		)
-		(uuid "1ec56eff-7d5b-4723-ba34-e07d4efe0c9c")
+		(uuid "1f704671-57c4-4586-b37f-92dbd860ada8")
 	)
 	(wire
 		(pts
@@ -10685,6 +10675,16 @@
 			(type default)
 		)
 		(uuid "2633e233-ec56-469e-a2e1-0cf43d51f1b6")
+	)
+	(wire
+		(pts
+			(xy 125.73 224.79) (xy 125.73 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e003a7-677a-4de6-bdb7-90827d41add5")
 	)
 	(wire
 		(pts
@@ -11972,7 +11972,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 217.17) (xy 172.72 224.79)
+			(xy 172.72 217.17) (xy 172.72 295.91)
 		)
 		(stroke
 			(width 0.5)
@@ -12278,6 +12278,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 214.63) (xy 132.08 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd2632a-7cbf-44ff-af59-205892eee3d9")
+	)
+	(wire
+		(pts
 			(xy 147.32 311.15) (xy 147.32 313.69)
 		)
 		(stroke
@@ -12318,13 +12328,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 224.79) (xy 172.72 295.91)
+			(xy 243.84 224.79) (xy 125.73 224.79)
 		)
 		(stroke
-			(width 0.5)
+			(width 0)
 			(type default)
 		)
-		(uuid "d09359e5-4ec2-4945-9935-7e61c5d4abdd")
+		(uuid "d220507b-89bd-40de-96d8-48eb1907c9e7")
 	)
 	(wire
 		(pts
@@ -19771,6 +19781,16 @@
 		)
 		(uuid "0f5548cd-5dc5-4ec7-a832-32963278f883")
 	)
+	(label "ACCU.CASE.GND"
+		(at 132.08 201.295 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "103cc58a-dabd-4797-aa2d-956617de0190")
+	)
 	(label "FAN.GND"
 		(at 237.49 354.33 180)
 		(effects
@@ -19951,7 +19971,7 @@
 		)
 		(uuid "2c4c3397-a9af-4bcd-89cf-9a458b1c8929")
 	)
-	(label "ACCU.GND"
+	(label "ACCU.CASE.GND"
 		(at 243.84 224.79 180)
 		(effects
 			(font
