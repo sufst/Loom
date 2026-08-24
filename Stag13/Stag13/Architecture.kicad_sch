@@ -1,0 +1,691 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2cbc4928-b86d-4f8f-8226-63401b1dd563")
+	(paper "A3")
+	(lib_symbols)
+	(rectangle
+		(start 333.502 104.14)
+		(end 367.538 116.84)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 035a3295-bb26-4950-9e72-40d4266e06d0)
+	)
+	(rectangle
+		(start 294.132 204.47)
+		(end 328.168 217.17)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 1f18a13f-5c50-4539-9ef1-412ecf396aab)
+	)
+	(rectangle
+		(start 370.84 127)
+		(end 404.876 153.67)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 298c206f-9418-411c-a8d1-5fe80881aa5a)
+	)
+	(rectangle
+		(start 87.63 213.36)
+		(end 154.94 262.89)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 401d41d8-9860-4dd2-bc5d-6553ec114fbc)
+	)
+	(rectangle
+		(start 334.01 198.12)
+		(end 401.32 247.65)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 4de4eb97-8019-4711-8ef7-9daf6e00bdb4)
+	)
+	(rectangle
+		(start 119.38 181.61)
+		(end 153.416 194.31)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 58ac5420-6478-4834-b872-8e85c7dad363)
+	)
+	(rectangle
+		(start 119.634 129.54)
+		(end 153.67 177.038)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 75d01954-03e8-403c-88e5-d301aefcd5e4)
+	)
+	(rectangle
+		(start 334.01 168.91)
+		(end 368.046 181.61)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 7776956b-a387-4353-ae2c-7d74ded92b94)
+	)
+	(rectangle
+		(start 186.182 28.194)
+		(end 248.92 68.58)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 7c19f93d-e344-4d06-b543-ab1908c8a67e)
+	)
+	(rectangle
+		(start 334.01 25.4)
+		(end 401.32 74.93)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 9c4679b3-ffee-42f9-869c-5ac288697b89)
+	)
+	(rectangle
+		(start 180.34 226.06)
+		(end 214.376 238.76)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid a6b99bdc-f566-4e24-87b5-61e04616955f)
+	)
+	(rectangle
+		(start 226.822 226.314)
+		(end 289.56 266.7)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid a7dce627-cc80-4ce9-a46e-a00c4c4087f3)
+	)
+	(rectangle
+		(start 251.46 27.94)
+		(end 314.198 68.326)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid c5870e83-54c5-4021-961e-115a5103972d)
+	)
+	(rectangle
+		(start 333.756 79.502)
+		(end 382.016 99.822)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid cee82525-9fd9-4b5c-b524-56fd5a95c154)
+	)
+	(rectangle
+		(start 87.63 50.8)
+		(end 154.94 100.33)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid d1e8d682-7528-42d2-bce8-e47fd271de1c)
+	)
+	(rectangle
+		(start 29.21 129.54)
+		(end 80.01 177.038)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid d211079e-6d3e-4ad0-9fcf-84bf29c8b74a)
+	)
+	(rectangle
+		(start 243.84 93.98)
+		(end 316.23 194.31)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid e76e429b-6929-4b93-92d8-dc4f0ad5877b)
+	)
+	(rectangle
+		(start 247.65 101.6)
+		(end 294.64 132.08)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid eb73eac4-cc07-44f9-bbd3-ea504ef0e0bd)
+	)
+	(rectangle
+		(start 333.502 121.92)
+		(end 367.538 163.83)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid efeb753c-e3af-4aac-a699-2abc5ac631bb)
+	)
+	(text "Inertia Switch"
+		(exclude_from_sim no)
+		(at 120.65 188.214 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "04f9708a-039b-4a80-adab-0079819411ca")
+	)
+	(text "HV Busbar Box"
+		(exclude_from_sim no)
+		(at 250.19 222.25 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "100a1b4d-2c23-40d1-89a1-328124f25e52")
+	)
+	(text "PCBs:\nSensor HUB / Corner node\n\nSensors:\nDamper pots / rocker angle\nWheelspeed\nHub accel\nGroundspeed\nRide height"
+		(exclude_from_sim no)
+		(at 334.772 223.266 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "4055c9c1-b854-4fa4-a11d-b2bfb2242b3d")
+	)
+	(text "PCBs:\nSensor HUB / Corner node\n\nSensors:\nDamper pots / rocker angle\nWheelspeed\nHub accel\nGroundspeed\nRide height"
+		(exclude_from_sim no)
+		(at 88.392 238.506 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "423eebc9-daad-41a8-a40c-0cb229879c2f")
+	)
+	(text "PCBs:\nSidepannel pcb\n	SDC monitoring\n	Fusing\n\nLVMS/TSMS\nLVMP/TSMP"
+		(exclude_from_sim no)
+		(at 187.706 47.752 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "48e48773-7410-4db6-9eb6-b196bab03fdb")
+	)
+	(text "TSAC"
+		(exclude_from_sim no)
+		(at 250.444 90.932 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4c6881f6-888e-4d12-a9ce-eb895e747640")
+	)
+	(text "PDM"
+		(exclude_from_sim no)
+		(at 297.18 210.82 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "60607fc7-7f82-4466-b16f-855b7425916b")
+	)
+	(text "FAN/PUMP PDU"
+		(exclude_from_sim no)
+		(at 335.28 90.17 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "61cfce71-d1ec-4a58-89b7-455ac098cb8b")
+	)
+	(text "FL Wheel loom"
+		(exclude_from_sim no)
+		(at 110.236 210.566 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6a19f62e-cf23-4d5e-80c6-a1bbbdf05c3a")
+	)
+	(text "PCBs:\nSensor HUB / Corner node\n\nSensors:\nDamper pots / rocker angle\nWheelspeed\nHub accel\nGroundspeed\nRide height"
+		(exclude_from_sim no)
+		(at 334.772 50.546 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "707cf1af-e460-40f4-a1a3-f7a331913f78")
+	)
+	(text "PCBs:\nSensor HUB / Corner node\n\nSensors:\nDamper pots / rocker angle\nWheelspeed\nHub accel\nGroundspeed\nRide height"
+		(exclude_from_sim no)
+		(at 88.392 75.946 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "854ac24f-dea5-4e35-9bd5-f17ced1bb475")
+	)
+	(text "ACB"
+		(exclude_from_sim no)
+		(at 249.174 106.172 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8585bb82-e560-4607-bf3e-c3d765369ebe")
+	)
+	(text "Motec L120"
+		(exclude_from_sim no)
+		(at 183.388 232.41 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8815d0b2-5d16-41f0-b465-88a19ae217cc")
+	)
+	(text "Top loom"
+		(exclude_from_sim no)
+		(at 265.684 24.892 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8ad3d8bb-5ec0-41da-b106-0f064c19dd30")
+	)
+	(text "RL Wheel loom"
+		(exclude_from_sim no)
+		(at 356.616 195.326 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8c5d7432-46b3-4ecb-96d6-7e69bf178582")
+	)
+	(text "PCBs:\nDischarge\nTSAL Red Light\n\n(FSUK datalogger maybe)\n\nHVD"
+		(exclude_from_sim no)
+		(at 228.6 245.364 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "967f156f-73bc-4ed5-8348-9c96f350baf5")
+	)
+	(text "LVBATT"
+		(exclude_from_sim no)
+		(at 336.042 175.514 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9779ca47-7887-48a5-8487-6c21c5e5d58d")
+	)
+	(text "Inverter"
+		(exclude_from_sim no)
+		(at 336.55 128.27 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9c45c9c1-26fe-411e-898e-9058d1af8ec4")
+	)
+	(text "Dash box"
+		(exclude_from_sim no)
+		(at 133.35 126.492 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a32b41bc-7f48-402d-9053-8d95dbd24826")
+	)
+	(text "RR Wheel loom"
+		(exclude_from_sim no)
+		(at 356.616 22.606 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a4f2ebbe-7298-479d-b9bb-5a678ae7c27f")
+	)
+	(text "Pedal loom"
+		(exclude_from_sim no)
+		(at 45.974 126.492 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "aeb26ce0-cd8a-44b4-8bc4-6f5dc00f662a")
+	)
+	(text "ACB"
+		(exclude_from_sim no)
+		(at 247.904 99.06 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c7ad0511-5930-4ac8-a233-33eb5a882250")
+	)
+	(text "FR Wheel loom"
+		(exclude_from_sim no)
+		(at 110.236 48.006 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "cacad140-7d4c-41c8-b94e-9d53afd9c03e")
+	)
+	(text "PCBs:\nVCU\nDashboard\nGPS\n\nESTOP"
+		(exclude_from_sim no)
+		(at 121.92 151.384 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "cb7d0d7f-7fe5-4713-b128-da429881d313")
+	)
+	(text "You could argue for VCU to be put nearer pedals\nsince it is what reads them..."
+		(exclude_from_sim no)
+		(at 54.864 185.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d9728ad0-825a-43b9-be36-cbcc667658fa")
+	)
+	(text "Motor"
+		(exclude_from_sim no)
+		(at 374.396 130.81 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e37de7f2-e5b2-4e66-aa6b-57f8595909bc")
+	)
+	(text "Sensors:\nBPS\nAPPS\nBPPS\nPitot tube\nFW Pressure Scanner\n\nBOTS"
+		(exclude_from_sim no)
+		(at 31.242 150.876 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e58eb1e0-7786-43f4-b7fd-7ed4e1350659")
+	)
+	(text "PCBs\nTSAL\n\nESTOPS\nAirbridge\nDriverless indicators\nRTDS"
+		(exclude_from_sim no)
+		(at 253.238 46.99 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "eafa0981-1f79-494a-b5a2-9973418bdfcd")
+	)
+	(text "Right sidepanel"
+		(exclude_from_sim no)
+		(at 209.55 24.13 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "efaf6589-50d8-4acb-b10f-13eeb5b17c94")
+	)
+	(text "Brakelight"
+		(exclude_from_sim no)
+		(at 336.55 110.49 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f1397da3-638e-48bc-a8b3-13a214bde1c8")
+	)
+	(polyline
+		(pts
+			(xy 170.18 16.51) (xy 170.18 283.21)
+		)
+		(stroke
+			(width 2)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(uuid "32bf3505-1fc3-4af4-aeaf-3afdd44a25e2")
+	)
+)
